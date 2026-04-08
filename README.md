@@ -39,7 +39,7 @@ The story explores themes of loss, redemption, and restoring balance to the worl
 - Husain Hejab (Team Leader)
 - Nasser Ghuloom
 - Faisal Alfaraj
-- Basem Alkhayat
+- Basem Elkhayat
 - Ali Alsaeed
 
 ---
