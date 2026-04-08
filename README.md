@@ -46,6 +46,4 @@ The story explores themes of loss, redemption, and restoring balance to the worl
 
 ## 🎨 Assets & Credits
 
-- **CraftPix.net** – RPG Top-Down Pixel Art Assets Collection  
-  https://craftpix.net/sets/rpg-top-down-pixel-art-assets-collection/
-
+- [CraftPix.net](https://craftpix.net/sets/rpg-top-down-pixel-art-assets-collection/) – RPG Top-Down Pixel Art Assets Collection
