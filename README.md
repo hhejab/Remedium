@@ -1,11 +1,11 @@
-# 🎮 Remedium
+#  Remedium
 
 Remedium is a 2D roguelike action RPG developed using Unity.  
 The game focuses on combat .
 
 ---
 
-## 📖 Game Overview
+##  Game Overview
 
 In Remedium, the player takes the role of a warrior who escapes a sealed dungeon and discovers a world corrupted by a mysterious plague.
 
@@ -13,7 +13,7 @@ The story explores themes of loss, redemption, and restoring balance to the worl
 
 ---
 
-## 🎯 Features
+##  Features
 
 - ⚔️ Fast-paced combat system (attack, dodge, abilities)
 - 🧪 Unique **Cure Boss System**
@@ -25,7 +25,7 @@ The story explores themes of loss, redemption, and restoring balance to the worl
 ---
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Unity (Game Engine)
 - C# (Scripting)
@@ -34,7 +34,7 @@ The story explores themes of loss, redemption, and restoring balance to the worl
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 - Husain Hejab (Team Leader)
 - Nasser Ghuloom
@@ -44,6 +44,6 @@ The story explores themes of loss, redemption, and restoring balance to the worl
 
 ---
 
-## 🎨 Assets & Credits
+##  Assets & Credits
 
 - [CraftPix.net](https://craftpix.net/sets/rpg-top-down-pixel-art-assets-collection/) – RPG Top-Down Pixel Art Assets Collection
