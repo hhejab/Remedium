@@ -72,7 +72,7 @@
                     "name": "Next",
                     "type": "Button",
                     "id": "b7230bb6-fc9b-4f52-8b25-f5e19cb2c2ba",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -81,6 +81,15 @@
                     "name": "Sprint",
                     "type": "Button",
                     "id": "641cd816-40e6-41b4-8c3d-04687c349290",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "8de4e41e-3cff-4a82-8a28-34fbff17be71",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -470,6 +479,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb41de84-0a0a-47f2-98d4-a96a4fd63e6b",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e71bc06-06ea-47a9-9208-a88b9e3e19b6",
+                    "path": "<DualShockGamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Joystick",
+                    "action": "Run",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
