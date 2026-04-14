@@ -1,26 +1,104 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
 public class Movement : MonoBehaviour
 {
-    public float speed = 5f;
+    public float walkSpeed = 5f;
+    public float runSpeed = 8f;
 
     private Rigidbody2D rb;
-    private Vector2 movement;
+    private Animator animator;
 
-    void Start()
+    private Vector2 movement;
+    private Vector2 lastMoveDirection = Vector2.down;
+
+    private bool isRunning;
+    private bool isDead;
+    private bool isHurt;
+
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
-    // Input System (WASD / Arrow Keys)
-    void OnMove(InputValue value)
+    public void OnMove(InputValue value)
     {
+        if (isDead) return;
         movement = value.Get<Vector2>();
+    }
+
+    void Update()
+    {
+        if (isDead)
+        {
+            animator.SetBool("isMoving", false);
+            animator.SetBool("isRunning", false);
+            return;
+        }
+
+        // Hold Shift to run
+        isRunning = Keyboard.current != null && Keyboard.current.leftShiftKey.isPressed;
+
+        Vector2 input = movement.normalized;
+        bool isMoving = input != Vector2.zero;
+
+        if (isMoving)
+        {
+            if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
+                lastMoveDirection = new Vector2(Mathf.Sign(input.x), 0);
+            else
+                lastMoveDirection = new Vector2(0, Mathf.Sign(input.y));
+        }
+
+        animator.SetBool("isMoving", isMoving && !isHurt);
+        animator.SetBool("isRunning", isRunning && isMoving && !isHurt);
+        animator.SetFloat("moveX", lastMoveDirection.x);
+        animator.SetFloat("moveY", lastMoveDirection.y);
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        if (isDead || isHurt) return;
+
+        Vector2 input = movement.normalized;
+        float currentSpeed = (isRunning && input != Vector2.zero) ? runSpeed : walkSpeed;
+        rb.MovePosition(rb.position + input * currentSpeed * Time.fixedDeltaTime);
+    }
+
+    public void TriggerHurt(float hurtDuration = 0.3f)
+    {
+        if (isDead) return;
+
+        isHurt = true;
+        movement = Vector2.zero;
+
+        animator.SetBool("isMoving", false);
+        animator.SetBool("isRunning", false);
+        animator.SetTrigger("Hurt");
+
+        CancelInvoke(nameof(EndHurt));
+        Invoke(nameof(EndHurt), hurtDuration);
+    }
+
+    void EndHurt()
+    {
+        isHurt = false;
+    }
+
+    public void Die()
+    {
+        if (isDead) return;
+
+        isDead = true;
+        isHurt = false;
+        isRunning = false;
+        movement = Vector2.zero;
+
+        animator.SetBool("isMoving", false);
+        animator.SetBool("isRunning", false);
+        animator.SetBool("isDead", true);
     }
 }
