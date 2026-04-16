@@ -1,7 +1,83 @@
 fileFormatVersion: 2
 guid: 91e0f039e28bbb0419396c598d038ea2
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings:
+  - Tileset 'Plant1_Attack_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Death_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Hurt_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Idle_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Run_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Walk_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Run_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Death_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Attack_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Idle_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Walk_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Hurt_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Idle_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Run_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Hurt_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Walk_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Attack_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Death_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Death_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Hurt_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Attack_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Shadow_death' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Shadow_single' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Hurt_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Walk_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Idle_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Attack_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Death_full' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Plant1_Run_full' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 26
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 23868
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
