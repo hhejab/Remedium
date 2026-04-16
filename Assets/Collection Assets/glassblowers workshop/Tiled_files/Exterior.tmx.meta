@@ -1,7 +1,32 @@
 fileFormatVersion: 2
 guid: d640b068dacd5f04e8181b4b561e4dcb
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings:
+  - Tileset 'Walls_street' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Exterior_house' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Doors_windows_animations' is an embedded tileset. Exported tilesets
+    are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 26
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2278
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
