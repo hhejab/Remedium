@@ -2,6 +2,7 @@
   <Project Path="SuperTiled2UnityEditor.csproj" />
   <Project Path="Fluid.BehaviorTree.Editor.csproj" />
   <Project Path="Fluid.BehaviorTree.csproj" />
+  <Project Path="Assembly-CSharp-Editor-firstpass.csproj" />
   <Project Path="SuperTiled2Unity.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
 </Solution>

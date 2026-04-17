@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>48051f903849de54f8b5af9f853cc41e</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2026-04-18T00:05:57.8021697+03:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetCollector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>56687f9911e50214abef7acbbe6163c8</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2026-04-18T00:05:57.8139235+03:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0a7d52c62f906144c9bf5bde797830ba</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2026-04-18T00:05:57.8200936+03:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ClassReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9614d2749f6f61848b7c6a84dbef84fa</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2026-04-18T00:05:57.8248647+03:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.CollectionData</string>
+      <string>UnitySweeper.TypeDate</string>
+      <string>UnitySweeper.IReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ede51fb08f6f3d14ab1548eee6bd4a5f</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2026-04-18T00:05:57.8305436+03:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>33a6c6ff8f6769349b94c4c308d94845</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2026-04-18T00:05:57.8373784+03:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>524bc0f9047cc46e7b0b7c3143d51ff6</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/BehaviorTreeDrawer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8691288+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d1e3121e089049fbb2d517264839c8ee</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/BehaviorTreeWindow.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8695134+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>02e09d50cf948054d824c8ceee70cac6</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/BehaviorTree/BehaviorTree.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8952346+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>94b5770807cf4a9a8d198957931a0a95</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Decorators/DecoratorBase.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8972534+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9fa4e3fa324b44c7982e35b02fad58ad</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Decorators/DecoratorGeneric.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8977721+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1069e87f249c47b7bf9b16736f0ceda9</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Decorators/Inverter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8985598+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>65839dd3e71d9955cab17e0d05863a0a</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Decorators/RepeatForever.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8990819+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5fb297690fca8cd7786b74d71ef239e0</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Decorators/RepeatUntilFailure.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8996008+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>54b8ae154a20d7962807cc92d3eb7beb</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Decorators/RepeatUntilSuccess.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9001197+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8161f5bfd63d43a1b7777d7149dea63b</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Decorators/ReturnFailure.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.900629+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>81375e1b8f254b2b9d28be4839386984</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Decorators/ReturnSuccess.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9011496+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>633b47ca50f84896b5bc818ae9a391e8</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/TaskParents/ITaskParent.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9051818+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>16c2e924faae4f3685b8b5d4af7a77b0</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/TaskParents/TaskParentBase.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9051818+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>55fb286ffcf94e088a94f160119e5d52</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/TaskParents/TaskRoot.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9061812+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>76bee382a9b84e269ca86ac64b03579a</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/EditorRuntimeUtilities.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9104355+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2c8d660631584556aef2d9f4441474d7</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/GenericTaskBase.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9104355+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>77d1e410c8444bd6bd22aa3cb256dfd1</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/IEventAwake.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9104355+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cdd612662a47429cab2b29a919773c65</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/ITask.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9104355+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d7de3ca86a0b4f66a6470e1bad1b5ea7</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/TaskBase.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9104355+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7abfcd5226174594b03e9cd2c7e6ab40</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/TaskStatus.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9104355+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6158970d66744d0fad57971df425241a</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/BehaviorTreePrinter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.871063+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>682ad99c096c4036a73f51eadcda7ea3</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/NodePrintController.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8797741+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b9ba57518b7f4e1883c6f635117ea504</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/VisualTask.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8797741+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0baa029879516684dbc9112e8d7d083f</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/BehaviorTree/Builder/BehaviorTreeBuilder.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8961658+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0b86ef4b5f81494aba00b5bb59176786</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/TaskParents/Composites/CompositeBase.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9027265+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7eca2d47e2cc436db64db3cdb159701a</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/TaskParents/Composites/Parallel.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9032529+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c43f5c7aae73462dad5ea76f4ec82937</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/TaskParents/Composites/Selector.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9032529+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>04886c5323dd4119a15ee1c046b1edd2</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/TaskParents/Composites/SelectorRandom.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9041387+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>887f54327b8d14ed5a7cd909fb8bb077</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/TaskParents/Composites/Sequence.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9041387+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8c4a12b443144ccebfa6cd2f1097e73d</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/Actions/ActionBase.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9071816+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2aa3a1baa34d467590db3bab0a358e07</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/Actions/ActionGeneric.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9071816+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fcb9c95c99a3dc64984a5cae38711dee</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/Actions/Wait.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9081812+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cf44102386b649919ce6d93f0442e706</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/Conditions/ConditionBase.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9104355+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bf1b6f09faa449d5a19444ce0cca5a17</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/Conditions/ConditionGeneric.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9104355+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6fbcfb4d05eb13a4089c5d9d5dc237e1</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/Conditions/RandomChance.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9104355+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4b7923b9df39dde43b0410a63fd592c9</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Containers/GraphBox.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.872112+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7e3d59e40e214d1c9bdf66de4dcdb528</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Containers/GraphContainerHorizontal.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8726387+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>41c2bd31f8684f4790055b52bfb8fe3a</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Containers/GraphContainerVertical.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8737123+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6a44321bd59241998d893d4570d363fc</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Containers/IGraphBox.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8742316+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5e7f5febdcd04eacb19bff91c74a1b43</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Containers/IGraphContainer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8747571+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>29b5a281bd9448278c9a641d4af7c56b</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Graphics/AssetPath.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8752835+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>24dd00a48b744508b8968d6b4ac89dfb</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Graphics/ColorFader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8752835+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fb7e76da847c4756b7091dde1962020d</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Graphics/NodeBoxStyle.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8752835+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b010848be7db435a93eb237039e42d04</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Graphics/NodeBoxStyleCollection.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8752835+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f3ea63308c9a4f51811db1689a330fff</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Graphics/NodeFaders.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8752835+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ceee52c2d5524268ade30a38e559229b</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Graphics/StatusIcons.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8793091+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7765957e60ab4444ab2aa1a6fc6322b2</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/Graphics/TextureLoader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8793091+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ac61471e395b4d409ba3a9e909ae1baa</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/GraphNode/GraphNode.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8752835+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fa6c096b702e40678482c0f8b9da9fac</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/GraphNode/GraphNodeOptions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8752835+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7ac063fc2c4c4ef9a5a67b5fd06ba3ec</guid>
+    <fileName>Assets/Plugins/FluidBT/Editor/BehaviorTree/Printer/GraphNode/GraphNodePrinter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.8752835+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>075dd6109b9843e1b182671fb50f8a2e</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/Actions/WaitTime/ITimeMonitor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9081812+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>916a32f2d65f4d109358e1f4e498b49e</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/Actions/WaitTime/TimeMonitor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9094296+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6c284d3cab8841379f4a02abee439d6f</guid>
+    <fileName>Assets/Plugins/FluidBT/Runtime/Tasks/Actions/WaitTime/WaitTime.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9094296+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>947ec3516cdcded4b95c4504d44d87a3</guid>
+    <fileName>Assets/Scripts/Movement.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9186257+03:00</timeStamp>
+    <typeFullName>
+      <string>Movement</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>452ae7570278dd340879b591666930cb</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/CollisionObject.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9378154+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eada5bcf5cb1b88449a085d2773c1e5a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/CollisionShapeType.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9383308+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>daf466123d223cb4dab652fb5c136636</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/CustomProperty.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9388445+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5c4de9f8348e38d439656da2e44981d7</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/FlipFlags.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0122546+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c2683df667a698f4fbc366e679e517b7</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/GridOrientation.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0122546+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f8a20f21322c62e409c23bb7749b3164</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/MapOrientation.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0132555+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>18dc0ed4c95f0ac4195a07dd7c77366d</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/MapRenderOrder.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0132555+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>16208a0aba30c484ab87f1d1a0e7a963</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/ObjectAlignment.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0132555+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0424d2c9a5b4a8d40b2d31b1302332cd</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/ReadOnlyAttribute.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0132555+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>47ca49b9280018440a3702a67d4e6920</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/StaggerAxis.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0132555+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>03030962dd74f1c4598a85df21d345da</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/StaggerIndex.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0132555+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b236e958402f8514f8685b9a9db9b715</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperColliderComponent.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0167909+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>60eadddeab0d66d4084aca14d14cbcfc</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperCustomProperties.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0167909+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>393d5a9eb0cb54249b70807954510fb9</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperGroupLayer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0167909+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d56977c501f28174fbe67cb69197cddd</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperImageLayer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0167909+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>47723350f28da9944880a25bfc22977a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperLayer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0187957+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9afdeaae1bb27d6418d5d8cd5165faed</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperMap.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0187957+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dee00135f58173948b1f4e932384fb89</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperObject.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0187957+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bdadc5a21ba6c134192e653b4385d366</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperObjectLayer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0187957+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eec2c2b638f63854f80d6b6f12a070d9</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperTile.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0187957+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6625a2c215475fa44b1c76c4ae978948</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperTileLayer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0187957+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b94a47f6431c20c4aa4d7a5dc43df81a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperTilesAsObjectsTilemap.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0220394+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>581fb3f3285643f44afda31d45289d8d</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/SuperWorld.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0220394+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ae16ce366dabdcc49850485b19178a97</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/TileObjectAnimator.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0235987+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aa74cfd34bf503844a16a6affed8d642</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AnimationBuilder.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9393649+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d162e04f77c08ab48b00cd7cd7cf152d</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AssetDatabaseEx.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9398802+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5d967b1ed0470b24d8fb429504a3632b</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AssetPath.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9403958+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>57bef66ca809c6c4a87a88fe5a51247d</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AtlasBuilder.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9429781+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aa6c293f9600a194eb8992f488b955da</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AtlasSize.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.943499+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7022995a443f0dc48974a3034eb4b4d8</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/DataCompression.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.953583+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9eff9209c4ab374478c9fc12073c865b</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/DataEncoding.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9548084+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7cfa0af538223994d88db7bc74b459e7</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/DrawOrder.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9548084+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>325ecefe5027b8b42a7c653ca4af9dfb</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/GlobalTileDatabase.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9664836+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eb0cf98038b6a2f45b2d8ab7888355e3</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/LayerIgnoreMode.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9798089+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>39aff3970f857ec4a8823c0291cba854</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ObjectTemplate.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9869613+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b5abb1a5e2d79034c8cff6e5348085f3</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/SortingMode.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9957647+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6327b45087f5beb4da4569eddb17253d</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/StringConstants.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9957647+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5a03e13c5227d20419a9bbf5f864fd94</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/SuperTileset.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9977727+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>50241b6cdd259d246baf774ba9a7df71</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/TileIdMath.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0077189+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9e174054d7cca364ba225c9011e67b0c</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Extensions/CustomPropertyExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0102532+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c5019073c990d5440b63c76328505dc6</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Extensions/EnumerableExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0102532+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b77a8a3f25ef76e4f9d952614697a3d6</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Extensions/GameObjectExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.011253+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e034c09b01f17df41abf079d5b4cf400</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Extensions/StringExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.011253+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7c12df8ebeeaaba4bb8d835232926ae5</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Extensions/SuperTileExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0122546+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d422f78efde64c346807de8aceedc871</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Math/MatrixUtils.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0132555+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fb5e75dfa90548b46af28b1c2069b2ef</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAsset.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9409132+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7b9230422fd3f0b4f84aeed3552983e5</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetMap.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9414306+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>87f5be8f60f26a3439d0e9f9e79d57d8</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetSettings.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9414306+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6119748dbc0e7b04ab6829cb5022cb62</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetTemplate.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.941946+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>83a849530c0449a4b8dc4000b60e4acd</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetTileset.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9424617+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d6198d56f2f7d004fae311f2554dccd0</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetWorld.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9429781+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e774281be74f34043b31411b1383f170</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Attributes/AutoCustomTmxImporterAttribute.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9440138+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>32777aadec3623d4b97d4a3ab62fd92f</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionBuilder.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9445546+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a9d0aa18280129d42883e9ced3a65733</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionClipper.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9450734+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dc920922afa553741bd0f227f6835ecf</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionClipperKey.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9455906+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2b962a836d2d3af4ca6dc30fd266397b</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/TilePolygon.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9486962+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e8fc268ecca5bbc4c885325c2e8288ba</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/TilePolygonCollection.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9498242+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>73bf4b0030257904199f741dbf1abcdf</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Config/SuperTiled2Unity_Config.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.951483+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1de2e16268489dc43b1619977f7ea0f0</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/CustomEditors/ColliderGizmos.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9524955+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9ee031c51465665449ce923090251b38</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/CustomEditors/SuperColliderComponentEditor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9524955+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>07796d8e64535fc41851ffcb6f022255</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/CustomImporters/CustomTmxImporter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.953583+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ef576cb33d2bff74da4363baa98476db</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Exceptions/CustomImporterException.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9558149+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2826b803ded4ff4458902fd4d8019e72</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Exceptions/TiledException.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9558149+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bf2900f67afa63a4cafd70a0841a9bf1</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/AppDomainExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9568583+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dc3a8b114a4950947aba6626e1039b18</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/ByteExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9568583+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>47e3ba7f1f3359a4e8797318233a45d1</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CollisionObjectExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9578652+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e8a1e4dd208e2fe499c0fc5c875ccd45</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CompositeCollider2DExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9587056+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a95b3732ae5e6d04d9a55bf45d315b48</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CustomPropertyExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9592735+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4964656a27e3d1a4e95232b9e1080913</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/GameObjectExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9597928+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>baab7f7c1aac1d34ebe570e8e97b1840</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/RectUtil.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9597928+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e590658734d665b40ba3b84ccb7cd59d</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/StreamExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9611785+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6f6a7de8e56b00e4aa81837930516fad</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/StringExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9611785+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b8608888bf777314f85953dd6cac7ba1</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperLayerExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.962391+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>68d3b5d052bf8454a97430d71e1e2114</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperMapExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.962391+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0fafb9d96d028914e9ebc2702e268cd6</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperTileExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9633975+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7650c5c0ca13f39409baa23a7d64e1b5</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/Texture2DExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9633975+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f206296328d471841b0c0031f0f2a5cb</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/TypeExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9643963+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4daa0d289a9eb0847bbd4aeaec3e7584</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Extensions/XmlExtensions.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9643963+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0c1abf941a68a144184b329cdc63c678</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedBackgroundColor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9655943+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c8a44729ffe16324ca7e0f047dc5e079</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedIndent.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9664836+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a31a4a8fbeb72ce48be0f17a6b54d5a3</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Helpers/NamedColors.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9664836+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5060d5a3bd7fd87488fe7bad5dd977df</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Helpers/ReadOnlyPropertyDrawer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>995ac39948f0efc40a7cc75621ac6fcb</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Helpers/UniqueNameifier.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9a9e1547e8aa7a244bd7467c8a3df1b7</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/ImporterConstants.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>31eeb24abf22df043909643826c9c1a2</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/LayerSorterHelper.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c6c9fb728bc3c2944a50e9886fac8083</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/RendererSorter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5c73831093080f34282b5e25dbe4b498</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImportContext.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>997c350d479469b40a6a61dab58acbf0</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>11785ba3d6fd01e40bc425b04910de97</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporterEditor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a888f767b6df9e34b874a40c13fdbf58</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TiledAssetImporter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f677b7b9e54b2ee469a77e6984caa343</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TiledAssetImporterEditor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9684186+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1fa25d03934ea624a82bf2fcee6f0873</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.974033+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8e23608685274fc4d87ad50a12608833</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.GroupLayer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.972837+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eaf3a34fd04f5c848a52a87cc760bf0c</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.ImageLayer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.974033+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c3d050ab15e05e64485232b07c377d1a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.ObjectLayer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.974033+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7821ed78f6c789f458a18526a5a20d7e</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.TileLayer.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.974033+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>663bd83c73616d340a0707fb3dc86b44</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporterEditor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.974033+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cc34d0f3dc257a442819830b408c5322</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TsxAssetImporter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9767193+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>00a8cd6901ddc6b44bebdeadf6163d63</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TsxAssetImporterEditor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9778025+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4426ef1bd8d94d242b03d3dc2d544b32</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9778025+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8f8fe4d5047b6af429cc3337027f12ce</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporterEditor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9778025+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c6b19dac32d07094ca0a4ffc902a36c4</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/WorldAssetImporter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9788031+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>30744b74a3292c84794410430bba0b1a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Importers/WorldAssetImporterEditor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9788031+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4ffe19ff319af474d9c3709da2789720</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Loaders/CustomPropertyLoader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9798089+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7519185f6242f80418c1f98739b75f79</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperGroupLayerLoader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9809664+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>52e94c587bfda334cbca886bec660974</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperImageLayerLoader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9809664+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fab5b5345df240a4c977c049aa5d1b5b</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperLayerLoader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9819726+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aefa98014cf08f64683d6b99e200497c</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperObjectLayerLoader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9829203+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4100ed00b551e2c45aa3cab854a3b513</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperTileLayerLoader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9829203+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2c105d7184cafec4ba0537744947997a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Loaders/TilesetLoader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.984263+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a583b223a57da264e99d3334c086fa5a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactory.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.984263+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cc07e3d6880ec8c49bdc2d60b9a1d1df</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactoryIsometric.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9857495+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>55d9524a7f13c664f925b8695cd8402a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactoryOrthogonal.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9857495+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a2766d062892bbd4f932a20d3a3122af</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Math/PolygonUtils.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9869613+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cc91e788c0b3e5c418694a8b93ab14a6</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/AssetDependencies.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9879686+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a5375898aae950549a1f40d3bd696272</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperAssetDependencyPostprocessor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9889685+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>56b6d48e2f3d90d47b9d0b396347b6e7</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperTexturePostprocessor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9889685+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f0f2386fad48a8f4d855c5c0ede7c18c</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/TiledAssetDependencies.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9889685+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0d6063cd2a5219f448ae88f3b5dfb243</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Properties/CustomObjectType.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9889685+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d7b4491335815674c98267f0c92f634c</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Settings/CustomPropertiesWindow.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9889685+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>af7db2f22a062814992acbee2628e7ea</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Settings/LayerMaterialMatch.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.993734+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ff72ddc2da234e244a8e96eb44e4c03d</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettings.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.993734+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bc66ce480f7d8ca4890523ccd754c6cc</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettingsEditor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.993734+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>99b6c8e89bac149419fd0d075085f960</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettingsProvider.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.993734+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>035702ede6747284cbd71dcd9331db46</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperIcons.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9957647+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1669159e4149c3941a53b0dab3a68d7c</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperSettingsImporter.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9957647+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>78bd6afa7149b704c8282d996b027a81</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperSettingsImporterEditor.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9957647+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1a3413fe0dedc934a9749faafcfa0077</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Settings/TypePrefabReplacement.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9957647+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8e115dc173eb7144b9e4658ea2e46fb1</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/clipper.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0070529+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>68d11a9562e111a41877628fd4f33e4d</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/ImageHeader.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9993869+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4f7ab35f08afa904da810d42d45bf2e0</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MaxRectsBinPack.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0051198+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7a4007b337ab2d242aefb806d1534b68</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MultiValueDictionary.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0061207+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>717c33600349cec4c908deb5d2b72b63</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Windows/RecursiveAssetDependencyTracker.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0082485+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d8b822547c81a4a4d82c3eed07645e4a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Windows/SuperPackageExport.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0092539+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ade4471a1fe9b004582ec85201b9a444</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/ComposeConvexPolygons.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9461068+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a0cd0461593f4314a9a6043987d2e95a</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/CompositionPolygon.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9466345+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>360e031c5dfae294386ea430999d2a5d</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/Math.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9471492+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>288cf3ab427702b4187be0f66266c5a6</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdge.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9476606+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>057a306415f72534fa02246cf5b32535</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdgeGroup.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9481715+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1fd845b7a7d07af4ca4aad8eb4ec21d2</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolylineReduction.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9486962+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fa0287b5b3e3007418b2cad3c6b8b6ab</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/Triangulator.cs</fileName>
+    <timeStamp>2026-04-17T23:41:24.9486962+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>53df28af8cabc3442afe3fa83ca94731</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Dict.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0001724+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c42c9eb9b131da7479aca40802a962b5</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Geom.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0011138+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>895574c79cf1f4140acf071b46a62b80</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Mesh.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0021209+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>150047422c973bd4fa52808c8241a0d5</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/MeshUtils.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0021209+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0709e293685a7694fb6e3bdf1483f65b</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/PriorityHeap.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0031205+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fe69d099d524bc74d8de95bea8ff1d80</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/PriorityQueue.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0031205+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>70894d2af6f39db4bae92827a38af00e</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Sweep.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0041211+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>83aa7c1c1df6b9f41ba39f57964340a6</guid>
+    <fileName>Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Tess.cs</fileName>
+    <timeStamp>2026-04-17T23:41:25.0041211+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+</ArrayOfTypeDate>
