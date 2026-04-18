@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.12.1" name="cracked_tiles_floor" tilewidth="16" tileheight="16" tilecount="120" columns="8">
+ <editorsettings>
+  <export target="cracked_tiles_floor.tsx" format="tsx"/>
+ </editorsettings>
  <image source="../Art/decorative_cracks_floor.png" width="128" height="240"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
@@ -286,8 +289,9 @@
  </tile>
  <tile id="47">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="14" y="0" width="2" height="16"/>
-   <object id="2" x="0" y="15" width="14"/>
+   <object id="3" x="13" y="0">
+    <polygon points="0,0 1,0 1,16 -13,16 -13,15 -1,15 -1,11 0,11"/>
+   </object>
   </objectgroup>
  </tile>
  <tile id="48">
