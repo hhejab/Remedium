@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Bootstrap.unity
+    guid: 6a03f359c42a9ce4283a63f8a5f43860
+  - enabled: 1
+    path: Assets/Scenes/Persistent.unity
+    guid: 6dc606bade716cf44801347be7bd60ac
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/Village-Prototype.unity
+    guid: eeed5220ebbb87042a7037c51b398923
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 99f9c9493070a9d4c979a8fec7c5a8d3, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
