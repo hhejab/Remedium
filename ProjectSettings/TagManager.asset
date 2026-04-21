@@ -47,20 +47,14 @@ TagManager:
   - name: Ground
     uniqueID: 3048230047
     locked: 0
-  - name: Floor1
-    uniqueID: 1859064661
-    locked: 0
-  - name: Floor2
-    uniqueID: 1109407225
-    locked: 0
-  - name: Trap
-    uniqueID: 625375681
+  - name: Base
+    uniqueID: 929643141
     locked: 0
   - name: Player
     uniqueID: 1562863935
     locked: 0
-  - name: Walls
-    uniqueID: 3778096083
+  - name: AbovePlayer
+    uniqueID: 3388235957
     locked: 0
   m_RenderingLayers:
   - Default
