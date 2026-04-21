@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 84f79bfa0b93fa44fa8325ff2b33d0f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7426491713254133709
+    second: Citizen5_Walk_with_shadow - Copy_0
+  - first:
+      213: -400396516046933359
+    second: Citizen5_Walk_with_shadow - Copy_1
+  - first:
+      213: -676515870549487297
+    second: Citizen5_Walk_with_shadow - Copy_2
+  - first:
+      213: -5788237977221097526
+    second: Citizen5_Walk_with_shadow - Copy_3
+  - first:
+      213: 5972687824309840085
+    second: Citizen5_Walk_with_shadow - Copy_4
+  - first:
+      213: -9085696550513718688
+    second: Citizen5_Walk_with_shadow - Copy_5
+  - first:
+      213: 8794883981197722116
+    second: Citizen5_Walk_with_shadow - Copy_6
+  - first:
+      213: 2763035388805447469
+    second: Citizen5_Walk_with_shadow - Copy_7
+  - first:
+      213: -8238441225998509467
+    second: Citizen5_Walk_with_shadow - Copy_8
+  - first:
+      213: 1195050531064735183
+    second: Citizen5_Walk_with_shadow - Copy_9
+  - first:
+      213: -4344685745602595472
+    second: Citizen5_Walk_with_shadow - Copy_10
+  - first:
+      213: -2682612824848250327
+    second: Citizen5_Walk_with_shadow - Copy_11
+  - first:
+      213: 4030628809633832114
+    second: Citizen5_Walk_with_shadow - Copy_12
+  - first:
+      213: 8277272938757861829
+    second: Citizen5_Walk_with_shadow - Copy_13
+  - first:
+      213: -9204170147630575397
+    second: Citizen5_Walk_with_shadow - Copy_14
+  - first:
+      213: 6542968099587942057
+    second: Citizen5_Walk_with_shadow - Copy_15
+  - first:
+      213: 4927811238129810273
+    second: Citizen5_Walk_with_shadow - Copy_16
+  - first:
+      213: 2240770072249736971
+    second: Citizen5_Walk_with_shadow - Copy_17
+  - first:
+      213: -1181757252764962112
+    second: Citizen5_Walk_with_shadow - Copy_18
+  - first:
+      213: 41300726850136280
+    second: Citizen5_Walk_with_shadow - Copy_19
+  - first:
+      213: -4390300975952339194
+    second: Citizen5_Walk_with_shadow - Copy_20
+  - first:
+      213: 180652707564769488
+    second: Citizen5_Walk_with_shadow - Copy_21
+  - first:
+      213: 2030643702429796109
+    second: Citizen5_Walk_with_shadow - Copy_22
+  - first:
+      213: 2179429485952619782
+    second: Citizen5_Walk_with_shadow - Copy_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf05efadd2301760800000000000000
+      internalID: 7426491713254133709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 96
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192f7b37d71817af0800000000000000
+      internalID: -400396516046933359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 96
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31dbfa66688c96f0800000000000000
+      internalID: -676515870549487297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac79f442a3c0cafa0800000000000000
+      internalID: -5788237977221097526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 96
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8e94a7eef33e250800000000000000
+      internalID: 5972687824309840085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 96
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a43a9102f19e180800000000000000
+      internalID: -9085696550513718688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 64
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40240143264bd0a70800000000000000
+      internalID: 8794883981197722116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 64
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ff4930c06485620800000000000000
+      internalID: 2763035388805447469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 64
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56adc65aa5d2bad80800000000000000
+      internalID: -8238441225998509467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc561c8502ca59010800000000000000
+      internalID: 1195050531064735183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 64
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07577a0655394b3c0800000000000000
+      internalID: -4344685745602595472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 64
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a430159d175cad0800000000000000
+      internalID: -2682612824848250327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 32
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc1ea31c8bafe730800000000000000
+      internalID: 4030628809633832114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 32
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1bd9702e7ced270800000000000000
+      internalID: 8277272938757861829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 32
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0993a3408344080800000000000000
+      internalID: -9204170147630575397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 32
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6e6a802da4dca50800000000000000
+      internalID: 6542968099587942057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 32
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bb7e0663a136440800000000000000
+      internalID: 4927811238129810273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 32
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f95c33280d81f10800000000000000
+      internalID: 2240770072249736971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2f3323a0e899fe0800000000000000
+      internalID: -1181757252764962112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d82ed0dacab29000800000000000000
+      internalID: 41300726850136280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f5f4fe5848213c0800000000000000
+      internalID: -4390300975952339194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d05c1e2eaec18200800000000000000
+      internalID: 180652707564769488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0746b440bb4e2c10800000000000000
+      internalID: 2030643702429796109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Walk_with_shadow - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605d7330293ee3e10800000000000000
+      internalID: 2179429485952619782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Citizen5_Walk_with_shadow - Copy_0: 7426491713254133709
+      Citizen5_Walk_with_shadow - Copy_1: -400396516046933359
+      Citizen5_Walk_with_shadow - Copy_10: -4344685745602595472
+      Citizen5_Walk_with_shadow - Copy_11: -2682612824848250327
+      Citizen5_Walk_with_shadow - Copy_12: 4030628809633832114
+      Citizen5_Walk_with_shadow - Copy_13: 8277272938757861829
+      Citizen5_Walk_with_shadow - Copy_14: -9204170147630575397
+      Citizen5_Walk_with_shadow - Copy_15: 6542968099587942057
+      Citizen5_Walk_with_shadow - Copy_16: 4927811238129810273
+      Citizen5_Walk_with_shadow - Copy_17: 2240770072249736971
+      Citizen5_Walk_with_shadow - Copy_18: -1181757252764962112
+      Citizen5_Walk_with_shadow - Copy_19: 41300726850136280
+      Citizen5_Walk_with_shadow - Copy_2: -676515870549487297
+      Citizen5_Walk_with_shadow - Copy_20: -4390300975952339194
+      Citizen5_Walk_with_shadow - Copy_21: 180652707564769488
+      Citizen5_Walk_with_shadow - Copy_22: 2030643702429796109
+      Citizen5_Walk_with_shadow - Copy_23: 2179429485952619782
+      Citizen5_Walk_with_shadow - Copy_3: -5788237977221097526
+      Citizen5_Walk_with_shadow - Copy_4: 5972687824309840085
+      Citizen5_Walk_with_shadow - Copy_5: -9085696550513718688
+      Citizen5_Walk_with_shadow - Copy_6: 8794883981197722116
+      Citizen5_Walk_with_shadow - Copy_7: 2763035388805447469
+      Citizen5_Walk_with_shadow - Copy_8: -8238441225998509467
+      Citizen5_Walk_with_shadow - Copy_9: 1195050531064735183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

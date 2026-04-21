@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: f8af894a51b6ce14a9fe3c50dc5c3ad0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8023293693892342494
+    second: Walls_street - Copy_0
+  - first:
+      213: -4157689563788195118
+    second: Walls_street - Copy_1
+  - first:
+      213: 709128519250453842
+    second: Walls_street - Copy_2
+  - first:
+      213: -6135157776020953453
+    second: Walls_street - Copy_3
+  - first:
+      213: -6312587695807252999
+    second: Walls_street - Copy_4
+  - first:
+      213: -6155663325491069012
+    second: Walls_street - Copy_5
+  - first:
+      213: 4082417609283138928
+    second: Walls_street - Copy_6
+  - first:
+      213: -8774897069314858764
+    second: Walls_street - Copy_7
+  - first:
+      213: 2410949708969739760
+    second: Walls_street - Copy_8
+  - first:
+      213: 8768402189040921536
+    second: Walls_street - Copy_9
+  - first:
+      213: -5436796578032471829
+    second: Walls_street - Copy_10
+  - first:
+      213: 5159990701600052331
+    second: Walls_street - Copy_11
+  - first:
+      213: 5890816590490030088
+    second: Walls_street - Copy_12
+  - first:
+      213: 1072090283000825581
+    second: Walls_street - Copy_13
+  - first:
+      213: 69303182466320193
+    second: Walls_street - Copy_14
+  - first:
+      213: -6125538620705608328
+    second: Walls_street - Copy_15
+  - first:
+      213: 4469267684207529114
+    second: Walls_street - Copy_16
+  - first:
+      213: -1709942329703878471
+    second: Walls_street - Copy_17
+  - first:
+      213: -7865818043765997924
+    second: Walls_street - Copy_18
+  - first:
+      213: 771506139715348529
+    second: Walls_street - Copy_19
+  - first:
+      213: 2128980029583654157
+    second: Walls_street - Copy_20
+  - first:
+      213: -5660230787417767405
+    second: Walls_street - Copy_21
+  - first:
+      213: -5479024262373488122
+    second: Walls_street - Copy_22
+  - first:
+      213: 5765930991549401666
+    second: Walls_street - Copy_23
+  - first:
+      213: -7159403666004848087
+    second: Walls_street - Copy_24
+  - first:
+      213: 5047626420484982324
+    second: Walls_street - Copy_25
+  - first:
+      213: 5878455909273914851
+    second: Walls_street - Copy_26
+  - first:
+      213: -2526586954479176450
+    second: Walls_street - Copy_27
+  - first:
+      213: -1642089350345012306
+    second: Walls_street - Copy_28
+  - first:
+      213: -1375894133242257836
+    second: Walls_street - Copy_29
+  - first:
+      213: 7664688263909644282
+    second: Walls_street - Copy_30
+  - first:
+      213: -2032009406667464955
+    second: Walls_street - Copy_31
+  - first:
+      213: -4410681803382767480
+    second: Walls_street - Copy_32
+  - first:
+      213: -8582584261752735332
+    second: Walls_street - Copy_33
+  - first:
+      213: 7722638257934165437
+    second: Walls_street - Copy_34
+  - first:
+      213: 1035446749074348839
+    second: Walls_street - Copy_35
+  - first:
+      213: 1014998761774165286
+    second: Walls_street - Copy_36
+  - first:
+      213: -6896846673302619808
+    second: Walls_street - Copy_37
+  - first:
+      213: 8447780210021719107
+    second: Walls_street - Copy_38
+  - first:
+      213: 3551924111120213650
+    second: Walls_street - Copy_39
+  - first:
+      213: 5924899093599947321
+    second: Walls_street - Copy_40
+  - first:
+      213: 1621695228517245789
+    second: Walls_street - Copy_41
+  - first:
+      213: -1427868446503116720
+    second: Walls_street - Copy_42
+  - first:
+      213: -6937033460149997401
+    second: Walls_street - Copy_43
+  - first:
+      213: -356919004749537507
+    second: Walls_street - Copy_44
+  - first:
+      213: 2635464240060573123
+    second: Walls_street - Copy_45
+  - first:
+      213: -6415907267912057025
+    second: Walls_street - Copy_46
+  - first:
+      213: 2640299118183323618
+    second: Walls_street - Copy_47
+  - first:
+      213: 7054395955143499431
+    second: Walls_street - Copy_48
+  - first:
+      213: -398680032651655046
+    second: Walls_street - Copy_49
+  - first:
+      213: 2154534056778720877
+    second: Walls_street - Copy_50
+  - first:
+      213: -173605910600515078
+    second: Walls_street - Copy_51
+  - first:
+      213: -8416264915948885472
+    second: Walls_street - Copy_52
+  - first:
+      213: 8796052432156944192
+    second: Walls_street - Copy_53
+  - first:
+      213: 8606882159734637171
+    second: Walls_street - Copy_54
+  - first:
+      213: -6368651582891074718
+    second: Walls_street - Copy_55
+  - first:
+      213: 2951667045421299042
+    second: Walls_street - Copy_56
+  - first:
+      213: 6908680098282928642
+    second: Walls_street - Copy_57
+  - first:
+      213: 4026546800477409060
+    second: Walls_street - Copy_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walls_street - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 207
+        width: 28
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2b519fa17785f60800000000000000
+      internalID: 8023293693892342494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 207
+        width: 34
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da4e00ce5bec46c0800000000000000
+      internalID: -4157689563788195118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 223
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255a50291a457d900800000000000000
+      internalID: 709128519250453842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 207
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396ab47128a8bdaa0800000000000000
+      internalID: -6135157776020953453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 223
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f538e9afee2568a0800000000000000
+      internalID: -6312587695807252999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 223
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf743fc1d0b29aa0800000000000000
+      internalID: -6155663325491069012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075fe12af29a7a830800000000000000
+      internalID: 4082417609283138928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 159
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f02fda5b9d493680800000000000000
+      internalID: -8774897069314858764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 175
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5097e8cf9657120800000000000000
+      internalID: 2410949708969739760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 111
+        width: 113
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbaa8d755f9fa970800000000000000
+      internalID: 8768402189040921536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0b052515e9c84b0800000000000000
+      internalID: -5436796578032471829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 117
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64903d4438fb9740800000000000000
+      internalID: 5159990701600052331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 111
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800d2296a7260c150800000000000000
+      internalID: 5890816590490030088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 247
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de68965ae64d0ee00800000000000000
+      internalID: 1072090283000825581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 98
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14785b490e636f000800000000000000
+      internalID: 69303182466320193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 90
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87de7e63417bdfaa0800000000000000
+      internalID: -6125538620705608328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 99
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c82539747060e30800000000000000
+      internalID: 4469267684207529114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0b893c2801548e0800000000000000
+      internalID: -1709942329703878471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 95
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e38710a2007d290800000000000000
+      internalID: -7865818043765997924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 99
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13824c71fb0f4ba00800000000000000
+      internalID: 771506139715348529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 95
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dfb3d9e08ab8d10800000000000000
+      internalID: 2128980029583654157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 82
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3120c398612d271b0800000000000000
+      internalID: -5660230787417767405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 82
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a4b75667896f3b0800000000000000
+      internalID: -5479024262373488122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 68
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ac7b600b3b40050800000000000000
+      internalID: 5765930991549401666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 81
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922d6244c40b4ac90800000000000000
+      internalID: -7159403666004848087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43642e76c75cc0640800000000000000
+      internalID: 5047626420484982324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 63
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed411c0188749150800000000000000
+      internalID: 5878455909273914851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 63
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4f1242d82cfecd0800000000000000
+      internalID: -2526586954479176450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabcb3f9f602639e0800000000000000
+      internalID: -1642089350345012306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 65
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e1d8b5397d7ece0800000000000000
+      internalID: -1375894133242257836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 50
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af79074ed517e5a60800000000000000
+      internalID: 7664688263909644282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 51
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f555fe53adcc3e0800000000000000
+      internalID: -2032009406667464955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_32
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 49
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8804714c44c1ac2c0800000000000000
+      internalID: -4410681803382767480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_33
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99be5f161984e880800000000000000
+      internalID: -8582584261752735332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 50
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5e10d44925c2b60800000000000000
+      internalID: 7722638257934165437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bd86e0555ae5e00800000000000000
+      internalID: 1035446749074348839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 47
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62da2030ffff51e00800000000000000
+      internalID: 1014998761774165286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 28
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069767fdd7a7940a0800000000000000
+      internalID: -6896846673302619808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 39
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c5beeb75b8c3570800000000000000
+      internalID: 8447780210021719107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_39
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 31
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29627700928fa4130800000000000000
+      internalID: 3551924111120213650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_40
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 35
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a0f0c8558793250800000000000000
+      internalID: 5924899093599947321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_41
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 31
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5367bdd73b618610800000000000000
+      internalID: 1621695228517245789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_42
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 42
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050613c86313f2ce0800000000000000
+      internalID: -1427868446503116720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_43
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 24
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0b2cc62d4babf90800000000000000
+      internalID: -6937033460149997401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_44
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 18
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f51546e08fb0bf0800000000000000
+      internalID: -356919004749537507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_45
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 19
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c52e0753cc039420800000000000000
+      internalID: 2635464240060573123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_46
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f3140355e16f6a0800000000000000
+      internalID: -6415907267912057025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_47
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 23
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e718102f0a34a420800000000000000
+      internalID: 2640299118183323618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_48
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 18
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aed743debf36e160800000000000000
+      internalID: 7054395955143499431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_49
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78c1c26f9a977af0800000000000000
+      internalID: -398680032651655046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_50
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66e6c63f4176ed10800000000000000
+      internalID: 2154534056778720877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af18fb7185a379df0800000000000000
+      internalID: -173605910600515078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_52
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02aa84576ab633b80800000000000000
+      internalID: -8416264915948885472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047ec64651bd11a70800000000000000
+      internalID: 8796052432156944192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_54
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 3
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37241aa19b9c17770800000000000000
+      internalID: 8606882159734637171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_55
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b5c8fb0210e97a0800000000000000
+      internalID: -6368651582891074718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_56
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26530990a8d66f820800000000000000
+      internalID: 2951667045421299042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_57
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20af6f412ff80ef50800000000000000
+      internalID: 6908680098282928642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_street - Copy_58
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f01f14bfa21e730800000000000000
+      internalID: 4026546800477409060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Walls_street - Copy_0: 8023293693892342494
+      Walls_street - Copy_1: -4157689563788195118
+      Walls_street - Copy_10: -5436796578032471829
+      Walls_street - Copy_11: 5159990701600052331
+      Walls_street - Copy_12: 5890816590490030088
+      Walls_street - Copy_13: 1072090283000825581
+      Walls_street - Copy_14: 69303182466320193
+      Walls_street - Copy_15: -6125538620705608328
+      Walls_street - Copy_16: 4469267684207529114
+      Walls_street - Copy_17: -1709942329703878471
+      Walls_street - Copy_18: -7865818043765997924
+      Walls_street - Copy_19: 771506139715348529
+      Walls_street - Copy_2: 709128519250453842
+      Walls_street - Copy_20: 2128980029583654157
+      Walls_street - Copy_21: -5660230787417767405
+      Walls_street - Copy_22: -5479024262373488122
+      Walls_street - Copy_23: 5765930991549401666
+      Walls_street - Copy_24: -7159403666004848087
+      Walls_street - Copy_25: 5047626420484982324
+      Walls_street - Copy_26: 5878455909273914851
+      Walls_street - Copy_27: -2526586954479176450
+      Walls_street - Copy_28: -1642089350345012306
+      Walls_street - Copy_29: -1375894133242257836
+      Walls_street - Copy_3: -6135157776020953453
+      Walls_street - Copy_30: 7664688263909644282
+      Walls_street - Copy_31: -2032009406667464955
+      Walls_street - Copy_32: -4410681803382767480
+      Walls_street - Copy_33: -8582584261752735332
+      Walls_street - Copy_34: 7722638257934165437
+      Walls_street - Copy_35: 1035446749074348839
+      Walls_street - Copy_36: 1014998761774165286
+      Walls_street - Copy_37: -6896846673302619808
+      Walls_street - Copy_38: 8447780210021719107
+      Walls_street - Copy_39: 3551924111120213650
+      Walls_street - Copy_4: -6312587695807252999
+      Walls_street - Copy_40: 5924899093599947321
+      Walls_street - Copy_41: 1621695228517245789
+      Walls_street - Copy_42: -1427868446503116720
+      Walls_street - Copy_43: -6937033460149997401
+      Walls_street - Copy_44: -356919004749537507
+      Walls_street - Copy_45: 2635464240060573123
+      Walls_street - Copy_46: -6415907267912057025
+      Walls_street - Copy_47: 2640299118183323618
+      Walls_street - Copy_48: 7054395955143499431
+      Walls_street - Copy_49: -398680032651655046
+      Walls_street - Copy_5: -6155663325491069012
+      Walls_street - Copy_50: 2154534056778720877
+      Walls_street - Copy_51: -173605910600515078
+      Walls_street - Copy_52: -8416264915948885472
+      Walls_street - Copy_53: 8796052432156944192
+      Walls_street - Copy_54: 8606882159734637171
+      Walls_street - Copy_55: -6368651582891074718
+      Walls_street - Copy_56: 2951667045421299042
+      Walls_street - Copy_57: 6908680098282928642
+      Walls_street - Copy_58: 4026546800477409060
+      Walls_street - Copy_6: 4082417609283138928
+      Walls_street - Copy_7: -8774897069314858764
+      Walls_street - Copy_8: 2410949708969739760
+      Walls_street - Copy_9: 8768402189040921536
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
