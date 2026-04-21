@@ -1,0 +1,2145 @@
+fileFormatVersion: 2
+guid: 894b341e170f4c048ac433868aed1c84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1969401149191449924
+    second: Flying_rocks_animation_0
+  - first:
+      213: 8512406140349081415
+    second: Flying_rocks_animation_1
+  - first:
+      213: -4332892571206501165
+    second: Flying_rocks_animation_2
+  - first:
+      213: 2314753654445961555
+    second: Flying_rocks_animation_3
+  - first:
+      213: 9161682592529442281
+    second: Flying_rocks_animation_4
+  - first:
+      213: -9129905993005868946
+    second: Flying_rocks_animation_5
+  - first:
+      213: -8907465090809307468
+    second: Flying_rocks_animation_6
+  - first:
+      213: 1629973543260280410
+    second: Flying_rocks_animation_7
+  - first:
+      213: -3816145522596369485
+    second: Flying_rocks_animation_8
+  - first:
+      213: 2594923104842854619
+    second: Flying_rocks_animation_9
+  - first:
+      213: -2827377431203485979
+    second: Flying_rocks_animation_10
+  - first:
+      213: -7239538973560207960
+    second: Flying_rocks_animation_11
+  - first:
+      213: -2909955041098642980
+    second: Flying_rocks_animation_12
+  - first:
+      213: -2160568436664543556
+    second: Flying_rocks_animation_13
+  - first:
+      213: 7555551397331139145
+    second: Flying_rocks_animation_14
+  - first:
+      213: -4673354782120686805
+    second: Flying_rocks_animation_15
+  - first:
+      213: -6073805217037467213
+    second: Flying_rocks_animation_16
+  - first:
+      213: 9213523109425871995
+    second: Flying_rocks_animation_17
+  - first:
+      213: -2568951722301696572
+    second: Flying_rocks_animation_18
+  - first:
+      213: -2702830866166248148
+    second: Flying_rocks_animation_19
+  - first:
+      213: -4744178634926784737
+    second: Flying_rocks_animation_20
+  - first:
+      213: -4151899004177584125
+    second: Flying_rocks_animation_21
+  - first:
+      213: -8024218057924331830
+    second: Flying_rocks_animation_22
+  - first:
+      213: -212433170860086463
+    second: Flying_rocks_animation_23
+  - first:
+      213: -97171588997974942
+    second: Flying_rocks_animation_24
+  - first:
+      213: 1772393987263659026
+    second: Flying_rocks_animation_25
+  - first:
+      213: -1071333923444368051
+    second: Flying_rocks_animation_26
+  - first:
+      213: -4303457527134394909
+    second: Flying_rocks_animation_27
+  - first:
+      213: 8241315612012404962
+    second: Flying_rocks_animation_28
+  - first:
+      213: 6690683503581998602
+    second: Flying_rocks_animation_29
+  - first:
+      213: 1270736485875934048
+    second: Flying_rocks_animation_30
+  - first:
+      213: -8204585359176560346
+    second: Flying_rocks_animation_31
+  - first:
+      213: 7676150237481463548
+    second: Flying_rocks_animation_32
+  - first:
+      213: 3644014763848179512
+    second: Flying_rocks_animation_33
+  - first:
+      213: -132316124221930311
+    second: Flying_rocks_animation_34
+  - first:
+      213: 4505829295677612247
+    second: Flying_rocks_animation_35
+  - first:
+      213: 6303063122612475974
+    second: Flying_rocks_animation_36
+  - first:
+      213: -2689592943346201675
+    second: Flying_rocks_animation_37
+  - first:
+      213: -2876402871332423740
+    second: Flying_rocks_animation_38
+  - first:
+      213: -2184026190303741567
+    second: Flying_rocks_animation_39
+  - first:
+      213: 3925193591682792371
+    second: Flying_rocks_animation_40
+  - first:
+      213: -8515847960953923435
+    second: Flying_rocks_animation_41
+  - first:
+      213: 6806952793313142762
+    second: Flying_rocks_animation_42
+  - first:
+      213: -3594141176288569588
+    second: Flying_rocks_animation_43
+  - first:
+      213: -316772372720337329
+    second: Flying_rocks_animation_44
+  - first:
+      213: 888753357388468739
+    second: Flying_rocks_animation_45
+  - first:
+      213: 2269660037327803439
+    second: Flying_rocks_animation_46
+  - first:
+      213: 3292804081849515551
+    second: Flying_rocks_animation_47
+  - first:
+      213: -5825951480035793490
+    second: Flying_rocks_animation_48
+  - first:
+      213: -5412248699790171408
+    second: Flying_rocks_animation_49
+  - first:
+      213: 1770264405378895635
+    second: Flying_rocks_animation_50
+  - first:
+      213: 460841168507098952
+    second: Flying_rocks_animation_51
+  - first:
+      213: 550352388786028164
+    second: Flying_rocks_animation_52
+  - first:
+      213: 408598749556315132
+    second: Flying_rocks_animation_53
+  - first:
+      213: 4767565990845944766
+    second: Flying_rocks_animation_54
+  - first:
+      213: -8409412452738206362
+    second: Flying_rocks_animation_55
+  - first:
+      213: 843894033227835816
+    second: Flying_rocks_animation_56
+  - first:
+      213: 3813475238259887274
+    second: Flying_rocks_animation_57
+  - first:
+      213: 5163674069290782640
+    second: Flying_rocks_animation_58
+  - first:
+      213: -2641028057510089509
+    second: Flying_rocks_animation_59
+  - first:
+      213: 4525631313164054891
+    second: Flying_rocks_animation_60
+  - first:
+      213: 8048645421423934029
+    second: Flying_rocks_animation_61
+  - first:
+      213: -8008090477621830814
+    second: Flying_rocks_animation_62
+  - first:
+      213: -4897922803855471090
+    second: Flying_rocks_animation_63
+  - first:
+      213: 4628579607074977849
+    second: Flying_rocks_animation_64
+  - first:
+      213: -6024517835098863564
+    second: Flying_rocks_animation_65
+  - first:
+      213: 7433551765201141673
+    second: Flying_rocks_animation_66
+  - first:
+      213: 4987186878381336378
+    second: Flying_rocks_animation_67
+  - first:
+      213: -2487522826672845787
+    second: Flying_rocks_animation_68
+  - first:
+      213: 5087093695360583839
+    second: Flying_rocks_animation_69
+  - first:
+      213: -4297815026415125572
+    second: Flying_rocks_animation_70
+  - first:
+      213: 3179190693832512360
+    second: Flying_rocks_animation_71
+  - first:
+      213: -1761791495898300813
+    second: Flying_rocks_animation_72
+  - first:
+      213: -5679435587076511005
+    second: Flying_rocks_animation_73
+  - first:
+      213: -5362732802517701916
+    second: Flying_rocks_animation_74
+  - first:
+      213: -5291227711295483617
+    second: Flying_rocks_animation_75
+  - first:
+      213: -2878989400592059259
+    second: Flying_rocks_animation_76
+  - first:
+      213: -4183947289238470319
+    second: Flying_rocks_animation_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flying_rocks_animation_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 146
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d6dcd29e7b45b10800000000000000
+      internalID: 1969401149191449924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 162
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7476c53b844222670800000000000000
+      internalID: 8512406140349081415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 138
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcbe43c9297ed3c0800000000000000
+      internalID: -4332892571206501165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 161
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351f9c34f28af1020800000000000000
+      internalID: 2314753654445961555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 139
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5e898f6c5d42f70800000000000000
+      internalID: 9161682592529442281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 160
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68dc262fde0c4180800000000000000
+      internalID: -9129905993005868946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 140
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be5e1591b3526480800000000000000
+      internalID: -8907465090809307468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 159
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5650573d44de9610800000000000000
+      internalID: 1629973543260280410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_8
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 141
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb2272bdd35a0bc0800000000000000
+      internalID: -3816145522596369485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_9
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 146
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0bc9bb0d4030420800000000000000
+      internalID: 2594923104842854619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 160
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6e827d43323c8d0800000000000000
+      internalID: -2827377431203485979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 140
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5095709adf78b90800000000000000
+      internalID: -7239538973560207960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 147
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd945f6ce43cd97d0800000000000000
+      internalID: -2909955041098642980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_13
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 161
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb650bb347e1402e0800000000000000
+      internalID: -2160568436664543556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 139
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94af02007f5bad860800000000000000
+      internalID: 7555551397331139145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 145
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bc25e0698e42fb0800000000000000
+      internalID: -4673354782120686805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 144
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b14193e55285bba0800000000000000
+      internalID: -6073805217037467213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 145
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c7e23e3720ddf70800000000000000
+      internalID: 9213523109425871995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 118
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5541bf400495cd0800000000000000
+      internalID: -2568951722301696572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 129
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d033eb5ad9d7ad0800000000000000
+      internalID: -2702830866166248148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_20
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 117
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ff032daaa492eb0800000000000000
+      internalID: -4744178634926784737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 130
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30072b87add7166c0800000000000000
+      internalID: -4151899004177584125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_22
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 116
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac63521c03044a090800000000000000
+      internalID: -8024218057924331830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 131
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bef5818294d0df0800000000000000
+      internalID: -212433170860086463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_24
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 117
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264f38364f6c6aef0800000000000000
+      internalID: -97171588997974942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_25
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 130
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c73ecd0fec89810800000000000000
+      internalID: 1772393987263659026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 118
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4dd549097bd121f0800000000000000
+      internalID: -1071333923444368051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_27
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 129
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e56c250e2c0744c0800000000000000
+      internalID: -4303457527134394909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_28
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 119
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e061ef72e80f5270800000000000000
+      internalID: 8241315612012404962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_29
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 128
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e229f92351adc50800000000000000
+      internalID: 6690683503581998602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 93
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06363cbe91092a110800000000000000
+      internalID: 1270736485875934048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 76
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62119e8e515732e80800000000000000
+      internalID: -8204585359176560346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_32
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 92
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfeec9398f9278a60800000000000000
+      internalID: 7676150237481463548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 75
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f1373fe14229230800000000000000
+      internalID: 3644014763848179512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_34
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 91
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b402b1af2be92ef0800000000000000
+      internalID: -132316124221930311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 76
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0a96b1fdbe78e30800000000000000
+      internalID: 4505829295677612247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_36
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 92
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6485e24d38af87750800000000000000
+      internalID: 6303063122612475974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_37
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 77
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbc375d775acaad0800000000000000
+      internalID: -2689592943346201675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_38
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 93
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7315f04d6f418d0800000000000000
+      internalID: -2876402871332423740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_39
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 78
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189bbca50c7c0b1e0800000000000000
+      internalID: -2184026190303741567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_40
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 94
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb74ea66c6197630800000000000000
+      internalID: 3925193591682792371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_41
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 77
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5985b1ef561a1d980800000000000000
+      internalID: -8515847960953923435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 62
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae768403087277e50800000000000000
+      internalID: 6806952793313142762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_43
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 69
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0717ba84ab0f1ec0800000000000000
+      internalID: -3594141176288569588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 61
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4eb85194399a9bf0800000000000000
+      internalID: -316772372720337329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 70
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3025310487c755c00800000000000000
+      internalID: 888753357388468739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 60
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24d2dd57c37f7f10800000000000000
+      internalID: 2269660037327803439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 56
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1eb89dcdd362bd20800000000000000
+      internalID: 3292804081849515551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_48
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 71
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea52ec10fff062fa0800000000000000
+      internalID: -5825951480035793490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_49
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 59
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2efec9b74d3e4b0800000000000000
+      internalID: -5412248699790171408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_50
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 72
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f8021f81e319810800000000000000
+      internalID: 1770264405378895635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_51
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 60
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847ddb2e99c356600800000000000000
+      internalID: 460841168507098952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_52
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 71
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ef0eae49e33a700800000000000000
+      internalID: 550352388786028164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_53
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 61
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf319fad562aba500800000000000000
+      internalID: 408598749556315132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_54
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 70
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb31b9f420cc92240800000000000000
+      internalID: 4767565990845944766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_55
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 54
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665fac0ede3cb4b80800000000000000
+      internalID: -8409412452738206362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_56
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 55
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9ed9ee62d16bb00800000000000000
+      internalID: 843894033227835816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_57
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 55
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac8a38468f2ce430800000000000000
+      internalID: 3813475238259887274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_58
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 54
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf09fb253e09a740800000000000000
+      internalID: 5163674069290782640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_59
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 53
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc654679fe295bd0800000000000000
+      internalID: -2641028057510089509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61378593b54ece30800000000000000
+      internalID: 4525631313164054891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_61
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 28
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a3c030e5882bf60800000000000000
+      internalID: 8048645421423934029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_62
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 9
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b9928a32c8dd090800000000000000
+      internalID: -8008090477621830814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_63
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 27
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ec8e20925170cb0800000000000000
+      internalID: -4897922803855471090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_64
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 10
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938325e11a40c3040800000000000000
+      internalID: 4628579607074977849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 26
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4384defb2fc946ca0800000000000000
+      internalID: -6024517835098863564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_66
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 11
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afba4022f7492760800000000000000
+      internalID: 7433551765201141673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 27
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37a86aea0c063540800000000000000
+      internalID: 4987186878381336378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_68
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 12
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c4d792b2b8a7dd0800000000000000
+      internalID: -2487522826672845787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_69
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 28
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98c81b63ccf89640800000000000000
+      internalID: 5087093695360583839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_70
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 11
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbb03811081b54c0800000000000000
+      internalID: -4297815026415125572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_71
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 29
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8635d1b8711ce1c20800000000000000
+      internalID: 3179190693832512360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_72
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e7da608fbdc87e0800000000000000
+      internalID: -1761791495898300813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_73
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaa79bac679e21b0800000000000000
+      internalID: -5679435587076511005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_74
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 10
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eae898ddeeb395b0800000000000000
+      internalID: -5362732802517701916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_75
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 9
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1197824e68c196b0800000000000000
+      internalID: -5291227711295483617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_76
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 8
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5847899c466cb08d0800000000000000
+      internalID: -2878989400592059259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_rocks_animation_77
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 9
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1518bf1ab12afe5c0800000000000000
+      internalID: -4183947289238470319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flying_rocks_animation_0: 1969401149191449924
+      Flying_rocks_animation_1: 8512406140349081415
+      Flying_rocks_animation_10: -2827377431203485979
+      Flying_rocks_animation_11: -7239538973560207960
+      Flying_rocks_animation_12: -2909955041098642980
+      Flying_rocks_animation_13: -2160568436664543556
+      Flying_rocks_animation_14: 7555551397331139145
+      Flying_rocks_animation_15: -4673354782120686805
+      Flying_rocks_animation_16: -6073805217037467213
+      Flying_rocks_animation_17: 9213523109425871995
+      Flying_rocks_animation_18: -2568951722301696572
+      Flying_rocks_animation_19: -2702830866166248148
+      Flying_rocks_animation_2: -4332892571206501165
+      Flying_rocks_animation_20: -4744178634926784737
+      Flying_rocks_animation_21: -4151899004177584125
+      Flying_rocks_animation_22: -8024218057924331830
+      Flying_rocks_animation_23: -212433170860086463
+      Flying_rocks_animation_24: -97171588997974942
+      Flying_rocks_animation_25: 1772393987263659026
+      Flying_rocks_animation_26: -1071333923444368051
+      Flying_rocks_animation_27: -4303457527134394909
+      Flying_rocks_animation_28: 8241315612012404962
+      Flying_rocks_animation_29: 6690683503581998602
+      Flying_rocks_animation_3: 2314753654445961555
+      Flying_rocks_animation_30: 1270736485875934048
+      Flying_rocks_animation_31: -8204585359176560346
+      Flying_rocks_animation_32: 7676150237481463548
+      Flying_rocks_animation_33: 3644014763848179512
+      Flying_rocks_animation_34: -132316124221930311
+      Flying_rocks_animation_35: 4505829295677612247
+      Flying_rocks_animation_36: 6303063122612475974
+      Flying_rocks_animation_37: -2689592943346201675
+      Flying_rocks_animation_38: -2876402871332423740
+      Flying_rocks_animation_39: -2184026190303741567
+      Flying_rocks_animation_4: 9161682592529442281
+      Flying_rocks_animation_40: 3925193591682792371
+      Flying_rocks_animation_41: -8515847960953923435
+      Flying_rocks_animation_42: 6806952793313142762
+      Flying_rocks_animation_43: -3594141176288569588
+      Flying_rocks_animation_44: -316772372720337329
+      Flying_rocks_animation_45: 888753357388468739
+      Flying_rocks_animation_46: 2269660037327803439
+      Flying_rocks_animation_47: 3292804081849515551
+      Flying_rocks_animation_48: -5825951480035793490
+      Flying_rocks_animation_49: -5412248699790171408
+      Flying_rocks_animation_5: -9129905993005868946
+      Flying_rocks_animation_50: 1770264405378895635
+      Flying_rocks_animation_51: 460841168507098952
+      Flying_rocks_animation_52: 550352388786028164
+      Flying_rocks_animation_53: 408598749556315132
+      Flying_rocks_animation_54: 4767565990845944766
+      Flying_rocks_animation_55: -8409412452738206362
+      Flying_rocks_animation_56: 843894033227835816
+      Flying_rocks_animation_57: 3813475238259887274
+      Flying_rocks_animation_58: 5163674069290782640
+      Flying_rocks_animation_59: -2641028057510089509
+      Flying_rocks_animation_6: -8907465090809307468
+      Flying_rocks_animation_60: 4525631313164054891
+      Flying_rocks_animation_61: 8048645421423934029
+      Flying_rocks_animation_62: -8008090477621830814
+      Flying_rocks_animation_63: -4897922803855471090
+      Flying_rocks_animation_64: 4628579607074977849
+      Flying_rocks_animation_65: -6024517835098863564
+      Flying_rocks_animation_66: 7433551765201141673
+      Flying_rocks_animation_67: 4987186878381336378
+      Flying_rocks_animation_68: -2487522826672845787
+      Flying_rocks_animation_69: 5087093695360583839
+      Flying_rocks_animation_7: 1629973543260280410
+      Flying_rocks_animation_70: -4297815026415125572
+      Flying_rocks_animation_71: 3179190693832512360
+      Flying_rocks_animation_72: -1761791495898300813
+      Flying_rocks_animation_73: -5679435587076511005
+      Flying_rocks_animation_74: -5362732802517701916
+      Flying_rocks_animation_75: -5291227711295483617
+      Flying_rocks_animation_76: -2878989400592059259
+      Flying_rocks_animation_77: -4183947289238470319
+      Flying_rocks_animation_8: -3816145522596369485
+      Flying_rocks_animation_9: 2594923104842854619
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
