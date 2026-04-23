@@ -1113,6 +1113,14 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1246737249
       objectReference: {fileID: 0}
+    - target: {fileID: -3839522304848826985, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3839522304848826985, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 929643141
+      objectReference: {fileID: 0}
     - target: {fileID: -3757563222511565753, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
       propertyPath: m_SortingLayer
       value: 2
@@ -1529,6 +1537,14 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -906731339
       objectReference: {fileID: 0}
+    - target: {fileID: 3633541549029219969, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633541549029219969, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 929643141
+      objectReference: {fileID: 0}
     - target: {fileID: 3815651824735459916, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
       propertyPath: m_SortingLayer
       value: 5
@@ -1760,6 +1776,14 @@ PrefabInstance:
     - target: {fileID: 7851747724604606654, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
       propertyPath: m_SortingLayerID
       value: -906731339
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885142643106101617, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885142643106101617, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 929643141
       objectReference: {fileID: 0}
     - target: {fileID: 8595601083294703540, guid: 385e7d483b7015b428f86fc4507be8ce, type: 3}
       propertyPath: m_SortingLayer
