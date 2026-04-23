@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 385e7d483b7015b428f86fc4507be8ce
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings:
+  - Tileset 'Walls_street' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Decorative_cracks' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Objects' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'candles' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Flags_animation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Eater_animation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Lute_player_animation_full' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Flutist_animation_full' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Trader_fruits' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Trader_bread_animation_full' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Trader_magic_animation_full' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Trader_weapon_animation_full' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Trader_drinks_animation_full' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Plants' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'trees' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Houses' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'fishes' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Chicken_animation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'ground_grass_bricks' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Ground_grass_details' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Cow_animation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Water_coasts' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Objects_outside' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'wicket_animation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Road' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Pig_animation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Water_detilazation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'House_exterior' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Windows_doors_animation_no_shadow' is an embedded tileset. Exported
+    tilesets are preferred.
+  - Tileset 'Windows_doors_animation' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Decorative_cracks' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Girl_animation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Smoke_animation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Walls_street' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Flags_animation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Small_boat_v1_1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Boy_weaves' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Fish1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'piles' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Fisherman_boat1_throws' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Fish3' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Windows_doors' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Old_man_idle' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Fish3' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Fish1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Small_boat_v1_1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Boat1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Spots' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Boat2' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Small_boat_v2_1-Sheet' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Small_boat_v1_1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Exterior_tiles' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Water_detilazation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Exterior_objetcs' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Water_detailization1' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Water_coasts' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Small_boat_v1_1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Cobold_on_shark' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Boy_amazed' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Small_boat_v2_1-Sheet' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Small_boat_v1_1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Walls_street' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_eater' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_Drinker1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Windows_doors' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_Drinker1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Exterior' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Exterior_house' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Walls_street' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Doors_windows_animations' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Decorative_cracks' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Walls_street' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Dragon_head' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Exterior' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Dragon_body' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Dragon_wing_animation' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Dragon_tail' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Walls_street' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Dragon_tail' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Doors' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Dragon_body' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Dragon_wing' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Exterior' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Dragon_back' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 26
+  pixelsPerUnit: 16
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 62926
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}

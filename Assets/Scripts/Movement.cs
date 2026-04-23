@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private StaminaSystem StaminaSystem;
 
     private Vector2 movement;
     private Vector2 lastMoveDirection = Vector2.down;
@@ -22,6 +23,7 @@ public class Movement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        StaminaSystem = GetComponent<StaminaSystem>();
     }
 
     public void OnMove(InputValue value)
@@ -39,11 +41,21 @@ public class Movement : MonoBehaviour
             return;
         }
 
-        // Hold Shift to run
-        isRunning = Keyboard.current != null && Keyboard.current.leftShiftKey.isPressed;
-
         Vector2 input = movement.normalized;
         bool isMoving = input != Vector2.zero;
+
+        bool shiftPressed = Keyboard.current != null && Keyboard.current.leftShiftKey.isPressed;
+        
+        if (isMoving && shiftPressed && StaminaSystem != null && StaminaSystem.CanUseStamina(1f))
+        {
+            isRunning = true;
+            StaminaSystem.DrainStaminaOverTime();
+        }
+        else
+        {
+            isRunning = false;
+            if (StaminaSystem != null) StaminaSystem.RegenerateStamina();
+        }
 
         if (isMoving)
         {
@@ -64,7 +76,7 @@ public class Movement : MonoBehaviour
         if (isDead || isHurt) return;
 
         Vector2 input = movement.normalized;
-        float currentSpeed = (isRunning && input != Vector2.zero) ? runSpeed : walkSpeed;
+        float currentSpeed = isRunning ? runSpeed : walkSpeed;
         rb.MovePosition(rb.position + input * currentSpeed * Time.fixedDeltaTime);
     }
 

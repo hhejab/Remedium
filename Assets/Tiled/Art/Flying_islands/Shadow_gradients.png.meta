@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: f50e15c532567544087a8b6bae7eef02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1595577691698483857
+    second: Shadow_gradients_0
+  - first:
+      213: 3854419348344858541
+    second: Shadow_gradients_1
+  - first:
+      213: 8000532689485353237
+    second: Shadow_gradients_2
+  - first:
+      213: 741960057896398447
+    second: Shadow_gradients_3
+  - first:
+      213: -7912782454497442100
+    second: Shadow_gradients_4
+  - first:
+      213: 2581960280068685021
+    second: Shadow_gradients_5
+  - first:
+      213: 8335527034766475410
+    second: Shadow_gradients_6
+  - first:
+      213: 342199015359785882
+    second: Shadow_gradients_7
+  - first:
+      213: 963842027824093147
+    second: Shadow_gradients_8
+  - first:
+      213: 9206459546638582041
+    second: Shadow_gradients_9
+  - first:
+      213: 2808359571889434803
+    second: Shadow_gradients_10
+  - first:
+      213: -1471989816217440165
+    second: Shadow_gradients_11
+  - first:
+      213: 4470456343237212082
+    second: Shadow_gradients_12
+  - first:
+      213: -5933355854148501875
+    second: Shadow_gradients_13
+  - first:
+      213: -6381924028609933621
+    second: Shadow_gradients_14
+  - first:
+      213: -7791979350334223927
+    second: Shadow_gradients_15
+  - first:
+      213: -7263756597310617524
+    second: Shadow_gradients_16
+  - first:
+      213: -1419074957871157597
+    second: Shadow_gradients_17
+  - first:
+      213: -9042037021327520061
+    second: Shadow_gradients_18
+  - first:
+      213: -994504187843911444
+    second: Shadow_gradients_19
+  - first:
+      213: -5926533587928225748
+    second: Shadow_gradients_20
+  - first:
+      213: 1043808778555184515
+    second: Shadow_gradients_21
+  - first:
+      213: -531357751378426113
+    second: Shadow_gradients_22
+  - first:
+      213: -2657291581313273092
+    second: Shadow_gradients_23
+  - first:
+      213: 8128826138930094847
+    second: Shadow_gradients_24
+  - first:
+      213: -1035687478878140779
+    second: Shadow_gradients_25
+  - first:
+      213: 9122532019020784934
+    second: Shadow_gradients_26
+  - first:
+      213: -5156599822552906203
+    second: Shadow_gradients_27
+  - first:
+      213: -5392362347618972686
+    second: Shadow_gradients_28
+  - first:
+      213: -4477138641313522913
+    second: Shadow_gradients_29
+  - first:
+      213: -670723197721836818
+    second: Shadow_gradients_30
+  - first:
+      213: 7297446241035615529
+    second: Shadow_gradients_31
+  - first:
+      213: -7216597253009548456
+    second: Shadow_gradients_32
+  - first:
+      213: -5023751894221144549
+    second: Shadow_gradients_33
+  - first:
+      213: 6363890575141726256
+    second: Shadow_gradients_34
+  - first:
+      213: 8304130043533327533
+    second: Shadow_gradients_35
+  - first:
+      213: -854160370011792046
+    second: Shadow_gradients_36
+  - first:
+      213: 3573881996171273891
+    second: Shadow_gradients_37
+  - first:
+      213: -957045301599449495
+    second: Shadow_gradients_38
+  - first:
+      213: 8306756663007781341
+    second: Shadow_gradients_39
+  - first:
+      213: 6579356800615752708
+    second: Shadow_gradients_40
+  - first:
+      213: 2149828855972396203
+    second: Shadow_gradients_41
+  - first:
+      213: -8444034407076307790
+    second: Shadow_gradients_42
+  - first:
+      213: 4199316054776514276
+    second: Shadow_gradients_43
+  - first:
+      213: 7131673850100688362
+    second: Shadow_gradients_44
+  - first:
+      213: -4455728114261488279
+    second: Shadow_gradients_45
+  - first:
+      213: -9135263889916496084
+    second: Shadow_gradients_46
+  - first:
+      213: -4235823585253367247
+    second: Shadow_gradients_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shadow_gradients_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 357
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192d935f471a42610800000000000000
+      internalID: 1595577691698483857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 351
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7ec79c9f5ad7530800000000000000
+      internalID: 3854419348344858541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 359
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511dcaaa71a970f60800000000000000
+      internalID: 8000532689485353237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 351
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e6178ddb8fb4a00800000000000000
+      internalID: 741960057896398447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_4
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 355
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc68cb60846203290800000000000000
+      internalID: -7912782454497442100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 351
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc79a5e137f4d320800000000000000
+      internalID: 2581960280068685021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 317
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290cbe2bcadbda370800000000000000
+      internalID: 8335527034766475410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 303
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b2201013cbfb400800000000000000
+      internalID: 342199015359785882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 303
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd71c08b731406d00800000000000000
+      internalID: 963842027824093147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 303
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91185640e2ae3cf70800000000000000
+      internalID: 9206459546638582041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_10
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 298
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0b90cb62c49f620800000000000000
+      internalID: 2808359571889434803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 303
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50fd53af01729be0800000000000000
+      internalID: -1471989816217440165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 261
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7bb82db504a0e30800000000000000
+      internalID: 4470456343237212082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e7e73794c78ada0800000000000000
+      internalID: -5933355854148501875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 263
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcecc2ba8e9de67a0800000000000000
+      internalID: -6381924028609933621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 255
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9462680145dd390800000000000000
+      internalID: -7791979350334223927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 259
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48866a1cd3f13b90800000000000000
+      internalID: -7263756597310617524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 255
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aeef6a28de6e4ce0800000000000000
+      internalID: -1419074957871157597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 223
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce87d16c3b348280800000000000000
+      internalID: -9042037021327520061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 207
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0ece3d5bfc232f0800000000000000
+      internalID: -994504187843911444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 207
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28ed161a19b0cda0800000000000000
+      internalID: -5926533587928225748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 207
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3855733cd8a5c7e00800000000000000
+      internalID: 1043808778555184515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 218
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6407cb0fc30a8f0800000000000000
+      internalID: -531357751378426113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_23
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 207
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2bf2fb2676f1bd0800000000000000
+      internalID: -2657291581313273092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 165
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2a6d31e446fc070800000000000000
+      internalID: 8128826138930094847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 159
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596062ba9bf70a1f0800000000000000
+      internalID: -1035687478878140779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 167
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6256cddb98eb99e70800000000000000
+      internalID: 9122532019020784934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52644ef38c31078b0800000000000000
+      internalID: -5156599822552906203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_28
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 163
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbcaf9c30b7a25b0800000000000000
+      internalID: -5392362347618972686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_29
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b155a60220ed1c0800000000000000
+      internalID: -4477138641313522913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 125
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee20d292ecc11b6f0800000000000000
+      internalID: -670723197721836818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_31
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 111
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92dff6451bcb54560800000000000000
+      internalID: 7297446241035615529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_32
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b5e47980f79db90800000000000000
+      internalID: -7216597253009548456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1eb049e44c084ab0800000000000000
+      internalID: -5023751894221144549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 106
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03867c0c2c4115850800000000000000
+      internalID: 6363890575141726256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_35
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacf37507423e3370800000000000000
+      internalID: 8304130043533327533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 69
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d1b344ba96524f0800000000000000
+      internalID: -854160370011792046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 63
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6e3f28dbaf89130800000000000000
+      internalID: 3573881996171273891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_38
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 71
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e453c6e54e7b2f0800000000000000
+      internalID: -957045301599449495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_39
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd120368c27874370800000000000000
+      internalID: 8306756663007781341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_40
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 67
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404a047b6229e4b50800000000000000
+      internalID: 6579356800615752708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_41
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac7e1844f9b5dd10800000000000000
+      internalID: 2149828855972396203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc5a07f173c0da80800000000000000
+      internalID: -8444034407076307790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_43
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e68c80f3b7f64a30800000000000000
+      internalID: 4199316054776514276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_44
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 15
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5a139d49bc8f260800000000000000
+      internalID: 7131673850100688362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_45
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 15
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d09b533e21a22c0800000000000000
+      internalID: -4455728114261488279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_46
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 26
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27f21094e5093180800000000000000
+      internalID: -9135263889916496084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_gradients_47
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 15
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13260cd34e45735c0800000000000000
+      internalID: -4235823585253367247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shadow_gradients_0: 1595577691698483857
+      Shadow_gradients_1: 3854419348344858541
+      Shadow_gradients_10: 2808359571889434803
+      Shadow_gradients_11: -1471989816217440165
+      Shadow_gradients_12: 4470456343237212082
+      Shadow_gradients_13: -5933355854148501875
+      Shadow_gradients_14: -6381924028609933621
+      Shadow_gradients_15: -7791979350334223927
+      Shadow_gradients_16: -7263756597310617524
+      Shadow_gradients_17: -1419074957871157597
+      Shadow_gradients_18: -9042037021327520061
+      Shadow_gradients_19: -994504187843911444
+      Shadow_gradients_2: 8000532689485353237
+      Shadow_gradients_20: -5926533587928225748
+      Shadow_gradients_21: 1043808778555184515
+      Shadow_gradients_22: -531357751378426113
+      Shadow_gradients_23: -2657291581313273092
+      Shadow_gradients_24: 8128826138930094847
+      Shadow_gradients_25: -1035687478878140779
+      Shadow_gradients_26: 9122532019020784934
+      Shadow_gradients_27: -5156599822552906203
+      Shadow_gradients_28: -5392362347618972686
+      Shadow_gradients_29: -4477138641313522913
+      Shadow_gradients_3: 741960057896398447
+      Shadow_gradients_30: -670723197721836818
+      Shadow_gradients_31: 7297446241035615529
+      Shadow_gradients_32: -7216597253009548456
+      Shadow_gradients_33: -5023751894221144549
+      Shadow_gradients_34: 6363890575141726256
+      Shadow_gradients_35: 8304130043533327533
+      Shadow_gradients_36: -854160370011792046
+      Shadow_gradients_37: 3573881996171273891
+      Shadow_gradients_38: -957045301599449495
+      Shadow_gradients_39: 8306756663007781341
+      Shadow_gradients_4: -7912782454497442100
+      Shadow_gradients_40: 6579356800615752708
+      Shadow_gradients_41: 2149828855972396203
+      Shadow_gradients_42: -8444034407076307790
+      Shadow_gradients_43: 4199316054776514276
+      Shadow_gradients_44: 7131673850100688362
+      Shadow_gradients_45: -4455728114261488279
+      Shadow_gradients_46: -9135263889916496084
+      Shadow_gradients_47: -4235823585253367247
+      Shadow_gradients_5: 2581960280068685021
+      Shadow_gradients_6: 8335527034766475410
+      Shadow_gradients_7: 342199015359785882
+      Shadow_gradients_8: 963842027824093147
+      Shadow_gradients_9: 9206459546638582041
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

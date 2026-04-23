@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: a2a066bb2ec5c0048a699f8e968bcc88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4083690434314713335
+    second: Citizen5_Idle_without_shadow - Copy_0
+  - first:
+      213: 4122178793644059496
+    second: Citizen5_Idle_without_shadow - Copy_1
+  - first:
+      213: -504612927629340658
+    second: Citizen5_Idle_without_shadow - Copy_2
+  - first:
+      213: -7853375842225498941
+    second: Citizen5_Idle_without_shadow - Copy_3
+  - first:
+      213: 8667813705813714554
+    second: Citizen5_Idle_without_shadow - Copy_4
+  - first:
+      213: -2881241415217193253
+    second: Citizen5_Idle_without_shadow - Copy_5
+  - first:
+      213: 3224127102385118886
+    second: Citizen5_Idle_without_shadow - Copy_6
+  - first:
+      213: -6743725409585954057
+    second: Citizen5_Idle_without_shadow - Copy_7
+  - first:
+      213: 4473670213996249907
+    second: Citizen5_Idle_without_shadow - Copy_8
+  - first:
+      213: -4682273544480191847
+    second: Citizen5_Idle_without_shadow - Copy_9
+  - first:
+      213: -1045388651813744071
+    second: Citizen5_Idle_without_shadow - Copy_10
+  - first:
+      213: 8818067237940686041
+    second: Citizen5_Idle_without_shadow - Copy_11
+  - first:
+      213: -8966159960176757163
+    second: Citizen5_Idle_without_shadow - Copy_12
+  - first:
+      213: 328063764929957614
+    second: Citizen5_Idle_without_shadow - Copy_13
+  - first:
+      213: 559777379389982012
+    second: Citizen5_Idle_without_shadow - Copy_14
+  - first:
+      213: -6267891158801748474
+    second: Citizen5_Idle_without_shadow - Copy_15
+  - first:
+      213: -3921229192572020988
+    second: Citizen5_Idle_without_shadow - Copy_16
+  - first:
+      213: -2461597160855342471
+    second: Citizen5_Idle_without_shadow - Copy_17
+  - first:
+      213: -744682999289168622
+    second: Citizen5_Idle_without_shadow - Copy_18
+  - first:
+      213: -6353031375051147349
+    second: Citizen5_Idle_without_shadow - Copy_19
+  - first:
+      213: 9159411780701128038
+    second: Citizen5_Idle_without_shadow - Copy_20
+  - first:
+      213: -2072428484977010489
+    second: Citizen5_Idle_without_shadow - Copy_21
+  - first:
+      213: 5854221854628578313
+    second: Citizen5_Idle_without_shadow - Copy_22
+  - first:
+      213: -5699875592487263512
+    second: Citizen5_Idle_without_shadow - Copy_23
+  - first:
+      213: 5934706712550152388
+    second: Citizen5_Idle_without_shadow - Copy_24
+  - first:
+      213: -2711156251708177248
+    second: Citizen5_Idle_without_shadow - Copy_25
+  - first:
+      213: 4280123927576562442
+    second: Citizen5_Idle_without_shadow - Copy_26
+  - first:
+      213: 580682960085067425
+    second: Citizen5_Idle_without_shadow - Copy_27
+  - first:
+      213: -4504071747476091908
+    second: Citizen5_Idle_without_shadow - Copy_28
+  - first:
+      213: 1147967838214918778
+    second: Citizen5_Idle_without_shadow - Copy_29
+  - first:
+      213: -5546718822892438335
+    second: Citizen5_Idle_without_shadow - Copy_30
+  - first:
+      213: 4713816183645586364
+    second: Citizen5_Idle_without_shadow - Copy_31
+  - first:
+      213: -2206270325685598997
+    second: Citizen5_Idle_without_shadow - Copy_32
+  - first:
+      213: 8604318761146661124
+    second: Citizen5_Idle_without_shadow - Copy_33
+  - first:
+      213: -4640757272848111581
+    second: Citizen5_Idle_without_shadow - Copy_34
+  - first:
+      213: 3882551536134122344
+    second: Citizen5_Idle_without_shadow - Copy_35
+  - first:
+      213: -1893067870511531352
+    second: Citizen5_Idle_without_shadow - Copy_36
+  - first:
+      213: -8378294022342033217
+    second: Citizen5_Idle_without_shadow - Copy_37
+  - first:
+      213: -116068293641711611
+    second: Citizen5_Idle_without_shadow - Copy_38
+  - first:
+      213: 319953001948058330
+    second: Citizen5_Idle_without_shadow - Copy_39
+  - first:
+      213: -6087911443996699023
+    second: Citizen5_Idle_without_shadow - Copy_40
+  - first:
+      213: 1296798315401421008
+    second: Citizen5_Idle_without_shadow - Copy_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f83dfd40de2ca830800000000000000
+      internalID: 4083690434314713335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b6dc7c5cbe43930800000000000000
+      internalID: 4122178793644059496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00559347314ff8f0800000000000000
+      internalID: -504612927629340658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4d38cc744330390800000000000000
+      internalID: -7853375842225498941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76e94234a24a4870800000000000000
+      internalID: 8667813705813714554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bded5d5c236c308d0800000000000000
+      internalID: -2881241415217193253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aedf5874866ebc20800000000000000
+      internalID: 3224127102385118886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 99
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f28ad248797962a0800000000000000
+      internalID: -6743725409585954057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 99
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3330e7b6b5ba51e30800000000000000
+      internalID: 4473670213996249907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 99
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a8c00e409350fb0800000000000000
+      internalID: -4682273544480191847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932da645f880e71f0800000000000000
+      internalID: -1045388651813744071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dce6face61106a70800000000000000
+      internalID: 8818067237940686041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556755e550dc19380800000000000000
+      internalID: -8966159960176757163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeec35c81448d8400800000000000000
+      internalID: 328063764929957614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35c6db8f8ab4c700800000000000000
+      internalID: 559777379389982012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e6fc4233af309a0800000000000000
+      internalID: -6267891158801748474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4075add23def499c0800000000000000
+      internalID: -3921229192572020988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9727b1f9c66a6ddd0800000000000000
+      internalID: -2461597160855342471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21db815f1ca5aa5f0800000000000000
+      internalID: -744682999289168622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba73a2bcf9f75d7a0800000000000000
+      internalID: -6353031375051147349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 67
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66508346c74cc1f70800000000000000
+      internalID: 9159411780701128038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 67
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c85b8ae5414d33e0800000000000000
+      internalID: -2072428484977010489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904077182cf5e3150800000000000000
+      internalID: 5854221854628578313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2a0ed0959f5e0b0800000000000000
+      internalID: -5699875592487263512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c89da7cf405c5250800000000000000
+      internalID: 5934706712550152388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4ca5ed0c9006ad0800000000000000
+      internalID: -2711156251708177248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bc9d9f80e066b30800000000000000
+      internalID: 4280123927576562442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a62efa53100f0800800000000000000
+      internalID: 580682960085067425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb80d8fb925e71c0800000000000000
+      internalID: -4504071747476091908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a729f5aaaa66eef00800000000000000
+      internalID: 1147967838214918778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccf58c4e981603b0800000000000000
+      internalID: -5546718822892438335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3ceaa18d6da6140800000000000000
+      internalID: 4713816183645586364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 35
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4460ff3d0c161e0800000000000000
+      internalID: -2206270325685598997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_33
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 35
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409306c535ea86770800000000000000
+      internalID: 8604318761146661124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328e31f19d7b89fb0800000000000000
+      internalID: -4640757272848111581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 35
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86beb6d2d0891e530800000000000000
+      internalID: 3882551536134122344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa747a3dc87ab5e0800000000000000
+      internalID: -1893067870511531352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0468e0af15abb80800000000000000
+      internalID: -8378294022342033217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500dccb7084a36ef0800000000000000
+      internalID: -116068293641711611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad21fe16f83b07400800000000000000
+      internalID: 319953001948058330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_40
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1769a8cfbc4638ba0800000000000000
+      internalID: -6087911443996699023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Citizen5_Idle_without_shadow - Copy_41
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0a3d672372ff110800000000000000
+      internalID: 1296798315401421008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Citizen5_Idle_without_shadow - Copy_0: 4083690434314713335
+      Citizen5_Idle_without_shadow - Copy_1: 4122178793644059496
+      Citizen5_Idle_without_shadow - Copy_10: -1045388651813744071
+      Citizen5_Idle_without_shadow - Copy_11: 8818067237940686041
+      Citizen5_Idle_without_shadow - Copy_12: -8966159960176757163
+      Citizen5_Idle_without_shadow - Copy_13: 328063764929957614
+      Citizen5_Idle_without_shadow - Copy_14: 559777379389982012
+      Citizen5_Idle_without_shadow - Copy_15: -6267891158801748474
+      Citizen5_Idle_without_shadow - Copy_16: -3921229192572020988
+      Citizen5_Idle_without_shadow - Copy_17: -2461597160855342471
+      Citizen5_Idle_without_shadow - Copy_18: -744682999289168622
+      Citizen5_Idle_without_shadow - Copy_19: -6353031375051147349
+      Citizen5_Idle_without_shadow - Copy_2: -504612927629340658
+      Citizen5_Idle_without_shadow - Copy_20: 9159411780701128038
+      Citizen5_Idle_without_shadow - Copy_21: -2072428484977010489
+      Citizen5_Idle_without_shadow - Copy_22: 5854221854628578313
+      Citizen5_Idle_without_shadow - Copy_23: -5699875592487263512
+      Citizen5_Idle_without_shadow - Copy_24: 5934706712550152388
+      Citizen5_Idle_without_shadow - Copy_25: -2711156251708177248
+      Citizen5_Idle_without_shadow - Copy_26: 4280123927576562442
+      Citizen5_Idle_without_shadow - Copy_27: 580682960085067425
+      Citizen5_Idle_without_shadow - Copy_28: -4504071747476091908
+      Citizen5_Idle_without_shadow - Copy_29: 1147967838214918778
+      Citizen5_Idle_without_shadow - Copy_3: -7853375842225498941
+      Citizen5_Idle_without_shadow - Copy_30: -5546718822892438335
+      Citizen5_Idle_without_shadow - Copy_31: 4713816183645586364
+      Citizen5_Idle_without_shadow - Copy_32: -2206270325685598997
+      Citizen5_Idle_without_shadow - Copy_33: 8604318761146661124
+      Citizen5_Idle_without_shadow - Copy_34: -4640757272848111581
+      Citizen5_Idle_without_shadow - Copy_35: 3882551536134122344
+      Citizen5_Idle_without_shadow - Copy_36: -1893067870511531352
+      Citizen5_Idle_without_shadow - Copy_37: -8378294022342033217
+      Citizen5_Idle_without_shadow - Copy_38: -116068293641711611
+      Citizen5_Idle_without_shadow - Copy_39: 319953001948058330
+      Citizen5_Idle_without_shadow - Copy_4: 8667813705813714554
+      Citizen5_Idle_without_shadow - Copy_40: -6087911443996699023
+      Citizen5_Idle_without_shadow - Copy_41: 1296798315401421008
+      Citizen5_Idle_without_shadow - Copy_5: -2881241415217193253
+      Citizen5_Idle_without_shadow - Copy_6: 3224127102385118886
+      Citizen5_Idle_without_shadow - Copy_7: -6743725409585954057
+      Citizen5_Idle_without_shadow - Copy_8: 4473670213996249907
+      Citizen5_Idle_without_shadow - Copy_9: -4682273544480191847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 9dea7c1f27bf93c4c94291d89a386d1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3898137344278716998
+    second: Flags_animation - Copy_0
+  - first:
+      213: -4791927160533197510
+    second: Flags_animation - Copy_1
+  - first:
+      213: 3541589533943818898
+    second: Flags_animation - Copy_2
+  - first:
+      213: -3110106535566399653
+    second: Flags_animation - Copy_3
+  - first:
+      213: 3608198292484411779
+    second: Flags_animation - Copy_4
+  - first:
+      213: 7632310022480619713
+    second: Flags_animation - Copy_5
+  - first:
+      213: 3563474979178272418
+    second: Flags_animation - Copy_6
+  - first:
+      213: -144199103393657126
+    second: Flags_animation - Copy_7
+  - first:
+      213: -2164603671756990068
+    second: Flags_animation - Copy_8
+  - first:
+      213: -7673356929717684902
+    second: Flags_animation - Copy_9
+  - first:
+      213: -2835986251891952061
+    second: Flags_animation - Copy_10
+  - first:
+      213: -8114184214358713934
+    second: Flags_animation - Copy_11
+  - first:
+      213: -6343084167956854220
+    second: Flags_animation - Copy_12
+  - first:
+      213: -197921955341675433
+    second: Flags_animation - Copy_13
+  - first:
+      213: 7920875089192368145
+    second: Flags_animation - Copy_14
+  - first:
+      213: -807130092175299844
+    second: Flags_animation - Copy_15
+  - first:
+      213: 5776814741143838499
+    second: Flags_animation - Copy_16
+  - first:
+      213: 3219549023611710266
+    second: Flags_animation - Copy_17
+  - first:
+      213: -1498684414462463673
+    second: Flags_animation - Copy_18
+  - first:
+      213: 4666642978101309368
+    second: Flags_animation - Copy_19
+  - first:
+      213: -6401327364753721069
+    second: Flags_animation - Copy_20
+  - first:
+      213: 4372576285217669629
+    second: Flags_animation - Copy_21
+  - first:
+      213: -3996382013597397216
+    second: Flags_animation - Copy_22
+  - first:
+      213: -4945611316198055158
+    second: Flags_animation - Copy_23
+  - first:
+      213: 390679207517175753
+    second: Flags_animation - Copy_24
+  - first:
+      213: -1013535454701436
+    second: Flags_animation - Copy_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flags_animation - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd15941db807e9c0800000000000000
+      internalID: -3898137344278716998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 26
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d5fded2a7af7db0800000000000000
+      internalID: -4791927160533197510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 351
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a66febae0462130800000000000000
+      internalID: 3541589533943818898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 33
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57a1fd759ea6d4d0800000000000000
+      internalID: -3110106535566399653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38154beda35e21230800000000000000
+      internalID: 3608198292484411779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 319
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c86c9917896be960800000000000000
+      internalID: 7632310022480619713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6d9eb0d91047130800000000000000
+      internalID: 3563474979178272418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 287
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade8a41fda3bffdf0800000000000000
+      internalID: -144199103393657126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c891b69dd68c5f1e0800000000000000
+      internalID: -2164603671756990068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 255
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5535611782c28590800000000000000
+      internalID: -7673356929717684902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346b614978d84a8d0800000000000000
+      internalID: -2835986251891952061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 223
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b91115a270a46f80800000000000000
+      internalID: -8114184214358713934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a078c6e86d8f7a0800000000000000
+      internalID: -6343084167956854220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 191
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754db9eb707d04df0800000000000000
+      internalID: -197921955341675433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1183d815de99ced60800000000000000
+      internalID: 7920875089192368145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 159
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaec50257f7cc4f0800000000000000
+      internalID: -807130092175299844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f5e13766e5b2050800000000000000
+      internalID: 5776814741143838499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 127
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3be45177c22eac20800000000000000
+      internalID: 3219549023611710266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741fc85277a933be0800000000000000
+      internalID: -1498684414462463673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 95
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfac4b401f33c040800000000000000
+      internalID: 4666642978101309368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319fddc6daae927a0800000000000000
+      internalID: -6401327364753721069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 63
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df142b9e6f28eac30800000000000000
+      internalID: 4372576285217669629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f44cc7bbff988c0800000000000000
+      internalID: -3996382013597397216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 31
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03ecdcf5b8ad5bb0800000000000000
+      internalID: -4945611316198055158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf31395ba8fb6500800000000000000
+      internalID: 390679207517175753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flags_animation - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4885143e1366cfff0800000000000000
+      internalID: -1013535454701436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flags_animation - Copy_0: -3898137344278716998
+      Flags_animation - Copy_1: -4791927160533197510
+      Flags_animation - Copy_10: -2835986251891952061
+      Flags_animation - Copy_11: -8114184214358713934
+      Flags_animation - Copy_12: -6343084167956854220
+      Flags_animation - Copy_13: -197921955341675433
+      Flags_animation - Copy_14: 7920875089192368145
+      Flags_animation - Copy_15: -807130092175299844
+      Flags_animation - Copy_16: 5776814741143838499
+      Flags_animation - Copy_17: 3219549023611710266
+      Flags_animation - Copy_18: -1498684414462463673
+      Flags_animation - Copy_19: 4666642978101309368
+      Flags_animation - Copy_2: 3541589533943818898
+      Flags_animation - Copy_20: -6401327364753721069
+      Flags_animation - Copy_21: 4372576285217669629
+      Flags_animation - Copy_22: -3996382013597397216
+      Flags_animation - Copy_23: -4945611316198055158
+      Flags_animation - Copy_24: 390679207517175753
+      Flags_animation - Copy_25: -1013535454701436
+      Flags_animation - Copy_3: -3110106535566399653
+      Flags_animation - Copy_4: 3608198292484411779
+      Flags_animation - Copy_5: 7632310022480619713
+      Flags_animation - Copy_6: 3563474979178272418
+      Flags_animation - Copy_7: -144199103393657126
+      Flags_animation - Copy_8: -2164603671756990068
+      Flags_animation - Copy_9: -7673356929717684902
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

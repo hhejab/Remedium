@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a8556268514475a47876742dad38c2d8
+guid: 59e65facbf83fb140b7796fe18042e46
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,18 +8,20 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
-  missingFiles: []
-  errors: []
+  missingFiles:
+  - Tileset/cracked_tiles.tsx
+  errors:
+  - 'Missing tileset asset: Tileset/cracked_tiles.tsx'
   warnings: []
   missingSortingLayers: []
   missingLayers: []
   missingTags: []
   importerVersion: 26
-  pixelsPerUnit: 16
+  pixelsPerUnit: 100
   edgesPerEllipse: 32
   numberOfObjectsImported: 2
   tilesAsObjects: 0
-  sortingMode: 1
+  sortingMode: 0
   isIsometric: 0
   customImporterClassName: 
   internalTilesets: []
