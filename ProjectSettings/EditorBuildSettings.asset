@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Persistent.unity
     guid: 6dc606bade716cf44801347be7bd60ac
   - enabled: 1
-    path: Assets/Scenes/Worldmap/Village-Prototype.unity
+    path: Assets/Scenes/Worldmap/Village.unity
     guid: eeed5220ebbb87042a7037c51b398923
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 99f9c9493070a9d4c979a8fec7c5a8d3, type: 2}
