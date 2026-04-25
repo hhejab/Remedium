@@ -5,29 +5,9 @@ public class PlayerInteraction : MonoBehaviour
 {
     private IInteractable currentInteractable;
 
-    public void OnInteract(InputValue value)
-    {
-        if (!value.isPressed) return;
-
-        Debug.Log("Interact pressed");
-
-        if (currentInteractable != null)
-        {
-            Debug.Log("Calling interact on: " + ((MonoBehaviour)currentInteractable).name);
-            currentInteractable.Interact();
-        }
-        else
-        {
-            Debug.Log("No interactable found");
-        }
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Entered trigger: " + other.name);
-
-        IInteractable interactable = other.GetComponent<IInteractable>();
-        if (interactable != null)
+        if (other.TryGetComponent<IInteractable>(out var interactable))
         {
             currentInteractable = interactable;
             Debug.Log("Interactable found: " + other.name);
@@ -36,12 +16,20 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("Exited trigger: " + other.name);
-
-        IInteractable interactable = other.GetComponent<IInteractable>();
-        if (interactable != null && currentInteractable == interactable)
+        if (other.TryGetComponent<IInteractable>(out var interactable))
         {
-            currentInteractable = null;
+            if (currentInteractable == interactable)
+                currentInteractable = null;
         }
     }
+
+ public void OnInteract(InputValue value)
+{
+    if (!value.isPressed) return;
+
+    Debug.Log("E pressed");
+
+    if (currentInteractable != null)
+        currentInteractable.Interact();
+}
 }
