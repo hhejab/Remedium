@@ -11,9 +11,16 @@ public class PlayerInventory : MonoBehaviour
 
     void Update()
     {
-        if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame && closeItem != null)
+        if (Keyboard.current == null) return;
+
+        if (Keyboard.current.eKey.wasPressedThisFrame && closeItem != null)
         {
             AddToHotbar(closeItem);
+        }
+
+        if (Keyboard.current.qKey.wasPressedThisFrame)
+        {
+            DropFirstItem();
         }
     }
 
@@ -31,22 +38,31 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
-    public void RemoveFromHotbar(int slotIndex)
+    
+          void DropFirstItem()
     {
-        if (hotbarSlots[slotIndex].sprite != null)
+        for (int i = 0; i < hotbarSlots.Count; i++)
         {
-            Vector3 dropPosition = transform.position + (Vector3)Random.insideUnitCircle * 1.5f;
-            GameObject droppedWeapon = Instantiate(weaponPrefab, dropPosition, Quaternion.identity);
-            
-            Sprite currentSprite = hotbarSlots[slotIndex].sprite;
-            droppedWeapon.GetComponent<SpriteRenderer>().sprite = currentSprite;
-            droppedWeapon.GetComponent<Item>().itemIcon = currentSprite;
-            droppedWeapon.name = "DroppedItem"; 
+            if (hotbarSlots[i].sprite != null && hotbarSlots[i].color.a > 0)
+            {
+                Vector3 dropPosition = transform.position + (Vector3)Random.insideUnitCircle * 1.5f;
+                GameObject droppedWeapon = Instantiate(weaponPrefab, dropPosition, Quaternion.identity);
+                
+                droppedWeapon.transform.localScale = Vector3.one; 
 
-            hotbarSlots[slotIndex].sprite = null;
-            hotbarSlots[slotIndex].color = new Color(1, 1, 1, 0);
+                Item newItemScript = droppedWeapon.GetComponent<Item>();
+                if (newItemScript != null)
+                {
+                    newItemScript.itemIcon = hotbarSlots[i].sprite;
+                }
+
+                hotbarSlots[i].sprite = null;
+                hotbarSlots[i].color = new Color(1, 1, 1, 0);
+                return; 
+            }
         }
     }
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -64,3 +80,4 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 }
+
