@@ -30,7 +30,11 @@ Material:
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
     - _OutlineSoftness: 0
+<<<<<<< Updated upstream
     - _OutlineWidth: 0
+=======
+    - _OutlineWidth: 0.25
+>>>>>>> Stashed changes
     - _PerspectiveFilter: 0.875
     - _ScaleRatioA: 0.9
     - _ScaleRatioB: 1
