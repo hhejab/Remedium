@@ -1,0 +1,66 @@
+fileFormatVersion: 2
+guid: 6c7d221f7be291b4f9a973906e18219c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings:
+  - Tileset 'Water_coasts_animation' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Water_detilazation' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'walls_floor' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Arches_columns' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'plates' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'stairs' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'candles' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'torches' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'scull_bas-relief' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Spikes' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'doors' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'chest_lever' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'ghost_trap' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'dragon_trap' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'column_trap' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'plate_trap' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Statue_fire' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'coffins' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'other_objects' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'other_objects' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 26
+  pixelsPerUnit: 16
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 16076
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
