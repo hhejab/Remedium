@@ -6,6 +6,15 @@ public class PlayerCombat : MonoBehaviour
 {
     private Animator anim;
     private Rigidbody2D rb;
+    
+    [Header("Combat Settings")]
+    [Tooltip("Seconds between allowed attacks (matches attack animation length)")]
+    public float attackCooldown = 1f;
+
+    private float lastAttackTime = -Mathf.Infinity;
+    
+    [Tooltip("Seconds after clicking before the hitbox becomes active (timing of the strike)")]
+    public float hitDelay = 0.5f;
 
     [Header("Hitboxes (Assign in Inspector)")]
     public GameObject hitboxUp;
@@ -29,6 +38,10 @@ public class PlayerCombat : MonoBehaviour
 
     void PerformAttack()
     {
+        // Enforce cooldown so the player can only attack once per animation
+        if (Time.time - lastAttackTime < attackCooldown) return;
+        lastAttackTime = Time.time;
+
         bool isMoving = rb.linearVelocity.magnitude > 0.1f;
 
         if (isMoving) anim.SetTrigger("isWalkAttacking");
@@ -52,12 +65,13 @@ public class PlayerCombat : MonoBehaviour
 
         if (activeHitbox != null)
         {
-            StartCoroutine(ActivateHitbox(activeHitbox));
+            StartCoroutine(ActivateHitbox(activeHitbox, hitDelay));
         }
     }
 
-    IEnumerator ActivateHitbox(GameObject hitbox)
+    IEnumerator ActivateHitbox(GameObject hitbox, float delayBeforeActivate)
     {
+        if (delayBeforeActivate > 0f) yield return new WaitForSeconds(delayBeforeActivate);
         hitbox.SetActive(true);
         yield return new WaitForSeconds(0.2f); // Swing duration
         hitbox.SetActive(false);
