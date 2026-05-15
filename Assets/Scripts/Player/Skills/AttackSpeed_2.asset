@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 947a891c9082e2049b6304aca78df99c, type: 3}
+  m_Name: AttackSpeed_2
+  m_EditorClassIdentifier: 
+  skillName: AttackSpeed 2
+  description: 
+  cost: 5
+  statType: 0
+  upgradeAmount: 0.47
+  requiredSkill: {fileID: 11400000, guid: c2033817a6988394c96a51e2493e45c1, type: 2}
+  icon: {fileID: 2595283304235450022, guid: ebef802ee63f5874e80ac3e5f48b9aa8, type: 3}
