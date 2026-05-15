@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 6098db22633a8534ab73dc73fe06896a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6558124050200205132
+    second: RemediumBlackGreen Atlas_0
+  - first:
+      213: -1639113525031411006
+    second: RemediumBlackGreen Atlas_1
+  - first:
+      213: 2884639899266638263
+    second: RemediumBlackGreen Atlas_2
+  - first:
+      213: 2178645872813513839
+    second: RemediumBlackGreen Atlas_3
+  - first:
+      213: 4021133306569055944
+    second: RemediumBlackGreen Atlas_4
+  - first:
+      213: 7742521728953566368
+    second: RemediumBlackGreen Atlas_5
+  - first:
+      213: 4209939298320362942
+    second: RemediumBlackGreen Atlas_6
+  - first:
+      213: 1455524299924183199
+    second: RemediumBlackGreen Atlas_7
+  - first:
+      213: 195843699664052112
+    second: RemediumBlackGreen Atlas_8
+  - first:
+      213: -991090901455691363
+    second: RemediumBlackGreen Atlas_9
+  - first:
+      213: -1873886322952564076
+    second: RemediumBlackGreen Atlas_10
+  - first:
+      213: 7960768240127053756
+    second: RemediumBlackGreen Atlas_11
+  - first:
+      213: -5324014498108265014
+    second: RemediumBlackGreen Atlas_12
+  - first:
+      213: -1800171584393313251
+    second: RemediumBlackGreen Atlas_13
+  - first:
+      213: -5901940811748162800
+    second: RemediumBlackGreen Atlas_14
+  - first:
+      213: -1061529971537148516
+    second: RemediumBlackGreen Atlas_15
+  - first:
+      213: 8998993600290187201
+    second: RemediumBlackGreen Atlas_16
+  - first:
+      213: -4840535258220670219
+    second: RemediumBlackGreen Atlas_17
+  - first:
+      213: 4165537103209049344
+    second: RemediumBlackGreen Atlas_18
+  - first:
+      213: -6565480544970122
+    second: RemediumBlackGreen Atlas_19
+  - first:
+      213: -3708250156540165627
+    second: RemediumBlackGreen Atlas_20
+  - first:
+      213: -2920744617557485197
+    second: RemediumBlackGreen Atlas_21
+  - first:
+      213: 8403839025744435529
+    second: RemediumBlackGreen Atlas_22
+  - first:
+      213: 536431921855529429
+    second: RemediumBlackGreen Atlas_23
+  - first:
+      213: -436308500112246943
+    second: RemediumBlackGreen Atlas_24
+  - first:
+      213: -8801675262613895286
+    second: RemediumBlackGreen Atlas_25
+  - first:
+      213: -4758282475514845747
+    second: RemediumBlackGreen Atlas_26
+  - first:
+      213: -2409869865780613387
+    second: RemediumBlackGreen Atlas_27
+  - first:
+      213: -4966814050258884954
+    second: RemediumBlackGreen Atlas_28
+  - first:
+      213: 7452157656269011264
+    second: RemediumBlackGreen Atlas_29
+  - first:
+      213: -1293339127329822964
+    second: RemediumBlackGreen Atlas_30
+  - first:
+      213: -6439959724999083886
+    second: RemediumBlackGreen Atlas_31
+  - first:
+      213: 4420037306259721951
+    second: RemediumBlackGreen Atlas_32
+  - first:
+      213: -2183117115634817360
+    second: RemediumBlackGreen Atlas_33
+  - first:
+      213: -534927277051410731
+    second: RemediumBlackGreen Atlas_34
+  - first:
+      213: -7589064938264510935
+    second: RemediumBlackGreen Atlas_35
+  - first:
+      213: -7312690503137974145
+    second: RemediumBlackGreen Atlas_36
+  - first:
+      213: -6213910060330942991
+    second: RemediumBlackGreen Atlas_37
+  - first:
+      213: 627894476933557984
+    second: RemediumBlackGreen Atlas_38
+  - first:
+      213: 6356621506226657698
+    second: RemediumBlackGreen Atlas_39
+  - first:
+      213: -32365457876828079
+    second: RemediumBlackGreen Atlas_40
+  - first:
+      213: -3583946681991168968
+    second: RemediumBlackGreen Atlas_41
+  - first:
+      213: -7302002808148669933
+    second: RemediumBlackGreen Atlas_42
+  - first:
+      213: 5156114599290137489
+    second: RemediumBlackGreen Atlas_43
+  - first:
+      213: 5192457291896100896
+    second: RemediumBlackGreen Atlas_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8eeda3cecdcf4a0800000000000000
+      internalID: -6558124050200205132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 108
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2e6f1fee2b049e0800000000000000
+      internalID: -1639113525031411006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 114
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1e4b474bc480820800000000000000
+      internalID: 2884639899266638263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 108
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c9b6cd0ea1c3e10800000000000000
+      internalID: 2178645872813513839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 90
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce5a8cff6fedc730800000000000000
+      internalID: 4021133306569055944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a44508ad76f27b60800000000000000
+      internalID: 7742521728953566368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebda7529c75bc6a30800000000000000
+      internalID: 4209939298320362942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 90
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f981eea93af033410800000000000000
+      internalID: 1455524299924183199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 72
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f59f5aec6c7b200800000000000000
+      internalID: 195843699664052112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 90
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91ac9e7310fe32f0800000000000000
+      internalID: -991090901455691363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49213fa415e9ef5e0800000000000000
+      internalID: -1873886322952564076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 72
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf0cf359845a7e60800000000000000
+      internalID: 7960768240127053756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd2a35950d4d16b0800000000000000
+      internalID: -5324014498108265014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d140c715b718407e0800000000000000
+      internalID: -1800171584393313251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013ce5ef918181ea0800000000000000
+      internalID: -5901940811748162800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9509187d10b441f0800000000000000
+      internalID: -1061529971537148516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c76f413009d2ec70800000000000000
+      internalID: 8998993600290187201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2d00334d6f2dcb0800000000000000
+      internalID: -4840535258220670219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 68
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d2c77ece5fec930800000000000000
+      internalID: 4165537103209049344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 62
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a5650fabca8eff0800000000000000
+      internalID: -6565480544970122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 54
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50203293126a98cc0800000000000000
+      internalID: -3708250156540165627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3791adebe3e6777d0800000000000000
+      internalID: -2920744617557485197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949df07811f60a470800000000000000
+      internalID: 8403839025744435529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d10164adf9c17700800000000000000
+      internalID: 536431921855529429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16773561bbbe1f9f0800000000000000
+      internalID: -436308500112246943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a874e8f5bfa2ad580800000000000000
+      internalID: -8801675262613895286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 54
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5a8f98c4f27fdb0800000000000000
+      internalID: -4758282475514845747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe6a37002c6e8ed0800000000000000
+      internalID: -2409869865780613387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 36
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a666e4cfe4521bb0800000000000000
+      internalID: -4966814050258884954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0493f18b7e16b6760800000000000000
+      internalID: 7452157656269011264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0764658ae22d0ee0800000000000000
+      internalID: -1293339127329822964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2987b9f10caa0a6a0800000000000000
+      internalID: -6439959724999083886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdec59df280275d30800000000000000
+      internalID: 4420037306259721951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6e28bcc8204b1e0800000000000000
+      internalID: -2183117115634817360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d60fa6c97e8398f0800000000000000
+      internalID: -534927277051410731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e3f51b5a93ea690800000000000000
+      internalID: -7589064938264510935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78a6105bba148a90800000000000000
+      internalID: -7312690503137974145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd7fbb09b1c3c9a0800000000000000
+      internalID: -6213910060330942991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eeed0633bab6b800800000000000000
+      internalID: 627894476933557984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a99f32c491473850800000000000000
+      internalID: 6356621506226657698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150424c99c30d8ff0800000000000000
+      internalID: -32365457876828079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cf9f53b73434ec0800000000000000
+      internalID: -3583946681991168968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ac46732231aaa90800000000000000
+      internalID: -7302002808148669933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 18
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19be4e7e8e23e8740800000000000000
+      internalID: 5156114599290137489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBlackGreen Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0289ada65605f0840800000000000000
+      internalID: 5192457291896100896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RemediumBlackGreen Atlas_0: -6558124050200205132
+      RemediumBlackGreen Atlas_1: -1639113525031411006
+      RemediumBlackGreen Atlas_10: -1873886322952564076
+      RemediumBlackGreen Atlas_11: 7960768240127053756
+      RemediumBlackGreen Atlas_12: -5324014498108265014
+      RemediumBlackGreen Atlas_13: -1800171584393313251
+      RemediumBlackGreen Atlas_14: -5901940811748162800
+      RemediumBlackGreen Atlas_15: -1061529971537148516
+      RemediumBlackGreen Atlas_16: 8998993600290187201
+      RemediumBlackGreen Atlas_17: -4840535258220670219
+      RemediumBlackGreen Atlas_18: 4165537103209049344
+      RemediumBlackGreen Atlas_19: -6565480544970122
+      RemediumBlackGreen Atlas_2: 2884639899266638263
+      RemediumBlackGreen Atlas_20: -3708250156540165627
+      RemediumBlackGreen Atlas_21: -2920744617557485197
+      RemediumBlackGreen Atlas_22: 8403839025744435529
+      RemediumBlackGreen Atlas_23: 536431921855529429
+      RemediumBlackGreen Atlas_24: -436308500112246943
+      RemediumBlackGreen Atlas_25: -8801675262613895286
+      RemediumBlackGreen Atlas_26: -4758282475514845747
+      RemediumBlackGreen Atlas_27: -2409869865780613387
+      RemediumBlackGreen Atlas_28: -4966814050258884954
+      RemediumBlackGreen Atlas_29: 7452157656269011264
+      RemediumBlackGreen Atlas_3: 2178645872813513839
+      RemediumBlackGreen Atlas_30: -1293339127329822964
+      RemediumBlackGreen Atlas_31: -6439959724999083886
+      RemediumBlackGreen Atlas_32: 4420037306259721951
+      RemediumBlackGreen Atlas_33: -2183117115634817360
+      RemediumBlackGreen Atlas_34: -534927277051410731
+      RemediumBlackGreen Atlas_35: -7589064938264510935
+      RemediumBlackGreen Atlas_36: -7312690503137974145
+      RemediumBlackGreen Atlas_37: -6213910060330942991
+      RemediumBlackGreen Atlas_38: 627894476933557984
+      RemediumBlackGreen Atlas_39: 6356621506226657698
+      RemediumBlackGreen Atlas_4: 4021133306569055944
+      RemediumBlackGreen Atlas_40: -32365457876828079
+      RemediumBlackGreen Atlas_41: -3583946681991168968
+      RemediumBlackGreen Atlas_42: -7302002808148669933
+      RemediumBlackGreen Atlas_43: 5156114599290137489
+      RemediumBlackGreen Atlas_44: 5192457291896100896
+      RemediumBlackGreen Atlas_5: 7742521728953566368
+      RemediumBlackGreen Atlas_6: 4209939298320362942
+      RemediumBlackGreen Atlas_7: 1455524299924183199
+      RemediumBlackGreen Atlas_8: 195843699664052112
+      RemediumBlackGreen Atlas_9: -991090901455691363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

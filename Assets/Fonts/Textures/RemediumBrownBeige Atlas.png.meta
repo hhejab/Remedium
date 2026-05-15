@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 1bb3d0462cee9d44e963cd7154a92270
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4313482997657825893
+    second: RemediumBrownBeige Atlas_0
+  - first:
+      213: 424608116515652621
+    second: RemediumBrownBeige Atlas_1
+  - first:
+      213: -513582417119782140
+    second: RemediumBrownBeige Atlas_2
+  - first:
+      213: -2113768980634136955
+    second: RemediumBrownBeige Atlas_3
+  - first:
+      213: -5928134678850402580
+    second: RemediumBrownBeige Atlas_4
+  - first:
+      213: -8498723600185324026
+    second: RemediumBrownBeige Atlas_5
+  - first:
+      213: -5607935481996925952
+    second: RemediumBrownBeige Atlas_6
+  - first:
+      213: -5653639164067505592
+    second: RemediumBrownBeige Atlas_7
+  - first:
+      213: -7861744368134918339
+    second: RemediumBrownBeige Atlas_8
+  - first:
+      213: 9095724050132191396
+    second: RemediumBrownBeige Atlas_9
+  - first:
+      213: 7087462446651980
+    second: RemediumBrownBeige Atlas_10
+  - first:
+      213: -1893013369902535389
+    second: RemediumBrownBeige Atlas_11
+  - first:
+      213: 5385142883508151969
+    second: RemediumBrownBeige Atlas_12
+  - first:
+      213: 4660767855074282584
+    second: RemediumBrownBeige Atlas_13
+  - first:
+      213: -4068822983052250552
+    second: RemediumBrownBeige Atlas_14
+  - first:
+      213: -5870547456855847220
+    second: RemediumBrownBeige Atlas_15
+  - first:
+      213: 8201722760915494655
+    second: RemediumBrownBeige Atlas_16
+  - first:
+      213: -7831777228680121908
+    second: RemediumBrownBeige Atlas_17
+  - first:
+      213: 5469669331103933796
+    second: RemediumBrownBeige Atlas_18
+  - first:
+      213: 636615816327854228
+    second: RemediumBrownBeige Atlas_19
+  - first:
+      213: 4483532837764036206
+    second: RemediumBrownBeige Atlas_20
+  - first:
+      213: -867218679582041605
+    second: RemediumBrownBeige Atlas_21
+  - first:
+      213: -882607143207890228
+    second: RemediumBrownBeige Atlas_22
+  - first:
+      213: -7861241977067664769
+    second: RemediumBrownBeige Atlas_23
+  - first:
+      213: 491869297707215985
+    second: RemediumBrownBeige Atlas_24
+  - first:
+      213: 6197690293205558805
+    second: RemediumBrownBeige Atlas_25
+  - first:
+      213: -6921538819579584041
+    second: RemediumBrownBeige Atlas_26
+  - first:
+      213: 6837643222189782888
+    second: RemediumBrownBeige Atlas_27
+  - first:
+      213: 776306500821471794
+    second: RemediumBrownBeige Atlas_28
+  - first:
+      213: 4964151337838737129
+    second: RemediumBrownBeige Atlas_29
+  - first:
+      213: -6284421914948590510
+    second: RemediumBrownBeige Atlas_30
+  - first:
+      213: -6361965629160369510
+    second: RemediumBrownBeige Atlas_31
+  - first:
+      213: 26240600263149073
+    second: RemediumBrownBeige Atlas_32
+  - first:
+      213: -5569224056227714118
+    second: RemediumBrownBeige Atlas_33
+  - first:
+      213: 3432163970998123814
+    second: RemediumBrownBeige Atlas_34
+  - first:
+      213: 2402252853411291590
+    second: RemediumBrownBeige Atlas_35
+  - first:
+      213: -4526260634351995497
+    second: RemediumBrownBeige Atlas_36
+  - first:
+      213: 2318703414980338488
+    second: RemediumBrownBeige Atlas_37
+  - first:
+      213: 9002920234377593796
+    second: RemediumBrownBeige Atlas_38
+  - first:
+      213: 4004868581123318217
+    second: RemediumBrownBeige Atlas_39
+  - first:
+      213: 4332481498067016341
+    second: RemediumBrownBeige Atlas_40
+  - first:
+      213: -179396603476344344
+    second: RemediumBrownBeige Atlas_41
+  - first:
+      213: 2836201328617244434
+    second: RemediumBrownBeige Atlas_42
+  - first:
+      213: 5518849326513836510
+    second: RemediumBrownBeige Atlas_43
+  - first:
+      213: 3240930201885969415
+    second: RemediumBrownBeige Atlas_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562f41cbee19cdb30800000000000000
+      internalID: 4313482997657825893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 108
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04c9a115d284e500800000000000000
+      internalID: 424608116515652621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 114
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b50b043836fd8f0800000000000000
+      internalID: -513582417119782140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 108
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e0014bf426aa2e0800000000000000
+      internalID: -2113768980634136955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 90
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6827e0be80bbda0800000000000000
+      internalID: -5928134678850402580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e89bee9e77e0a80800000000000000
+      internalID: -8498723600185324026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004a348246c9c22b0800000000000000
+      internalID: -5607935481996925952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 90
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a1581722d3a81b0800000000000000
+      internalID: -5653639164067505592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 72
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fe366862975e290800000000000000
+      internalID: -7861744368134918339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 90
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a84b1715d08a3e70800000000000000
+      internalID: 9095724050132191396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4add71720e291000800000000000000
+      internalID: 7087462446651980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 72
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32de4e3ae5aaab5e0800000000000000
+      internalID: -1893013369902535389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6e93cbbeedbba40800000000000000
+      internalID: 5385142883508151969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c034e9baf5ea040800000000000000
+      internalID: 4660767855074282584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842b931fd03a887c0800000000000000
+      internalID: -4068822983052250552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccec8050130a78ea0800000000000000
+      internalID: -5870547456855847220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6aa9e756f52d170800000000000000
+      internalID: 8201722760915494655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 54
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc13784ea10ff4390800000000000000
+      internalID: -7831777228680121908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 68
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4656c4fe64b28eb40800000000000000
+      internalID: 5469669331103933796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 62
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498fd9646b6b5d800800000000000000
+      internalID: 636615816327854228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 54
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6679b57c55b83e30800000000000000
+      internalID: 4483532837764036206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9dde4a43507f3f0800000000000000
+      internalID: -867218679582041605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc21fd0ca7950c3f0800000000000000
+      internalID: -882607143207890228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a0e7f821247e290800000000000000
+      internalID: -7861241977067664769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c62cd258873d600800000000000000
+      internalID: 491869297707215985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51667622c7e920650800000000000000
+      internalID: 6197690293205558805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 54
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1e1ef8d11c1ff90800000000000000
+      internalID: -6921538819579584041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867ba7f784034ee50800000000000000
+      internalID: 6837643222189782888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 36
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2325a4246aef5ca00800000000000000
+      internalID: 776306500821471794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6782f275534e440800000000000000
+      internalID: 4964151337838737129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2542fcc809f39c8a0800000000000000
+      internalID: -6284421914948590510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92d6a8a7f1c5b7a0800000000000000
+      internalID: -6361965629160369510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116c069dfa93d5000800000000000000
+      internalID: 26240600263149073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbacf55a3426b2b0800000000000000
+      internalID: -5569224056227714118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dbc3e72fe71af20800000000000000
+      internalID: 3432163970998123814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1af341e34865120800000000000000
+      internalID: 2402252853411291590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7957d982fed7f21c0800000000000000
+      internalID: -4526260634351995497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833636d8870bd2020800000000000000
+      internalID: 2318703414980338488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3c04fe04cc0fc70800000000000000
+      internalID: 9002920234377593796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c16afd71c6249730800000000000000
+      internalID: 4004868581123318217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a9c30d7f0102c30800000000000000
+      internalID: 4332481498067016341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 18
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e181e75db7a28df0800000000000000
+      internalID: -179396603476344344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217c8bfd4163c5720800000000000000
+      internalID: 2836201328617244434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 18
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1d2cbe834e69c40800000000000000
+      internalID: 5518849326513836510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RemediumBrownBeige Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c8f31f8d81afc20800000000000000
+      internalID: 3240930201885969415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RemediumBrownBeige Atlas_0: 4313482997657825893
+      RemediumBrownBeige Atlas_1: 424608116515652621
+      RemediumBrownBeige Atlas_10: 7087462446651980
+      RemediumBrownBeige Atlas_11: -1893013369902535389
+      RemediumBrownBeige Atlas_12: 5385142883508151969
+      RemediumBrownBeige Atlas_13: 4660767855074282584
+      RemediumBrownBeige Atlas_14: -4068822983052250552
+      RemediumBrownBeige Atlas_15: -5870547456855847220
+      RemediumBrownBeige Atlas_16: 8201722760915494655
+      RemediumBrownBeige Atlas_17: -7831777228680121908
+      RemediumBrownBeige Atlas_18: 5469669331103933796
+      RemediumBrownBeige Atlas_19: 636615816327854228
+      RemediumBrownBeige Atlas_2: -513582417119782140
+      RemediumBrownBeige Atlas_20: 4483532837764036206
+      RemediumBrownBeige Atlas_21: -867218679582041605
+      RemediumBrownBeige Atlas_22: -882607143207890228
+      RemediumBrownBeige Atlas_23: -7861241977067664769
+      RemediumBrownBeige Atlas_24: 491869297707215985
+      RemediumBrownBeige Atlas_25: 6197690293205558805
+      RemediumBrownBeige Atlas_26: -6921538819579584041
+      RemediumBrownBeige Atlas_27: 6837643222189782888
+      RemediumBrownBeige Atlas_28: 776306500821471794
+      RemediumBrownBeige Atlas_29: 4964151337838737129
+      RemediumBrownBeige Atlas_3: -2113768980634136955
+      RemediumBrownBeige Atlas_30: -6284421914948590510
+      RemediumBrownBeige Atlas_31: -6361965629160369510
+      RemediumBrownBeige Atlas_32: 26240600263149073
+      RemediumBrownBeige Atlas_33: -5569224056227714118
+      RemediumBrownBeige Atlas_34: 3432163970998123814
+      RemediumBrownBeige Atlas_35: 2402252853411291590
+      RemediumBrownBeige Atlas_36: -4526260634351995497
+      RemediumBrownBeige Atlas_37: 2318703414980338488
+      RemediumBrownBeige Atlas_38: 9002920234377593796
+      RemediumBrownBeige Atlas_39: 4004868581123318217
+      RemediumBrownBeige Atlas_4: -5928134678850402580
+      RemediumBrownBeige Atlas_40: 4332481498067016341
+      RemediumBrownBeige Atlas_41: -179396603476344344
+      RemediumBrownBeige Atlas_42: 2836201328617244434
+      RemediumBrownBeige Atlas_43: 5518849326513836510
+      RemediumBrownBeige Atlas_44: 3240930201885969415
+      RemediumBrownBeige Atlas_5: -8498723600185324026
+      RemediumBrownBeige Atlas_6: -5607935481996925952
+      RemediumBrownBeige Atlas_7: -5653639164067505592
+      RemediumBrownBeige Atlas_8: -7861744368134918339
+      RemediumBrownBeige Atlas_9: 9095724050132191396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
