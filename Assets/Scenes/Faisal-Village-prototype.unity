@@ -2615,7 +2615,7 @@ GameObject:
   - component: {fileID: 309694505}
   - component: {fileID: 309694506}
   m_Layer: 0
-  m_Name: other_objects_6
+  m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6049,8 +6049,10 @@ GameObject:
   m_Component:
   - component: {fileID: 863027679}
   - component: {fileID: 863027678}
+  - component: {fileID: 863027680}
+  - component: {fileID: 863027681}
   m_Layer: 0
-  m_Name: other_objects_46
+  m_Name: Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6126,6 +6128,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1557662661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &863027680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863027677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6cdf3a2fd1ea40f0a906dd9da860233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: key
+  itemIcon: {fileID: -8677132840334393200, guid: ba828b37894669f4c8888f114bbbd5be, type: 3}
+--- !u!61 &863027681
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863027677}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 0.625}
+    newSize: {x: 1, y: 0.625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 0.625}
+  m_EdgeRadius: 0.33
 --- !u!114 &866926424 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6161142824774042007, guid: d98ca0d97dec8b24992d00d0d6981c4f, type: 3}
@@ -16923,6 +16985,7 @@ GameObject:
   - component: {fileID: 1589003219}
   - component: {fileID: 7878350318957640912}
   - component: {fileID: 7878350318957640911}
+  - component: {fileID: 7878350318957640913}
   m_Layer: 0
   m_Name: Player Attack
   m_TagString: Player
@@ -17032,7 +17095,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.6875}
-  m_EdgeRadius: 1.5
+  m_EdgeRadius: 0.5
 --- !u!114 &7878350318957640912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17046,6 +17109,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactAction: {fileID: 1781555164194001046, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+--- !u!114 &7878350318957640913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6969460405597476011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c35b55f577d21046bf7746c07a9ed2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hotbarSlots:
+  - {fileID: 1653499312}
+  - {fileID: 255912110}
+  - {fileID: 1953783407}
+  - {fileID: 1071700892}
+  - {fileID: 1947605}
+  - {fileID: 1316403004}
+  - {fileID: 1169284550}
+  - {fileID: 389357304}
+  - {fileID: 1090647183}
+  - {fileID: 1446756070}
+  highlightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

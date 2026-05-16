@@ -1,20 +1,32 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public InputActionReference interactAction; // Assign the 'E' action here
-    private IInteractable currentInteractable;
+    public InputActionReference interactAction; // Drag your 'Interact' action here
+    
+    // List to track all interactables currently in range
+    private List<IInteractable> interactablesInRange = new List<IInteractable>();
 
     private void OnEnable() => interactAction.action.Enable();
     private void OnDisable() => interactAction.action.Disable();
 
     private void Update()
     {
-        // If 'E' is pressed and we are near something interactable
-        if (interactAction.action.WasPressedThisFrame() && currentInteractable != null)
+        // 1. Check if E was pressed
+        if (interactAction.action.WasPressedThisFrame())
         {
-            currentInteractable.Interact();
+            // 2. Filter out any objects that were destroyed but are still in the list
+            interactablesInRange.RemoveAll(i => i == null || (i is MonoBehaviour mb && mb == null));
+
+            // 3. If we have items in range, interact with the last one added
+            if (interactablesInRange.Count > 0)
+            {
+                IInteractable target = interactablesInRange[interactablesInRange.Count - 1];
+                target.Interact();
+                Debug.Log("Interacting with object...");
+            }
         }
     }
 
@@ -22,8 +34,11 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (other.TryGetComponent<IInteractable>(out var interactable))
         {
-            currentInteractable = interactable;
-            Debug.Log("Press E to interact with " + other.name);
+            if (!interactablesInRange.Contains(interactable))
+            {
+                interactablesInRange.Add(interactable);
+                Debug.Log("Range Entered: " + other.name);
+            }
         }
     }
 
@@ -31,8 +46,8 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (other.TryGetComponent<IInteractable>(out var interactable))
         {
-            if (currentInteractable == interactable)
-                currentInteractable = null;
+            interactablesInRange.Remove(interactable);
+            Debug.Log("Range Exited: " + other.name);
         }
     }
 }
