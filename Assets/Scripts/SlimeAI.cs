@@ -103,5 +103,108 @@ public class SlimeAI : MonoBehaviour
         animator.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
         hitbox.SetActive(false);
+        StartCoroutine(PlayDeathAndDespawn());
+    }
+
+    IEnumerator PlayDeathAndDespawn()
+    {
+        if (animator == null)
+        {
+            Destroy(gameObject);
+            yield break;
+        }
+
+        // Ensure the animator enters the dead state
+        animator.SetBool("isDead", true);
+
+        // Try to find a death clip in the animator controller
+        string deathClipName = null;
+        RuntimeAnimatorController controller = animator.runtimeAnimatorController;
+        if (controller != null)
+        {
+            foreach (var clip in controller.animationClips)
+            {
+                var n = clip.name.ToLower();
+                if (n.Contains("death") || n.Contains("die") || n.Contains("dead"))
+                {
+                    deathClipName = clip.name;
+                    break;
+                }
+            }
+        }
+
+        // Wait for the animator to actually play a death clip, then wait until it finishes
+        float timer = 0f;
+        float timeout = 1.75f;
+        bool deathClipPlaying = false;
+
+        while (timer < timeout)
+        {
+            var clips = animator.GetCurrentAnimatorClipInfo(0);
+            if (clips.Length > 0)
+            {
+                var clip = clips[0].clip;
+                var name = clip.name.ToLower();
+                if (name.Contains("death") || name.Contains("die") || name.Contains("dead"))
+                {
+                    deathClipPlaying = true;
+
+                    // Wait until the current state's normalized time reaches or exceeds 1.0 (clip finished)
+                    while (true)
+                    {
+                        var state = animator.GetCurrentAnimatorStateInfo(0);
+                        if (state.length > 0f && state.normalizedTime >= 1.0f)
+                        {
+                            break;
+                        }
+                        // If animator stopped updating or returned to default, break after timeout
+                        timer += Time.deltaTime;
+                        if (timer >= timeout) break;
+                        yield return null;
+                    }
+
+                    break;
+                }
+            }
+
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        if (!deathClipPlaying)
+        {
+            // As a fallback, if a death-named clip exists in the controller, try to crossfade to it
+            if (!string.IsNullOrEmpty(deathClipName) && controller != null)
+            {
+                animator.CrossFade(deathClipName, 0.1f);
+                // wait a frame for the crossfade to start
+                yield return null;
+                // try to get the clip length
+                float clipLength = 0f;
+                foreach (var clip in controller.animationClips)
+                {
+                    if (clip.name == deathClipName)
+                    {
+                        clipLength = clip.length;
+                        break;
+                    }
+                }
+                if (clipLength > 0f)
+                {
+                    yield return new WaitForSeconds(clipLength / Mathf.Max(0.01f, animator.speed));
+                }
+                else
+                {
+                    yield return new WaitForSeconds(0.5f);
+                }
+            }
+            else
+            {
+                // No death clip found; wait briefly to allow any transition to play
+                yield return new WaitForSeconds(0.5f);
+            }
+        }
+
+        Destroy(gameObject);
     }
 }
