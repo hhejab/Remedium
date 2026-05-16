@@ -10,6 +10,8 @@ public class InventoryItem : MonoBehaviour
     [SerializeField]
     private UnityEngine.UI.Image itemImage;
     [SerializeField]
+    private UnityEngine.UI.Image selectionBorder;
+    [SerializeField] 
     private TMP_Text quantityTxt;
 
     [SerializeField]
@@ -27,11 +29,13 @@ public class InventoryItem : MonoBehaviour
         this.itemImage.gameObject.SetActive(false);
         this.empty = true;
     }
-    public void Deselect()
+        public void Deselect()
 {
-    // Example fix: check if your 'border' or 'highlight' image exists first
-    if (borderImage != null) 
-        borderImage.gameObject.SetActive(false);
+    // Adding this check prevents the crash if the border isn't assigned yet
+    if (selectionBorder != null) 
+    {
+        selectionBorder.gameObject.SetActive(false); //
+    }
 }
     public void SetData(Sprite sprite, int quantity)
     {
