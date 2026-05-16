@@ -99,7 +99,7 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
-    void AddToHotbar(Item item)
+    public void AddToHotbar(Item item)
     {
         foreach (Image slot in hotbarSlots)
         {
