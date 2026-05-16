@@ -3,7 +3,17 @@ using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour, IInteractable
 {
-    public string sceneToLoad;
+    [SerializeField] private UnityEditor.SceneAsset sceneAsset; // drag scene here
+
+    private string sceneToLoad;
+
+    private void OnValidate()
+    {
+        if (sceneAsset != null)
+        {
+            sceneToLoad = sceneAsset.name;
+        }
+    }
 
     public void Interact()
     {

@@ -1,0 +1,73 @@
+fileFormatVersion: 2
+guid: cd91bbd98e2ed4743add093d0f20a3a3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings:
+  - Tileset 'Walls_interior' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'door_small' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Windows_doors' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Interior_1st_floor' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_Drinker1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_Drinker1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_sleep_guy2' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Animation_ sit_char' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_knight' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_think_guy' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Lute_player' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_drinker5' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_watcher' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_orc_player' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Animation_player_drow' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Animation_dwarf_player' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Animation_host' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_client' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_dancer' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_drinker6' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_drinker7' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Animation_killer' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 26
+  pixelsPerUnit: 16
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 6590
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}

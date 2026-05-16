@@ -14,6 +14,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Worldmap/Village.unity
     guid: eeed5220ebbb87042a7037c51b398923
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/Blacksmith.unity
+    guid: 0b413b099ef46da4fbd7863e5c1962e2
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/Chapel.unity
+    guid: b16cf1cd77409154c8acc483f138dffd
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/Fishing Dock.unity
+    guid: f5aba8044b890b44e88aca888d66b0e9
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/Forest.unity
+    guid: 205266f9b289bad46a4748183b39391e
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/GlassBlowers.unity
+    guid: 5700083e0c1e3a94a8fca67141b85688
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/GrassLand.unity
+    guid: 386579797f060be4cad98d9377ae759a
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/MageTower.unity
+    guid: 6d1a840e7a37eb242adf187b8bd6e9e6
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/Swamp.unity
+    guid: ffa1400b8a6a4e0468c9b2327944b30f
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/Tavern.unity
+    guid: e2c2a47371407ef479acbb1762364972
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 99f9c9493070a9d4c979a8fec7c5a8d3, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

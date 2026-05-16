@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a263c5c2225f8b5429c67c6c164b6b03
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - RemediumBlackBrown
+  fallbackFontReferences: []
+  customCharacters: ABCDEFGHIJKLMNOPQRSTVUWXYZ1234567890.,:?!()+-=
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
