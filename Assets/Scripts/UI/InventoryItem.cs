@@ -28,9 +28,11 @@ public class InventoryItem : MonoBehaviour
         this.empty = true;
     }
     public void Deselect()
-    {
-        borderImage.enabled = false;
-    }
+{
+    // Example fix: check if your 'border' or 'highlight' image exists first
+    if (borderImage != null) 
+        borderImage.gameObject.SetActive(false);
+}
     public void SetData(Sprite sprite, int quantity)
     {
         this.itemImage.gameObject.SetActive(true);
