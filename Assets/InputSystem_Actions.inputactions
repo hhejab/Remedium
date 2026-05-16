@@ -46,7 +46,7 @@
                     "name": "Crouch",
                     "type": "Button",
                     "id": "27c5f898-bc57-4ee1-8800-db469aca5fe3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -91,6 +91,15 @@
                     "name": "Run",
                     "type": "Button",
                     "id": "8de4e41e-3cff-4a82-8a28-34fbff17be71",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SkillBook",
+                    "type": "Button",
+                    "id": "83841918-88db-4b1e-947b-95fcabe32410",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -502,6 +511,17 @@
                     "processors": "",
                     "groups": ";Joystick",
                     "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "de70811b-f87c-4218-969c-92d9cb41dca8",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkillBook",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 947a891c9082e2049b6304aca78df99c, type: 3}
+  m_Name: Defense_2
+  m_EditorClassIdentifier: 
+  skillName: Defense 2
+  description: 
+  cost: 4
+  statType: 6
+  upgradeAmount: 2
+  requiredSkill: {fileID: 11400000, guid: 2e67425c7b50edf4384fc8894e37bb0d, type: 2}
+  icon: {fileID: 1592510754200237583, guid: ebef802ee63f5874e80ac3e5f48b9aa8, type: 3}
