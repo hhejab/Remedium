@@ -19,7 +19,7 @@ public class PlayerHit : MonoBehaviour
 
         if (col.CompareTag("Enemy"))
         {
-            SlimeAI enemy = col.GetComponentInParent<SlimeAI>();
+            Enemy_AI enemy = col.GetComponentInParent<Enemy_AI>();
             if (enemy != null)
             {
                 int damageToDeal = baseDamage;
