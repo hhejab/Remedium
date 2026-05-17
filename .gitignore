@@ -97,3 +97,20 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# VS Code / C# Dev Kit cache
+.vscode/
+*.csproj.iscache
+
+# Visual Studio generated files
+*.csproj
+*.sln
+*.slnx
+
+# Plastic SCM
+.plastic/
+
+# Extra generated junk
+.erp
+ignore.conf
+.vsconfig
