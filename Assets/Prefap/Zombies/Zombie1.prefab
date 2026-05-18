@@ -475,8 +475,8 @@ MonoBehaviour:
   aggroRange: 5
   patrolRadius: 3
   animator: {fileID: 5251722253861722133}
-  hitboxUp: {fileID: 1873654411290791828}
-  hitboxDown: {fileID: 8367745844235815294}
+  hitboxUp: {fileID: 8367745844235815294}
+  hitboxDown: {fileID: 1873654411290791828}
   hitboxLeft: {fileID: 4926969981626496060}
   hitboxRight: {fileID: 5069697620584919714}
   attackDamage: 1
