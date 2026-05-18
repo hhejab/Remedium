@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class PlayerHit : MonoBehaviour
 {
+    [Header("Fallback only if PlayerStats is missing")]
     public int baseDamage = 1;
+
     private bool hasHit = false;
     private PlayerStats playerStats;
 
@@ -11,25 +13,46 @@ public class PlayerHit : MonoBehaviour
         playerStats = GetComponentInParent<PlayerStats>();
     }
 
-    void OnEnable() => hasHit = false;
-
-    void OnTriggerEnter2D(Collider2D col)
+    private void OnEnable()
     {
-        if (hasHit) return;
+        hasHit = false;
+    }
 
-        if (col.CompareTag("Enemy"))
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (hasHit)
+            return;
+
+        int damageToDeal = GetDamage();
+
+        // Boss damage
+        BossHealth bossHealth = col.GetComponentInParent<BossHealth>();
+
+        if (bossHealth != null)
         {
-            Enemy_AI enemy = col.GetComponentInParent<Enemy_AI>();
-            if (enemy != null)
-            {
-                int damageToDeal = baseDamage;
-
-                if (playerStats != null)
-                    damageToDeal = playerStats.GetFinalAttackDamage();
-                    
-                enemy.TakeDamage(damageToDeal);
-                hasHit = true;
-            }
+            Debug.Log("Player hit boss for: " + damageToDeal);
+            bossHealth.TakeDamage(damageToDeal);
+            hasHit = true;
+            return;
         }
+
+        // Normal enemy damage
+        Enemy_AI enemy = col.GetComponentInParent<Enemy_AI>();
+
+        if (enemy != null)
+        {
+            Debug.Log("Player hit enemy for: " + damageToDeal);
+            enemy.TakeDamage(damageToDeal);
+            hasHit = true;
+            return;
+        }
+    }
+
+    private int GetDamage()
+    {
+        if (playerStats != null)
+            return playerStats.GetFinalAttackDamage();
+
+        return baseDamage;
     }
 }
