@@ -1,65 +1,137 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections; // Required for Coroutine
+using System.Collections;
 
 public class PlayerCombat : MonoBehaviour
 {
     private Animator anim;
     private Rigidbody2D rb;
+    private PlayerStats playerStats;
 
-    [Header("Hitboxes (Assign in Inspector)")]
+    [Header("Input")]
+    public InputActionReference attackAction;
+
+    [Header("Hitboxes")]
     public GameObject hitboxUp;
     public GameObject hitboxDown;
     public GameObject hitboxLeft;
     public GameObject hitboxRight;
 
-    void Start()
+    [Header("Attack Settings")]
+    public float attackDuration = 0.25f;
+
+    private bool isAttacking;
+
+    private void Awake()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        playerStats = GetComponent<PlayerStats>();
+
+        DisableAllHitboxes();
     }
 
-    void Update()
+    private void OnEnable()
     {
-        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+        if (attackAction != null)
+            attackAction.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        if (attackAction != null)
+            attackAction.action.Disable();
+
+        DisableAllHitboxes();
+    }
+
+    private void Update()
+    {
+        if (attackAction != null && attackAction.action.WasPressedThisFrame())
         {
             PerformAttack();
         }
     }
 
-    void PerformAttack()
+    private void PerformAttack()
     {
-        bool isMoving = rb.linearVelocity.magnitude > 0.1f;
+        if (isAttacking)
+            return;
 
-        if (isMoving) anim.SetTrigger("isWalkAttacking");
-        else anim.SetTrigger("isAttacking");
+        StartCoroutine(AttackRoutine());
+    }
 
-        // Determine direction based on Animator parameters (assuming you have these)
+    private IEnumerator AttackRoutine()
+    {
+        isAttacking = true;
+
         float moveX = anim.GetFloat("moveX");
         float moveY = anim.GetFloat("moveY");
 
-        // Select hitbox based on direction
-        GameObject activeHitbox = null;
+        // IMPORTANT:
+        // Do NOT use rb.linearVelocity here because your Movement script uses rb.MovePosition.
+        // So velocity can stay 0 even while moving.
+        bool isMoving = anim.GetBool("isMoving") || anim.GetBool("isRunning");
 
-        if (Mathf.Abs(moveY) > Mathf.Abs(moveX)) // Vertical priority
+        if (isMoving)
         {
-            activeHitbox = (moveY > 0) ? hitboxUp : hitboxDown;
+            anim.ResetTrigger("isAttacking");
+            anim.SetTrigger("isWalkAttacking");
         }
-        else // Horizontal priority
+        else
         {
-            activeHitbox = (moveX > 0) ? hitboxRight : hitboxLeft;
+            anim.ResetTrigger("isWalkAttacking");
+            anim.SetTrigger("isAttacking");
         }
+
+        GameObject activeHitbox = GetDirectionalHitbox(moveX, moveY);
 
         if (activeHitbox != null)
+            activeHitbox.SetActive(true);
+
+        float finalAttackDuration = attackDuration;
+
+        if (playerStats != null && playerStats.attackSpeed > 0)
         {
-            StartCoroutine(ActivateHitbox(activeHitbox));
+            finalAttackDuration = attackDuration / playerStats.attackSpeed;
         }
+
+        yield return new WaitForSeconds(finalAttackDuration);
+
+        if (activeHitbox != null)
+            activeHitbox.SetActive(false);
+
+        isAttacking = false;
     }
 
-    IEnumerator ActivateHitbox(GameObject hitbox)
+    private GameObject GetDirectionalHitbox(float moveX, float moveY)
     {
-        hitbox.SetActive(true);
-        yield return new WaitForSeconds(0.2f); // Swing duration
-        hitbox.SetActive(false);
+        if (Mathf.Abs(moveY) > Mathf.Abs(moveX))
+        {
+            if (moveY > 0)
+                return hitboxUp;
+            else
+                return hitboxDown;
+        }
+
+        if (moveX > 0)
+            return hitboxRight;
+        else
+            return hitboxLeft;
+    }
+
+    private void DisableAllHitboxes()
+    {
+        if (hitboxUp != null)
+            hitboxUp.SetActive(false);
+
+        if (hitboxDown != null)
+            hitboxDown.SetActive(false);
+
+        if (hitboxLeft != null)
+            hitboxLeft.SetActive(false);
+
+        if (hitboxRight != null)
+            hitboxRight.SetActive(false);
     }
 }
