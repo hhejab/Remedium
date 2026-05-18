@@ -114,3 +114,6 @@ InitTestScene*.unity*
 .erp
 ignore.conf
 .vsconfig
+
+*.lscache
+FETCH_HEAD
