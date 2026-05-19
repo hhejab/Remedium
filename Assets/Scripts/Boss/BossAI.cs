@@ -118,15 +118,21 @@ public class BossAI : MonoBehaviour
         }
     }
 
-    private void Wander()
+    protected virtual bool CanDashAttack(float distance)
+    {
+        return distance <= dashRange &&
+               Time.time >= nextDashTime &&
+               Time.time >= nextAttackTime;
+    }
+
+    protected virtual void Wander()
     {
         if (!hasWanderTarget || Vector2.Distance(transform.position, wanderTarget) < 0.2f)
         {
             if (Time.time < nextWanderTime)
             {
-                rb.linearVelocity = Vector2.zero;
-                animator.SetBool("isMoving", false);
-                animator.SetBool("isRunning", false);
+                StopMoving();
+                SetMovingAnimation(false, false);
                 return;
             }
 
@@ -141,13 +147,11 @@ public class BossAI : MonoBehaviour
 
         rb.linearVelocity = direction * wanderSpeed;
 
-        animator.SetBool("isMoving", true);
-        animator.SetBool("isRunning", false);
-
+        SetMovingAnimation(true, false);
         SetAnimatorDirection(lastDirection);
     }
 
-    private void ChasePlayer(float distance)
+    protected virtual void ChasePlayer(float distance)
     {
         Vector2 direction = (player.position - transform.position).normalized;
         lastDirection = GetCardinalDirection(direction);
@@ -157,24 +161,19 @@ public class BossAI : MonoBehaviour
 
         rb.linearVelocity = direction * speed;
 
-        animator.SetBool("isMoving", true);
-        animator.SetBool("isRunning", shouldRun);
-
+        SetMovingAnimation(true, shouldRun);
         SetAnimatorDirection(lastDirection);
     }
 
-    private IEnumerator ChooseAttackPattern()
+    protected virtual IEnumerator ChooseAttackPattern()
     {
         if (isDead)
             yield break;
 
         isAttacking = true;
 
-        rb.linearVelocity = Vector2.zero;
-
-        animator.SetBool("isMoving", false);
-        animator.SetBool("isRunning", false);
-
+        StopMoving();
+        SetMovingAnimation(false, false);
         FacePlayer();
 
         int random = Random.Range(0, 100);
@@ -185,11 +184,10 @@ public class BossAI : MonoBehaviour
             yield return StartCoroutine(SingleAttack());
 
         nextAttackTime = Time.time + attackCooldown;
-
         isAttacking = false;
     }
 
-    private IEnumerator SingleAttack()
+    protected virtual IEnumerator SingleAttack()
     {
         yield return new WaitForSeconds(telegraphTime);
 
@@ -209,7 +207,7 @@ public class BossAI : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
     }
 
-    private IEnumerator DoubleAttack()
+    protected virtual IEnumerator DoubleAttack()
     {
         yield return StartCoroutine(SingleAttack());
 
@@ -223,23 +221,7 @@ public class BossAI : MonoBehaviour
         yield return StartCoroutine(SingleAttack());
     }
 
-    private IEnumerator EnableAttackHitbox()
-    {
-        yield return new WaitForSeconds(hitboxDelay);
-
-        if (isDead)
-            yield break;
-
-        if (attackHitbox != null)
-            attackHitbox.SetActive(true);
-
-        yield return new WaitForSeconds(hitboxActiveTime);
-
-        if (attackHitbox != null)
-            attackHitbox.SetActive(false);
-    }
-
-    private IEnumerator DashAttack()
+    protected virtual IEnumerator DashAttack()
     {
         if (isDead)
             yield break;
@@ -249,11 +231,8 @@ public class BossAI : MonoBehaviour
         nextDashTime = Time.time + dashCooldown;
         nextAttackTime = Time.time + attackCooldown;
 
-        rb.linearVelocity = Vector2.zero;
-
-        animator.SetBool("isMoving", false);
-        animator.SetBool("isRunning", false);
-
+        StopMoving();
+        SetMovingAnimation(false, false);
         FacePlayer();
 
         yield return new WaitForSeconds(0.45f);
@@ -281,7 +260,7 @@ public class BossAI : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
 
-        rb.linearVelocity = Vector2.zero;
+        StopMoving();
 
         yield return new WaitForSeconds(attackAnimTime);
 
@@ -292,7 +271,23 @@ public class BossAI : MonoBehaviour
         isAttacking = false;
     }
 
-    public void PlayHurt()
+    protected virtual IEnumerator EnableAttackHitbox()
+    {
+        yield return new WaitForSeconds(hitboxDelay);
+
+        if (isDead)
+            yield break;
+
+        if (attackHitbox != null)
+            attackHitbox.SetActive(true);
+
+        yield return new WaitForSeconds(hitboxActiveTime);
+
+        if (attackHitbox != null)
+            attackHitbox.SetActive(false);
+    }
+
+    public virtual void PlayHurt()
     {
         if (isDead || isAttacking || isHurt)
             return;
@@ -300,14 +295,13 @@ public class BossAI : MonoBehaviour
         currentActionRoutine = StartCoroutine(Hurt());
     }
 
-    private IEnumerator Hurt()
+    protected virtual IEnumerator Hurt()
     {
         isHurt = true;
 
-        rb.linearVelocity = Vector2.zero;
+        StopMoving();
 
-        animator.SetBool("isMoving", false);
-        animator.SetBool("isRunning", false);
+        SetMovingAnimation(false, false);
         animator.SetBool("isHurt", true);
 
         yield return new WaitForSeconds(0.25f);
@@ -317,76 +311,34 @@ public class BossAI : MonoBehaviour
         isHurt = false;
     }
 
-    public void Die()
-{
-    if (isDead) return;
-
-    isDead = true;
-
-    rb.linearVelocity = Vector2.zero;
-
-    animator.SetBool("isMoving", false);
-    animator.SetBool("isRunning", false);
-    animator.SetBool("isAttacking", false);
-    animator.SetBool("isHurt", false);
-    animator.SetBool("isDead", true);
-
-    if (attackHitbox != null)
-        attackHitbox.SetActive(false);
-
-    Collider2D col = GetComponent<Collider2D>();
-    if (col != null)
-        col.enabled = false;
-
-    StartCoroutine(PlayDeathAndDespawn());
-}
-
-private IEnumerator PlayDeathAndDespawn()
-{
-    if (animator == null)
+    public virtual void Die()
     {
-        Debug.LogWarning("PlayDeathAndDespawn: animator is null, destroying instantly.");
-        Destroy(gameObject);
-        yield break;
+        if (isDead)
+            return;
+
+        if (currentActionRoutine != null)
+            StopCoroutine(currentActionRoutine);
+
+        StartCoroutine(PlayDeathAndDespawn());
     }
 
-    animator.SetBool("isDead", true);
-
-    // Force Death state immediately
-    animator.Play("Death", 0, 0f);
-    animator.Update(0f);
-
-    // Debug info to help diagnose why animation isn't playing
-    var controller = animator.runtimeAnimatorController;
-    Debug.Log($"PlayDeathAndDespawn: animator.enabled={animator.enabled}, controller={(controller != null ? controller.name : "null")} ");
-
-    // Let animator update into Death state
-    yield return null;
-
-    AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-    Debug.Log($"PlayDeathAndDespawn: currentStateIsDeath={stateInfo.IsName("Death")}, normalizedTime={stateInfo.normalizedTime}");
-
-    // Wait for death animation (fallback)
-    yield return new WaitForSeconds(0.85f);
-
-    Destroy(gameObject);
-}
-
-    private IEnumerator DeathRoutine()
+    protected virtual IEnumerator PlayDeathAndDespawn()
     {
         isDead = true;
         isAttacking = false;
         isHurt = false;
 
+        StopMoving();
+
         if (attackHitbox != null)
             attackHitbox.SetActive(false);
-
-        if (rb != null)
-            rb.linearVelocity = Vector2.zero;
 
         Collider2D col = GetComponent<Collider2D>();
         if (col != null)
             col.enabled = false;
+
+        if (animator == null)
+            animator = GetComponent<Animator>();
 
         animator.SetBool("isMoving", false);
         animator.SetBool("isRunning", false);
@@ -394,34 +346,27 @@ private IEnumerator PlayDeathAndDespawn()
         animator.SetBool("isHurt", false);
         animator.SetBool("isDead", true);
 
-        // Important for Death blend tree direction.
-        SetAnimatorDirection(lastDirection);
-
-        // This forces the Animator state called "Death".
+        // Force Death state immediately
         animator.Play("Death", 0, 0f);
         animator.Update(0f);
 
-        Debug.Log("Boss death animation forced.");
+        // Debug info to help diagnose why animation isn't playing
+        var controller = animator.runtimeAnimatorController;
+        Debug.Log($"PlayDeathAndDespawn: animator.enabled={animator.enabled}, controller={(controller != null ? controller.name : "null")} ");
 
+        // Let animator update into Death state
         yield return null;
 
-        float timer = 0f;
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        Debug.Log($"PlayDeathAndDespawn: currentStateIsDeath={stateInfo.IsName("Death")}, normalizedTime={stateInfo.normalizedTime}");
 
-        while (timer < deathFallbackDelay)
-        {
-            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-
-            if (stateInfo.IsName("Death") && stateInfo.normalizedTime >= 0.95f)
-                break;
-
-            timer += Time.deltaTime;
-            yield return null;
-        }
+        // Wait for death animation (fallback)
+        yield return new WaitForSeconds(deathFallbackDelay);
 
         Destroy(gameObject);
     }
 
-    private void FacePlayer()
+    protected virtual void FacePlayer()
     {
         if (player == null)
             return;
@@ -432,30 +377,38 @@ private IEnumerator PlayDeathAndDespawn()
         SetAnimatorDirection(lastDirection);
     }
 
-    private Vector2 GetCardinalDirection(Vector2 direction)
+    protected virtual Vector2 GetCardinalDirection(Vector2 direction)
     {
         if (direction == Vector2.zero)
             return lastDirection;
 
         if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
-        {
-            if (direction.x > 0)
-                return Vector2.right;
-            else
-                return Vector2.left;
-        }
-        else
-        {
-            if (direction.y > 0)
-                return Vector2.up;
-            else
-                return Vector2.down;
-        }
+            return direction.x > 0 ? Vector2.right : Vector2.left;
+
+        return direction.y > 0 ? Vector2.up : Vector2.down;
     }
 
-    private void SetAnimatorDirection(Vector2 direction)
+    protected virtual void SetAnimatorDirection(Vector2 direction)
     {
+        if (animator == null)
+            return;
+
         animator.SetFloat("moveX", direction.x);
         animator.SetFloat("moveY", direction.y);
+    }
+
+    protected virtual void SetMovingAnimation(bool moving, bool running)
+    {
+        if (animator == null)
+            return;
+
+        animator.SetBool("isMoving", moving);
+        animator.SetBool("isRunning", running);
+    }
+
+    protected virtual void StopMoving()
+    {
+        if (rb != null)
+            rb.linearVelocity = Vector2.zero;
     }
 }
