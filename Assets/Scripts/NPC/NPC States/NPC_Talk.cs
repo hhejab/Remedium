@@ -12,10 +12,11 @@ public class NPC_Talk : MonoBehaviour
     public Animator interactionAnim;
 
     [Header("NPC Movement")]
-    public NPC_Wander wanderScript;
+    public MonoBehaviour movementScript; // Accepts any NPC movement/wander script
 
     [Header("Input")]
     public InputActionReference interactAction;
+
     private Rigidbody2D rb;
     private Animator npcAnim;
 
@@ -26,9 +27,6 @@ public class NPC_Talk : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         npcAnim = GetComponent<Animator>();
-
-        if (wanderScript == null)
-            wanderScript = GetComponent<NPC_Wander>();
 
         if (interactionObject != null)
             interactionObject.SetActive(false);
@@ -63,7 +61,7 @@ public class NPC_Talk : MonoBehaviour
         }
     }
 
-      private bool InteractPressed()
+    private bool InteractPressed()
     {
         if (interactAction == null) return false;
         return interactAction.action.WasPressedThisFrame();
@@ -91,8 +89,11 @@ public class NPC_Talk : MonoBehaviour
     {
         isTalking = true;
 
-        if (wanderScript != null)
-            wanderScript.enabled = false;
+        if (movementScript != null)
+        {
+            movementScript.SendMessage("StopForInteraction", SendMessageOptions.DontRequireReceiver);
+            movementScript.enabled = false;
+        }
 
         if (rb != null)
             rb.linearVelocity = Vector2.zero;
@@ -100,6 +101,7 @@ public class NPC_Talk : MonoBehaviour
         if (npcAnim != null)
         {
             npcAnim.SetBool("isMoving", false);
+            npcAnim.SetBool("isForging", false);
             npcAnim.Play("Idle");
         }
 
@@ -110,8 +112,11 @@ public class NPC_Talk : MonoBehaviour
     {
         isTalking = false;
 
-        if (wanderScript != null)
-            wanderScript.enabled = true;
+        if (movementScript != null)
+        {
+            movementScript.enabled = true;
+            movementScript.SendMessage("ResumeAfterInteraction", SendMessageOptions.DontRequireReceiver);
+        }
 
         Debug.Log("Stopped talking");
     }
