@@ -2,25 +2,28 @@ using UnityEngine;
 
 public class Item : MonoBehaviour, IInteractable
 {
-    [Header("Item Data")]
-    public string itemName;
-    public Sprite itemIcon; 
+    public string itemID; 
+    public Sprite itemIcon;
 
     public void Interact()
     {
-        // Look for the Hotbar
-        PlayerInventory hotbar = Object.FindFirstObjectByType<PlayerInventory>();
+        if (string.IsNullOrEmpty(itemID)) itemID = gameObject.name;
 
-        if (hotbar != null)
+        // Fix for CS1503: Using FindObjectsInactive.Include
+        InventoryPage inv = FindFirstObjectByType<InventoryPage>(FindObjectsInactive.Include);
+        PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
+
+        if (hotbar != null && hotbar.TryAddToHotbar(itemID, itemIcon))
         {
-            hotbar.AddToHotbar(this);
-            Debug.Log(itemName + " sent to hotbar.");
+            Destroy(gameObject);
         }
-    }
-
-    public void PickUp()
-    {
-        // Called by PlayerInventory ONLY after successfully adding to a slot
-        Destroy(gameObject);
+        else if (inv != null && inv.TryAddToInventory(itemID, itemIcon))
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Debug.LogWarning("Pickup Failed: Both Hotbar and Inventory are full!");
+        }
     }
 }
