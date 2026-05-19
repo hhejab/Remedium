@@ -6,58 +6,84 @@ public enum EquipSlot { None, Head, Chest, Legs, Weapon }
 [System.Serializable]
 public class EquipItemData
 {
-    [Tooltip("Must match the itemID exactly (e.g., 'IronSword')")]
+    [Tooltip("Must match the itemID string used in your InventoryItem exactly (case-sensitive).")]
     public string itemID; 
     public EquipSlot equipType;
 
-    [Header("Buffs")]
+    [Header("Buffs / Modifiers")]
     public int bonusAttack;
     public int bonusDefense;
     public int bonusHealth;
 }
 
+[RequireComponent(typeof(PlayerStats))]
+[RequireComponent(typeof(PlayerHealth))]
 public class EquipmentManager : MonoBehaviour
 {
     [Header("Item Database")]
+    [Tooltip("Add rows here to define what stats your armor and weapon items grant.")]
     public List<EquipItemData> itemDatabase = new List<EquipItemData>();
 
-    [Header("UI Slots")]
+    [Header("UI Equipment Slots")]
+    [Tooltip("Drag your equipment UI Slot GameObjects (with the InventoryItem script) here.")]
     public InventoryItem headSlot;
     public InventoryItem chestSlot;
     public InventoryItem legsSlot;
     public InventoryItem weaponSlot;
 
-    // We track current bonuses to safely add/subtract deltas when swapping gear
+    private PlayerStats playerStats;
+    private PlayerHealth playerHealth;
+
+    // Track current active bonuses to safely apply changes as deltas (differences)
     private int currentBonusAtk = 0;
     private int currentBonusDef = 0;
     private int currentBonusHp = 0;
 
-    // Checks if an item is allowed in a specific slot
+    private void Awake()
+    {
+        playerStats = GetComponent<PlayerStats>();
+        playerHealth = GetComponent<PlayerHealth>();
+    }
+
+    /// <summary>
+    /// Validates if an item is allowed to be placed inside a specific equipment UI slot.
+    /// </summary>
     public bool CanEquip(string id, EquipSlot slot)
     {
-        if (string.IsNullOrEmpty(id)) return true;
+        if (string.IsNullOrEmpty(id)) return true; // Empty item slots are always valid
+
         foreach (var item in itemDatabase)
         {
-            if (item.itemID == id && item.equipType == slot) return true;
+            if (item.itemID == id)
+            {
+                return item.equipType == slot;
+            }
         }
-        Debug.LogWarning($"Item '{id}' is not a valid {slot}!");
+        
+        Debug.LogWarning($"Item '{id}' is not configured in the Equipment Database!");
         return false;
     }
 
-    // Called automatically by the UI slots when items change
+    /// <summary>
+    /// Scans all active equipment slots, totals their buffs, and safely updates Player stats.
+    /// Called automatically by InventoryItem when an item is placed or removed.
+    /// </summary>
     public void UpdateBuffs()
     {
-        int newAtk = 0, newDef = 0, newHp = 0;
+        int newAtk = 0;
+        int newDef = 0;
+        int newHp = 0;
 
-        TallyBuffs(headSlot, ref newAtk, ref newDef, ref newHp);
-        TallyBuffs(chestSlot, ref newAtk, ref newDef, ref newHp);
-        TallyBuffs(legsSlot, ref newAtk, ref newDef, ref newHp);
-        TallyBuffs(weaponSlot, ref newAtk, ref newDef, ref newHp);
+        // Collect stats from all four slots
+        TallySlotBuffs(headSlot, ref newAtk, ref newDef, ref newHp);
+        TallySlotBuffs(chestSlot, ref newAtk, ref newDef, ref newHp);
+        TallySlotBuffs(legsSlot, ref newAtk, ref newDef, ref newHp);
+        TallySlotBuffs(weaponSlot, ref newAtk, ref newDef, ref newHp);
 
-        ApplyToPlayerStats(newAtk, newDef, newHp);
+        ApplyDeltaToPlayer(newAtk, newDef, newHp);
     }
 
-    private void TallyBuffs(InventoryItem slot, ref int atk, ref int def, ref int hp)
+    private void TallySlotBuffs(InventoryItem slot, ref int atk, ref int def, ref int hp)
     {
         if (slot == null || string.IsNullOrEmpty(slot.itemID)) return;
 
@@ -68,30 +94,37 @@ public class EquipmentManager : MonoBehaviour
                 atk += item.bonusAttack;
                 def += item.bonusDefense;
                 hp += item.bonusHealth;
-                return;
+                return; // Match found, exit loop for this slot
             }
         }
     }
 
-    private void ApplyToPlayerStats(int newAtk, int newDef, int newHp)
+    private void ApplyDeltaToPlayer(int newAtk, int newDef, int newHp)
     {
-        Debug.Log($"New Equipment Buffs -> ATK: +{newAtk} | DEF: +{newDef} | HP: +{newHp}");
-
-        // --- CONNECT TO YOUR STATS SCRIPT HERE ---
-        // Based on your scene setup, I've mapped this to your stat variables.
-        // Uncomment the lines below and rename "YourPlayerStatsScript" to your actual script name!
-        
-        /*
-        YourPlayerStatsScript stats = GetComponent<YourPlayerStatsScript>();
-        if (stats != null)
+        if (playerStats != null)
         {
-            // We use a delta (new - current) so taking off an item removes the specific buff
-            stats.attackDamage += (newAtk - currentBonusAtk);
-            stats.defense += (newDef - currentBonusDef);
-            stats.maxHealthBonus += (newHp - currentBonusHp);
-        }
-        */
+            // Calculate differences between the new gear totals and what was previously tracked
+            int atkDelta = newAtk - currentBonusAtk;
+            int defDelta = newDef - currentBonusDef;
+            int hpDelta = newHp - currentBonusHp;
 
+            // Apply directly to your actual PlayerStats variables
+            playerStats.attackDamage += atkDelta;
+            playerStats.defense += defDelta;
+            playerStats.maxHealthBonus += hpDelta;
+
+            Debug.Log($"[EquipmentManager] Buffs Updated! Deltas applied -> ATK: {atkDelta:+#;-#;0} | DEF: {defDelta:+#;-#;0} | HP: {hpDelta:+#;-#;0}");
+        }
+
+        if (playerHealth != null)
+        {
+            // Calling ChangeHealth(0) forces PlayerHealth to automatically run GetFinalMaxHealth(),
+            // update its structural health bar fill parameters, and clamp seamlessly 
+            // without harming or artificially resetting the player's current health.
+            playerHealth.ChangeHealth(0);
+        }
+
+        // Cache the newly applied totals so they act as the base comparison for the next swap
         currentBonusAtk = newAtk;
         currentBonusDef = newDef;
         currentBonusHp = newHp;
