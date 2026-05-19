@@ -3,22 +3,22 @@ using UnityEngine;
 public class BossHealth : MonoBehaviour
 {
     [Header("Boss Info")]
-    public string bossName = "Beholder";
+    public string bossName = "Boss";
     public int maxHealth = 150;
 
     [Header("UI")]
     public BossUI bossUI;
 
-    private int currentHealth;
-    private BossAI bossAI;
+    protected int currentHealth;
+    protected Boss_AI bossAI;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         currentHealth = maxHealth;
-        bossAI = GetComponent<BossAI>();
+        bossAI = GetComponent<Boss_AI>();
     }
 
-    private void Start()
+    protected virtual void Start()
     {
         if (bossUI != null)
         {
@@ -32,18 +32,19 @@ public class BossHealth : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage)
     {
-        if (currentHealth <= 0)
+        if (!CanTakeDamage())
             return;
 
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
-        Debug.Log("Boss took damage: " + damage + " HP: " + currentHealth + " / " + maxHealth);
+        Debug.Log(bossName + " took damage: " + damage + " HP: " + currentHealth + " / " + maxHealth);
 
-        if (bossUI != null)
-            bossUI.SetHealth(currentHealth, maxHealth);
+        UpdateBossUI();
+
+        OnAfterDamage(damage);
 
         if (currentHealth <= 0)
         {
@@ -55,12 +56,43 @@ public class BossHealth : MonoBehaviour
             bossAI.PlayHurt();
     }
 
-  private void Die()
-{
-    if (bossUI != null)
-        bossUI.Hide();
+    protected virtual bool CanTakeDamage()
+    {
+        return currentHealth > 0;
+    }
 
-    if (bossAI != null)
-        bossAI.Die();
-}
+    protected virtual void OnAfterDamage(int damage)
+    {
+        // Child boss health scripts can override this.
+    }
+
+    protected virtual void UpdateBossUI()
+    {
+        if (bossUI != null)
+            bossUI.SetHealth(currentHealth, maxHealth);
+    }
+
+    protected virtual void Die()
+    {
+        if (bossUI != null)
+            bossUI.Hide();
+
+        if (bossAI != null)
+            bossAI.Die();
+    }
+
+    public int GetCurrentHealth()
+    {
+        return currentHealth;
+    }
+
+    public int GetMaxHealth()
+    {
+        return maxHealth;
+    }
+
+    public float GetHealthPercent()
+    {
+        return (float)currentHealth / maxHealth;
+    }
 }

@@ -288,8 +288,9 @@ GameObject:
   - component: {fileID: 1511024541274340746}
   - component: {fileID: 7565919826930825335}
   - component: {fileID: 8502899942821174421}
-  - component: {fileID: 594295419128481208}
   - component: {fileID: 21575292558765365}
+  - component: {fileID: 4873261130898175738}
+  - component: {fileID: 5986837571287442665}
   m_Layer: 12
   m_Name: Goblin1
   m_TagString: Enemy
@@ -314,6 +315,7 @@ Transform:
   - {fileID: 400070878290617781}
   - {fileID: 4961512668324929895}
   - {fileID: 1451286228642834956}
+  - {fileID: 7988178997796199473}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1511024541274340746
@@ -357,8 +359,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1562863935
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -7326126931063575470, guid: 94e69cae070a73d4b887dc7b3d1326dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -420,8 +422,49 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &594295419128481208
-CapsuleCollider2D:
+--- !u!114 &21575292558765365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4332263017780553586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519f44e02f4fbb14c87ecba98c094b33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  speed: 2
+  attackRange: 1.5
+  aggroRange: 5
+  patrolRadius: 3
+  animator: {fileID: 7565919826930825335}
+  hitboxUp: {fileID: 5259420299784678213}
+  hitboxDown: {fileID: 3623747047901136649}
+  hitboxLeft: {fileID: 3356530555910947478}
+  hitboxRight: {fileID: 2070486371748521011}
+  attackDamage: 1
+  attackWindup: 0.4
+  attackDuration: 0.2
+  health: 40
+  damageCooldown: 0.25
+--- !u!114 &4873261130898175738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4332263017780553586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c4e30d9c82fa842bce92f28cb559ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortPoint: {fileID: 7988178997796199473}
+  sortingOffset: 0
+--- !u!61 &5986837571287442665
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -454,36 +497,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0301857, y: 2.1446855}
-  m_Size: {x: 0.655365, y: 1.0934405}
-  m_Direction: 0
---- !u!114 &21575292558765365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4332263017780553586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 519f44e02f4fbb14c87ecba98c094b33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  speed: 2
-  attackRange: 1.5
-  aggroRange: 5
-  patrolRadius: 3
-  animator: {fileID: 7565919826930825335}
-  hitboxUp: {fileID: 5259420299784678213}
-  hitboxDown: {fileID: 3623747047901136649}
-  hitboxLeft: {fileID: 3356530555910947478}
-  hitboxRight: {fileID: 2070486371748521011}
-  attackDamage: 1
-  attackWindup: 0.4
-  attackDuration: 0.2
-  health: 40
-  damageCooldown: 0.25
+  m_Offset: {x: -0.015906334, y: 1.5846019}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.52380955, y: -0.60714287}
+    oldSize: {x: 1.3125, y: 1.75}
+    newSize: {x: 1.1875, y: 1.375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.6885357, y: 0.18497372}
+  m_EdgeRadius: 0
 --- !u!1 &5259420299784678213
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,3 +601,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
+--- !u!1 &5974987582073483106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7988178997796199473}
+  m_Layer: 12
+  m_Name: SortPOint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7988178997796199473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974987582073483106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.04, y: 1.54, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8760224467507159430}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
