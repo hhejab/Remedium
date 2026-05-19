@@ -19,6 +19,11 @@ public class PlayerCombat : MonoBehaviour
 
     [Header("Attack Settings")]
     public float attackDuration = 0.25f;
+    public float attackCooldown = 1f;
+    private float lastAttackTime = -999f;
+
+    public AudioClip swingSFX;
+    private AudioSource audioSource;
 
     private bool isAttacking;
 
@@ -27,6 +32,10 @@ public class PlayerCombat : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         playerStats = GetComponent<PlayerStats>();
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
 
         DisableAllHitboxes();
     }
@@ -55,9 +64,9 @@ public class PlayerCombat : MonoBehaviour
 
     private void PerformAttack()
     {
-        if (isAttacking)
-            return;
-
+        if (Time.time < lastAttackTime + attackCooldown) return;
+        lastAttackTime = Time.time;
+        if (isAttacking) return;
         StartCoroutine(AttackRoutine());
     }
 
@@ -68,9 +77,6 @@ public class PlayerCombat : MonoBehaviour
         float moveX = anim.GetFloat("moveX");
         float moveY = anim.GetFloat("moveY");
 
-        // IMPORTANT:
-        // Do NOT use rb.linearVelocity here because your Movement script uses rb.MovePosition.
-        // So velocity can stay 0 even while moving.
         bool isMoving = anim.GetBool("isMoving") || anim.GetBool("isRunning");
 
         if (isMoving)
@@ -86,8 +92,16 @@ public class PlayerCombat : MonoBehaviour
 
         GameObject activeHitbox = GetDirectionalHitbox(moveX, moveY);
 
+        float hitboxDuration = attackDuration;
+        if (playerStats != null && playerStats.attackSpeed > 0)
+            hitboxDuration = attackDuration / playerStats.attackSpeed;
+
+        // play swing audio slightly delayed to match animation
+        StartCoroutine(PlaySwingDelayed(0.5f));
+
+        // activate hitbox after attack windup (delay) so damage registers later
         if (activeHitbox != null)
-            activeHitbox.SetActive(true);
+            StartCoroutine(ActivateHitboxDelayed(activeHitbox, 1f, hitboxDuration));
 
         float finalAttackDuration = attackDuration;
 
@@ -133,5 +147,20 @@ public class PlayerCombat : MonoBehaviour
 
         if (hitboxRight != null)
             hitboxRight.SetActive(false);
+    }
+
+    private IEnumerator ActivateHitboxDelayed(GameObject hitbox, float delay, float duration)
+    {
+        yield return new WaitForSeconds(delay);
+        if (hitbox == null) yield break;
+        hitbox.SetActive(true);
+        yield return new WaitForSeconds(duration);
+        if (hitbox != null) hitbox.SetActive(false);
+    }
+
+    private IEnumerator PlaySwingDelayed(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (audioSource != null && swingSFX != null) audioSource.PlayOneShot(swingSFX);
     }
 }
