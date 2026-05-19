@@ -10,6 +10,10 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public TextMeshProUGUI quantityText;
     public int maxStackSize = 64;
 
+    [Header("Equipment Rules")]
+    public bool isEquipmentSlot = false;
+    public EquipSlot designatedSlot = EquipSlot.None;
+
     [Header("Current Data")]
     public string itemID = ""; 
     public int currentQuantity = 0;
@@ -34,8 +38,6 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             itemImage.transform.SetParent(canvas.transform);
             itemImage.transform.SetAsLastSibling();
         }
-
-        // CRITICAL FIX: Turn off the image's collision so the mouse can "see" the slot underneath
         if (itemImage != null) itemImage.raycastTarget = false;
     }
 
@@ -51,8 +53,6 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         draggedItem = null;
         itemImage.transform.SetParent(originalParent);
         itemImage.transform.position = originalPosition;
-
-        // CRITICAL FIX: Turn the collision back on so it can be picked up again later
         if (itemImage != null) itemImage.raycastTarget = true;
     }
 
@@ -61,7 +61,20 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         InventoryItem dropped = eventData.pointerDrag?.GetComponent<InventoryItem>();
         if (dropped == null || dropped == this) return;
 
-        // Stack Logic
+        // --- NEW: EQUIPMENT VALIDATION ---
+        EquipmentManager eqManager = FindFirstObjectByType<EquipmentManager>();
+        if (eqManager != null)
+        {
+            // If dropping INTO an equipment slot
+            if (this.isEquipmentSlot && !string.IsNullOrEmpty(dropped.itemID))
+                if (!eqManager.CanEquip(dropped.itemID, this.designatedSlot)) return;
+
+            // If swapping an equipment item BACK into a taken inventory slot
+            if (dropped.isEquipmentSlot && !string.IsNullOrEmpty(this.itemID))
+                if (!eqManager.CanEquip(this.itemID, dropped.designatedSlot)) return;
+        }
+
+        // --- STANDARD DROP LOGIC ---
         if (dropped.itemID == this.itemID && !string.IsNullOrEmpty(itemID))
         {
             int total = this.currentQuantity + dropped.currentQuantity;
@@ -78,7 +91,6 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             }
             this.UpdateUI();
         }
-        // Swap / Empty Slot Logic
         else 
         {
             string oldID = this.itemID;
@@ -94,18 +106,16 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void SetData(string id, Sprite sprite, int qty)
     {
-        itemID = id; 
-        itemIcon = sprite; 
-        currentQuantity = qty;
+        itemID = id; itemIcon = sprite; currentQuantity = qty;
         UpdateUI();
+        NotifyManager();
     }
 
     public void ResetData()
     {
-        itemID = ""; 
-        itemIcon = null; 
-        currentQuantity = 0;
+        itemID = ""; itemIcon = null; currentQuantity = 0;
         UpdateUI();
+        NotifyManager();
     }
 
     public void UpdateUI()
@@ -119,13 +129,21 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                 itemImage.color = Color.white;
             } else {
                 itemImage.sprite = null;
-                // Acts as an invisible landing pad for the mouse
                 itemImage.color = new Color(0, 0, 0, 0.01f); 
             }
         }
         if (quantityText != null) {
             quantityText.gameObject.SetActive(hasItem && currentQuantity > 1);
             quantityText.text = currentQuantity.ToString();
+        }
+    }
+
+    private void NotifyManager()
+    {
+        if (isEquipmentSlot)
+        {
+            EquipmentManager eqManager = FindFirstObjectByType<EquipmentManager>();
+            if (eqManager != null) eqManager.UpdateBuffs();
         }
     }
 }
