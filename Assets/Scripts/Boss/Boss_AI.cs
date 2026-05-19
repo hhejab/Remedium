@@ -185,16 +185,14 @@ public class Boss_AI : MonoBehaviour
 
         animator.SetBool("isMoving", false);
         animator.SetBool("isRunning", false);
-        animator.SetBool("isHurt", true);
+        animator.SetTrigger("Hurt");
 
         yield return new WaitForSeconds(0.25f);
-
-        animator.SetBool("isHurt", false);
 
         isHurt = false;
     }
 
-public void Die()
+public virtual void Die()
 {
     if (isDead) return;
     isDead = true;

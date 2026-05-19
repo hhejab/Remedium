@@ -34,6 +34,15 @@ public class BossHealth : MonoBehaviour
 
     public virtual void TakeDamage(int damage)
     {
+        SlimeBoss_AI slimeBoss = GetComponent<SlimeBoss_AI>();
+
+        // If slime boss is in invulnerable phase, ignore damage
+        if (slimeBoss != null && !slimeBoss.CanTakeDamage())
+        {
+            Debug.Log("Slime Boss is invulnerable. Kill the small slimes first.");
+            return;
+        }
+
         if (!CanTakeDamage())
             return;
 
@@ -45,6 +54,12 @@ public class BossHealth : MonoBehaviour
         UpdateBossUI();
 
         OnAfterDamage(damage);
+
+        // Slime boss 50% phase
+        if (slimeBoss != null && currentHealth <= maxHealth / 2)
+        {
+            slimeBoss.TriggerHalfHealthPhase();
+        }
 
         if (currentHealth <= 0)
         {
