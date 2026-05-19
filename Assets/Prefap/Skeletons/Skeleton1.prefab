@@ -208,6 +208,8 @@ MonoBehaviour:
   attackDuration: 0.25
   health: 50
   damageCooldown: 0.25
+  attackSFX: {fileID: 8300000, guid: 7d09a92784753bf4388fe11cd8161f01, type: 3}
+  deathSFX: {fileID: 8300000, guid: c9f3d49762da5084787db394c4aa0271, type: 3}
 --- !u!1 &1457387101826685756
 GameObject:
   m_ObjectHideFlags: 0

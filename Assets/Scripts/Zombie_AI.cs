@@ -16,6 +16,11 @@ public class Zombie_AI : Enemy_AI
     public int health = 50;
     public float damageCooldown = 0.25f;
     private float lastDamageTime = -999f;
+    
+    [Header("Audio")]
+    public AudioClip attackSFX;
+    public AudioClip deathSFX;
+    private AudioSource audioSource;
 
     protected override void Start()
     {
@@ -24,6 +29,9 @@ public class Zombie_AI : Enemy_AI
         if (hitboxDown != null) hitboxDown.SetActive(false);
         if (hitboxLeft != null) hitboxLeft.SetActive(false);
         if (hitboxRight != null) hitboxRight.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
     }
 
     // Called by base when player is within attackRange
@@ -59,7 +67,11 @@ public class Zombie_AI : Enemy_AI
             active = dir.y > 0 ? hitboxUp : hitboxDown;
         }
 
-        if (active != null) active.SetActive(true);
+        if (active != null)
+        {
+            active.SetActive(true);
+            if (audioSource != null && attackSFX != null) audioSource.PlayOneShot(attackSFX);
+        }
 
         yield return new WaitForSeconds(attackDuration);
 
@@ -106,6 +118,10 @@ public class Zombie_AI : Enemy_AI
         if (hitboxDown != null) hitboxDown.SetActive(false);
         if (hitboxLeft != null) hitboxLeft.SetActive(false);
         if (hitboxRight != null) hitboxRight.SetActive(false);
+        if (deathSFX != null)
+        {
+            AudioSource.PlayClipAtPoint(deathSFX, transform.position);
+        }
         StartCoroutine(PlayDeathAndDespawn());
     }
 
