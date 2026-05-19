@@ -1,63 +1,36 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class InventoryPage : MonoBehaviour
 {
-    [SerializeField]
-    private InventoryItem itemPrefab;
+    [SerializeField] private InventoryItem itemPrefab;
+    [SerializeField] private RectTransform contentPanel;
+    private List<InventoryItem> uiItems = new List<InventoryItem>();
 
-    [SerializeField]
-    private RectTransform contentPanel;
-
-    List<InventoryItem> listOfUIItems = new List<InventoryItem>();
-
-    public void InitializeInventoryUI(int inventorysize)
+    public void InitializeInventoryUI(int size)
     {
-        for (int i = 0; i < inventorysize; i++)
-        {
-            InventoryItem uiItem = Instantiate(itemPrefab, Vector3.zero, Quaternion.identity);
-            uiItem.transform.SetParent(contentPanel);
-            listOfUIItems.Add(uiItem);
-            uiItem.OnItemClicked += HandleItemSelection;
-            uiItem.OnItemBeginDrag += HandleBeginDrag;
-            uiItem.OnItemDroppedOn += HandleSwap;
-            uiItem.OnItemEndDrag += HandleEndDrag;
-            uiItem.OnRightMouseBtnClick += HandleShowItemActions;
+        foreach(Transform child in contentPanel) Destroy(child.gameObject);
+        uiItems.Clear();
+        for (int i = 0; i < size; i++) {
+            InventoryItem item = Instantiate(itemPrefab, contentPanel);
+            item.ResetData();
+            uiItems.Add(item);
         }
     }
 
-    private void HandleShowItemActions(InventoryItem item)
+    public bool TryAddToInventory(string id, Sprite icon)
     {
-  
+        foreach (var slot in uiItems)
+            if (slot.itemID == id && slot.currentQuantity < slot.maxStackSize) {
+                slot.currentQuantity++; slot.UpdateUI(); return true;
+            }
+        foreach (var slot in uiItems)
+            if (string.IsNullOrEmpty(slot.itemID)) {
+                slot.SetData(id, icon, 1); return true;
+            }
+        return false;
     }
 
-    private void HandleEndDrag(InventoryItem item)
-    {
-   
-    }
-
-    private void HandleSwap(InventoryItem item)
-    {
-  
-    }
-
-    private void HandleBeginDrag(InventoryItem item)
-    {
-
-    }
-
-    private void HandleItemSelection(InventoryItem item)
-    {
-        
-    }
-
-    public void Show()
-    {
-        gameObject.SetActive(true);
-    }
-    public void Hide()
-    {
-        gameObject.SetActive(false);
-    }
+    public void Show() => gameObject.SetActive(true);
+    public void Hide() => gameObject.SetActive(false);
 }

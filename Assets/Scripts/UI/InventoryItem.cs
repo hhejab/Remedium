@@ -1,79 +1,131 @@
-using System;
-using Microsoft.Unity.VisualStudio.Editor;
-using TMPro;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using TMPro;
 
-public class InventoryItem : MonoBehaviour
+public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
 {
-    [SerializeField]
-    private UnityEngine.UI.Image itemImage;
-    [SerializeField]
-    private UnityEngine.UI.Image selectionBorder;
-    [SerializeField] 
-    private TMP_Text quantityTxt;
+    public Image itemImage;
+    public TextMeshProUGUI quantityText;
+    public int maxStackSize = 64;
 
-    [SerializeField]
-    private UnityEngine.UI.Image borderImage;
-    public event Action<InventoryItem> OnItemClicked, OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag, OnRightMouseBtnClick;
+    [Header("Current Data")]
+    public string itemID = ""; 
+    public int currentQuantity = 0;
+    public Sprite itemIcon;
 
-    private bool empty = true;
-    public void Awake()
+    private static InventoryItem draggedItem; 
+    private Vector3 originalPosition;
+    private Transform originalParent;
+
+    private void Awake() => UpdateUI();
+
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        ResetData();
-        Deselect();
+        if (string.IsNullOrEmpty(itemID)) return;
+        draggedItem = this;
+        originalPosition = itemImage.transform.position;
+        originalParent = itemImage.transform.parent;
+
+        Canvas canvas = GetComponentInParent<Canvas>();
+        if (canvas != null)
+        {
+            itemImage.transform.SetParent(canvas.transform);
+            itemImage.transform.SetAsLastSibling();
+        }
+
+        // CRITICAL FIX: Turn off the image's collision so the mouse can "see" the slot underneath
+        if (itemImage != null) itemImage.raycastTarget = false;
     }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (draggedItem != null) 
+            itemImage.transform.position = Mouse.current.position.ReadValue();
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        if (draggedItem == null) return;
+        draggedItem = null;
+        itemImage.transform.SetParent(originalParent);
+        itemImage.transform.position = originalPosition;
+
+        // CRITICAL FIX: Turn the collision back on so it can be picked up again later
+        if (itemImage != null) itemImage.raycastTarget = true;
+    }
+
+    public void OnDrop(PointerEventData eventData)
+    {
+        InventoryItem dropped = eventData.pointerDrag?.GetComponent<InventoryItem>();
+        if (dropped == null || dropped == this) return;
+
+        // Stack Logic
+        if (dropped.itemID == this.itemID && !string.IsNullOrEmpty(itemID))
+        {
+            int total = this.currentQuantity + dropped.currentQuantity;
+            if (total <= maxStackSize)
+            {
+                this.currentQuantity = total;
+                dropped.ResetData();
+            }
+            else
+            {
+                this.currentQuantity = maxStackSize;
+                dropped.currentQuantity = total - maxStackSize;
+                dropped.UpdateUI();
+            }
+            this.UpdateUI();
+        }
+        // Swap / Empty Slot Logic
+        else 
+        {
+            string oldID = this.itemID;
+            Sprite oldIcon = this.itemIcon;
+            int oldQty = this.currentQuantity;
+
+            this.SetData(dropped.itemID, dropped.itemIcon, dropped.currentQuantity);
+            
+            if (!string.IsNullOrEmpty(oldID)) dropped.SetData(oldID, oldIcon, oldQty);
+            else dropped.ResetData();
+        }
+    }
+
+    public void SetData(string id, Sprite sprite, int qty)
+    {
+        itemID = id; 
+        itemIcon = sprite; 
+        currentQuantity = qty;
+        UpdateUI();
+    }
+
     public void ResetData()
     {
-        this.itemImage.gameObject.SetActive(false);
-        this.empty = true;
+        itemID = ""; 
+        itemIcon = null; 
+        currentQuantity = 0;
+        UpdateUI();
     }
-        public void Deselect()
-{
-    // Adding this check prevents the crash if the border isn't assigned yet
-    if (selectionBorder != null) 
+
+    public void UpdateUI()
     {
-        selectionBorder.gameObject.SetActive(false); //
-    }
-}
-    public void SetData(Sprite sprite, int quantity)
-    {
-        this.itemImage.gameObject.SetActive(true);
-        this.itemImage.sprite = sprite;
-        this.quantityTxt.text = quantity + "";
-        this.empty = false;
-    }
-    public void Select()
-    {
-       borderImage.enabled = true; 
-    }
-    public void OnBeginDrag()
-    {
-        if (empty)
-        return;
-        OnItemBeginDrag?.Invoke(this);
-    }
-    public void OnDrop()
-    {
-        OnItemDroppedOn?.Invoke(this);
-    }
-    public void OnEndDrag()
-    {
-        OnItemEndDrag?.Invoke(this);
-    }
-    public void OnPointerClick(BaseEventData data)
-    {
-        if (empty)
-        return;
-        PointerEventData pointerData =(PointerEventData)data;
-        if (pointerData.button == PointerEventData.InputButton.Right)
+        bool hasItem = !string.IsNullOrEmpty(itemID);
+        if (itemImage != null)
         {
-            OnRightMouseBtnClick?.Invoke(this);
+            itemImage.gameObject.SetActive(true); 
+            if (hasItem) {
+                itemImage.sprite = itemIcon;
+                itemImage.color = Color.white;
+            } else {
+                itemImage.sprite = null;
+                // Acts as an invisible landing pad for the mouse
+                itemImage.color = new Color(0, 0, 0, 0.01f); 
+            }
         }
-        else
-        {
-            OnItemClicked?.Invoke(this);
+        if (quantityText != null) {
+            quantityText.gameObject.SetActive(hasItem && currentQuantity > 1);
+            quantityText.text = currentQuantity.ToString();
         }
     }
 }
