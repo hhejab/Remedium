@@ -12,11 +12,19 @@ public class Slime_AI : Enemy_AI
     public int health = 30;
     public float damageCooldown = 0.25f;
     private float lastDamageTime = -999f;
+    
+    [Header("Audio")]
+    public AudioClip attackSFX;
+    public AudioClip deathSFX;
+    private AudioSource audioSource;
 
     protected override void Start()
     {
         base.Start();
         if (hitbox != null) hitbox.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
     }
 
     // Called by base when player is within attackRange
@@ -42,6 +50,7 @@ public class Slime_AI : Enemy_AI
         if (!isDead && hitbox != null)
         {
             hitbox.SetActive(true);
+            if (audioSource != null && attackSFX != null) audioSource.PlayOneShot(attackSFX);
         }
 
         yield return new WaitForSeconds(attackDuration);
@@ -87,6 +96,10 @@ public class Slime_AI : Enemy_AI
         var col = GetComponent<Collider2D>();
         if (col) col.enabled = false;
         if (hitbox != null) hitbox.SetActive(false);
+        if (deathSFX != null)
+        {
+            AudioSource.PlayClipAtPoint(deathSFX, transform.position);
+        }
         StartCoroutine(PlayDeathAndDespawn());
     }
 

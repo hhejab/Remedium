@@ -1552,6 +1552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb99a629af6dcc47a30b4f14129ad65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swingSFX: {fileID: 8300000, guid: a454746c4eebf60449832c899cdcf0c2, type: 3}
+  attackCooldown: 1
   hitboxUp: {fileID: 67283376}
   hitboxDown: {fileID: 1486797668}
   hitboxLeft: {fileID: 1180410351}

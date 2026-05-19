@@ -7,6 +7,12 @@ public class PlayerCombat : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
 
+    [Header("Audio")]
+    public AudioClip swingSFX;
+    private AudioSource audioSource;
+    public float attackCooldown = 1f;
+    private float lastAttackTime = -999f;
+
     [Header("Hitboxes (Assign in Inspector)")]
     public GameObject hitboxUp;
     public GameObject hitboxDown;
@@ -17,6 +23,9 @@ public class PlayerCombat : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
     }
 
     void Update()
@@ -29,12 +38,16 @@ public class PlayerCombat : MonoBehaviour
 
     void PerformAttack()
     {
+        if (Time.time < lastAttackTime + attackCooldown) return;
+        lastAttackTime = Time.time;
+
         bool isMoving = rb.linearVelocity.magnitude > 0.1f;
 
         if (isMoving) anim.SetTrigger("isWalkAttacking");
         else anim.SetTrigger("isAttacking");
 
-        // Determine direction based on Animator parameters (assuming you have these)
+        StartCoroutine(PlaySwingDelayed(0.5f));
+
         float moveX = anim.GetFloat("moveX");
         float moveY = anim.GetFloat("moveY");
 
@@ -52,14 +65,27 @@ public class PlayerCombat : MonoBehaviour
 
         if (activeHitbox != null)
         {
-            StartCoroutine(ActivateHitbox(activeHitbox));
+            StartCoroutine(ActivateHitboxDelayed(activeHitbox, 1f));
         }
     }
 
-    IEnumerator ActivateHitbox(GameObject hitbox)
+    IEnumerator ActivateHitboxDelayed(GameObject hitbox, float delay)
     {
+        yield return new WaitForSeconds(delay);
+        if (hitbox == null) yield break;
         hitbox.SetActive(true);
         yield return new WaitForSeconds(0.2f); // Swing duration
         hitbox.SetActive(false);
+    }
+
+    IEnumerator PlaySwingDelayed(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (audioSource != null && swingSFX != null) audioSource.PlayOneShot(swingSFX);
+    }
+
+    public void PlaySwingSFX()
+    {
+        if (audioSource != null && swingSFX != null) audioSource.PlayOneShot(swingSFX);
     }
 }
