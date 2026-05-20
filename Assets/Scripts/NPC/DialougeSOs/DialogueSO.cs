@@ -3,6 +3,7 @@ using UnityEngine;
 public class DialogueSO : ScriptableObject
 {
     public DialogueLine[] lines;
+    public DialogueOption[] options;
 }
 [System.Serializable]
 public class DialogueLine
@@ -10,4 +11,12 @@ public class DialogueLine
     public ActorSO speaker;
     [TextArea(3, 10)]
     public string text;
+}
+
+[System.Serializable]
+public class DialogueOption
+{
+    
+    public string optionText;
+    public DialogueSO nextDialogue;
 }
