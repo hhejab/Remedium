@@ -3,18 +3,16 @@ using UnityEngine.InputSystem;
 
 public class NPC_Talk : MonoBehaviour
 {
-    [Header("Player")]
     public Transform player;
     public float interactionDistance = 1.5f;
 
-    [Header("Interaction UI")]
     public GameObject interactionObject;
     public Animator interactionAnim;
 
-    [Header("NPC Movement")]
-    public MonoBehaviour movementScript; // Accepts any NPC movement/wander script
+    public MonoBehaviour movementScript;
 
-    [Header("Input")]
+    public DialogueSO dialogue;
+
     public InputActionReference interactAction;
 
     private Rigidbody2D rb;
@@ -34,7 +32,8 @@ public class NPC_Talk : MonoBehaviour
 
     private void Update()
     {
-        if (player == null) return;
+        if (player == null)
+            return;
 
         float distance = Vector2.Distance(transform.position, player.position);
 
@@ -43,7 +42,8 @@ public class NPC_Talk : MonoBehaviour
             playerInRange = true;
             ShowInteraction();
         }
-        else if (distance > interactionDistance && playerInRange)
+
+        if (distance > interactionDistance && playerInRange)
         {
             playerInRange = false;
             HideInteraction();
@@ -55,15 +55,25 @@ public class NPC_Talk : MonoBehaviour
         if (playerInRange && InteractPressed())
         {
             if (!isTalking)
+            {
                 StartTalking();
+            }
             else
-                StopTalking();
+            {
+                if (DialogueManager.Instance != null &&
+                    DialogueManager.Instance.isDialogueActive)
+                {
+                    DialogueManager.Instance.AdvanceDialogue();
+                }
+            }
         }
     }
 
     private bool InteractPressed()
     {
-        if (interactAction == null) return false;
+        if (interactAction == null)
+            return false;
+
         return interactAction.action.WasPressedThisFrame();
     }
 
@@ -91,7 +101,11 @@ public class NPC_Talk : MonoBehaviour
 
         if (movementScript != null)
         {
-            movementScript.SendMessage("StopForInteraction", SendMessageOptions.DontRequireReceiver);
+            movementScript.SendMessage(
+                "StopForInteraction",
+                SendMessageOptions.DontRequireReceiver
+            );
+
             movementScript.enabled = false;
         }
 
@@ -105,7 +119,10 @@ public class NPC_Talk : MonoBehaviour
             npcAnim.Play("Idle");
         }
 
-        Debug.Log("Talking to NPC");
+        if (dialogue != null)
+        {
+            DialogueManager.Instance.StartDialogue(dialogue);
+        }
     }
 
     private void StopTalking()
@@ -115,9 +132,16 @@ public class NPC_Talk : MonoBehaviour
         if (movementScript != null)
         {
             movementScript.enabled = true;
-            movementScript.SendMessage("ResumeAfterInteraction", SendMessageOptions.DontRequireReceiver);
+
+            movementScript.SendMessage(
+                "ResumeAfterInteraction",
+                SendMessageOptions.DontRequireReceiver
+            );
         }
 
-        Debug.Log("Stopped talking");
+        if (DialogueManager.Instance != null)
+        {
+            DialogueManager.Instance.CloseDialogue();
+        }
     }
 }

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2719dda80e9f0c543bfa0562fc7ca245, type: 3}
+  m_Name: FreshProduceDialogue
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: eb5c926a7b13ff943b854f11a94981f4, type: 2}
+    text: 'These apples arrived this morning.
+
+      Sweet, fresh, and full of energy!'
+  - speaker: {fileID: 11400000, guid: eb5c926a7b13ff943b854f11a94981f4, type: 2}
+    text: Travelers usually buy the berries before leaving the village.
+  options: []
