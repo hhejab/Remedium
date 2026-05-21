@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 46a6154c174c86e4494d1fd3dd1725b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6475756229762854311
+    second: Gamepad5_sticks_circles_0
+  - first:
+      213: 1035279893787542196
+    second: Gamepad5_sticks_circles_1
+  - first:
+      213: -7698675581135675769
+    second: Gamepad5_sticks_circles_2
+  - first:
+      213: -1707503974118938127
+    second: Gamepad5_sticks_circles_3
+  - first:
+      213: -9142662366856795136
+    second: Gamepad5_sticks_circles_4
+  - first:
+      213: -1900777924955204322
+    second: Gamepad5_sticks_circles_5
+  - first:
+      213: 951450216752967449
+    second: Gamepad5_sticks_circles_6
+  - first:
+      213: 4540425976869476725
+    second: Gamepad5_sticks_circles_7
+  - first:
+      213: -742281637679387772
+    second: Gamepad5_sticks_circles_8
+  - first:
+      213: 2689850750141720277
+    second: Gamepad5_sticks_circles_9
+  - first:
+      213: 1797373175899548571
+    second: Gamepad5_sticks_circles_10
+  - first:
+      213: -3796566397288828297
+    second: Gamepad5_sticks_circles_11
+  - first:
+      213: 1731664099972729398
+    second: Gamepad5_sticks_circles_12
+  - first:
+      213: 9081390083769838984
+    second: Gamepad5_sticks_circles_13
+  - first:
+      213: 684049151420789838
+    second: Gamepad5_sticks_circles_14
+  - first:
+      213: -8961686670176477249
+    second: Gamepad5_sticks_circles_15
+  - first:
+      213: 2414663244306860233
+    second: Gamepad5_sticks_circles_16
+  - first:
+      213: 5457141986351539216
+    second: Gamepad5_sticks_circles_17
+  - first:
+      213: -4757708407998189892
+    second: Gamepad5_sticks_circles_18
+  - first:
+      213: -1345514259776211870
+    second: Gamepad5_sticks_circles_19
+  - first:
+      213: 738760473581608490
+    second: Gamepad5_sticks_circles_20
+  - first:
+      213: 5991751577189237030
+    second: Gamepad5_sticks_circles_21
+  - first:
+      213: -1147198338084156626
+    second: Gamepad5_sticks_circles_22
+  - first:
+      213: -7337396705599052896
+    second: Gamepad5_sticks_circles_23
+  - first:
+      213: 4429237491962990972
+    second: Gamepad5_sticks_circles_24
+  - first:
+      213: 8694937744678651313
+    second: Gamepad5_sticks_circles_25
+  - first:
+      213: 6476495408915488236
+    second: Gamepad5_sticks_circles_26
+  - first:
+      213: 4814530150751967844
+    second: Gamepad5_sticks_circles_27
+  - first:
+      213: 4229089504020687926
+    second: Gamepad5_sticks_circles_28
+  - first:
+      213: 6028136393313893772
+    second: Gamepad5_sticks_circles_29
+  - first:
+      213: 1161897268503765304
+    second: Gamepad5_sticks_circles_30
+  - first:
+      213: 3373295526469685167
+    second: Gamepad5_sticks_circles_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 42
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ada90f1bf18ed950800000000000000
+      internalID: 6475756229762854311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 33
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b28f48049d0e5e00800000000000000
+      internalID: 1035279893787542196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 41
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e1f69295fc82590800000000000000
+      internalID: -7698675581135675769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9a21aae2abd48e0800000000000000
+      internalID: -1707503974118938127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 42
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c2b2a640dbe1180800000000000000
+      internalID: -9142662366856795136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 33
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15142a4c841f95e0800000000000000
+      internalID: -1900777924955204322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f670f5eea343d00800000000000000
+      internalID: 951450216752967449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579d248ae55d20f30800000000000000
+      internalID: 4540425976869476725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 46
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b23d688c2e2b5f0800000000000000
+      internalID: -742281637679387772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 37
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6e30d7105445520800000000000000
+      internalID: 2689850750141720277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_10
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 46
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bee4e616d81f810800000000000000
+      internalID: 1797373175899548571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 37
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7723a6b0af2ef4bc0800000000000000
+      internalID: -3796566397288828297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_12
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 46
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63acb2df25b180810800000000000000
+      internalID: 1731664099972729398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_13
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 37
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d2bd97a24970e70800000000000000
+      internalID: 9081390083769838984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_14
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44f757341b3e7900800000000000000
+      internalID: 684049151420789838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_15
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf17cb5471b1a380800000000000000
+      internalID: -8961686670176477249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c84a116d6b928120800000000000000
+      internalID: 2414663244306860233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 3
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0146a5139b9abbb40800000000000000
+      internalID: 5457141986351539216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 14
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbee06c096939fdb0800000000000000
+      internalID: -4757708407998189892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 5
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264f0d9d8e5c35de0800000000000000
+      internalID: -1345514259776211870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 14
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e5ee19cba904a00800000000000000
+      internalID: 738760473581608490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62140c4505af62350800000000000000
+      internalID: 5991751577189237030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_22
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 14
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b439b80355410f0800000000000000
+      internalID: -1147198338084156626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_23
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 5
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3a5aa42945c2a90800000000000000
+      internalID: -7337396705599052896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_24
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 12
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71db462800d77d30800000000000000
+      internalID: 4429237491962990972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_25
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 3
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b505bf9fcf9aa870800000000000000
+      internalID: 8694937744678651313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_26
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 10
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced1bdda24221e950800000000000000
+      internalID: 6476495408915488236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_27
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a9af3e9a5a0d240800000000000000
+      internalID: 4814530150751967844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_28
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 9
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c6c7a4f7eb0ba30800000000000000
+      internalID: 4229089504020687926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d341d7c1e38a350800000000000000
+      internalID: 6028136393313893772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_30
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 10
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831e9a2e863ef1010800000000000000
+      internalID: 1161897268503765304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad5_sticks_circles_31
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafc3a9a86a50de20800000000000000
+      internalID: 3373295526469685167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gamepad5_sticks_circles_0: 6475756229762854311
+      Gamepad5_sticks_circles_1: 1035279893787542196
+      Gamepad5_sticks_circles_10: 1797373175899548571
+      Gamepad5_sticks_circles_11: -3796566397288828297
+      Gamepad5_sticks_circles_12: 1731664099972729398
+      Gamepad5_sticks_circles_13: 9081390083769838984
+      Gamepad5_sticks_circles_14: 684049151420789838
+      Gamepad5_sticks_circles_15: -8961686670176477249
+      Gamepad5_sticks_circles_16: 2414663244306860233
+      Gamepad5_sticks_circles_17: 5457141986351539216
+      Gamepad5_sticks_circles_18: -4757708407998189892
+      Gamepad5_sticks_circles_19: -1345514259776211870
+      Gamepad5_sticks_circles_2: -7698675581135675769
+      Gamepad5_sticks_circles_20: 738760473581608490
+      Gamepad5_sticks_circles_21: 5991751577189237030
+      Gamepad5_sticks_circles_22: -1147198338084156626
+      Gamepad5_sticks_circles_23: -7337396705599052896
+      Gamepad5_sticks_circles_24: 4429237491962990972
+      Gamepad5_sticks_circles_25: 8694937744678651313
+      Gamepad5_sticks_circles_26: 6476495408915488236
+      Gamepad5_sticks_circles_27: 4814530150751967844
+      Gamepad5_sticks_circles_28: 4229089504020687926
+      Gamepad5_sticks_circles_29: 6028136393313893772
+      Gamepad5_sticks_circles_3: -1707503974118938127
+      Gamepad5_sticks_circles_30: 1161897268503765304
+      Gamepad5_sticks_circles_31: 3373295526469685167
+      Gamepad5_sticks_circles_4: -9142662366856795136
+      Gamepad5_sticks_circles_5: -1900777924955204322
+      Gamepad5_sticks_circles_6: 951450216752967449
+      Gamepad5_sticks_circles_7: 4540425976869476725
+      Gamepad5_sticks_circles_8: -742281637679387772
+      Gamepad5_sticks_circles_9: 2689850750141720277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

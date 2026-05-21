@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9ac83e743a55d6549be3443c96c2d1cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4532723067239157030
+    second: Kb_blank_buttons_animation_white_0
+  - first:
+      213: 1830517429209613290
+    second: Kb_blank_buttons_animation_white_1
+  - first:
+      213: -4987850244634143731
+    second: Kb_blank_buttons_animation_white_2
+  - first:
+      213: -4010497685333118900
+    second: Kb_blank_buttons_animation_white_3
+  - first:
+      213: 4436623168775620849
+    second: Kb_blank_buttons_animation_white_4
+  - first:
+      213: -348551235495912624
+    second: Kb_blank_buttons_animation_white_5
+  - first:
+      213: -6865659132553457993
+    second: Kb_blank_buttons_animation_white_6
+  - first:
+      213: 2625043183584709158
+    second: Kb_blank_buttons_animation_white_7
+  - first:
+      213: -7009158035180474528
+    second: Kb_blank_buttons_animation_white_8
+  - first:
+      213: -7356756304608369250
+    second: Kb_blank_buttons_animation_white_9
+  - first:
+      213: 3254587117629601173
+    second: Kb_blank_buttons_animation_white_10
+  - first:
+      213: -4097010338245780076
+    second: Kb_blank_buttons_animation_white_11
+  - first:
+      213: 2553399671520782906
+    second: Kb_blank_buttons_animation_white_12
+  - first:
+      213: -7949512139141163611
+    second: Kb_blank_buttons_animation_white_13
+  - first:
+      213: -5038335454506596997
+    second: Kb_blank_buttons_animation_white_14
+  - first:
+      213: 6450000791616647059
+    second: Kb_blank_buttons_animation_white_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2bdffb2688811c0800000000000000
+      internalID: -4532723067239157030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3433347ed476910800000000000000
+      internalID: 1830517429209613290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 15
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d049cb711a897cab0800000000000000
+      internalID: -4987850244634143731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40713d8a99d758c0800000000000000
+      internalID: -4010497685333118900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 15
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f88329044d029d30800000000000000
+      internalID: 4436623168775620849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b1e3e7f72b92bf0800000000000000
+      internalID: -348551235495912624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 15
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be0c3f056748b0a0800000000000000
+      internalID: -6865659132553457993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a80ad0ed60e6420800000000000000
+      internalID: 2625043183584709158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 15
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f2e7237e77abe90800000000000000
+      internalID: -7009158035180474528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95e3b46e1d87e990800000000000000
+      internalID: -7356756304608369250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 15
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595ffdc6dbd9a2d20800000000000000
+      internalID: 3254587117629601173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49dd1c3edce7427c0800000000000000
+      internalID: -4097010338245780076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 15
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a6896097f7f6320800000000000000
+      internalID: 2553399671520782906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5d5d8e3d8ada190800000000000000
+      internalID: -7949512139141163611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_14
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 15
+        width: 99
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75c0ee299c341ab0800000000000000
+      internalID: -5038335454506596997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_blank_buttons_animation_white_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 99
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f6c41eb81038950800000000000000
+      internalID: 6450000791616647059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kb_blank_buttons_animation_white_0: -4532723067239157030
+      Kb_blank_buttons_animation_white_1: 1830517429209613290
+      Kb_blank_buttons_animation_white_10: 3254587117629601173
+      Kb_blank_buttons_animation_white_11: -4097010338245780076
+      Kb_blank_buttons_animation_white_12: 2553399671520782906
+      Kb_blank_buttons_animation_white_13: -7949512139141163611
+      Kb_blank_buttons_animation_white_14: -5038335454506596997
+      Kb_blank_buttons_animation_white_15: 6450000791616647059
+      Kb_blank_buttons_animation_white_2: -4987850244634143731
+      Kb_blank_buttons_animation_white_3: -4010497685333118900
+      Kb_blank_buttons_animation_white_4: 4436623168775620849
+      Kb_blank_buttons_animation_white_5: -348551235495912624
+      Kb_blank_buttons_animation_white_6: -6865659132553457993
+      Kb_blank_buttons_animation_white_7: 2625043183584709158
+      Kb_blank_buttons_animation_white_8: -7009158035180474528
+      Kb_blank_buttons_animation_white_9: -7356756304608369250
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

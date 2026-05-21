@@ -1,0 +1,71 @@
+fileFormatVersion: 2
+guid: 9974c063d18202a4b82995c418465a8c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings:
+  - Tileset 'Base' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Pattern' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad1_buttons' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad1_sticks_circles' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Gamepad1_sticks' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad2_buttons' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad2_sticks_circles' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Gamepad2_sticks' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad3_buttons' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad3_sticks_circles' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Gamepad3_sticks' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad4_buttons' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad4_sticks_circles' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Gamepad4_sticks' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad5_buttons' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad5_sticks_circles' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Gamepad5_sticks' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad6_buttons' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Gamepad6_sticks_circles' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'Gamepad6_sticks' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 26
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 12420
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}

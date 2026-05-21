@@ -1,0 +1,2353 @@
+fileFormatVersion: 2
+guid: 04eac99ab1e4f8c4f884571eb817ae5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1085410804358334518
+    second: Kb_buttons_standart_frame_black_0
+  - first:
+      213: 989348759848868352
+    second: Kb_buttons_standart_frame_black_1
+  - first:
+      213: -7400692315523494539
+    second: Kb_buttons_standart_frame_black_2
+  - first:
+      213: -6302148727285923563
+    second: Kb_buttons_standart_frame_black_3
+  - first:
+      213: 2567367831662789946
+    second: Kb_buttons_standart_frame_black_4
+  - first:
+      213: 6363377976094048026
+    second: Kb_buttons_standart_frame_black_5
+  - first:
+      213: 8465276302215054404
+    second: Kb_buttons_standart_frame_black_6
+  - first:
+      213: 3624190073261007131
+    second: Kb_buttons_standart_frame_black_7
+  - first:
+      213: -4751796097888602153
+    second: Kb_buttons_standart_frame_black_8
+  - first:
+      213: 2588814676661846684
+    second: Kb_buttons_standart_frame_black_9
+  - first:
+      213: 6599236209077619128
+    second: Kb_buttons_standart_frame_black_10
+  - first:
+      213: -8018160826184641064
+    second: Kb_buttons_standart_frame_black_11
+  - first:
+      213: 8131832734562398791
+    second: Kb_buttons_standart_frame_black_12
+  - first:
+      213: 8584822940545204852
+    second: Kb_buttons_standart_frame_black_13
+  - first:
+      213: -6902651332871509359
+    second: Kb_buttons_standart_frame_black_14
+  - first:
+      213: 2521530284606777426
+    second: Kb_buttons_standart_frame_black_15
+  - first:
+      213: 3807557294959694160
+    second: Kb_buttons_standart_frame_black_16
+  - first:
+      213: 8800687356082951913
+    second: Kb_buttons_standart_frame_black_17
+  - first:
+      213: -5715946119806978251
+    second: Kb_buttons_standart_frame_black_18
+  - first:
+      213: -4564651323567332642
+    second: Kb_buttons_standart_frame_black_19
+  - first:
+      213: -1933265003965250879
+    second: Kb_buttons_standart_frame_black_20
+  - first:
+      213: -2216119689956249157
+    second: Kb_buttons_standart_frame_black_21
+  - first:
+      213: -5495720977704353199
+    second: Kb_buttons_standart_frame_black_22
+  - first:
+      213: 6831998514308883295
+    second: Kb_buttons_standart_frame_black_23
+  - first:
+      213: 7415274287793337287
+    second: Kb_buttons_standart_frame_black_24
+  - first:
+      213: -3716273351432490579
+    second: Kb_buttons_standart_frame_black_25
+  - first:
+      213: -2337133219207199501
+    second: Kb_buttons_standart_frame_black_26
+  - first:
+      213: 8273825533745572327
+    second: Kb_buttons_standart_frame_black_27
+  - first:
+      213: -155198342012189058
+    second: Kb_buttons_standart_frame_black_28
+  - first:
+      213: -2352807524254830079
+    second: Kb_buttons_standart_frame_black_29
+  - first:
+      213: -7711073770628230535
+    second: Kb_buttons_standart_frame_black_30
+  - first:
+      213: 4122264180602830052
+    second: Kb_buttons_standart_frame_black_31
+  - first:
+      213: -2154952107974731120
+    second: Kb_buttons_standart_frame_black_32
+  - first:
+      213: 3980978276387791507
+    second: Kb_buttons_standart_frame_black_33
+  - first:
+      213: 2104555845274302170
+    second: Kb_buttons_standart_frame_black_34
+  - first:
+      213: -6354587921008514083
+    second: Kb_buttons_standart_frame_black_35
+  - first:
+      213: 3596425449172539368
+    second: Kb_buttons_standart_frame_black_36
+  - first:
+      213: 1188797513040489490
+    second: Kb_buttons_standart_frame_black_37
+  - first:
+      213: -7785451797413708897
+    second: Kb_buttons_standart_frame_black_38
+  - first:
+      213: -4377621908670506768
+    second: Kb_buttons_standart_frame_black_39
+  - first:
+      213: 1827548724660128357
+    second: Kb_buttons_standart_frame_black_40
+  - first:
+      213: -8391389188317933669
+    second: Kb_buttons_standart_frame_black_41
+  - first:
+      213: 8310413709301480833
+    second: Kb_buttons_standart_frame_black_42
+  - first:
+      213: 9075445227921480600
+    second: Kb_buttons_standart_frame_black_43
+  - first:
+      213: 7876952402291115589
+    second: Kb_buttons_standart_frame_black_44
+  - first:
+      213: -66232125075686627
+    second: Kb_buttons_standart_frame_black_45
+  - first:
+      213: -7858287835772667654
+    second: Kb_buttons_standart_frame_black_46
+  - first:
+      213: -391092632401331570
+    second: Kb_buttons_standart_frame_black_47
+  - first:
+      213: 6906954394438264030
+    second: Kb_buttons_standart_frame_black_48
+  - first:
+      213: -3848206579821582272
+    second: Kb_buttons_standart_frame_black_49
+  - first:
+      213: 608874930190215919
+    second: Kb_buttons_standart_frame_black_50
+  - first:
+      213: 5103856052463840138
+    second: Kb_buttons_standart_frame_black_51
+  - first:
+      213: 6978138620536750982
+    second: Kb_buttons_standart_frame_black_52
+  - first:
+      213: -1912164203902765178
+    second: Kb_buttons_standart_frame_black_53
+  - first:
+      213: 2141665350697534678
+    second: Kb_buttons_standart_frame_black_54
+  - first:
+      213: -667557229303277758
+    second: Kb_buttons_standart_frame_black_55
+  - first:
+      213: -563824319665899714
+    second: Kb_buttons_standart_frame_black_56
+  - first:
+      213: 1015557916154179703
+    second: Kb_buttons_standart_frame_black_57
+  - first:
+      213: 3684236613058731398
+    second: Kb_buttons_standart_frame_black_58
+  - first:
+      213: -1943086509482095445
+    second: Kb_buttons_standart_frame_black_59
+  - first:
+      213: -2511699042523748622
+    second: Kb_buttons_standart_frame_black_60
+  - first:
+      213: 7516806599876596482
+    second: Kb_buttons_standart_frame_black_61
+  - first:
+      213: 7643649229211030978
+    second: Kb_buttons_standart_frame_black_62
+  - first:
+      213: 1055171885404051541
+    second: Kb_buttons_standart_frame_black_63
+  - first:
+      213: -6110232267684720145
+    second: Kb_buttons_standart_frame_black_64
+  - first:
+      213: 8025680936729821824
+    second: Kb_buttons_standart_frame_black_65
+  - first:
+      213: 5489660978305657319
+    second: Kb_buttons_standart_frame_black_66
+  - first:
+      213: 1012467708170336543
+    second: Kb_buttons_standart_frame_black_67
+  - first:
+      213: 5586044273385071997
+    second: Kb_buttons_standart_frame_black_68
+  - first:
+      213: 3606064601028717669
+    second: Kb_buttons_standart_frame_black_69
+  - first:
+      213: -5378209430435747922
+    second: Kb_buttons_standart_frame_black_70
+  - first:
+      213: 2128402829007038271
+    second: Kb_buttons_standart_frame_black_71
+  - first:
+      213: -3981162668782267284
+    second: Kb_buttons_standart_frame_black_72
+  - first:
+      213: 4307155360929274293
+    second: Kb_buttons_standart_frame_black_73
+  - first:
+      213: -9160429082067383851
+    second: Kb_buttons_standart_frame_black_74
+  - first:
+      213: 3251937850570225230
+    second: Kb_buttons_standart_frame_black_75
+  - first:
+      213: 2046810579227115772
+    second: Kb_buttons_standart_frame_black_76
+  - first:
+      213: -5600950875680948875
+    second: Kb_buttons_standart_frame_black_77
+  - first:
+      213: -3180627112152494755
+    second: Kb_buttons_standart_frame_black_78
+  - first:
+      213: 5364787984530905527
+    second: Kb_buttons_standart_frame_black_79
+  - first:
+      213: 425384468228044168
+    second: Kb_buttons_standart_frame_black_80
+  - first:
+      213: 1409833169201485311
+    second: Kb_buttons_standart_frame_black_81
+  - first:
+      213: -6397293768055043689
+    second: Kb_buttons_standart_frame_black_82
+  - first:
+      213: 1068862522396933383
+    second: Kb_buttons_standart_frame_black_83
+  - first:
+      213: -5361665747487362195
+    second: Kb_buttons_standart_frame_black_84
+  - first:
+      213: 5582950815819500853
+    second: Kb_buttons_standart_frame_black_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63846253067201f00800000000000000
+      internalID: 1085410804358334518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 31
+        width: 33
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ad3cd847fdabd00800000000000000
+      internalID: 989348759848868352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 31
+        width: 33
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d4241bc857b4990800000000000000
+      internalID: -7400692315523494539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511417c6f154a88a0800000000000000
+      internalID: -6302148727285923563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35860eb07f11a320800000000000000
+      internalID: 2567367831662789946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f31acfd824f4850800000000000000
+      internalID: 6363377976094048026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4448f0722f3ba7570800000000000000
+      internalID: 8465276302215054404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11283b7ba5bb4230800000000000000
+      internalID: 3624190073261007131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7334400aa3e0eb0800000000000000
+      internalID: -4751796097888602153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c924fb77b315de320800000000000000
+      internalID: 2588814676661846684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b987fe2e52359b50800000000000000
+      internalID: 6599236209077619128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5df4be535c9b090800000000000000
+      internalID: -8018160826184641064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_12
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7423c7ca9c21ad070800000000000000
+      internalID: 8131832734562398791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47242d6eafa632770800000000000000
+      internalID: 8584822940545204852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a21df3f2bd430a0800000000000000
+      internalID: -6902651332871509359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_15
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25860682f664ef220800000000000000
+      internalID: 2521530284606777426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051150cbf2927d430800000000000000
+      internalID: 3807557294959694160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e69896b582522a70800000000000000
+      internalID: 8800687356082951913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_18
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537f1a5d941eca0b0800000000000000
+      internalID: -5715946119806978251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_19
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2a0474ec917a0c0800000000000000
+      internalID: -4564651323567332642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_20
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c205f5c8b9ab25e0800000000000000
+      internalID: -1933265003965250879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_21
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1b86c22e2ce31e0800000000000000
+      internalID: -2216119689956249157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_22
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152054b63e64bb3b0800000000000000
+      internalID: -5495720977704353199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_23
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53a067837220de50800000000000000
+      internalID: 6831998514308883295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_24
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3720c4da858e660800000000000000
+      internalID: 7415274287793337287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_25
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1bd9793152d6cc0800000000000000
+      internalID: -3716273351432490579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_26
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4c36448b5d09fd0800000000000000
+      internalID: -2337133219207199501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_27
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e926708c7882d270800000000000000
+      internalID: 8273825533745572327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_28
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7642a22eef98ddf0800000000000000
+      internalID: -155198342012189058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_29
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102bcebb506295fd0800000000000000
+      internalID: -2352807524254830079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_30
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9725fd8b243ccf490800000000000000
+      internalID: -7711073770628230535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_31
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecf52b7e69353930800000000000000
+      internalID: 4122264180602830052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_32
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09adf28a9721812e0800000000000000
+      internalID: -2154952107974731120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_33
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39224a676a64f3730800000000000000
+      internalID: 3980978276387791507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6fb8f0462e43d10800000000000000
+      internalID: 2104555845274302170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbac4234f7ffc7a0800000000000000
+      internalID: -6354587921008514083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e79a1f24e119e130800000000000000
+      internalID: 3596425449172539368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_37
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c65a22a057f7010800000000000000
+      internalID: 1188797513040489490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_38
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bba3fd6d484f390800000000000000
+      internalID: -7785451797413708897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_39
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f81ab451109f33c0800000000000000
+      internalID: -4377621908670506768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_40
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ac51fd1e1cc5910800000000000000
+      internalID: 1827548724660128357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_41
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f81422efbcb8b80800000000000000
+      internalID: -8391389188317933669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_42
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d7377fc35845370800000000000000
+      internalID: 8310413709301480833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_43
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b16ccd95572fd70800000000000000
+      internalID: 9075445227921480600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_44
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546c83bd97e805d60800000000000000
+      internalID: 7876952402291115589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_45
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bf420bb32b41ff0800000000000000
+      internalID: -66232125075686627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_46
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af83ffd29d0c1f290800000000000000
+      internalID: -7858287835772667654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_47
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a327ba25f829af0800000000000000
+      internalID: -391092632401331570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_48
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4e0585d6e6adf50800000000000000
+      internalID: 6906954394438264030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_49
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048e96b118c689ac0800000000000000
+      internalID: -3848206579821582272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_50
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feae0a6e588237800800000000000000
+      internalID: 608874930190215919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_51
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ba5dfc90a84d640800000000000000
+      internalID: 5103856052463840138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_52
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68307868a1457d060800000000000000
+      internalID: 6978138620536750982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_53
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6877822a9c0a675e0800000000000000
+      internalID: -1912164203902765178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_54
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4c6181a49b8bd10800000000000000
+      internalID: 2141665350697534678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_55
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2475220ac3c5cb6f0800000000000000
+      internalID: -667557229303277758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_56
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37769eb4c4ec28f0800000000000000
+      internalID: -563824319665899714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_57
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770b4394b8cf71e00800000000000000
+      internalID: 1015557916154179703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_58
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d9addfda9012330800000000000000
+      internalID: 3684236613058731398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_59
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac47725d15c805e0800000000000000
+      internalID: -1943086509482095445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_60
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 31
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6eea34707a42dd0800000000000000
+      internalID: -2511699042523748622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_61
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203d4fed6cf015860800000000000000
+      internalID: 7516806599876596482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_62
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 31
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5dfc6e972b31a60800000000000000
+      internalID: 7643649229211030978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_63
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558dc7e3d39b4ae00800000000000000
+      internalID: 1055171885404051541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_64
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 31
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1d58d3028143ba0800000000000000
+      internalID: -6110232267684720145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_65
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082c7624a42f06f60800000000000000
+      internalID: 8025680936729821824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_66
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e96b3503913f2c40800000000000000
+      internalID: 5489660978305657319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_67
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 31
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19fb0c24020d0e00800000000000000
+      internalID: 1012467708170336543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_68
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75e8b6abad958d40800000000000000
+      internalID: 5586044273385071997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_69
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c6d6d16a05b0230800000000000000
+      internalID: 3606064601028717669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_70
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 31
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7a83b9403cc55b0800000000000000
+      internalID: -5378209430435747922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_71
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37a6e1a81b998d10800000000000000
+      internalID: 2128402829007038271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_72
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64df2655a110c8c0800000000000000
+      internalID: -3981162668782267284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_73
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 31
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9db900bf616cb30800000000000000
+      internalID: 4307155360929274293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_74
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9473da84e9fd080800000000000000
+      internalID: -9160429082067383851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_75
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46b2eede34312d20800000000000000
+      internalID: 3251937850570225230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_76
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 31
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf00859906bb76c10800000000000000
+      internalID: 2046810579227115772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_77
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dbf9a8adc6542b0800000000000000
+      internalID: -5600950875680948875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_78
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d8c214e742cd3d0800000000000000
+      internalID: -3180627112152494755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_79
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 31
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b99f318f3e837a40800000000000000
+      internalID: 5364787984530905527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_80
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88573b98be447e500800000000000000
+      internalID: 425384468228044168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_81
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 15
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff551da3ccbb09310800000000000000
+      internalID: 1409833169201485311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_82
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 99
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7994247563f3837a0800000000000000
+      internalID: -6397293768055043689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_83
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 15
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d72311dcc55de00800000000000000
+      internalID: 1068862522396933383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 15
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63f2a4f8698795b0800000000000000
+      internalID: -5361665747487362195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kb_buttons_standart_frame_black_85
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 15
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d066fef20aa7d40800000000000000
+      internalID: 5582950815819500853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kb_buttons_standart_frame_black_0: 1085410804358334518
+      Kb_buttons_standart_frame_black_1: 989348759848868352
+      Kb_buttons_standart_frame_black_10: 6599236209077619128
+      Kb_buttons_standart_frame_black_11: -8018160826184641064
+      Kb_buttons_standart_frame_black_12: 8131832734562398791
+      Kb_buttons_standart_frame_black_13: 8584822940545204852
+      Kb_buttons_standart_frame_black_14: -6902651332871509359
+      Kb_buttons_standart_frame_black_15: 2521530284606777426
+      Kb_buttons_standart_frame_black_16: 3807557294959694160
+      Kb_buttons_standart_frame_black_17: 8800687356082951913
+      Kb_buttons_standart_frame_black_18: -5715946119806978251
+      Kb_buttons_standart_frame_black_19: -4564651323567332642
+      Kb_buttons_standart_frame_black_2: -7400692315523494539
+      Kb_buttons_standart_frame_black_20: -1933265003965250879
+      Kb_buttons_standart_frame_black_21: -2216119689956249157
+      Kb_buttons_standart_frame_black_22: -5495720977704353199
+      Kb_buttons_standart_frame_black_23: 6831998514308883295
+      Kb_buttons_standart_frame_black_24: 7415274287793337287
+      Kb_buttons_standart_frame_black_25: -3716273351432490579
+      Kb_buttons_standart_frame_black_26: -2337133219207199501
+      Kb_buttons_standart_frame_black_27: 8273825533745572327
+      Kb_buttons_standart_frame_black_28: -155198342012189058
+      Kb_buttons_standart_frame_black_29: -2352807524254830079
+      Kb_buttons_standart_frame_black_3: -6302148727285923563
+      Kb_buttons_standart_frame_black_30: -7711073770628230535
+      Kb_buttons_standart_frame_black_31: 4122264180602830052
+      Kb_buttons_standart_frame_black_32: -2154952107974731120
+      Kb_buttons_standart_frame_black_33: 3980978276387791507
+      Kb_buttons_standart_frame_black_34: 2104555845274302170
+      Kb_buttons_standart_frame_black_35: -6354587921008514083
+      Kb_buttons_standart_frame_black_36: 3596425449172539368
+      Kb_buttons_standart_frame_black_37: 1188797513040489490
+      Kb_buttons_standart_frame_black_38: -7785451797413708897
+      Kb_buttons_standart_frame_black_39: -4377621908670506768
+      Kb_buttons_standart_frame_black_4: 2567367831662789946
+      Kb_buttons_standart_frame_black_40: 1827548724660128357
+      Kb_buttons_standart_frame_black_41: -8391389188317933669
+      Kb_buttons_standart_frame_black_42: 8310413709301480833
+      Kb_buttons_standart_frame_black_43: 9075445227921480600
+      Kb_buttons_standart_frame_black_44: 7876952402291115589
+      Kb_buttons_standart_frame_black_45: -66232125075686627
+      Kb_buttons_standart_frame_black_46: -7858287835772667654
+      Kb_buttons_standart_frame_black_47: -391092632401331570
+      Kb_buttons_standart_frame_black_48: 6906954394438264030
+      Kb_buttons_standart_frame_black_49: -3848206579821582272
+      Kb_buttons_standart_frame_black_5: 6363377976094048026
+      Kb_buttons_standart_frame_black_50: 608874930190215919
+      Kb_buttons_standart_frame_black_51: 5103856052463840138
+      Kb_buttons_standart_frame_black_52: 6978138620536750982
+      Kb_buttons_standart_frame_black_53: -1912164203902765178
+      Kb_buttons_standart_frame_black_54: 2141665350697534678
+      Kb_buttons_standart_frame_black_55: -667557229303277758
+      Kb_buttons_standart_frame_black_56: -563824319665899714
+      Kb_buttons_standart_frame_black_57: 1015557916154179703
+      Kb_buttons_standart_frame_black_58: 3684236613058731398
+      Kb_buttons_standart_frame_black_59: -1943086509482095445
+      Kb_buttons_standart_frame_black_6: 8465276302215054404
+      Kb_buttons_standart_frame_black_60: -2511699042523748622
+      Kb_buttons_standart_frame_black_61: 7516806599876596482
+      Kb_buttons_standart_frame_black_62: 7643649229211030978
+      Kb_buttons_standart_frame_black_63: 1055171885404051541
+      Kb_buttons_standart_frame_black_64: -6110232267684720145
+      Kb_buttons_standart_frame_black_65: 8025680936729821824
+      Kb_buttons_standart_frame_black_66: 5489660978305657319
+      Kb_buttons_standart_frame_black_67: 1012467708170336543
+      Kb_buttons_standart_frame_black_68: 5586044273385071997
+      Kb_buttons_standart_frame_black_69: 3606064601028717669
+      Kb_buttons_standart_frame_black_7: 3624190073261007131
+      Kb_buttons_standart_frame_black_70: -5378209430435747922
+      Kb_buttons_standart_frame_black_71: 2128402829007038271
+      Kb_buttons_standart_frame_black_72: -3981162668782267284
+      Kb_buttons_standart_frame_black_73: 4307155360929274293
+      Kb_buttons_standart_frame_black_74: -9160429082067383851
+      Kb_buttons_standart_frame_black_75: 3251937850570225230
+      Kb_buttons_standart_frame_black_76: 2046810579227115772
+      Kb_buttons_standart_frame_black_77: -5600950875680948875
+      Kb_buttons_standart_frame_black_78: -3180627112152494755
+      Kb_buttons_standart_frame_black_79: 5364787984530905527
+      Kb_buttons_standart_frame_black_8: -4751796097888602153
+      Kb_buttons_standart_frame_black_80: 425384468228044168
+      Kb_buttons_standart_frame_black_81: 1409833169201485311
+      Kb_buttons_standart_frame_black_82: -6397293768055043689
+      Kb_buttons_standart_frame_black_83: 1068862522396933383
+      Kb_buttons_standart_frame_black_84: -5361665747487362195
+      Kb_buttons_standart_frame_black_85: 5582950815819500853
+      Kb_buttons_standart_frame_black_9: 2588814676661846684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
