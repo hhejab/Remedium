@@ -16,16 +16,29 @@ public class EquipItemData
     public int bonusHealth;
 }
 
+[System.Serializable]
+public class StartingGearItem
+{
+    public string itemID;
+    public Sprite itemIcon;
+}
+
 [RequireComponent(typeof(PlayerStats))]
 [RequireComponent(typeof(PlayerHealth))]
 public class EquipmentManager : MonoBehaviour
 {
     [Header("Item Database")]
-    [Tooltip("Add rows here to define what stats your armor and weapon items grant.")]
+    [Tooltip("Add rows here to define all items across all 3 tiers (Basic + Tier 1 + Tier 2).")]
     public List<EquipItemData> itemDatabase = new List<EquipItemData>();
 
+    [Header("Starting Gear (Basic Tier)")]
+    [Tooltip("Configure the item details the player will start the game wearing.")]
+    public StartingGearItem startingHead;
+    public StartingGearItem startingChest;
+    public StartingGearItem startingLegs;
+    public StartingGearItem startingWeapon;
+
     [Header("UI Equipment Slots")]
-    [Tooltip("Drag your equipment UI Slot GameObjects (with the InventoryItem script) here.")]
     public InventoryItem headSlot;
     public InventoryItem chestSlot;
     public InventoryItem legsSlot;
@@ -34,7 +47,7 @@ public class EquipmentManager : MonoBehaviour
     private PlayerStats playerStats;
     private PlayerHealth playerHealth;
 
-    // Track current active bonuses to safely apply changes as deltas (differences)
+    // Track active bonuses to safely apply changes as differences (deltas)
     private int currentBonusAtk = 0;
     private int currentBonusDef = 0;
     private int currentBonusHp = 0;
@@ -45,12 +58,30 @@ public class EquipmentManager : MonoBehaviour
         playerHealth = GetComponent<PlayerHealth>();
     }
 
-    /// <summary>
-    /// Validates if an item is allowed to be placed inside a specific equipment UI slot.
-    /// </summary>
+    private void Start()
+    {
+        // Automatically give the player their basic gear at startup
+        AutoEquipStartingItem(headSlot, startingHead);
+        AutoEquipStartingItem(chestSlot, startingChest);
+        AutoEquipStartingItem(legsSlot, startingLegs);
+        AutoEquipStartingItem(weaponSlot, startingWeapon);
+
+        // Force a buff check calculation for starting gear parameters
+        UpdateBuffs();
+    }
+
+    private void AutoEquipStartingItem(InventoryItem slot, StartingGearItem gear)
+    {
+        if (slot != null && gear != null && !string.IsNullOrEmpty(gear.itemID))
+        {
+            // Initializing a default single count stack in the equipment slot
+            slot.SetData(gear.itemID, gear.itemIcon, 1);
+        }
+    }
+
     public bool CanEquip(string id, EquipSlot slot)
     {
-        if (string.IsNullOrEmpty(id)) return true; // Empty item slots are always valid
+        if (string.IsNullOrEmpty(id)) return true; 
 
         foreach (var item in itemDatabase)
         {
@@ -64,17 +95,12 @@ public class EquipmentManager : MonoBehaviour
         return false;
     }
 
-    /// <summary>
-    /// Scans all active equipment slots, totals their buffs, and safely updates Player stats.
-    /// Called automatically by InventoryItem when an item is placed or removed.
-    /// </summary>
     public void UpdateBuffs()
     {
         int newAtk = 0;
         int newDef = 0;
         int newHp = 0;
 
-        // Collect stats from all four slots
         TallySlotBuffs(headSlot, ref newAtk, ref newDef, ref newHp);
         TallySlotBuffs(chestSlot, ref newAtk, ref newDef, ref newHp);
         TallySlotBuffs(legsSlot, ref newAtk, ref newDef, ref newHp);
@@ -94,7 +120,7 @@ public class EquipmentManager : MonoBehaviour
                 atk += item.bonusAttack;
                 def += item.bonusDefense;
                 hp += item.bonusHealth;
-                return; // Match found, exit loop for this slot
+                return; 
             }
         }
     }
@@ -103,28 +129,22 @@ public class EquipmentManager : MonoBehaviour
     {
         if (playerStats != null)
         {
-            // Calculate differences between the new gear totals and what was previously tracked
             int atkDelta = newAtk - currentBonusAtk;
             int defDelta = newDef - currentBonusDef;
             int hpDelta = newHp - currentBonusHp;
 
-            // Apply directly to your actual PlayerStats variables
             playerStats.attackDamage += atkDelta;
             playerStats.defense += defDelta;
             playerStats.maxHealthBonus += hpDelta;
 
-            Debug.Log($"[EquipmentManager] Buffs Updated! Deltas applied -> ATK: {atkDelta:+#;-#;0} | DEF: {defDelta:+#;-#;0} | HP: {hpDelta:+#;-#;0}");
+            Debug.Log($"[EquipmentManager] Buffs Updated! Deltas: ATK: {atkDelta:+#;-#;0} | DEF: {defDelta:+#;-#;0} | HP: {hpDelta:+#;-#;0}");
         }
 
         if (playerHealth != null)
         {
-            // Calling ChangeHealth(0) forces PlayerHealth to automatically run GetFinalMaxHealth(),
-            // update its structural health bar fill parameters, and clamp seamlessly 
-            // without harming or artificially resetting the player's current health.
-            playerHealth.ChangeHealth(0);
+            playerHealth.ChangeHealth(0); // Recalculates Max Health UI safely
         }
 
-        // Cache the newly applied totals so they act as the base comparison for the next swap
         currentBonusAtk = newAtk;
         currentBonusDef = newDef;
         currentBonusHp = newHp;
