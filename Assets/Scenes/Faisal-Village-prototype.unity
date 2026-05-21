@@ -5059,11 +5059,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2111072380072943079, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 169
+      value: 215
       objectReference: {fileID: 0}
     - target: {fileID: 2111072380072943079, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 215
+      value: 169
       objectReference: {fileID: 0}
     - target: {fileID: 2111072380072943079, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_LocalScale.x
@@ -5087,19 +5087,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2111072380072943079, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 2111072380072943079, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2111072380072943079, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2111072380072943079, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000008940697
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 2111072380072943079, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5119,7 +5119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2111072380072943079, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 41.6
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 2250799852662688124, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_Color.a
@@ -5155,23 +5155,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4554486874275564801, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 113
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 4554486874275564801, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 140
+      value: 113
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554486874275564801, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9396927
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554486874275564801, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554486874275564801, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554486874275564801, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.3420201
       objectReference: {fileID: 0}
     - target: {fileID: 4554486874275564801, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.15002441
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554486874275564801, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 4810255890307457080, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: designatedSlot
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4969222441434993490, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -33.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969222441434993490, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -35.32007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969222441434993490, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 83.08008
+      value: 82.519905
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969222441434993490, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 88.15021
       objectReference: {fileID: 0}
     - target: {fileID: 5989685547484253365, guid: 06b929bd1cd5c544f81ccc4a36721aa2, type: 3}
       propertyPath: m_Name
@@ -18553,63 +18585,75 @@ MonoBehaviour:
   - itemID: Helmet_LVL1
     equipType: 1
     bonusAttack: 0
-    bonusDefense: 1
-    bonusHealth: 10
+    bonusDefense: 0
+    bonusHealth: 5
   - itemID: Helmet_LVL2
     equipType: 1
     bonusAttack: 0
-    bonusDefense: 2
-    bonusHealth: 25
+    bonusDefense: 1
+    bonusHealth: 20
   - itemID: Helmet_LVL3
     equipType: 1
     bonusAttack: 0
-    bonusDefense: 4
+    bonusDefense: 3
     bonusHealth: 50
   - itemID: Chest_LVL1
     equipType: 2
     bonusAttack: 0
-    bonusDefense: 1
-    bonusHealth: 15
+    bonusDefense: 0
+    bonusHealth: 10
   - itemID: Chest_LVL2
     equipType: 2
     bonusAttack: 0
-    bonusDefense: 3
-    bonusHealth: 40
+    bonusDefense: 2
+    bonusHealth: 35
   - itemID: Chest_LVL3
     equipType: 2
     bonusAttack: 0
-    bonusDefense: 6
+    bonusDefense: 5
     bonusHealth: 75
   - itemID: Legs_LVL1
     equipType: 3
     bonusAttack: 0
-    bonusDefense: 1
-    bonusHealth: 10
+    bonusDefense: 0
+    bonusHealth: 5
   - itemID: Legs_LVL2
     equipType: 3
     bonusAttack: 0
-    bonusDefense: 2
-    bonusHealth: 25
+    bonusDefense: 1
+    bonusHealth: 20
   - itemID: Legs_LVL3
     equipType: 3
     bonusAttack: 0
-    bonusDefense: 4
+    bonusDefense: 3
     bonusHealth: 50
   - itemID: Sword_LVL1
     equipType: 4
-    bonusAttack: 2
+    bonusAttack: 1
     bonusDefense: 0
     bonusHealth: 0
   - itemID: Sword_LVL2
     equipType: 4
-    bonusAttack: 5
+    bonusAttack: 4
     bonusDefense: 0
     bonusHealth: 0
   - itemID: Sword_LVL3
     equipType: 4
-    bonusAttack: 10
+    bonusAttack: 9
     bonusDefense: 0
     bonusHealth: 0
+  startingHead:
+    itemID: Helmet_LVL1
+    itemIcon: {fileID: -3022540174006795666, guid: 0ac7fce3a1728df4cac693aa598b119b, type: 3}
+  startingChest:
+    itemID: Chest_LVL1
+    itemIcon: {fileID: 1164585677716319106, guid: 0ac7fce3a1728df4cac693aa598b119b, type: 3}
+  startingLegs:
+    itemID: Legs_LVL1
+    itemIcon: {fileID: 1065521576455249907, guid: 0ac7fce3a1728df4cac693aa598b119b, type: 3}
+  startingWeapon:
+    itemID: Sword_LVL1
+    itemIcon: {fileID: 9147546874185701050, guid: 24cf487785593b84b9be1aeab4e882bb, type: 3}
   headSlot: {fileID: 1682158458}
   chestSlot: {fileID: 727006644}
   legsSlot: {fileID: 1798219178}
