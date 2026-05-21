@@ -483,7 +483,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1562863935
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -8353213040954873054, guid: ad0967efa0b94dd4082e9f54f3235f72, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -562,6 +562,12 @@ MonoBehaviour:
   attackRange: 1.5
   aggroRange: 5
   patrolRadius: 3
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 16384
+  obstacleCheckDistance: 0.6
+  sideCheckAngle: 45
+  stuckCheckTime: 0.5
   animator: {fileID: 5720808097447493426}
   hitboxUp: {fileID: 374962855664657130}
   hitboxDown: {fileID: 883916926871856640}

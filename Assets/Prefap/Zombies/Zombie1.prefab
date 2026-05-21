@@ -288,8 +288,8 @@ GameObject:
   - component: {fileID: 6674967565920948377}
   - component: {fileID: 5251722253861722133}
   - component: {fileID: 7305821106380998075}
-  - component: {fileID: 6390404162957233162}
   - component: {fileID: 454583557218141689}
+  - component: {fileID: 1942302737945984413}
   m_Layer: 12
   m_Name: Zombie1
   m_TagString: Enemy
@@ -357,8 +357,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1562863935
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 5718041503091781643, guid: f942a6fca83c22c45b01d709fb320199, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -420,8 +420,43 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &6390404162957233162
-CapsuleCollider2D:
+--- !u!114 &454583557218141689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397651105551278064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65a8da4aee8b33343a02e43926e5f9c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  speed: 2
+  attackRange: 1.5
+  aggroRange: 5
+  patrolRadius: 3
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 16384
+  obstacleCheckDistance: 0.6
+  sideCheckAngle: 45
+  stuckCheckTime: 0.5
+  animator: {fileID: 5251722253861722133}
+  hitboxUp: {fileID: 8367745844235815294}
+  hitboxDown: {fileID: 1873654411290791828}
+  hitboxLeft: {fileID: 4926969981626496060}
+  hitboxRight: {fileID: 5069697620584919714}
+  attackDamage: 1
+  attackWindup: 0.5
+  attackDuration: 0.25
+  health: 50
+  damageCooldown: 0.25
+  attackSFX: {fileID: 8300000, guid: 16708ecaf7433234289a8645c112c291, type: 3}
+  deathSFX: {fileID: 8300000, guid: f41840dc387a2f84da740738a3171a0c, type: 3}
+--- !u!61 &1942302737945984413
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -454,38 +489,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.064902306, y: 2.1562576}
-  m_Size: {x: 0.76182747, y: 1.431345}
-  m_Direction: 0
---- !u!114 &454583557218141689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6397651105551278064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65a8da4aee8b33343a02e43926e5f9c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  speed: 2
-  attackRange: 1.5
-  aggroRange: 5
-  patrolRadius: 3
-  animator: {fileID: 5251722253861722133}
-  hitboxUp: {fileID: 8367745844235815294}
-  hitboxDown: {fileID: 1873654411290791828}
-  hitboxLeft: {fileID: 4926969981626496060}
-  hitboxRight: {fileID: 5069697620584919714}
-  attackDamage: 1
-  attackWindup: 0.5
-  attackDuration: 0.25
-  health: 50
-  damageCooldown: 0.25
-  attackSFX: {fileID: 8300000, guid: 16708ecaf7433234289a8645c112c291, type: 3}
-  deathSFX: {fileID: 8300000, guid: f41840dc387a2f84da740738a3171a0c, type: 3}
+  m_Offset: {x: -0.0076913834, y: 1.5220687}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.57894737, y: -0.6551724}
+    oldSize: {x: 1.1875, y: 1.8125}
+    newSize: {x: 1.1875, y: 1.375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.703928, y: 0.12819195}
+  m_EdgeRadius: 0
 --- !u!1 &8367745844235815294
 GameObject:
   m_ObjectHideFlags: 0
