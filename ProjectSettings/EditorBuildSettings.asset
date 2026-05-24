@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Worldmap/Forest.unity
     guid: 205266f9b289bad46a4748183b39391e
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/Dungeon.unity
+    guid: f6063c216087f1247b7ffe4d7e224ce4
   - enabled: 0
     path: Assets/Scenes/Worldmap/GlassBlowers.unity
     guid: 5700083e0c1e3a94a8fca67141b85688
@@ -35,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Worldmap/UnDeadLand.unity
     guid: 91a3615dac6ee144dbbe435d5b1ef9c6
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/Dungeon 2.unity
+    guid: dffb71511de2d404ca045d197e9a81a3
   - enabled: 1
     path: Assets/Scenes/MageTower.unity
     guid: 6d1a840e7a37eb242adf187b8bd6e9e6

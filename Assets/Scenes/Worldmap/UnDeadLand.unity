@@ -419,8 +419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd0abef0e4474f469378908b0f299aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Dungeon
-  spawnPointName: DungeonSpawn
+  sceneToLoad: Dungeon2
+  spawnPointName: Dungeon2Spawn
   message: Enter The Dungeon ?
 --- !u!1 &661813849
 GameObject:

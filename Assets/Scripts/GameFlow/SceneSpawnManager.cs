@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneSpawnManager : MonoBehaviour
 {
-    public static string nextSpawnPointName = "DefaultSpawn";
+    public static string nextSpawnPointName = "";
 
     private void OnEnable()
     {
@@ -17,11 +17,20 @@ public class SceneSpawnManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        if (string.IsNullOrEmpty(nextSpawnPointName))
+            return;
+
         GameObject spawn = GameObject.Find(nextSpawnPointName);
 
-        if (spawn != null && PersistentPlayer.Instance != null)
+        if (spawn == null)
         {
-            PersistentPlayer.Instance.transform.position = spawn.transform.position;
+            Debug.LogWarning("Spawn point not found: " + nextSpawnPointName);
+            return;
         }
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null)
+            player.transform.position = spawn.transform.position;
     }
 }
