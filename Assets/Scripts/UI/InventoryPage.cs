@@ -31,6 +31,35 @@ public class InventoryPage : MonoBehaviour
         return false;
     }
 
+    public bool HasItem(string id)
+{
+    foreach (var slot in uiItems)
+        if (slot.itemID == id && slot.currentQuantity > 0)
+            return true;
+
+    return false;
+}
+
+public bool RemoveItem(string id, int amount = 1)
+{
+    foreach (var slot in uiItems)
+    {
+        if (slot.itemID == id && slot.currentQuantity >= amount)
+        {
+            slot.currentQuantity -= amount;
+
+            if (slot.currentQuantity <= 0)
+                slot.ResetData();
+            else
+                slot.UpdateUI();
+
+            return true;
+        }
+    }
+
+    return false;
+}
+
     public void Show() => gameObject.SetActive(true);
     public void Hide() => gameObject.SetActive(false);
 }

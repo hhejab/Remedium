@@ -2,17 +2,32 @@ using UnityEngine;
 
 public class Item : MonoBehaviour, IInteractable
 {
-    public string itemID; 
+    public string itemID;
     public Sprite itemIcon;
 
     public void Interact()
     {
-        if (string.IsNullOrEmpty(itemID)) itemID = gameObject.name;
+        if (string.IsNullOrEmpty(itemID))
+            itemID = gameObject.name;
 
-        // Fix for CS1503: Using FindObjectsInactive.Include
         InventoryPage inv = FindFirstObjectByType<InventoryPage>(FindObjectsInactive.Include);
         PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
 
+        // Keys go to main inventory only
+        if (itemID == "BossKey")
+        {
+            if (inv != null && inv.TryAddToInventory(itemID, itemIcon))
+            {
+                Debug.Log("Picked up key: " + itemID);
+                Destroy(gameObject);
+                return;
+            }
+
+            Debug.LogWarning("Pickup Failed: Inventory is full!");
+            return;
+        }
+
+        // Normal items can go hotbar first
         if (hotbar != null && hotbar.TryAddToHotbar(itemID, itemIcon))
         {
             Destroy(gameObject);

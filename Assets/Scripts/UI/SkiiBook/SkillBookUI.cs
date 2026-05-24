@@ -4,19 +4,14 @@ using UnityEngine.InputSystem;
 
 public class SkillBookUI : MonoBehaviour
 {
-    [Header("Input")]
     public InputActionReference skillBookAction;
 
-    [Header("Main UI")]
     public GameObject skillBookPanel;
     public Animator bookAnimator;
 
-    [Header("Fade UI")]
     public CanvasGroup skillPageCanvasGroup;
     public CanvasGroup statsPageCanvasGroup;
 
-    [Header("Timing")]
-    public float openAnimationTime = 0.8f;
     public float contentFadeTime = 0.25f;
     public float closeAnimationTime = 0.8f;
 
@@ -45,14 +40,19 @@ public class SkillBookUI : MonoBehaviour
     {
         if (skillBookAction != null)
             skillBookAction.action.Disable();
+
+        if (isOpen && CursorManager.Instance != null)
+            CursorManager.Instance.CloseUI();
+
+        isOpen = false;
+        isBusy = false;
+        Time.timeScale = 1f;
     }
 
     private void Update()
     {
         if (skillBookAction != null && skillBookAction.action.WasPressedThisFrame())
-        {
             ToggleBook();
-        }
     }
 
     public void ToggleBook()
@@ -67,7 +67,7 @@ public class SkillBookUI : MonoBehaviour
 
     public void OpenBook()
     {
-        if (isBusy) return;
+        if (isBusy || isOpen) return;
 
         if (currentRoutine != null)
             StopCoroutine(currentRoutine);
@@ -77,8 +77,7 @@ public class SkillBookUI : MonoBehaviour
 
     public void CloseBook()
     {
-        if (isBusy) return;
-        if (!isOpen) return;
+        if (isBusy || !isOpen) return;
 
         if (currentRoutine != null)
             StopCoroutine(currentRoutine);
@@ -87,46 +86,44 @@ public class SkillBookUI : MonoBehaviour
     }
 
     private IEnumerator OpenBookRoutine()
-{
-    isBusy = true;
-    isOpen = true;
-
-    Time.timeScale = 0f;
-
-    if (skillBookPanel != null)
-        skillBookPanel.SetActive(true);
-
-    HideContentInstant();
-
-    if (bookAnimator != null)
-        bookAnimator.Play("OpenBook", 0, 0f);
-
-    // Wait 1 frame so Animator updates
-    yield return null;
-
-    // Wait until Animator reaches IdleBook
-    while (bookAnimator != null && !bookAnimator.GetCurrentAnimatorStateInfo(0).IsName("IdleBook"))
     {
+        isBusy = true;
+        isOpen = true;
+
+        Time.timeScale = 0f;
+
+        if (CursorManager.Instance != null)
+            CursorManager.Instance.OpenUI();
+
+        if (skillBookPanel != null)
+            skillBookPanel.SetActive(true);
+
+        HideContentInstant();
+
+        if (bookAnimator != null)
+            bookAnimator.Play("OpenBook", 0, 0f);
+
         yield return null;
+
+        while (bookAnimator != null &&
+               !bookAnimator.GetCurrentAnimatorStateInfo(0).IsName("IdleBook"))
+        {
+            yield return null;
+        }
+
+        yield return FadeContent(0f, 1f, contentFadeTime);
+
+        SetContentInteractable(true);
+        isBusy = false;
     }
-
-    // Now IdleBook has started, fade in content
-    yield return FadeContent(0f, 1f, contentFadeTime);
-
-    SetContentInteractable(true);
-
-    isBusy = false;
-}
 
     private IEnumerator CloseBookRoutine()
     {
         isBusy = true;
 
-        // First fade out SkillPage + StatsPage
         SetContentInteractable(false);
         yield return FadeContent(1f, 0f, contentFadeTime);
 
-        // Then play CloseBook animation
         if (bookAnimator != null)
             bookAnimator.SetTrigger("Close");
 
@@ -135,8 +132,10 @@ public class SkillBookUI : MonoBehaviour
         if (skillBookPanel != null)
             skillBookPanel.SetActive(false);
 
-        Time.timeScale = 1f;
+        if (CursorManager.Instance != null)
+            CursorManager.Instance.CloseUI();
 
+        Time.timeScale = 1f;
         isOpen = false;
         isBusy = false;
     }
@@ -151,8 +150,7 @@ public class SkillBookUI : MonoBehaviour
         while (timer < duration)
         {
             timer += Time.unscaledDeltaTime;
-            float t = timer / duration;
-            float alpha = Mathf.Lerp(from, to, t);
+            float alpha = Mathf.Lerp(from, to, timer / duration);
 
             SetCanvasGroupAlpha(skillPageCanvasGroup, alpha);
             SetCanvasGroupAlpha(statsPageCanvasGroup, alpha);

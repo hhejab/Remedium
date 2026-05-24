@@ -7,6 +7,7 @@ public class TriggerUIManager : MonoBehaviour
 {
     public static TriggerUIManager Instance;
 
+    [Header("UI")]
     public GameObject panel;
     public TMP_Text messageText;
     public Button yesButton;
@@ -57,6 +58,9 @@ public class TriggerUIManager : MonoBehaviour
             panel.SetActive(true);
 
         Time.timeScale = 0f;
+
+        if (CursorManager.Instance != null)
+            CursorManager.Instance.OpenUI();
     }
 
     private void Yes()
@@ -65,6 +69,10 @@ public class TriggerUIManager : MonoBehaviour
             panel.SetActive(false);
 
         Time.timeScale = 1f;
+
+        if (CursorManager.Instance != null)
+            CursorManager.Instance.CloseUI();
+
         yesAction?.Invoke();
     }
 
@@ -74,6 +82,10 @@ public class TriggerUIManager : MonoBehaviour
             panel.SetActive(false);
 
         Time.timeScale = 1f;
+
         yesAction = null;
+
+        if (CursorManager.Instance != null)
+            CursorManager.Instance.CloseUI();
     }
 }

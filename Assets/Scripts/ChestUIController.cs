@@ -4,13 +4,13 @@ public class ChestUIController : MonoBehaviour, IInteractable
 {
     [Header("UI Reference")]
     public GameObject chestPanel;
-    
+
     private bool isOpen = false;
 
     private void Start()
     {
-        // Start with the chest closed
-        if (chestPanel != null) chestPanel.SetActive(false);
+        if (chestPanel != null)
+            chestPanel.SetActive(false);
     }
 
     public void Interact()
@@ -20,21 +20,40 @@ public class ChestUIController : MonoBehaviour, IInteractable
 
     public void ToggleChest()
     {
+        if (chestPanel == null)
+        {
+            Debug.LogError("ChestUIController: Chest Panel is missing.");
+            return;
+        }
+
         isOpen = !isOpen;
         chestPanel.SetActive(isOpen);
 
-        // This pauses the game and shows the mouse, just like your SkillBook
         if (isOpen)
         {
             Time.timeScale = 0f;
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+
+            if (CursorManager.Instance != null)
+                CursorManager.Instance.OpenUI();
         }
         else
         {
             Time.timeScale = 1f;
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+
+            if (CursorManager.Instance != null)
+                CursorManager.Instance.CloseUI();
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (isOpen)
+        {
+            isOpen = false;
+            Time.timeScale = 1f;
+
+            if (CursorManager.Instance != null)
+                CursorManager.Instance.CloseUI();
         }
     }
 }
