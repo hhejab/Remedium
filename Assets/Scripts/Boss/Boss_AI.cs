@@ -29,6 +29,16 @@ public class Boss_AI : MonoBehaviour
 
     [Header("Death")]
     public float deathAnimationTime = 1.4f;
+    
+    [Header("NPC Spawn")]
+    [Tooltip("Disabled NPC in-scene to enable when the boss dies. Assign the disabled NPC GameObject here.")]
+    public GameObject npcToEnableOnDeath;
+    public Vector2 npcSpawnOffset = Vector2.zero;
+    [Tooltip("If true, will instantiate npcPrefab instead of enabling an existing disabled NPC.")]
+    public bool instantiateNpcFromPrefab = false;
+    public GameObject npcPrefab;
+    [Tooltip("Delay in seconds before the NPC appears after the boss dies.")]
+    public float npcSpawnDelay = 3f;
 
     protected bool isAttacking;
     protected bool isHurt;
@@ -223,6 +233,10 @@ public virtual void Die()
         }
     }
 
+    // Schedule NPC spawn after delay using a small helper spawner so spawn occurs
+    // even if this boss GameObject is destroyed before the delay elapses.
+    CreateDelayedNpcSpawner(npcSpawnDelay, x, y);
+
     if (animator == null)
     {
         animator = GetComponent<Animator>();
@@ -259,6 +273,73 @@ private IEnumerator DeathRoutine()
     yield return new WaitForSeconds(deathAnimationTime);
     Destroy(gameObject);
 }
+
+    private void CreateDelayedNpcSpawner(float delay, float facingX, float facingY)
+    {
+        var spawnerGO = new GameObject("DelayedNpcSpawner");
+        var spawner = spawnerGO.AddComponent<DelayedNpcSpawner>();
+        spawner.delay = delay;
+        spawner.npcToEnable = npcToEnableOnDeath;
+        spawner.instantiateFromPrefab = instantiateNpcFromPrefab;
+        spawner.npcPrefab = npcPrefab;
+        spawner.spawnOffset = npcSpawnOffset;
+        spawner.spawnPosition = transform.position;
+        spawner.facingX = facingX;
+        spawner.facingY = facingY;
+        spawner.StartSpawn();
+    }
+
+    private class DelayedNpcSpawner : MonoBehaviour
+    {
+        public float delay;
+        public GameObject npcToEnable;
+        public bool instantiateFromPrefab;
+        public GameObject npcPrefab;
+        public Vector2 spawnOffset;
+        public Vector3 spawnPosition;
+        public float facingX;
+        public float facingY;
+
+        public void StartSpawn()
+        {
+            StartCoroutine(SpawnRoutine());
+        }
+
+        private IEnumerator SpawnRoutine()
+        {
+            if (delay > 0f)
+                yield return new WaitForSeconds(delay);
+
+            Vector3 pos = spawnPosition + (Vector3)spawnOffset;
+
+            if (npcToEnable != null && !instantiateFromPrefab)
+            {
+                npcToEnable.transform.position = pos;
+                npcToEnable.SetActive(true);
+
+                var npcAnim = npcToEnable.GetComponent<Animator>() ?? npcToEnable.GetComponentInChildren<Animator>();
+                if (npcAnim != null)
+                {
+                    npcAnim.SetFloat("moveX", facingX);
+                    npcAnim.SetFloat("moveY", facingY);
+                    npcAnim.SetBool("isMoving", false);
+                }
+            }
+            else if (instantiateFromPrefab && npcPrefab != null)
+            {
+                var newNpc = Instantiate(npcPrefab, pos, Quaternion.identity);
+                var npcAnim = newNpc.GetComponent<Animator>() ?? newNpc.GetComponentInChildren<Animator>();
+                if (npcAnim != null)
+                {
+                    npcAnim.SetFloat("moveX", facingX);
+                    npcAnim.SetFloat("moveY", facingY);
+                    npcAnim.SetBool("isMoving", false);
+                }
+            }
+
+            Destroy(gameObject);
+        }
+    }
     protected virtual void FacePlayer()
     {
         if (player == null)

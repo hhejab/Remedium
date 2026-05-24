@@ -1466,6 +1466,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   runSpeed: 8
+  walkSFX: {fileID: 8300000, guid: 1363ee0c6648bde4d9876265d65d18d8, type: 3}
+  walkVolume: 1
+  runPitch: 1.15
 --- !u!114 &976725831
 MonoBehaviour:
   m_ObjectHideFlags: 0
