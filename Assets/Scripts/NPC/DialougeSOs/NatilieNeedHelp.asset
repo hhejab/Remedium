@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2719dda80e9f0c543bfa0562fc7ca245, type: 3}
   m_Name: NatilieNeedHelp
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - speaker: {fileID: 11400000, guid: 5aacccd69fd3e4a2487585af363a325b, type: 2}
+    text: You can explore the village and talk to people.
+  - speaker: {fileID: 11400000, guid: 5aacccd69fd3e4a2487585af363a325b, type: 2}
+    text: The shop nearby is worth visiting.
+  - speaker: {fileID: 11400000, guid: 5aacccd69fd3e4a2487585af363a325b, type: 2}
+    text: Be careful when leaving the village.
   options: []

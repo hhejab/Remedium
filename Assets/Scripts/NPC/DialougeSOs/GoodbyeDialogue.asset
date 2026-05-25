@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2719dda80e9f0c543bfa0562fc7ca245, type: 3}
   m_Name: GoodbyeDialogue
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - speaker: {fileID: 11400000, guid: eb5c926a7b13ff943b854f11a94981f4, type: 2}
+    text: Safe travels, Friend.
   options: []
