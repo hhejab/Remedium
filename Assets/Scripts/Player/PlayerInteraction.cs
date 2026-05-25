@@ -1,53 +1,59 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections.Generic;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public InputActionReference interactAction; // Drag your 'Interact' action here
-    
-    // List to track all interactables currently in range
-    private List<IInteractable> interactablesInRange = new List<IInteractable>();
+    public InputActionReference interactAction;
 
-    private void OnEnable() => interactAction.action.Enable();
-    private void OnDisable() => interactAction.action.Disable();
+    private IInteractable currentInteractable;
+
+    private void OnEnable()
+    {
+        if (interactAction != null)
+            interactAction.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        if (interactAction != null)
+            interactAction.action.Disable();
+    }
 
     private void Update()
     {
-        // 1. Check if E was pressed
-        if (interactAction.action.WasPressedThisFrame())
-        {
-            // 2. Filter out any objects that were destroyed but are still in the list
-            interactablesInRange.RemoveAll(i => i == null || (i is MonoBehaviour mb && mb == null));
+        if (interactAction == null || interactAction.action == null)
+            return;
 
-            // 3. If we have items in range, interact with the last one added
-            if (interactablesInRange.Count > 0)
-            {
-                IInteractable target = interactablesInRange[interactablesInRange.Count - 1];
-                target.Interact();
-                Debug.Log("Interacting with object...");
-            }
+        if (!interactAction.action.WasPressedThisFrame())
+            return;
+
+        Debug.Log("E pressed");
+
+        if (currentInteractable == null)
+        {
+            Debug.Log("No item in range");
+            return;
         }
+
+        currentInteractable.Interact();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.TryGetComponent<IInteractable>(out var interactable))
         {
-            if (!interactablesInRange.Contains(interactable))
-            {
-                interactablesInRange.Add(interactable);
-                Debug.Log("Range Entered: " + other.name);
-            }
+            currentInteractable = interactable;
+            Debug.Log("Item in range: " + other.name);
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.TryGetComponent<IInteractable>(out var interactable))
+        if (other.TryGetComponent<IInteractable>(out var interactable) &&
+            interactable == currentInteractable)
         {
-            interactablesInRange.Remove(interactable);
-            Debug.Log("Range Exited: " + other.name);
+            currentInteractable = null;
+            Debug.Log("Item out of range: " + other.name);
         }
     }
 }

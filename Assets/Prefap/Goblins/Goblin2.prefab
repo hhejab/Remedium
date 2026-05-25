@@ -564,7 +564,7 @@ MonoBehaviour:
   patrolRadius: 3
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 16384
+    m_Bits: 32768
   obstacleCheckDistance: 0.6
   sideCheckAngle: 45
   stuckCheckTime: 0.5
