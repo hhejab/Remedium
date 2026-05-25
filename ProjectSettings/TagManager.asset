@@ -17,14 +17,14 @@ TagManager:
   - UI
   - Ground
   - Floor1
-  - Floor2
+  - Item
   - Trap
   - Player
   - Wall
   - Enemy
   - NPC
+  - Attack
   - Obstacle
-  - 
   - 
   - 
   - 
