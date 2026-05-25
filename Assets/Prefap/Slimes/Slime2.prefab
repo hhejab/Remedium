@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4720662607238145299}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.09, y: 2.35, z: 0}
+  m_LocalPosition: {x: -21.64, y: 8.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -78,8 +78,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1562863935
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 797252805501511087, guid: dcf29312d176b8a4ea930d382c5f9395, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -195,6 +195,12 @@ MonoBehaviour:
   attackRange: 1.5
   aggroRange: 5
   patrolRadius: 3
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 32768
+  obstacleCheckDistance: 0.6
+  sideCheckAngle: 45
+  stuckCheckTime: 0.5
   animator: {fileID: 3540180249108332467}
   hitbox: {fileID: 9185370691620512083}
   attackDamage: 1
@@ -202,6 +208,8 @@ MonoBehaviour:
   attackDuration: 0.25
   health: 30
   damageCooldown: 0.25
+  attackSFX: {fileID: 8300000, guid: c1b0db37189f3f7418859cd5c77be5b9, type: 3}
+  deathSFX: {fileID: 8300000, guid: d7a6db0829c57874d8fcf4fe83153cb1, type: 3}
 --- !u!1 &9185370691620512083
 GameObject:
   m_ObjectHideFlags: 0

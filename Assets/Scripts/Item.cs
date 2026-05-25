@@ -2,25 +2,53 @@ using UnityEngine;
 
 public class Item : MonoBehaviour, IInteractable
 {
-    [Header("Item Data")]
-    public string itemName;
-    public Sprite itemIcon; 
+    public string itemID;
+    public Sprite itemIcon;
+
+    private bool pickedUp = false;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (pickedUp) return;
+        if (!other.CompareTag("Player")) return;
+
+        PickUp();
+    }
 
     public void Interact()
     {
-        // Look for the Hotbar
-        PlayerInventory hotbar = Object.FindFirstObjectByType<PlayerInventory>();
+        if (pickedUp) return;
 
-        if (hotbar != null)
-        {
-            hotbar.AddToHotbar(this);
-            Debug.Log(itemName + " sent to hotbar.");
-        }
+        PickUp();
     }
 
-    public void PickUp()
+    private void PickUp()
     {
-        // Called by PlayerInventory ONLY after successfully adding to a slot
-        Destroy(gameObject);
+        if (pickedUp) return;
+
+        if (string.IsNullOrEmpty(itemID))
+            itemID = gameObject.name;
+
+        PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
+
+        if (hotbar != null && hotbar.TryAddToHotbar(itemID, itemIcon))
+        {
+            pickedUp = true;
+            Debug.Log("Picked up: " + itemID);
+            Destroy(gameObject);
+            return;
+        }
+
+        InventoryPage inventory = FindFirstObjectByType<InventoryPage>(FindObjectsInactive.Include);
+
+        if (inventory != null && inventory.TryAddToInventory(itemID, itemIcon))
+        {
+            pickedUp = true;
+            Debug.Log("Picked up to inventory: " + itemID);
+            Destroy(gameObject);
+            return;
+        }
+
+        Debug.LogWarning("Pickup failed: " + itemID);
     }
 }

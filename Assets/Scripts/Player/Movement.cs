@@ -21,12 +21,24 @@ public class Movement : MonoBehaviour
     private bool isDead;
     private bool isHurt;
 
+    [Header("Audio")]
+    public AudioClip walkSFX;
+    public float walkVolume = 1f;
+    public float runPitch = 1.15f;
+    private AudioSource walkAudioSource;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         StaminaSystem = GetComponent<StaminaSystem>();
         playerStats = GetComponent<PlayerStats>();
+
+        walkAudioSource = gameObject.AddComponent<AudioSource>();
+        walkAudioSource.playOnAwake = false;
+        walkAudioSource.loop = true;
+        walkAudioSource.volume = walkVolume;
+        if (walkSFX != null) walkAudioSource.clip = walkSFX;
     }
 
     public void OnMove(InputValue value)
@@ -72,6 +84,24 @@ public class Movement : MonoBehaviour
         animator.SetBool("isRunning", isRunning && isMoving && !isHurt);
         animator.SetFloat("moveX", lastMoveDirection.x);
         animator.SetFloat("moveY", lastMoveDirection.y);
+
+        UpdateWalkAudio(isMoving && !isHurt);
+    }
+
+    private void UpdateWalkAudio(bool shouldPlay)
+    {
+        if (walkSFX == null || walkAudioSource == null) return;
+
+        if (shouldPlay)
+        {
+            walkAudioSource.volume = walkVolume;
+            walkAudioSource.pitch = isRunning ? runPitch : 1f;
+            if (!walkAudioSource.isPlaying) walkAudioSource.Play();
+        }
+        else
+        {
+            if (walkAudioSource.isPlaying) walkAudioSource.Stop();
+        }
     }
 
     void FixedUpdate()

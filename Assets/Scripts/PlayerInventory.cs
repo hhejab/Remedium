@@ -1,10 +1,13 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
+
     public List<Image> hotbarSlots;
     public Color highlightColor = Color.yellow;
     public GameObject weaponPrefab;
@@ -183,5 +186,19 @@ public class PlayerInventory : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Weapon")) closeItem = null;
+    public List<InventoryItem> hotbarSlots; 
+
+    public bool TryAddToHotbar(string id, Sprite icon)
+    {
+        foreach (var slot in hotbarSlots)
+            if (slot != null && slot.itemID == id && slot.currentQuantity < slot.maxStackSize) {
+                slot.currentQuantity++; slot.UpdateUI(); return true;
+            }
+        foreach (var slot in hotbarSlots)
+            if (slot != null && string.IsNullOrEmpty(slot.itemID)) {
+                slot.SetData(id, icon, 1); return true;
+            }
+        return false;
+
     }
 }

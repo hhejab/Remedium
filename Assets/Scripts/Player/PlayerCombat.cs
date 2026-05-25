@@ -1,65 +1,166 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections; // Required for Coroutine
+using System.Collections;
 
 public class PlayerCombat : MonoBehaviour
 {
     private Animator anim;
     private Rigidbody2D rb;
+    private PlayerStats playerStats;
 
-    [Header("Hitboxes (Assign in Inspector)")]
+    [Header("Input")]
+    public InputActionReference attackAction;
+
+    [Header("Hitboxes")]
     public GameObject hitboxUp;
     public GameObject hitboxDown;
     public GameObject hitboxLeft;
     public GameObject hitboxRight;
 
-    void Start()
+    [Header("Attack Settings")]
+    public float attackDuration = 0.25f;
+    public float attackCooldown = 1f;
+    private float lastAttackTime = -999f;
+
+    public AudioClip swingSFX;
+    private AudioSource audioSource;
+
+    private bool isAttacking;
+
+    private void Awake()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        playerStats = GetComponent<PlayerStats>();
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+
+        DisableAllHitboxes();
     }
 
-    void Update()
+    private void OnEnable()
     {
-        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+        if (attackAction != null)
+            attackAction.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        if (attackAction != null)
+            attackAction.action.Disable();
+
+        DisableAllHitboxes();
+    }
+
+    private void Update()
+    {
+        if (attackAction != null && attackAction.action.WasPressedThisFrame())
         {
             PerformAttack();
         }
     }
 
-    void PerformAttack()
+    private void PerformAttack()
     {
-        bool isMoving = rb.linearVelocity.magnitude > 0.1f;
+        if (Time.time < lastAttackTime + attackCooldown) return;
+        lastAttackTime = Time.time;
+        if (isAttacking) return;
+        StartCoroutine(AttackRoutine());
+    }
 
-        if (isMoving) anim.SetTrigger("isWalkAttacking");
-        else anim.SetTrigger("isAttacking");
+    private IEnumerator AttackRoutine()
+    {
+        isAttacking = true;
 
-        // Determine direction based on Animator parameters (assuming you have these)
         float moveX = anim.GetFloat("moveX");
         float moveY = anim.GetFloat("moveY");
 
-        // Select hitbox based on direction
-        GameObject activeHitbox = null;
+        bool isMoving = anim.GetBool("isMoving") || anim.GetBool("isRunning");
 
-        if (Mathf.Abs(moveY) > Mathf.Abs(moveX)) // Vertical priority
+        if (isMoving)
         {
-            activeHitbox = (moveY > 0) ? hitboxUp : hitboxDown;
+            anim.ResetTrigger("isAttacking");
+            anim.SetTrigger("isWalkAttacking");
         }
-        else // Horizontal priority
+        else
         {
-            activeHitbox = (moveX > 0) ? hitboxRight : hitboxLeft;
+            anim.ResetTrigger("isWalkAttacking");
+            anim.SetTrigger("isAttacking");
         }
+
+        GameObject activeHitbox = GetDirectionalHitbox(moveX, moveY);
+
+        float hitboxDuration = attackDuration;
+        if (playerStats != null && playerStats.attackSpeed > 0)
+            hitboxDuration = attackDuration / playerStats.attackSpeed;
+
+        // play swing audio slightly delayed to match animation
+        StartCoroutine(PlaySwingDelayed(0.5f));
+
+        // activate hitbox after attack windup (delay) so damage registers later
+        if (activeHitbox != null)
+            StartCoroutine(ActivateHitboxDelayed(activeHitbox, 1f, hitboxDuration));
+
+        float finalAttackDuration = attackDuration;
+
+        if (playerStats != null && playerStats.attackSpeed > 0)
+        {
+            finalAttackDuration = attackDuration / playerStats.attackSpeed;
+        }
+
+        yield return new WaitForSeconds(finalAttackDuration);
 
         if (activeHitbox != null)
-        {
-            StartCoroutine(ActivateHitbox(activeHitbox));
-        }
+            activeHitbox.SetActive(false);
+
+        isAttacking = false;
     }
 
-    IEnumerator ActivateHitbox(GameObject hitbox)
+    private GameObject GetDirectionalHitbox(float moveX, float moveY)
     {
+        if (Mathf.Abs(moveY) > Mathf.Abs(moveX))
+        {
+            if (moveY > 0)
+                return hitboxUp;
+            else
+                return hitboxDown;
+        }
+
+        if (moveX > 0)
+            return hitboxRight;
+        else
+            return hitboxLeft;
+    }
+
+    private void DisableAllHitboxes()
+    {
+        if (hitboxUp != null)
+            hitboxUp.SetActive(false);
+
+        if (hitboxDown != null)
+            hitboxDown.SetActive(false);
+
+        if (hitboxLeft != null)
+            hitboxLeft.SetActive(false);
+
+        if (hitboxRight != null)
+            hitboxRight.SetActive(false);
+    }
+
+    private IEnumerator ActivateHitboxDelayed(GameObject hitbox, float delay, float duration)
+    {
+        yield return new WaitForSeconds(delay);
+        if (hitbox == null) yield break;
         hitbox.SetActive(true);
-        yield return new WaitForSeconds(0.2f); // Swing duration
-        hitbox.SetActive(false);
+        yield return new WaitForSeconds(duration);
+        if (hitbox != null) hitbox.SetActive(false);
+    }
+
+    private IEnumerator PlaySwingDelayed(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (audioSource != null && swingSFX != null) audioSource.PlayOneShot(swingSFX);
     }
 }

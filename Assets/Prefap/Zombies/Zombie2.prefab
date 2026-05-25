@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3138659226123625831}
   - component: {fileID: 4168217957777243553}
   - component: {fileID: 2480174983247208950}
-  - component: {fileID: 4828381822450658331}
+  - component: {fileID: 3141449332265087517}
   - component: {fileID: 9177233968410216103}
   m_Layer: 12
   m_Name: Zombie2
@@ -81,8 +81,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1562863935
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -6438203986487977059, guid: 6c17c8d7824488142a6b3969435fde86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -144,8 +144,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &4828381822450658331
-CapsuleCollider2D:
+--- !u!61 &3141449332265087517
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -178,9 +178,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.064902306, y: 2.1562576}
-  m_Size: {x: 0.76182747, y: 1.431345}
-  m_Direction: 0
+  m_Offset: {x: 0.00082588196, y: 1.4996918}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5555556, y: -0.7037037}
+    oldSize: {x: 1.125, y: 1.6875}
+    newSize: {x: 1.1875, y: 1.375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.7450409, y: 0.14079976}
+  m_EdgeRadius: 0
 --- !u!114 &9177233968410216103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,9 +207,15 @@ MonoBehaviour:
   attackRange: 1.5
   aggroRange: 5
   patrolRadius: 3
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 32768
+  obstacleCheckDistance: 0.6
+  sideCheckAngle: 45
+  stuckCheckTime: 0.5
   animator: {fileID: 4168217957777243553}
-  hitboxUp: {fileID: 2210180946654358310}
-  hitboxDown: {fileID: 4696677749514124112}
+  hitboxUp: {fileID: 4696677749514124112}
+  hitboxDown: {fileID: 2210180946654358310}
   hitboxLeft: {fileID: 8280402282702782041}
   hitboxRight: {fileID: 1375810285415311244}
   attackDamage: 1
@@ -208,6 +223,8 @@ MonoBehaviour:
   attackDuration: 0.25
   health: 50
   damageCooldown: 0.25
+  attackSFX: {fileID: 8300000, guid: 16708ecaf7433234289a8645c112c291, type: 3}
+  deathSFX: {fileID: 8300000, guid: f41840dc387a2f84da740738a3171a0c, type: 3}
 --- !u!1 &1375810285415311244
 GameObject:
   m_ObjectHideFlags: 0
