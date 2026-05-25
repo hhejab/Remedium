@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2719dda80e9f0c543bfa0562fc7ca245, type: 3}
-  m_Name: EaterRes
+  m_Name: FlutistTalk
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - speaker: {fileID: 11400000, guid: e6a57dda695d440d188c0581a29ddae2, type: 2}
+    text: Hey there, did you like it?
   options: []

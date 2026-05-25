@@ -18,5 +18,11 @@ MonoBehaviour:
 
       Sweet, fresh, and full of energy!'
   - speaker: {fileID: 11400000, guid: eb5c926a7b13ff943b854f11a94981f4, type: 2}
-    text: Travelers usually buy the berries before leaving the village.
-  options: []
+    text: Would you like to buy some?
+  options:
+  - optionText: Yes please
+    nextDialogue: {fileID: 11400000, guid: 39b323de40ad44f559d399b17622bf44, type: 2}
+  - optionText: Maybe later.
+    nextDialogue: {fileID: 11400000, guid: 6af1c0a99777946f58152725fcc6b732, type: 2}
+  - optionText: 
+    nextDialogue: {fileID: 0}

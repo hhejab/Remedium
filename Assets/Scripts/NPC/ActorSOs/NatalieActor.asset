@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adba6bbbd24bc743ad52dc3e44301bd, type: 3}
   m_Name: NatalieActor
   m_EditorClassIdentifier: 
-  actorName: 
-  portrait: {fileID: 0}
+  actorName: Natalie
+  portrait: {fileID: 4151346735688793566, guid: ecf554a3a6e5c28478463157f512a3ef, type: 3}

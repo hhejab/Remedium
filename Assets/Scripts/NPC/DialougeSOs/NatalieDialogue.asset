@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2719dda80e9f0c543bfa0562fc7ca245, type: 3}
   m_Name: NatalieDialogue
   m_EditorClassIdentifier: 
-  lines: []
-  options: []
+  lines:
+  - speaker: {fileID: 11400000, guid: 5aacccd69fd3e4a2487585af363a325b, type: 2}
+    text: Hello Traveler!
+  - speaker: {fileID: 11400000, guid: 5aacccd69fd3e4a2487585af363a325b, type: 2}
+    text: Need Anything?
+  options:
+  - optionText: Yes
+    nextDialogue: {fileID: 11400000, guid: 7c73df274bcdc4c7a9e5bbace5ae853c, type: 2}
+  - optionText: No thanks!
+    nextDialogue: {fileID: 11400000, guid: 00c9dee2cdc9348a6acdfc734f448569, type: 2}

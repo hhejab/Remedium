@@ -16,5 +16,17 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: eb5c926a7b13ff943b854f11a94981f4, type: 2}
     text: Hello Lost Traveller!
   - speaker: {fileID: 11400000, guid: eb5c926a7b13ff943b854f11a94981f4, type: 2}
-    text: Fresh fruit, sweet berries, and supplies for the road. You look like you
-      could use something good.
+    text: 'Fresh fruit, sweet berries, and supplies for the road. '
+  options:
+  - optionText: Show me your freshest produce.
+    nextDialogue: {fileID: 11400000, guid: 54ee5823907984511b2bed78dc3aa3cb, type: 2}
+  - optionText: I'll take some berries for the road.
+    nextDialogue: {fileID: 11400000, guid: 8c91f3c9adc8b4fbbb4b3bcdbba6378d, type: 2}
+  - optionText: 
+    nextDialogue: {fileID: 0}
+  - optionText: 
+    nextDialogue: {fileID: 0}
+  - optionText: 
+    nextDialogue: {fileID: 0}
+  - optionText: 
+    nextDialogue: {fileID: 0}
