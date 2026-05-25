@@ -1,65 +1,187 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 using System.Collections.Generic;
 
 public class PlayerInventory : MonoBehaviour
 {
     public List<Image> hotbarSlots;
     public Color highlightColor = Color.yellow;
+    public GameObject weaponPrefab;
     
     private int selectedSlotIndex = 0;
+    private Item closeItem;
+    private float holdTimer = 0f;
+    private float requiredHoldTime = 2f;
+    private bool hasDropped = false;
+    private Vector3[] savedRealScales = new Vector3[10];
+    private Sprite[] savedWorldSprites = new Sprite[10];
+
+    void Start()
+    {
+        UpdateSlotVisuals();
+    }
+
+    void Update()
+    {
+        if (Keyboard.current == null) return;
+
+        HandleSlotSelection();
+
+        if (Keyboard.current.eKey.wasPressedThisFrame && closeItem != null)
+        {
+            AddToHotbar(closeItem);
+        }
+
+        if (Keyboard.current.qKey.isPressed)
+        {
+            if (!hasDropped && hotbarSlots[selectedSlotIndex] != null && hotbarSlots[selectedSlotIndex].sprite != null)
+            {
+                holdTimer += Time.deltaTime;
+                float t = holdTimer / requiredHoldTime;
+                hotbarSlots[selectedSlotIndex].color = Color.Lerp(Color.white, Color.red, t);
+
+                if (holdTimer >= requiredHoldTime)
+                {
+                    DropSelectedItem();
+                    hasDropped = true;
+                    holdTimer = 0f;
+                    UpdateSlotVisuals();
+                }
+            }
+        }
+        
+        if (Keyboard.current.qKey.wasReleasedThisFrame)
+        {
+            holdTimer = 0f;
+            hasDropped = false;
+            UpdateSlotVisuals();
+        }
+    }
+
+    void HandleSlotSelection()
+    {
+        if (Keyboard.current.digit1Key.wasPressedThisFrame) SetSelectedSlot(0);
+        else if (Keyboard.current.digit2Key.wasPressedThisFrame) SetSelectedSlot(1);
+        else if (Keyboard.current.digit3Key.wasPressedThisFrame) SetSelectedSlot(2);
+        else if (Keyboard.current.digit4Key.wasPressedThisFrame) SetSelectedSlot(3);
+        else if (Keyboard.current.digit5Key.wasPressedThisFrame) SetSelectedSlot(4);
+        else if (Keyboard.current.digit6Key.wasPressedThisFrame) SetSelectedSlot(5);
+        else if (Keyboard.current.digit7Key.wasPressedThisFrame) SetSelectedSlot(6);
+        else if (Keyboard.current.digit8Key.wasPressedThisFrame) SetSelectedSlot(7);
+        else if (Keyboard.current.digit9Key.wasPressedThisFrame) SetSelectedSlot(8);
+        else if (Keyboard.current.digit0Key.wasPressedThisFrame) SetSelectedSlot(9);
+    }
+
+    void SetSelectedSlot(int index)
+    {
+        if (index < hotbarSlots.Count)
+        {
+            selectedSlotIndex = index;
+            holdTimer = 0f;
+            UpdateSlotVisuals();
+        }
+    }
 
     public void AddToHotbar(Item item)
-{
-    // Debug to see how many slots the script actually sees
-    Debug.Log("Checking " + hotbarSlots.Count + " slots...");
-
-    for (int i = 0; i < hotbarSlots.Count; i++)
     {
-        // A slot is truly empty if it has no sprite assigned
-        if (hotbarSlots[i].sprite == null)
+        for (int i = 0; i < hotbarSlots.Count; i++)
         {
-            hotbarSlots[i].sprite = item.itemIcon;
-            hotbarSlots[i].enabled = true; // Ensure the Image component is turned on
-            
-            // Set the color to solid white so the icon isn't transparent
-            hotbarSlots[i].color = Color.white; 
+            if (hotbarSlots[i].sprite == null)
+            {
+                hotbarSlots[i].sprite = item.itemIcon;
+                hotbarSlots[i].color = Color.white; 
+                
+                savedRealScales[i] = item.transform.localScale;
 
-            item.PickUp(); // Destroy the object in the world
-            UpdateSlotVisuals();
-            return; // Exit the function once we find a spot
+                SpriteRenderer itemSR = item.GetComponent<SpriteRenderer>();
+                if (itemSR != null)
+                {
+                    savedWorldSprites[i] = itemSR.sprite;
+                }
+
+                item.PickUp();
+                UpdateSlotVisuals();
+                return;
+            }
         }
     }
 
-    // If we get through the whole loop without returning, the bar is actually full
-    Debug.Log("Hotbar is actually full!");
-}
+    void DropSelectedItem()
+    {
+        if (weaponPrefab == null) return;
 
-    // Keep your existing UpdateSlotVisuals and HandleSlotSelection here...
+        Image slot = hotbarSlots[selectedSlotIndex];
+        if (slot != null && slot.sprite != null)
+        {
+            Vector2 randomCircle = Random.insideUnitCircle * 1.5f;
+            Vector3 dropPosition = new Vector3(transform.position.x + randomCircle.x, transform.position.y + randomCircle.y, 0f);
+            
+            GameObject droppedWeapon = Instantiate(weaponPrefab, dropPosition, Quaternion.identity);
+            droppedWeapon.name = "Dropped_Weapon";
+            
+            if (savedRealScales[selectedSlotIndex] != Vector3.zero)
+            {
+                droppedWeapon.transform.localScale = savedRealScales[selectedSlotIndex];
+            }
+            else
+            {
+                droppedWeapon.transform.localScale = weaponPrefab.transform.localScale;
+            }
+
+            Item newItemScript = droppedWeapon.GetComponent<Item>();
+            if (newItemScript != null)
+            {
+                newItemScript.itemIcon = slot.sprite;
+            }
+
+            SpriteRenderer sr = droppedWeapon.GetComponent<SpriteRenderer>();
+            if (sr != null)
+            {
+                if (savedWorldSprites[selectedSlotIndex] != null)
+                {
+                    sr.sprite = savedWorldSprites[selectedSlotIndex];
+                }
+                else
+                {
+                    sr.sprite = slot.sprite;
+                }
+                sr.sortingOrder = 5; 
+                sr.color = Color.white;
+            }
+
+            slot.sprite = null;
+            savedWorldSprites[selectedSlotIndex] = null;
+        }
+    }
+
     void UpdateSlotVisuals()
-{
-    for (int i = 0; i < hotbarSlots.Count; i++)
     {
-        bool isSelected = (i == selectedSlotIndex);
-        
-        if (hotbarSlots[i].sprite == null)
+        for (int i = 0; i < hotbarSlots.Count; i++)
         {
-            // If slot is empty, make it transparent or a faint highlight
-            hotbarSlots[i].color = isSelected ? new Color(1, 1, 1, 0.3f) : new Color(1, 1, 1, 0f);
-        }
-        else
-        {
-            // If there is an item, keep it white (original icon color)
-            // ONLY tint the border or use a slight glow if you want to show selection
-            hotbarSlots[i].color = Color.white; 
+            bool isSelected = (i == selectedSlotIndex);
             
-            // If you want a highlight, apply it to a SEPARATE border object 
-            // instead of the icon itself.
-        }
+            if (hotbarSlots[i].sprite == null)
+            {
+                hotbarSlots[i].color = isSelected ? highlightColor : new Color(1, 1, 1, 0.1f);
+            }
+            else
+            {
+                hotbarSlots[i].color = isSelected ? highlightColor : Color.white; 
+            }
 
-        // Scale up the selected slot so the player knows which one is active
-        float scale = isSelected ? 1.25f : 1.0f;
-        hotbarSlots[i].rectTransform.localScale = new Vector3(scale, scale, 1);
+            float scale = isSelected ? 1.2f : 1.0f;
+            hotbarSlots[i].rectTransform.localScale = new Vector3(scale, scale, 1);
+        }
     }
-}
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Weapon")) closeItem = other.GetComponent<Item>();
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Weapon")) closeItem = null;
+    }
 }
