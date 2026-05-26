@@ -7430,10 +7430,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Blacksmith
   spawnPointName: BlacksmithSpawn
-  message: Do you want to enter the Blacksmith ?
+  requireFirstBossDefeated: 1
+  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
-  levelRequiredMessage: You need to upgrade yourself at the blacksmith first.
+  levelLockedMessage: You need to upgrade yourself first.
+  message: Do you want to enter the Blacksmith ?
 --- !u!1001 &957285607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8653,10 +8655,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Forest
   spawnPointName: ForestSpawn
-  message: Enter the forest
+  requireFirstBossDefeated: 0
+  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
-  levelRequiredMessage: You need to upgrade yourself at the blacksmith first.
+  levelLockedMessage: You need to upgrade yourself first.
+  message: Enter the forest
 --- !u!1001 &1396012424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12098,6 +12102,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2597527148280105672, guid: 5d71354c99141f54692f203d7abfced6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7329349574054493004}
+    - targetCorrespondingSourceObject: {fileID: 2597527148280105672, guid: 5d71354c99141f54692f203d7abfced6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7329349574054493013}
   m_SourcePrefab: {fileID: 100100000, guid: 5d71354c99141f54692f203d7abfced6, type: 3}
 --- !u!224 &7329349574054493002 stripped
 RectTransform:
@@ -12124,6 +12131,19 @@ MonoBehaviour:
   inventoryAction: {fileID: -5578735106213856707, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   inventoryUI: {fileID: 176169370}
   inventorySize: 10
+--- !u!114 &7329349574054493013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7329349574054493003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76ab0ced449100489dadc51d288e647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstBossDefeated: 0
 --- !u!224 &7878350318957640910
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12280,6 +12300,9 @@ MonoBehaviour:
   - {fileID: 335152022}
   - {fileID: 2095493862}
   - {fileID: 1299340289}
+  hotbarImages: []
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  weaponPrefab: {fileID: 0}
 --- !u!114 &7878350318957640916
 MonoBehaviour:
   m_ObjectHideFlags: 0

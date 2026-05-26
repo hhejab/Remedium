@@ -62,15 +62,17 @@ public class PlayerUpgradeManager : MonoBehaviour
     {
         if (!canvasOpen) return;
 
+        if (interactAction == null) return;
+
         if (ignoreFirstInteractPress)
         {
-            if (interactAction != null && !interactAction.action.IsPressed())
+            if (interactAction.action.WasReleasedThisFrame())
                 ignoreFirstInteractPress = false;
 
             return;
         }
 
-        if (interactAction != null && interactAction.action.WasPressedThisFrame())
+        if (interactAction.action.WasPressedThisFrame())
             CloseUpgradeCanvas();
     }
 
@@ -81,7 +83,7 @@ public class PlayerUpgradeManager : MonoBehaviour
 
         if (playerObject == null)
         {
-            Debug.LogError("PlayerUpgradeManager cannot find Player. Make sure Player tag is Player.");
+            Debug.LogError("PlayerUpgradeManager cannot find Player.");
             return;
         }
 
@@ -114,8 +116,6 @@ public class PlayerUpgradeManager : MonoBehaviour
         canvasOpen = true;
         ignoreFirstInteractPress = true;
 
-        Time.timeScale = 0f;
-
         if (CursorManager.Instance != null)
             CursorManager.Instance.OpenUI();
     }
@@ -126,6 +126,7 @@ public class PlayerUpgradeManager : MonoBehaviour
             upgradeCanvas.SetActive(false);
 
         canvasOpen = false;
+        ignoreFirstInteractPress = false;
         Time.timeScale = 1f;
 
         if (CursorManager.Instance != null)
@@ -156,6 +157,9 @@ public class PlayerUpgradeManager : MonoBehaviour
         if (playerAnimator != null && playerLevel2Controller != null)
         {
             playerAnimator.runtimeAnimatorController = playerLevel2Controller;
+            playerAnimator.Rebind();
+            playerAnimator.Update(0f);
+
             playerAnimator.SetBool("isMoving", false);
             playerAnimator.SetBool("isRunning", false);
 

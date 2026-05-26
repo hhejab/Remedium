@@ -7,18 +7,9 @@ public class Item : MonoBehaviour, IInteractable
 
     private bool pickedUp = false;
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (pickedUp) return;
-        if (!other.CompareTag("Player")) return;
-
-        PickUp();
-    }
-
     public void Interact()
     {
         if (pickedUp) return;
-
         PickUp();
     }
 
@@ -34,7 +25,6 @@ public class Item : MonoBehaviour, IInteractable
         if (hotbar != null && hotbar.TryAddToHotbar(itemID, itemIcon))
         {
             pickedUp = true;
-            Debug.Log("Picked up: " + itemID);
             Destroy(gameObject);
             return;
         }
@@ -44,7 +34,6 @@ public class Item : MonoBehaviour, IInteractable
         if (inventory != null && inventory.TryAddToInventory(itemID, itemIcon))
         {
             pickedUp = true;
-            Debug.Log("Picked up to inventory: " + itemID);
             Destroy(gameObject);
             return;
         }
