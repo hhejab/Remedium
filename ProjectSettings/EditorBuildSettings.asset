@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Worldmap/Dungeon 2.unity
     guid: dffb71511de2d404ca045d197e9a81a3
   - enabled: 1
-    path: Assets/Scenes/Worldmap/BossArena - cure copy.unity
+    path: Assets/Scenes/Worldmap/BossArena - Beholder.unity
     guid: 75b4ee4f44a2d0b4c8ab89fe3a0fe503
   - enabled: 0
     path: Assets/Scenes/MageTower.unity

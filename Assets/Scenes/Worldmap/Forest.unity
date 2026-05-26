@@ -343,10 +343,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Dungeon
   spawnPointName: DungeonSpawn
-  message: Enter Dungeon ?
+  requireFirstBossDefeated: 0
+  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
-  levelRequiredMessage: You need to upgrade yourself at the blacksmith first.
+  levelLockedMessage: You need to upgrade yourself first.
+  message: Enter Dungeon ?
 --- !u!1 &110991078 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8368553866208719571, guid: e6e47e24706ca19448c613d1098eb24e, type: 3}
@@ -771,10 +773,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: UnDeadLand
   spawnPointName: UnDeadLandSpawn
-  message: Go to the UnDead Land ?
+  requireFirstBossDefeated: 0
+  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
   requirePlayerLevel: 1
   requiredPlayerLevel: 2
-  levelRequiredMessage: You need to upgrade yourself at the blacksmith first.
+  levelLockedMessage: You need to upgrade yourself first.
+  message: Go to the UnDead Land ?
 --- !u!1 &661813849
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +805,135 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.46, y: -13.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1055548426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1055548428}
+  - component: {fileID: 1055548427}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1055548427
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055548426}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: cfd157d8c6680314a84d82a5802b6748, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1055548428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055548426}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.49329, y: 3.70756, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -918,10 +1051,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Village
   spawnPointName: VillageSpawn
-  message: Return to Village ?
+  requireFirstBossDefeated: 0
+  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
-  levelRequiredMessage: You need to upgrade yourself at the blacksmith first.
+  levelLockedMessage: You need to upgrade yourself first.
+  message: Return to Village ?
 --- !u!1 &1719291772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,3 +1153,4 @@ SceneRoots:
   - {fileID: 1719291774}
   - {fileID: 1512808166}
   - {fileID: 1348960227}
+  - {fileID: 1055548428}
