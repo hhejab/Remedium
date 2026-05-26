@@ -579,7 +579,11 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
+<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Player_lvl1.controller
+    m_Motion: {fileID: -8659448370105564009, guid: be9be8bf05fb4aa4b892c4e47953061a, type: 3}
+=======
     m_Motion: {fileID: 1297414136250061959, guid: 27926995b1026f0469cbb57dad20268d, type: 3}
+>>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Player_lvl1.controller
     m_Threshold: 0
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1

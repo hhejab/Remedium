@@ -26,25 +26,19 @@ public class BossHealth : MonoBehaviour
             bossUI.SetHealth(currentHealth, maxHealth);
             bossUI.Show();
         }
-        else
-        {
-            Debug.LogWarning("BossHealth: BossUI is not assigned.");
-        }
     }
 
     public virtual void TakeDamage(int damage)
     {
         SlimeBoss_AI slimeBoss = GetComponent<SlimeBoss_AI>();
 
-        // If slime boss is in invulnerable phase, ignore damage
         if (slimeBoss != null && !slimeBoss.CanTakeDamage())
         {
             Debug.Log("Slime Boss is invulnerable. Kill the small slimes first.");
             return;
         }
 
-        if (!CanTakeDamage())
-            return;
+        if (!CanTakeDamage()) return;
 
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
@@ -52,14 +46,10 @@ public class BossHealth : MonoBehaviour
         Debug.Log(bossName + " took damage: " + damage + " HP: " + currentHealth + " / " + maxHealth);
 
         UpdateBossUI();
-
         OnAfterDamage(damage);
 
-        // Slime boss 50% phase
         if (slimeBoss != null && currentHealth <= maxHealth / 2)
-        {
             slimeBoss.TriggerHalfHealthPhase();
-        }
 
         if (currentHealth <= 0)
         {
@@ -76,10 +66,7 @@ public class BossHealth : MonoBehaviour
         return currentHealth > 0;
     }
 
-    protected virtual void OnAfterDamage(int damage)
-    {
-        // Child boss health scripts can override this.
-    }
+    protected virtual void OnAfterDamage(int damage) { }
 
     protected virtual void UpdateBossUI()
     {
@@ -91,6 +78,13 @@ public class BossHealth : MonoBehaviour
     {
         if (bossUI != null)
             bossUI.Hide();
+
+        SlimeBoss_AI slimeBoss = GetComponent<SlimeBoss_AI>();
+        if (slimeBoss != null)
+        {
+            slimeBoss.Die();
+            return;
+        }
 
         if (bossAI != null)
             bossAI.Die();

@@ -34,16 +34,21 @@ public class PlayerCombat : MonoBehaviour
         playerStats = GetComponent<PlayerStats>();
 
         audioSource = GetComponent<AudioSource>();
-        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+
         audioSource.playOnAwake = false;
 
         DisableAllHitboxes();
     }
 
-    private void OnEnable()
+   private void OnEnable()
     {
         if (attackAction != null)
             attackAction.action.Enable();
+
+        isAttacking = false;
+        DisableAllHitboxes();
     }
 
     private void OnDisable()
@@ -65,8 +70,9 @@ public class PlayerCombat : MonoBehaviour
     private void PerformAttack()
     {
         if (Time.time < lastAttackTime + attackCooldown) return;
-        lastAttackTime = Time.time;
         if (isAttacking) return;
+
+        lastAttackTime = Time.time;
         StartCoroutine(AttackRoutine());
     }
 
@@ -96,19 +102,14 @@ public class PlayerCombat : MonoBehaviour
         if (playerStats != null && playerStats.attackSpeed > 0)
             hitboxDuration = attackDuration / playerStats.attackSpeed;
 
-        // play swing audio slightly delayed to match animation
-        StartCoroutine(PlaySwingDelayed(0.5f));
+        StartCoroutine(PlaySwingDelayed(0.15f));
 
-        // activate hitbox after attack windup (delay) so damage registers later
         if (activeHitbox != null)
-            StartCoroutine(ActivateHitboxDelayed(activeHitbox, 1f, hitboxDuration));
+            StartCoroutine(ActivateHitboxDelayed(activeHitbox, 0.1f, hitboxDuration));
 
         float finalAttackDuration = attackDuration;
-
         if (playerStats != null && playerStats.attackSpeed > 0)
-        {
             finalAttackDuration = attackDuration / playerStats.attackSpeed;
-        }
 
         yield return new WaitForSeconds(finalAttackDuration);
 
@@ -136,31 +137,31 @@ public class PlayerCombat : MonoBehaviour
 
     private void DisableAllHitboxes()
     {
-        if (hitboxUp != null)
-            hitboxUp.SetActive(false);
-
-        if (hitboxDown != null)
-            hitboxDown.SetActive(false);
-
-        if (hitboxLeft != null)
-            hitboxLeft.SetActive(false);
-
-        if (hitboxRight != null)
-            hitboxRight.SetActive(false);
+        if (hitboxUp != null) hitboxUp.SetActive(false);
+        if (hitboxDown != null) hitboxDown.SetActive(false);
+        if (hitboxLeft != null) hitboxLeft.SetActive(false);
+        if (hitboxRight != null) hitboxRight.SetActive(false);
     }
 
     private IEnumerator ActivateHitboxDelayed(GameObject hitbox, float delay, float duration)
     {
         yield return new WaitForSeconds(delay);
+
         if (hitbox == null) yield break;
+
         hitbox.SetActive(true);
+
         yield return new WaitForSeconds(duration);
-        if (hitbox != null) hitbox.SetActive(false);
+
+        if (hitbox != null)
+            hitbox.SetActive(false);
     }
 
     private IEnumerator PlaySwingDelayed(float delay)
     {
         yield return new WaitForSeconds(delay);
-        if (audioSource != null && swingSFX != null) audioSource.PlayOneShot(swingSFX);
+
+        if (audioSource != null && swingSFX != null)
+            audioSource.PlayOneShot(swingSFX);
     }
 }

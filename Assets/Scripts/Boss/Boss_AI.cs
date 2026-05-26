@@ -207,6 +207,10 @@ public virtual void Die()
     if (isDead) return;
     isDead = true;
 
+    PlayerSkillPointWallet wallet = FindFirstObjectByType<PlayerSkillPointWallet>();
+    if (wallet != null)
+    wallet.AddSkillPoints(15);
+
     StopAllCoroutines();
 
     if (rb != null)

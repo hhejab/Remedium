@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class PersistentPlayer : MonoBehaviour
 {
-    public static PersistentPlayer Instance;
+    private static PersistentPlayer instance;
 
     private void Awake()
     {
-        if (Instance != null)
+        if (instance != null && instance != this)
         {
             Destroy(gameObject);
             return;
         }
 
-        Instance = this;
+        instance = this;
         DontDestroyOnLoad(gameObject);
     }
 }
