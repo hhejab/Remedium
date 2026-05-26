@@ -39,6 +39,9 @@ public class BossDefeatReward : MonoBehaviour
         if (cpWallet != null && combatPointsReward > 0)
             cpWallet.AddCP(combatPointsReward);
 
+        if (BossProgress.Instance != null)
+        BossProgress.Instance.SetFirstBossDefeated();
+
         SceneSpawnManager.nextSpawnPointName = spawnPointName;
         SceneManager.LoadScene(sceneToLoad);
     }

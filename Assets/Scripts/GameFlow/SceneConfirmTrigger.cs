@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.InputSystem;
 
 public class SceneConfirmTrigger : MonoBehaviour
 {
@@ -8,14 +7,18 @@ public class SceneConfirmTrigger : MonoBehaviour
     public string sceneToLoad;
     public string spawnPointName = "DefaultSpawn";
 
+    [Header("Lock Rule")]
+    public bool requireFirstBossDefeated = false;
+    public string lockedMessage = "You need to defeat the first boss before entering the Blacksmith.";
+
+    [Header("Level Lock")]
+    public bool requirePlayerLevel = false;
+    public int requiredPlayerLevel = 2;
+    public string levelLockedMessage = "You need to upgrade yourself first.";
+
     [Header("UI")]
     [TextArea]
     public string message = "Do you want to enter?";
-
-    [Header("Level Requirement")]
-    public bool requirePlayerLevel = false;
-    public int requiredPlayerLevel = 2;
-    public string levelRequiredMessage = "You need to upgrade yourself at the blacksmith first.";
 
     private bool triggered;
 
@@ -29,49 +32,33 @@ public class SceneConfirmTrigger : MonoBehaviour
         if (TriggerUIManager.Instance == null)
         {
             Debug.LogError("TriggerUIManager not found.");
-            triggered = false;
             return;
         }
 
-        if (requirePlayerLevel)
+        if (requireFirstBossDefeated)
+        {
+            if (BossProgress.Instance == null || !BossProgress.Instance.firstBossDefeated)
+            {
+                TriggerUIManager.Instance.Show(lockedMessage, null);
+                return;
+            }
+        }
+
+       if (requirePlayerLevel)
         {
             PlayerLevel playerLevel = other.GetComponent<PlayerLevel>();
 
             if (playerLevel == null || playerLevel.currentLevel < requiredPlayerLevel)
             {
-                TriggerUIManager.Instance.Show(levelRequiredMessage, null);
+                TriggerUIManager.Instance.Show(levelLockedMessage, null);
                 return;
             }
         }
-
         TriggerUIManager.Instance.Show(message, () =>
         {
-            ResetPlayerBeforeSceneLoad(other.gameObject);
-
             SceneSpawnManager.nextSpawnPointName = spawnPointName;
             SceneManager.LoadScene(sceneToLoad);
         });
-    }
-
-    private void ResetPlayerBeforeSceneLoad(GameObject player)
-    {
-        Time.timeScale = 1f;
-
-        PlayerInput playerInput = player.GetComponent<PlayerInput>();
-        if (playerInput != null)
-            playerInput.ActivateInput();
-
-        PlayerCombat combat = player.GetComponent<PlayerCombat>();
-        if (combat != null)
-            combat.enabled = true;
-
-        Movement movement = player.GetComponent<Movement>();
-        if (movement != null)
-            movement.enabled = true;
-
-        Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
-        if (rb != null)
-            rb.linearVelocity = Vector2.zero;
     }
 
     private void OnTriggerExit2D(Collider2D other)
