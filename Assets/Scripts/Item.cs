@@ -5,40 +5,50 @@ public class Item : MonoBehaviour, IInteractable
     public string itemID;
     public Sprite itemIcon;
 
+    private bool pickedUp = false;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (pickedUp) return;
+        if (!other.CompareTag("Player")) return;
+
+        PickUp();
+    }
+
     public void Interact()
     {
+        if (pickedUp) return;
+
+        PickUp();
+    }
+
+    private void PickUp()
+    {
+        if (pickedUp) return;
+
         if (string.IsNullOrEmpty(itemID))
             itemID = gameObject.name;
 
-        InventoryPage inv = FindFirstObjectByType<InventoryPage>(FindObjectsInactive.Include);
         PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
 
-        // Keys go to main inventory only
-        if (itemID == "BossKey")
+        if (hotbar != null && hotbar.TryAddToHotbar(itemID, itemIcon))
         {
-            if (inv != null && inv.TryAddToInventory(itemID, itemIcon))
-            {
-                Debug.Log("Picked up key: " + itemID);
-                Destroy(gameObject);
-                return;
-            }
-
-            Debug.LogWarning("Pickup Failed: Inventory is full!");
+            pickedUp = true;
+            Debug.Log("Picked up: " + itemID);
+            Destroy(gameObject);
             return;
         }
 
-        // Normal items can go hotbar first
-        if (hotbar != null && hotbar.TryAddToHotbar(itemID, itemIcon))
+        InventoryPage inventory = FindFirstObjectByType<InventoryPage>(FindObjectsInactive.Include);
+
+        if (inventory != null && inventory.TryAddToInventory(itemID, itemIcon))
         {
+            pickedUp = true;
+            Debug.Log("Picked up to inventory: " + itemID);
             Destroy(gameObject);
+            return;
         }
-        else if (inv != null && inv.TryAddToInventory(itemID, itemIcon))
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Debug.LogWarning("Pickup Failed: Both Hotbar and Inventory are full!");
-        }
+
+        Debug.LogWarning("Pickup failed: " + itemID);
     }
 }

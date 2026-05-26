@@ -4,7 +4,11 @@ public class LockedBossDoor : MonoBehaviour
 {
     public Animator animator;
     public Collider2D doorCollider;
+<<<<<<< HEAD
     public SpriteRenderer doorRenderer; // Reference to the door's SpriteRenderer
+=======
+    public SpriteRenderer spriteRenderer;
+>>>>>>> origin/main
 
     public string requiredKeyID = "BossKey";
     public string lockedMessage = "The door is locked. You need a key.";
@@ -20,13 +24,38 @@ public class LockedBossDoor : MonoBehaviour
         if (doorCollider == null)
             doorCollider = GetComponent<Collider2D>();
 
+<<<<<<< HEAD
         if (doorRenderer == null)
             doorRenderer = GetComponent<SpriteRenderer>();
+=======
+        if (spriteRenderer == null)
+            spriteRenderer = GetComponent<SpriteRenderer>();
+>>>>>>> origin/main
     }
 
     private void Update()
     {
+<<<<<<< HEAD
         UpdateSortingLayer();
+=======
+        UpdateDoorSortingLayer();
+    }
+
+    private void UpdateDoorSortingLayer()
+    {
+        if (animator == null || spriteRenderer == null) return;
+
+        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+
+        if (state.IsName("DungeonDoor Closed"))
+        {
+            spriteRenderer.sortingLayerName = "Base";
+        }
+        else if (state.IsName("DungeonDoor Open"))
+        {
+            spriteRenderer.sortingLayerName = "AbovePlayer";
+        }
+>>>>>>> origin/main
     }
 
     public void TryOpen()
