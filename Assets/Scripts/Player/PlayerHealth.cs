@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -9,10 +10,17 @@ public class PlayerHealth : MonoBehaviour
 
     private PlayerStats playerStats;
     private bool isDead;
+    private Animator animator;
+
+    [Header("Hurt / Death Settings")]
+    [SerializeField] private float hurtCooldown = 2f; // seconds of invincibility after taking damage
+    [SerializeField] private float deathDespawnDelay = 0.6f; // seconds to wait for death animation before despawn/respawn
+    private float lastHurtTime = -999f;
 
     void Awake()
     {
         playerStats = GetComponent<PlayerStats>();
+        animator = GetComponent<Animator>();
     }
 
     void Start()
@@ -42,20 +50,43 @@ public class PlayerHealth : MonoBehaviour
 
         int finalMaxHealth = GetFinalMaxHealth();
 
-        if (amount < 0 && playerStats != null)
+        int appliedAmount = amount;
+
+        // Damage handling with invincibility window and mitigation
+        if (amount < 0)
         {
-            int incomingDamage = Mathf.Abs(amount);
-            int reducedDamage = playerStats.ReduceDamage(incomingDamage);
-            amount = -reducedDamage;
+            if (Time.time < lastHurtTime + hurtCooldown) return; // still invulnerable
+
+            if (playerStats != null)
+            {
+                int incomingDamage = Mathf.Abs(amount);
+                int reducedDamage = playerStats.ReduceDamage(incomingDamage);
+                appliedAmount = -reducedDamage;
+            }
         }
 
-        currentHealth += amount;
+        currentHealth += appliedAmount;
         currentHealth = Mathf.Clamp(currentHealth, 0, finalMaxHealth);
 
         UpdateUI();
 
+        // If died, start death sequence (plays animation then despawn/respawn)
         if (currentHealth <= 0)
+        {
             Die();
+            return;
+        }
+
+        // If we actually took damage (and didn't die), trigger hurt animation and start invincibility
+        if (appliedAmount < 0)
+        {
+            lastHurtTime = Time.time;
+            if (animator != null)
+            {
+                animator.ResetTrigger("Hurt");
+                animator.SetTrigger("Hurt");
+            }
+        }
     }
 
     public void FullHeal()
@@ -76,15 +107,27 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         if (isDead) return;
-
         isDead = true;
+
+        if (animator != null)
+        {
+            animator.ResetTrigger("Death");
+            animator.SetTrigger("Death");
+        }
+
+        StartCoroutine(DeathDelayCoroutine());
+    }
+
+    private IEnumerator DeathDelayCoroutine()
+    {
+        yield return new WaitForSeconds(deathDespawnDelay);
 
         PlayerRespawnManager respawn = GetComponent<PlayerRespawnManager>();
 
         if (respawn != null)
         {
             respawn.RespawnFromDeath();
-            return;
+            yield break;
         }
 
         gameObject.SetActive(false);
