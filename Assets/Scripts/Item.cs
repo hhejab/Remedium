@@ -22,7 +22,7 @@ public class Item : MonoBehaviour, IInteractable
         PickUp();
     }
 
-    private void PickUp()
+    public void PickUp()
     {
         if (pickedUp) return;
 

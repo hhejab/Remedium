@@ -144,7 +144,7 @@ ScriptedImporter:
       y: 40
       width: 17
       height: 28
-    spriteID: 33f0f5a437ff8c44e953235464f88bff
+    spriteID: 309a2d06389f3ca4abbd466b6608465d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -155,11 +155,7 @@ ScriptedImporter:
     uvTransform: {x: 79, y: 40}
   - name: Frame_1
     originalName: 
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-    pivot: {x: 0.65217394, y: -0.5862069}
-=======
     pivot: {x: 0.65217394, y: -8.103448}
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -169,7 +165,7 @@ ScriptedImporter:
       y: 78
       width: 23
       height: 29
-    spriteID: ea8efd0e108641b41a74106dbd2f5a91
+    spriteID: aa4389d3a2b51334ebb0b6df51af58fc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,11 +176,7 @@ ScriptedImporter:
     uvTransform: {x: 43, y: 78}
   - name: Frame_2
     originalName: 
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-    pivot: {x: 0.75000006, y: -0.5666667}
-=======
     pivot: {x: 0.74999994, y: -7.833333}
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -194,7 +186,7 @@ ScriptedImporter:
       y: 4
       width: 28
       height: 30
-    spriteID: 571e0eda697376b4a8fec297c7962025
+    spriteID: e8ad2b756fb69984cb6d78072eb7f9a3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -205,11 +197,7 @@ ScriptedImporter:
     uvTransform: {x: 43, y: 4}
   - name: Frame_3
     originalName: 
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-    pivot: {x: 0.60714287, y: -0.60714287}
-=======
     pivot: {x: 0.60714304, y: -8.392858}
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -219,7 +207,7 @@ ScriptedImporter:
       y: 42
       width: 28
       height: 28
-    spriteID: 1841a5f1f5d5456439a11c117f7cfbc4
+    spriteID: 423a7da38ce200d49a4e094d43459c01
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,11 +218,7 @@ ScriptedImporter:
     uvTransform: {x: 43, y: 42}
   - name: Frame_4
     originalName: 
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-    pivot: {x: 0.2580645, y: -0.60714287}
-=======
     pivot: {x: 0.25806457, y: -8.392858}
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -244,7 +228,7 @@ ScriptedImporter:
       y: 82
       width: 31
       height: 28
-    spriteID: 9531a5cad2db105448a1a61631a09f5f
+    spriteID: cbdb2e61c70936b4f93358ab61c2a152
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -255,11 +239,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 82}
   - name: Frame_5
     originalName: 
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-    pivot: {x: 0.2580645, y: -0.5}
-=======
     pivot: {x: 0.25806457, y: -7.3125}
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -269,7 +249,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 32
-    spriteID: 7d7f75e6f068ef343809d70a0d2a9304
+    spriteID: 8a0635b1c9540324caaf4fd824bfe1c0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,11 +260,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Frame_6
     originalName: 
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-    pivot: {x: 0.2580645, y: -0.5666667}
-=======
     pivot: {x: 0.25806457, y: -7.833333}
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -294,7 +270,7 @@ ScriptedImporter:
       y: 44
       width: 31
       height: 30
-    spriteID: ff71008089ea15a4995536a375826424
+    spriteID: 6337ac7c37ea1434c85948c4208619b9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -305,11 +281,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 44}
   - name: Frame_7
     originalName: 
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-    pivot: {x: 0.36363637, y: -0.60714287}
-=======
     pivot: {x: 0.3636364, y: -8.392858}
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -319,7 +291,7 @@ ScriptedImporter:
       y: 4
       width: 22
       height: 28
-    spriteID: 45b66ff3dfdcf3e4fbf80ab159688e2b
+    spriteID: ee0a5da6e71dd5845a11afa9cd16b3c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -328,175 +300,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 79, y: 4}
-  spriteSheetImportData:
-  - name: Swordsman_lvl1_attack_side_right_2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 211
-      width: 19
-      height: 30
-    spriteID: a345bea69a1add1439e9764aeabb1c5e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Swordsman_lvl1_attack_side_right_7
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 99
-      y: 184
-      width: 19
-      height: 28
-    spriteID: 4d92155b4b1faeb43a9fb4c3829258ab
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Swordsman_lvl1_attack_side_right_0
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 126
-      y: 184
-      width: 17
-      height: 28
-    spriteID: 0061117065fec6245a5d3b7f125b8f95
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Swordsman_lvl1_attack_side_right_4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 148
-      width: 31
-      height: 28
-    spriteID: 0c68224ad9836eb40ba78edfc5267c99
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Swordsman_lvl1_attack_side_right_6
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 206
-      y: 134
-      width: 31
-      height: 30
-    spriteID: 9dbbf461b84501148a286ff2eea7d126
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Swordsman_lvl1_attack_side_right_5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 206
-      y: 94
-      width: 31
-      height: 32
-    spriteID: 66f104ab51eda6a40958cc4e0f8f8d2b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Swordsman_lvl1_attack_side_right_3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 58
-      width: 27
-      height: 28
-    spriteID: 03e505dca36a7964abec60f678abe35d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Swordsman_lvl1_attack_side_right_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 215
-      y: 53
-      width: 16
-      height: 29
-    spriteID: 30c31ef298794e84d9bd8ac5b73e18e8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
+  spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -519,153 +323,78 @@ ScriptedImporter:
         y: 235
         width: 17
         height: 28
-      spriteId: 33f0f5a437ff8c44e953235464f88bff
+      spriteId: 309a2d06389f3ca4abbd466b6608465d
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-        x: 17
-        y: 17
-=======
         x: 235
         y: 235
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
         width: 23
         height: 29
-      spriteId: ea8efd0e108641b41a74106dbd2f5a91
+      spriteId: aa4389d3a2b51334ebb0b6df51af58fc
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-        x: 11
-        y: 17
-=======
         x: 229
         y: 235
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
         width: 28
         height: 30
-      spriteId: 571e0eda697376b4a8fec297c7962025
+      spriteId: e8ad2b756fb69984cb6d78072eb7f9a3
     - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-        x: 15
-        y: 17
-=======
         x: 233
         y: 235
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
         width: 28
         height: 28
-      spriteId: 1841a5f1f5d5456439a11c117f7cfbc4
+      spriteId: 423a7da38ce200d49a4e094d43459c01
     - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-        x: 24
-        y: 17
-=======
         x: 242
         y: 235
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
         width: 31
         height: 28
-      spriteId: 9531a5cad2db105448a1a61631a09f5f
+      spriteId: cbdb2e61c70936b4f93358ab61c2a152
     - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-        x: 24
-        y: 16
-=======
         x: 242
         y: 234
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
         width: 31
         height: 32
-      spriteId: 7d7f75e6f068ef343809d70a0d2a9304
+      spriteId: 8a0635b1c9540324caaf4fd824bfe1c0
     - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-        x: 24
-        y: 17
-=======
         x: 242
         y: 235
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
         width: 31
         height: 30
-      spriteId: ff71008089ea15a4995536a375826424
+      spriteId: 6337ac7c37ea1434c85948c4208619b9
     - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-        x: 24
-        y: 17
-=======
         x: 242
         y: 235
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
         width: 22
         height: 28
-      spriteId: 45b66ff3dfdcf3e4fbf80ab159688e2b
+      spriteId: ee0a5da6e71dd5845a11afa9cd16b3c1
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
   tileSets: []
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-<<<<<<< HEAD:Assets/Imported/Swordsmen/asperite_no_sword/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
-  canvasSize: {x: 64, y: 64}
-=======
   canvasSize: {x: 500, y: 500}
->>>>>>> origin/main:Assets/Imported/Swordsmen/asperitelvl1/Swordsman_lvl1_Attack/Swordsman_lvl1_attack_side_right.aseprite.meta
   previousTextureSize: {x: 128, y: 128}
