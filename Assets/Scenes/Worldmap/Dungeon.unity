@@ -177,6 +177,75 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1860293033}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &124509499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.1462426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194824272835561223, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194824272835561223, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 929643141
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906409346126764961, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_Name
+      value: Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 9162799520557894019, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: itemID
+      value: Key
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7bea29725439186408e4661c7234af26, type: 3}
 --- !u!1 &137775469
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +302,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1860293033}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &151275382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151275383}
+  m_Layer: 0
+  m_Name: NearBossRoomSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &151275383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151275382}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.38, y: -1.76, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &655488195
 GameObject:
@@ -779,6 +879,10 @@ PrefabInstance:
     - target: {fileID: -794173807486478740, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
       propertyPath: m_Layer
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -794173807486478740, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -776627707945175714, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
       propertyPath: m_Layer
@@ -1331,9 +1435,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6236195774995131763, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
+    - {fileID: -794173807486478740, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8264102561202437201, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
-      insertIndex: -1
+    - targetCorrespondingSourceObject: {fileID: 4695269822478242763, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
+      insertIndex: 0
       addedObject: {fileID: 1520405131}
     - targetCorrespondingSourceObject: {fileID: -5976980313474824819, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
       insertIndex: -1
@@ -1348,7 +1453,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: -2695619058785784247, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
 --- !u!4 &792028027 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8264102561202437201, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4695269822478242763, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
   m_PrefabInstance: {fileID: 792028026}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &792028028 stripped
@@ -1381,6 +1486,9 @@ MonoBehaviour:
   sceneToLoad: BossArena
   spawnPointName: BossArenaSpawn
   message: Enter to Defeat the boss
+  requirePlayerLevel: 0
+  requiredPlayerLevel: 2
+  levelRequiredMessage: You need to upgrade yourself at the blacksmith first.
 --- !u!1 &1023450714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,9 +1852,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 929643141
-  m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingLayerID: -906731339
+  m_SortingLayer: 6
+  m_SortingOrder: 32
   m_Sprite: {fileID: 1145097734, guid: 0e337b38bd036c84dbe1c08e59e52e1d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1971,3 +2079,5 @@ SceneRoots:
   - {fileID: 770705336}
   - {fileID: 1860293033}
   - {fileID: 1197473628}
+  - {fileID: 151275383}
+  - {fileID: 124509499}

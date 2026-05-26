@@ -8,12 +8,19 @@ public class PlayerHealth : MonoBehaviour
     public Image healthBarFill;
 
     private PlayerStats playerStats;
+    private bool isDead;
+
+    void Awake()
+    {
+        playerStats = GetComponent<PlayerStats>();
+    }
 
     void Start()
     {
-        playerStats = GetComponent<PlayerStats>();
-        currentHealth = GetFinalMaxHealth();
-        UpdateUI();
+        if (currentHealth <= 0)
+            FullHeal();
+        else
+            UpdateUI();
     }
 
     public int GetFinalMaxHealth()
@@ -22,14 +29,17 @@ public class PlayerHealth : MonoBehaviour
 
         if (playerStats != null)
         {
-             finalMaxHealth += playerStats.maxHealthBonus;
+            finalMaxHealth += playerStats.maxHealthBonus;
             finalMaxHealth += Mathf.RoundToInt(MaxHealth * (playerStats.maxHealthPercentBonus / 100f));
         }
+
         return finalMaxHealth;
     }
 
     public void ChangeHealth(int amount)
     {
+        if (isDead) return;
+
         int finalMaxHealth = GetFinalMaxHealth();
 
         if (amount < 0 && playerStats != null)
@@ -45,26 +55,46 @@ public class PlayerHealth : MonoBehaviour
         UpdateUI();
 
         if (currentHealth <= 0)
-        {
-            gameObject.SetActive(false);
-        }
+            Die();
     }
 
-        public void AddMaxHealthAndHeal(int amount)
+    public void FullHeal()
     {
-        currentHealth += amount;
+        isDead = false;
+        currentHealth = GetFinalMaxHealth();
         UpdateUI();
+    }
+
+    public void AddMaxHealthAndHeal(int amount)
+    {
+        isDead = false;
+        currentHealth += amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, GetFinalMaxHealth());
+        UpdateUI();
+    }
+
+    private void Die()
+    {
+        if (isDead) return;
+
+        isDead = true;
+
+        PlayerRespawnManager respawn = GetComponent<PlayerRespawnManager>();
+
+        if (respawn != null)
+        {
+            respawn.RespawnFromDeath();
+            return;
+        }
+
+        gameObject.SetActive(false);
     }
 
     void UpdateUI()
     {
-       int finalMaxHealth = GetFinalMaxHealth();
+        int finalMaxHealth = GetFinalMaxHealth();
 
         if (healthBarFill != null)
-        {
             healthBarFill.fillAmount = (float)currentHealth / finalMaxHealth;
-        }
     }
 }
-
-

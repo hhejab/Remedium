@@ -16,6 +16,7 @@ public class Skeleton_AI : Enemy_AI
     public int health = 50;
     public float damageCooldown = 0.25f;
     private float lastDamageTime = -999f;
+
     
     [Header("Audio")]
     public AudioClip attackSFX;
@@ -120,10 +121,13 @@ public class Skeleton_AI : Enemy_AI
         }
     }
 
-    protected void Die()
+    protected override void Die()
     {
         if (isDead) return;
         isDead = true;
+
+        GiveSkillXPReward();
+
         StopMoving();
         animator.SetBool("isDead", true);
         var col = GetComponent<Collider2D>();

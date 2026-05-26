@@ -18,7 +18,8 @@ public class SlimeBoss_AI : Boss_AI
     public Transform[] spawnPoints;
     public int slimesToSpawnAtHalfHealth = 2;
 
-    [Header("Attack Settings")]
+    [Header("Slime Boss Attack Settings")]
+    public float closeAttackDistance = 0.95f;
     public int attack1Type = 1;
     public int attack2Type = 2;
     public float attack2Chance = 0.35f;
@@ -40,8 +41,13 @@ public class SlimeBoss_AI : Boss_AI
     {
         base.Awake();
 
+        FindPlayerIfMissing();
+
         isVulnerable = true;
         DisableAllAttackHitboxes();
+
+        if (closeAttackDistance <= 0f)
+            closeAttackDistance = 0.95f;
     }
 
     protected override void FixedUpdate()
@@ -49,12 +55,13 @@ public class SlimeBoss_AI : Boss_AI
         if (isDead)
             return;
 
+        FindPlayerIfMissing();
+
         if (player == null)
             return;
 
         CleanDeadSlimes();
 
-        // During the 50% phase, boss waits until small slimes are dead.
         if (isHalfHealthPhaseActive)
         {
             isVulnerable = false;
@@ -62,10 +69,12 @@ public class SlimeBoss_AI : Boss_AI
             StopMoving();
             FacePlayer();
 
-            animator.SetBool("isMoving", false);
-            animator.SetBool("isRunning", false);
+            if (animator != null)
+            {
+                animator.SetBool("isMoving", false);
+                animator.SetBool("isRunning", false);
+            }
 
-            // If all spawned slimes are dead, boss becomes vulnerable again.
             if (spawnedSlimes.Count == 0)
             {
                 isHalfHealthPhaseActive = false;
@@ -80,6 +89,7 @@ public class SlimeBoss_AI : Boss_AI
         if (isAttacking || isHurt)
         {
             StopMoving();
+            FacePlayer();
             return;
         }
 
@@ -87,17 +97,25 @@ public class SlimeBoss_AI : Boss_AI
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        if (distance <= attackDistance && Time.time >= nextAttackTime)
+        if (distance <= closeAttackDistance && Time.time >= nextAttackTime)
         {
             StartCoroutine(AttackRoutine());
+            return;
         }
-        else
-        {
-            MoveToPlayerWithCollision();
-        }
+
+        MoveToPlayerWithCollision();
     }
 
-    // Call this from BossHealth when HP reaches 50%
+    private void FindPlayerIfMissing()
+    {
+        if (player != null) return;
+
+        GameObject p = GameObject.FindGameObjectWithTag("Player");
+
+        if (p != null)
+            player = p.transform;
+    }
+
     public void TriggerHalfHealthPhase()
     {
         if (hasTriggeredHalfHealthPhase || isDead)
@@ -110,8 +128,11 @@ public class SlimeBoss_AI : Boss_AI
         StopMoving();
         DisableAllAttackHitboxes();
 
-        animator.SetBool("isMoving", false);
-        animator.SetBool("isRunning", false);
+        if (animator != null)
+        {
+            animator.SetBool("isMoving", false);
+            animator.SetBool("isRunning", false);
+        }
 
         SpawnSmallSlimes();
     }
@@ -121,25 +142,30 @@ public class SlimeBoss_AI : Boss_AI
         isAttacking = true;
 
         StopMoving();
-
-        animator.SetBool("isMoving", false);
-        animator.SetBool("isRunning", false);
-
         FacePlayer();
+
+        if (animator != null)
+        {
+            animator.SetBool("isMoving", false);
+            animator.SetBool("isRunning", false);
+        }
 
         yield return new WaitForSeconds(telegraphTime);
 
         currentAttackType = Random.value <= attack2Chance ? attack2Type : attack1Type;
 
-        animator.SetInteger("attackType", currentAttackType);
-        animator.SetTrigger("Attack");
+        if (animator != null)
+        {
+            animator.SetInteger("attackType", currentAttackType);
+            animator.ResetTrigger("Attack");
+            animator.SetTrigger("Attack");
+        }
 
         StartCoroutine(EnableAttackHitbox());
 
         yield return new WaitForSeconds(attackAnimTime);
 
         nextAttackTime = Time.time + attackCooldown;
-
         isAttacking = false;
     }
 
@@ -163,7 +189,7 @@ public class SlimeBoss_AI : Boss_AI
 
     protected override GameObject GetDirectionalAttackHitbox()
     {
-        if (currentAttackType == attack2Type)
+        if (currentAttackType == attack2Type && attack2HitboxAOE != null)
             return attack2HitboxAOE;
 
         return GetAttack1DirectionalHitbox();
@@ -172,17 +198,9 @@ public class SlimeBoss_AI : Boss_AI
     private GameObject GetAttack1DirectionalHitbox()
     {
         if (Mathf.Abs(lastDirection.x) > Mathf.Abs(lastDirection.y))
-        {
-            if (lastDirection.x < 0)
-                return attack1HitboxLeft;
+            return lastDirection.x < 0 ? attack1HitboxLeft : attack1HitboxRight;
 
-            return attack1HitboxRight;
-        }
-
-        if (lastDirection.y > 0)
-            return attack1HitboxBack;
-
-        return attack1HitboxFront;
+        return lastDirection.y > 0 ? attack1HitboxBack : attack1HitboxFront;
     }
 
     protected override void DisableAllAttackHitboxes()
@@ -193,37 +211,21 @@ public class SlimeBoss_AI : Boss_AI
         if (attack1HitboxBack != null) attack1HitboxBack.SetActive(false);
         if (attack1HitboxLeft != null) attack1HitboxLeft.SetActive(false);
         if (attack1HitboxRight != null) attack1HitboxRight.SetActive(false);
-
         if (attack2HitboxAOE != null) attack2HitboxAOE.SetActive(false);
     }
 
     private void SpawnSmallSlimes()
     {
-        if (smallSlimePrefab == null)
-        {
-            Debug.LogWarning("Small Slime Prefab is missing.");
+        if (smallSlimePrefab == null || spawnPoints == null || spawnPoints.Length == 0)
             return;
-        }
-
-        if (spawnPoints == null || spawnPoints.Length == 0)
-        {
-            Debug.LogWarning("Spawn Points are missing.");
-            return;
-        }
 
         int amount = Mathf.Min(slimesToSpawnAtHalfHealth, spawnPoints.Length);
 
         for (int i = 0; i < amount; i++)
         {
-            if (spawnPoints[i] == null)
-                continue;
+            if (spawnPoints[i] == null) continue;
 
-            GameObject slime = Instantiate(
-                smallSlimePrefab,
-                spawnPoints[i].position,
-                Quaternion.identity
-            );
-
+            GameObject slime = Instantiate(smallSlimePrefab, spawnPoints[i].position, Quaternion.identity);
             spawnedSlimes.Add(slime);
         }
     }
@@ -248,31 +250,55 @@ public class SlimeBoss_AI : Boss_AI
 
         lastDirection = direction;
 
-        animator.SetFloat("moveX", direction.x);
-        animator.SetFloat("moveY", direction.y);
-        animator.SetBool("isMoving", true);
-
-        RaycastHit2D hit = Physics2D.Raycast(
-            rb.position,
-            direction,
-            wallCheckDistance,
-            obstacleLayer
-        );
-
-        if (hit.collider != null)
+        if (animator != null)
         {
-            StopMoving();
-            animator.SetBool("isMoving", false);
+            animator.SetFloat("moveX", direction.x);
+            animator.SetFloat("moveY", direction.y);
+            animator.SetBool("isMoving", true);
+            animator.SetBool("isRunning", false);
+        }
+
+        if (!Blocked(direction))
+        {
+            rb.linearVelocity = direction * moveSpeed;
             return;
         }
 
-        rb.linearVelocity = direction * moveSpeed;
+        Vector2 xOnly = new Vector2(direction.x, 0f).normalized;
+        Vector2 yOnly = new Vector2(0f, direction.y).normalized;
+
+        if (xOnly != Vector2.zero && !Blocked(xOnly))
+        {
+            lastDirection = xOnly;
+            rb.linearVelocity = xOnly * moveSpeed;
+            return;
+        }
+
+        if (yOnly != Vector2.zero && !Blocked(yOnly))
+        {
+            lastDirection = yOnly;
+            rb.linearVelocity = yOnly * moveSpeed;
+            return;
+        }
+
+        StopMoving();
+
+        if (animator != null)
+            animator.SetBool("isMoving", false);
+    }
+
+    private bool Blocked(Vector2 direction)
+    {
+        if (direction == Vector2.zero) return true;
+        if (obstacleLayer.value == 0) return false;
+
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, direction, wallCheckDistance, obstacleLayer);
+        return hit.collider != null;
     }
 
     public override void Die()
     {
         isVulnerable = false;
-
         DisableAllAttackHitboxes();
 
         for (int i = spawnedSlimes.Count - 1; i >= 0; i--)

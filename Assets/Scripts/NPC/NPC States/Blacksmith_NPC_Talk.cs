@@ -8,13 +8,13 @@ public class Blacksmith_NPC_Talk : MonoBehaviour
     public Transform player;
     public float interactionDistance = 1.5f;
 
+    [Header("Upgrade UI")]
+    public PlayerUpgradeManager upgradeManager;
+
     [Header("Interaction Bubble")]
     public GameObject interactionObject;
     public Animator interactionAnim;
     public float closeAnimationTime = 0.25f;
-
-    [Header("Input")]
-    public InputActionReference interactAction; // Drag PlayerActions -> Interaction here
 
     private Animator npcAnim;
     private Rigidbody2D rb;
@@ -34,37 +34,39 @@ public class Blacksmith_NPC_Talk : MonoBehaviour
 
     private void Start()
     {
-        // Default: blacksmith is working
+        FindPersistentPlayer();
+
         if (npcAnim != null)
             npcAnim.SetBool("isTalking", false);
     }
 
-    private void OnEnable()
+    private void FindPersistentPlayer()
     {
-        if (interactAction != null)
-            interactAction.action.Enable();
-    }
+        if (player != null) return;
 
-    private void OnDisable()
-    {
-        if (interactAction != null)
-            interactAction.action.Disable();
+        GameObject p = GameObject.FindGameObjectWithTag("Player");
+
+        if (p != null)
+            player = p.transform;
+        else
+            Debug.LogError("Blacksmith cannot find Player. Make sure Player tag is Player.");
     }
 
     private void Update()
     {
-        if (player == null) return;
+        if (player == null)
+        {
+            FindPersistentPlayer();
+            return;
+        }
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // Player comes close
         if (distance <= interactionDistance && !playerInRange)
         {
             playerInRange = true;
             ShowInteraction();
         }
-
-        // Player walks away
         else if (distance > interactionDistance && playerInRange)
         {
             playerInRange = false;
@@ -74,20 +76,15 @@ public class Blacksmith_NPC_Talk : MonoBehaviour
                 StopTalking();
         }
 
-        // Press interaction button
         if (playerInRange && InteractPressed())
         {
-            if (!isTalking)
-                StartTalking();
-            else
-                StopTalking();
+            StartTalking();
         }
     }
 
     private bool InteractPressed()
     {
-        if (interactAction == null) return false;
-        return interactAction.action.WasPressedThisFrame();
+        return Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame;
     }
 
     private void ShowInteraction()
@@ -133,22 +130,21 @@ public class Blacksmith_NPC_Talk : MonoBehaviour
         if (rb != null)
             rb.linearVelocity = Vector2.zero;
 
-        // Stop forging and go to Forge Idle
         if (npcAnim != null)
             npcAnim.SetBool("isTalking", true);
 
-        Debug.Log("Talking to Blacksmith");
+        if (upgradeManager != null)
+            upgradeManager.OpenUpgradeCanvas();
+        else
+            Debug.LogError("UpgradeManager is missing on Blacksmith_NPC_Talk.");
     }
 
-    private void StopTalking()
+    public void StopTalking()
     {
         isTalking = false;
 
-        // Go back to Forge Working
         if (npcAnim != null)
             npcAnim.SetBool("isTalking", false);
-
-        Debug.Log("Stopped talking to Blacksmith");
     }
 
     private void OnDrawGizmosSelected()

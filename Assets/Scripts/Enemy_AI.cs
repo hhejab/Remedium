@@ -20,6 +20,9 @@ public class Enemy_AI : MonoBehaviour
     [Header("References")]
     public Animator animator;
 
+    [Header("Skill XP Reward")]
+    public int skillXPReward = 1;
+
     protected Rigidbody2D rb;
     protected bool isDead = false;
 
@@ -259,4 +262,21 @@ public class Enemy_AI : MonoBehaviour
     {
         Debug.LogWarning($"{GetType().Name} received damage but has no TakeDamage implementation.", this);
     }
+    protected void GiveSkillXPReward()
+{
+    PlayerSkillPointWallet wallet = FindFirstObjectByType<PlayerSkillPointWallet>();
+
+    if (wallet != null)
+        wallet.AddSkillXP(skillXPReward);
+}
+
+    protected virtual void Die()
+{
+    PlayerSkillPointWallet wallet = FindFirstObjectByType<PlayerSkillPointWallet>();
+
+    if (wallet != null)
+        wallet.AddSkillXP(skillXPReward);
+
+    Destroy(gameObject);
+}
 }

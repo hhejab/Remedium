@@ -4,9 +4,9 @@ public class LockedBossDoor : MonoBehaviour
 {
     public Animator animator;
     public Collider2D doorCollider;
+    public SpriteRenderer doorRenderer; // Reference to the door's SpriteRenderer
 
     public string requiredKeyID = "BossKey";
-
     public string lockedMessage = "The door is locked. You need a key.";
     public string openMessage = "Use the boss key to open the door?";
 
@@ -19,6 +19,14 @@ public class LockedBossDoor : MonoBehaviour
 
         if (doorCollider == null)
             doorCollider = GetComponent<Collider2D>();
+
+        if (doorRenderer == null)
+            doorRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    private void Update()
+    {
+        UpdateSortingLayer();
     }
 
     public void TryOpen()
@@ -51,6 +59,23 @@ public class LockedBossDoor : MonoBehaviour
                 doorCollider.enabled = false;
         });
     }
+
+    private void UpdateSortingLayer()
+{
+    if (doorRenderer == null || animator == null)
+        return;
+
+    AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+    if (stateInfo.IsName("DungeonDoor Closed"))
+    {
+        doorRenderer.sortingLayerName = "Base";
+    }
+    else if (stateInfo.IsName("DungeonDoor Open"))
+    {
+        doorRenderer.sortingLayerName = "AbovePlayer";
+    }
+}
 
     private bool HasKeyInInventory(InventoryPage inventory)
     {

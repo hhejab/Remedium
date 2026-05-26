@@ -7,9 +7,9 @@ public class SkillBookManager : MonoBehaviour
     [Header("Player")]
     public PlayerStats playerStats;
     public PlayerHealth playerHealth;
+    public PlayerSkillPointWallet wallet;
 
-    [Header("Skill Points")]
-    public int skillPoints = 10;
+    [Header("Skill Points UI")]
     public TMP_Text skillPointsValueText;
 
     [Header("Right Page Text")]
@@ -21,8 +21,15 @@ public class SkillBookManager : MonoBehaviour
 
     private HashSet<SkillData> unlockedSkills = new HashSet<SkillData>();
 
+    private void Awake()
+    {
+        FindReferences();
+    }
+
     private void Start()
     {
+        FindReferences();
+
         foreach (SkillButtonUI skillButton in skillButtons)
         {
             if (skillButton != null)
@@ -35,23 +42,38 @@ public class SkillBookManager : MonoBehaviour
 
     private void Update()
     {
+        FindReferences();
         UpdatePlayerStatsText();
         UpdateSkillPointsText();
     }
 
+    private void FindReferences()
+    {
+        if (playerStats == null)
+            playerStats = FindFirstObjectByType<PlayerStats>();
+
+        if (playerHealth == null)
+            playerHealth = FindFirstObjectByType<PlayerHealth>();
+
+        if (wallet == null)
+            wallet = FindFirstObjectByType<PlayerSkillPointWallet>();
+    }
+
     public bool IsUnlocked(SkillData skill)
     {
-        return unlockedSkills.Contains(skill);
+        return skill != null && unlockedSkills.Contains(skill);
     }
 
     public bool CanUnlock(SkillData skill)
     {
+        FindReferences();
+
         if (skill == null) return false;
 
         if (IsUnlocked(skill))
             return false;
 
-        if (skillPoints < skill.cost)
+        if (wallet == null || wallet.skillPoints < skill.cost)
             return false;
 
         if (skill.requiredSkill != null && !IsUnlocked(skill.requiredSkill))
@@ -62,14 +84,21 @@ public class SkillBookManager : MonoBehaviour
 
     public void UnlockSkill(SkillData skill)
     {
+        FindReferences();
+
         if (!CanUnlock(skill))
         {
             ShowSkillDescription(skill);
-            Debug.Log("Cannot unlock: " + skill.skillName);
+
+            if (skill != null)
+                Debug.Log("Cannot unlock: " + skill.skillName);
+
             return;
         }
 
-        skillPoints -= skill.cost;
+        if (wallet == null || !wallet.SpendSkillPoints(skill.cost))
+            return;
+
         unlockedSkills.Add(skill);
 
         ApplySkill(skill);
@@ -82,9 +111,11 @@ public class SkillBookManager : MonoBehaviour
 
     private void ApplySkill(SkillData skill)
     {
-        if (playerStats == null)
+        FindReferences();
+
+        if (playerStats == null || skill == null)
         {
-            Debug.LogWarning("PlayerStats missing in SkillBookManager.");
+            Debug.LogWarning("PlayerStats or SkillData missing in SkillBookManager.");
             return;
         }
 
@@ -146,8 +177,10 @@ public class SkillBookManager : MonoBehaviour
         }
     }
 
-    private void RefreshAll()
+    public void RefreshAll()
     {
+        FindReferences();
+
         UpdateSkillPointsText();
         UpdatePlayerStatsText();
 
@@ -160,8 +193,10 @@ public class SkillBookManager : MonoBehaviour
 
     private void UpdateSkillPointsText()
     {
+        FindReferences();
+
         if (skillPointsValueText != null)
-            skillPointsValueText.text = skillPoints.ToString();
+            skillPointsValueText.text = wallet != null ? wallet.skillPoints.ToString() : "0";
     }
 
     private void UpdatePlayerStatsText()
@@ -176,13 +211,13 @@ public class SkillBookManager : MonoBehaviour
         playerStatsText.text =
             "Attack Damage %: " + playerStats.attackDamagePercent +
             " Attack Speed: " + playerStats.attackSpeed + "\n" +
-            "Crit Chance: " + playerStats.critChance + 
+            "Crit Chance: " + playerStats.critChance +
             " Crit Damage: " + playerStats.critDamageMultiplier + "x\n" +
             "Health: " + healthText + "\n" +
-            "Defense: " + playerStats.defense + 
+            "Defense: " + playerStats.defense +
             " Damage Reduction: " + playerStats.damageReductionPercent + "%\n" +
-            "Walk Speed Bonus: " + playerStats.walkSpeedBonus + 
-            " Run Speed Bonus: " + playerStats.runSpeedBonus + 
+            "Walk Speed Bonus: " + playerStats.walkSpeedBonus +
+            " Run Speed Bonus: " + playerStats.runSpeedBonus +
             " Stamina Bonus: " + playerStats.maxStaminaBonus;
     }
 
@@ -205,7 +240,7 @@ public class SkillBookManager : MonoBehaviour
             statusText = "\nStatus: Locked";
 
         skillDescriptionText.text =
-            skill.skillName + 
+            skill.skillName + "\n" +
             skill.description + "\n" +
             "Cost: " + skill.cost +
             requirementText +

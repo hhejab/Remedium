@@ -344,6 +344,9 @@ MonoBehaviour:
   sceneToLoad: Dungeon
   spawnPointName: DungeonSpawn
   message: Enter Dungeon ?
+  requirePlayerLevel: 0
+  requiredPlayerLevel: 2
+  levelRequiredMessage: You need to upgrade yourself at the blacksmith first.
 --- !u!1 &110991078 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8368553866208719571, guid: e6e47e24706ca19448c613d1098eb24e, type: 3}
@@ -769,6 +772,9 @@ MonoBehaviour:
   sceneToLoad: UnDeadLand
   spawnPointName: UnDeadLandSpawn
   message: Go to the UnDead Land ?
+  requirePlayerLevel: 1
+  requiredPlayerLevel: 2
+  levelRequiredMessage: You need to upgrade yourself at the blacksmith first.
 --- !u!1 &661813849
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +801,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.46, y: -13.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1348960226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1348960227}
+  m_Layer: 0
+  m_Name: DungeonGateSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1348960227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348960226}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.2, y: 7.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -831,6 +868,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1512808165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1512808166}
+  m_Layer: 0
+  m_Name: BackFromDefeatingBoss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1512808166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512808165}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.56, y: 7.07, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1569592889 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2464586424693692858, guid: e6e47e24706ca19448c613d1098eb24e, type: 3}
@@ -851,6 +919,9 @@ MonoBehaviour:
   sceneToLoad: Village
   spawnPointName: VillageSpawn
   message: Return to Village ?
+  requirePlayerLevel: 0
+  requiredPlayerLevel: 2
+  levelRequiredMessage: You need to upgrade yourself at the blacksmith first.
 --- !u!1 &1719291772
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,3 +1016,5 @@ SceneRoots:
   - {fileID: 661813850}
   - {fileID: 1508179531}
   - {fileID: 1719291774}
+  - {fileID: 1512808166}
+  - {fileID: 1348960227}

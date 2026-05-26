@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bootstrap.unity
     guid: 6a03f359c42a9ce4283a63f8a5f43860
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Persistent.unity
     guid: 6dc606bade716cf44801347be7bd60ac
   - enabled: 1
@@ -17,24 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Worldmap/Blacksmith.unity
     guid: 0b413b099ef46da4fbd7863e5c1962e2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Chapel.unity
     guid: b16cf1cd77409154c8acc483f138dffd
-  - enabled: 0
-    path: Assets/Scenes/Worldmap/Fishing Dock.unity
-    guid: f5aba8044b890b44e88aca888d66b0e9
   - enabled: 1
     path: Assets/Scenes/Worldmap/Forest.unity
     guid: 205266f9b289bad46a4748183b39391e
   - enabled: 1
     path: Assets/Scenes/Worldmap/Dungeon.unity
     guid: f6063c216087f1247b7ffe4d7e224ce4
-  - enabled: 0
-    path: Assets/Scenes/Worldmap/GlassBlowers.unity
-    guid: 5700083e0c1e3a94a8fca67141b85688
-  - enabled: 0
-    path: Assets/Scenes/Worldmap/GrassLand.unity
-    guid: 386579797f060be4cad98d9377ae759a
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/BossArena.unity
+    guid: 1b60700234c7d5e42b959a2329958ab2
   - enabled: 1
     path: Assets/Scenes/Worldmap/UnDeadLand.unity
     guid: 91a3615dac6ee144dbbe435d5b1ef9c6
@@ -42,12 +36,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Worldmap/Dungeon 2.unity
     guid: dffb71511de2d404ca045d197e9a81a3
   - enabled: 1
+    path: Assets/Scenes/Worldmap/BossArena - cure copy.unity
+    guid: 75b4ee4f44a2d0b4c8ab89fe3a0fe503
+  - enabled: 0
     path: Assets/Scenes/MageTower.unity
     guid: 6d1a840e7a37eb242adf187b8bd6e9e6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Swamp.unity
     guid: ffa1400b8a6a4e0468c9b2327944b30f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Worldmap/Tavern.unity
     guid: e2c2a47371407ef479acbb1762364972
   m_configObjects:

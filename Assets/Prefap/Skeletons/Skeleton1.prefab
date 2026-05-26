@@ -214,6 +214,7 @@ MonoBehaviour:
   sideCheckAngle: 45
   stuckCheckTime: 0.5
   animator: {fileID: 129303231054225928}
+  skillXPReward: 6
   hitboxUp: {fileID: 6350951156873201264}
   hitboxDown: {fileID: 1457387101826685756}
   hitboxLeft: {fileID: 2549777384603866200}
@@ -221,8 +222,9 @@ MonoBehaviour:
   attackDamage: 1
   attackWindup: 0.5
   attackDuration: 0.25
-  health: 50
+  health: 4
   damageCooldown: 0.25
+  skillXPReward: 5
   attackSFX: {fileID: 8300000, guid: 7d09a92784753bf4388fe11cd8161f01, type: 3}
   deathSFX: {fileID: 8300000, guid: c9f3d49762da5084787db394c4aa0271, type: 3}
 --- !u!1 &1457387101826685756
