@@ -15,3 +15,4 @@ MonoBehaviour:
   lines:
   - speaker: {fileID: 11400000, guid: c0d013962b282e243b61264401a3557d, type: 2}
     text: you cured me!
+  options: []

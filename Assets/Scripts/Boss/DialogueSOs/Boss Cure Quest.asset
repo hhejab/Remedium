@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: c0d013962b282e243b61264401a3557d, type: 2}
-    text: Please! bring me an emerald and a soul amulet to cure me!
+    text: Please! bring me a soul amulet to cure me!
+  options: []

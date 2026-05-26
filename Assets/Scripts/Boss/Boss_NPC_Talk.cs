@@ -153,7 +153,6 @@ public class Boss_NPC_Talk : MonoBehaviour
     private DialogueSO GetDialogueForInventory()
     {
         bool has99 = false;
-        bool has98 = false;
 
         // Check hotbar via PlayerInventory if available
         PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
@@ -165,7 +164,6 @@ public class Boss_NPC_Talk : MonoBehaviour
                 if (!string.IsNullOrEmpty(slot.itemID))
                 {
                     if (slot.itemID == "99") has99 = true;
-                    if (slot.itemID == "98") has98 = true;
                 }
             }
         }
@@ -176,11 +174,10 @@ public class Boss_NPC_Talk : MonoBehaviour
             if (it == null) continue;
             if (string.IsNullOrEmpty(it.itemID)) continue;
             if (it.itemID == "99") has99 = true;
-            if (it.itemID == "98") has98 = true;
-            if (has99 && has98) break;
+            if (has99) break;
         }
 
-        if (has99 && has98 && specialDialogueSO != null)
+        if (has99 && specialDialogueSO != null)
             return specialDialogueSO;
 
         // fallback to configured dialogueSO if special conditions aren't met
@@ -190,7 +187,6 @@ public class Boss_NPC_Talk : MonoBehaviour
     private void ConsumeSpecialItems()
     {
         RemoveOneFromInventoryOrHotbar("99");
-        RemoveOneFromInventoryOrHotbar("98");
     }
 
     private void SpawnReplacementAndDestroySelf()
