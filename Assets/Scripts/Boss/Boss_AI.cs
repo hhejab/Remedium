@@ -28,7 +28,7 @@ public class Boss_AI : MonoBehaviour
     public float hitboxActiveTime = 0.45f;
 
     [Header("Death")]
-    public float deathAnimationTime = 1.4f;
+    public float deathAnimationTime = 3;
     
     [Header("NPC Spawn")]
     [Tooltip("Disabled NPC in-scene to enable when the boss dies. Assign the disabled NPC GameObject here.")]
@@ -206,10 +206,6 @@ public virtual void Die()
 {
     if (isDead) return;
     isDead = true;
-
-    PlayerSkillPointWallet wallet = FindFirstObjectByType<PlayerSkillPointWallet>();
-    if (wallet != null)
-    wallet.AddSkillPoints(15);
 
     StopAllCoroutines();
 

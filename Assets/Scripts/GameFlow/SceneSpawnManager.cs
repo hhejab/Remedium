@@ -17,20 +17,38 @@ public class SceneSpawnManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        SpawnPlayer();
+    }
+
+    private void SpawnPlayer()
+    {
         if (string.IsNullOrEmpty(nextSpawnPointName))
             return;
 
-        GameObject spawn = GameObject.Find(nextSpawnPointName);
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
 
-        if (spawn == null)
+        if (player == null)
+        {
+            Debug.LogWarning("No Player found.");
+            return;
+        }
+
+        Debug.Log("Trying to spawn at: " + nextSpawnPointName);
+
+        GameObject spawnPoint = GameObject.Find(nextSpawnPointName);
+
+        if (spawnPoint == null)
         {
             Debug.LogWarning("Spawn point not found: " + nextSpawnPointName);
             return;
         }
 
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        player.transform.position = spawnPoint.transform.position;
 
-        if (player != null)
-            player.transform.position = spawn.transform.position;
+        Debug.Log("Spawned player at: " + spawnPoint.name);
+
+        PlayerRespawnManager.FinishRespawn(player);
+
+        nextSpawnPointName = "";
     }
 }

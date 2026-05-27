@@ -343,12 +343,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Dungeon
   spawnPointName: DungeonSpawn
+  message: Enter Dungeon ?
+  lockAfterFirstBossDefeated: 1
+  alreadyDefeatedMessage: You already defeated this boss.
   requireFirstBossDefeated: 0
-  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
+  firstBossRequiredMessage: Defeat the first boss first.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
-  message: Enter Dungeon ?
 --- !u!1 &110991078 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8368553866208719571, guid: e6e47e24706ca19448c613d1098eb24e, type: 3}
@@ -773,12 +775,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: UnDeadLand
   spawnPointName: UnDeadLandSpawn
-  requireFirstBossDefeated: 0
-  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
+  message: Go to the UnDead Land ?
+  lockAfterFirstBossDefeated: 0
+  alreadyDefeatedMessage: You already defeated this boss.
+  requireFirstBossDefeated: 1
+  firstBossRequiredMessage: Defeat the first boss first.
   requirePlayerLevel: 1
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
-  message: Go to the UnDead Land ?
 --- !u!1 &661813849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1030,7 @@ Transform:
   m_GameObject: {fileID: 1512808165}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.56, y: 7.07, z: 0}
+  m_LocalPosition: {x: 23.92, y: 6.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1051,12 +1055,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Village
   spawnPointName: VillageSpawn
+  message: Return to Village ?
+  lockAfterFirstBossDefeated: 0
+  alreadyDefeatedMessage: You already defeated this boss.
   requireFirstBossDefeated: 0
-  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
+  firstBossRequiredMessage: Defeat the first boss first.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
-  message: Return to Village ?
 --- !u!1 &1719291772
 GameObject:
   m_ObjectHideFlags: 0

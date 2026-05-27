@@ -795,12 +795,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Forest
   spawnPointName: ReturnForestSpawn
+  message: Return To The Forest ?
+  lockAfterFirstBossDefeated: 0
+  alreadyDefeatedMessage: You already defeated this boss.
   requireFirstBossDefeated: 0
-  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
+  firstBossRequiredMessage: Defeat the first boss first.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
-  message: Return To The Forest ?
 --- !u!114 &644325070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -813,14 +815,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd0abef0e4474f469378908b0f299aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Dungeon2
+  sceneToLoad: Dungeon 2
   spawnPointName: Dungeon2Spawn
+  message: Enter The Dungeon ?
+  lockAfterFirstBossDefeated: 0
+  alreadyDefeatedMessage: You already defeated this boss.
   requireFirstBossDefeated: 0
-  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
+  firstBossRequiredMessage: Defeat the first boss first.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
-  message: Enter The Dungeon ?
 --- !u!1 &661813849
 GameObject:
   m_ObjectHideFlags: 0

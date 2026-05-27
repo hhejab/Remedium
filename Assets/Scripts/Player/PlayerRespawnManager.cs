@@ -3,11 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class PlayerRespawnManager : MonoBehaviour
 {
+    public static bool isRespawning;
+
     public void RespawnFromDeath()
     {
-        PlayerHealth health = GetComponent<PlayerHealth>();
-        if (health != null)
-            health.FullHeal();
+        isRespawning = true;
+
+        HidePlayer();
 
         Time.timeScale = 1f;
 
@@ -29,5 +31,33 @@ public class PlayerRespawnManager : MonoBehaviour
 
         SceneSpawnManager.nextSpawnPointName = "DefaultSpawn";
         SceneManager.LoadScene(currentScene);
+    }
+
+    private void HidePlayer()
+    {
+        SpriteRenderer[] renderers = GetComponentsInChildren<SpriteRenderer>(true);
+
+        foreach (SpriteRenderer sr in renderers)
+            sr.enabled = false;
+
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+            rb.linearVelocity = Vector2.zero;
+    }
+
+    public static void FinishRespawn(GameObject player)
+    {
+        if (player == null) return;
+
+        PlayerHealth health = player.GetComponent<PlayerHealth>();
+        if (health != null)
+            health.FullHeal();
+
+        SpriteRenderer[] renderers = player.GetComponentsInChildren<SpriteRenderer>(true);
+
+        foreach (SpriteRenderer sr in renderers)
+            sr.enabled = true;
+
+        isRespawning = false;
     }
 }

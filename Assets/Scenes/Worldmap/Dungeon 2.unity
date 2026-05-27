@@ -119,6 +119,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &11260531
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.84637
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.064616
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906409346126764961, guid: 7bea29725439186408e4661c7234af26, type: 3}
+      propertyPath: m_Name
+      value: Key
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7bea29725439186408e4661c7234af26, type: 3}
 --- !u!1 &62728584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,14 +1722,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd0abef0e4474f469378908b0f299aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: BossArena - cure copy
+  sceneToLoad: BossArena - Beholder
   spawnPointName: BossArenaCureSpawn
+  message: Enter to Defeat the boss
+  lockAfterFirstBossDefeated: 0
+  alreadyDefeatedMessage: You already defeated this boss.
   requireFirstBossDefeated: 0
-  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
+  firstBossRequiredMessage: Defeat the first boss first.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
-  message: Enter to Defeat the boss
 --- !u!1 &1219886664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,3 +2024,4 @@ SceneRoots:
   - {fileID: 770705336}
   - {fileID: 2033642177}
   - {fileID: 648126371}
+  - {fileID: 11260531}
