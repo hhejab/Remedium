@@ -54,12 +54,10 @@ public class Boss_NPC_Talk : MonoBehaviour
 
     private void Update()
     {
-        // If dialogue finished and we were waiting to consume special items, do it now
         if (pendingConsumeSpecial && DialogueManager.Instance != null && !DialogueManager.Instance.isDialogueActive)
         {
             pendingConsumeSpecial = false;
             ConsumeSpecialItems();
-            // After consuming items for the special interaction, spawn the replacement NPC and remove this one
             SpawnReplacementAndDestroySelf();
         }
 
@@ -74,7 +72,6 @@ public class Boss_NPC_Talk : MonoBehaviour
                 if (DialogueManager.Instance != null)
                 {
                     DialogueSO toPlay = GetDialogueForInventory();
-                    // If we're about to play the special dialogue, mark items to be consumed after dialogue finishes
                     pendingConsumeSpecial = (toPlay == specialDialogueSO && specialDialogueSO != null);
                     DialogueManager.Instance.StartDialogue(toPlay);
                 }
@@ -154,7 +151,6 @@ public class Boss_NPC_Talk : MonoBehaviour
     {
         bool has99 = false;
 
-        // Check hotbar via PlayerInventory if available
         PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
         if (hotbar != null && hotbar.hotbarSlots != null)
         {
@@ -180,7 +176,6 @@ public class Boss_NPC_Talk : MonoBehaviour
         if (has99 && specialDialogueSO != null)
             return specialDialogueSO;
 
-        // fallback to configured dialogueSO if special conditions aren't met
         return dialogueSO;
     }
 
@@ -191,12 +186,10 @@ public class Boss_NPC_Talk : MonoBehaviour
 
     private void SpawnReplacementAndDestroySelf()
     {
-        // Determine current facing from this NPC's animator if available
         float facingX = 0f;
         float facingY = -1f;
         if (npcAnim != null)
         {
-            // Use animator parameters if present
             try
             {
                 facingX = npcAnim.GetFloat("moveX");
@@ -241,7 +234,6 @@ public class Boss_NPC_Talk : MonoBehaviour
 
     private void RemoveOneFromInventoryOrHotbar(string id)
     {
-        // Try hotbar first
         PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
         if (hotbar != null && hotbar.hotbarSlots != null)
         {
@@ -265,7 +257,6 @@ public class Boss_NPC_Talk : MonoBehaviour
             }
         }
 
-        // Then check inventory UI slots anywhere (include inactive)
         InventoryItem[] items = FindObjectsOfType<InventoryItem>(true);
         foreach (var it in items)
         {
