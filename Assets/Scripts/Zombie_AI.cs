@@ -141,7 +141,6 @@ public class Zombie_AI : Enemy_AI
         animator.Play("Death", 0, 0f);
         yield return null;
 
-        // fixed delay to let the death animation play (customizable per enemy)
         yield return new WaitForSeconds(0.95f);
 
         Destroy(gameObject);
