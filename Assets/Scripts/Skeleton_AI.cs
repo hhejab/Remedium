@@ -35,7 +35,6 @@ public class Skeleton_AI : Enemy_AI
         if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.playOnAwake = false;
 
-        // Try to auto-load from Resources/SFX/Enemy if clips not assigned
         if (attackSFX == null)
         {
             attackSFX = Resources.Load<AudioClip>("SFX/Enemy/skeleton_swing");
@@ -136,7 +135,6 @@ public class Skeleton_AI : Enemy_AI
         if (hitboxDown != null) hitboxDown.SetActive(false);
         if (hitboxLeft != null) hitboxLeft.SetActive(false);
         if (hitboxRight != null) hitboxRight.SetActive(false);
-        // Play death sound at position so it isn't cut off by destruction
         if (deathSFX != null)
         {
             AudioSource.PlayClipAtPoint(deathSFX, transform.position);
@@ -155,10 +153,7 @@ public class Skeleton_AI : Enemy_AI
         animator.SetBool("isDead", true);
         animator.Play("Death", 0, 0f);
         yield return null;
-
-        // fixed delay to let the death animation play (customizable per enemy)
         yield return new WaitForSeconds(0.64f);
-
         Destroy(gameObject);
     }
 }
