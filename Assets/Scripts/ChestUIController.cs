@@ -2,58 +2,38 @@ using UnityEngine;
 
 public class ChestUIController : MonoBehaviour, IInteractable
 {
-    [Header("UI Reference")]
     public GameObject chestPanel;
 
     private bool isOpen = false;
+    private Chest chestData;
+    private ChestUI uiScript;
 
-    private void Start()
+    private void Awake()
     {
-        if (chestPanel != null)
-            chestPanel.SetActive(false);
+        chestData = GetComponent<Chest>();
+        uiScript = chestPanel.GetComponent<ChestUI>();
+        if (chestPanel != null) chestPanel.SetActive(false);
     }
 
     public void Interact()
     {
-        ToggleChest();
-    }
-
-    public void ToggleChest()
-    {
-        if (chestPanel == null)
-        {
-            Debug.LogError("ChestUIController: Chest Panel is missing.");
-            return;
-        }
-
         isOpen = !isOpen;
         chestPanel.SetActive(isOpen);
 
         if (isOpen)
         {
-            Time.timeScale = 0f;
+            chestData.GenerateInventory();
+            uiScript.RefreshUI(chestData.currentInventory);
 
-            if (CursorManager.Instance != null)
-                CursorManager.Instance.OpenUI();
+            Time.timeScale = 0f;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            if (CursorManager.Instance != null) CursorManager.Instance.OpenUI();
         }
         else
         {
             Time.timeScale = 1f;
-
-            if (CursorManager.Instance != null)
-                CursorManager.Instance.CloseUI();
-        }
-    }
-
-    private void OnDisable()
-    {
-        if (isOpen)
-        {
-            isOpen = false;
-            Time.timeScale = 1f;
-
-            if (CursorManager.Instance != null)
-                CursorManager.Instance.CloseUI();
+            if (CursorManager.Instance != null) CursorManager.Instance.CloseUI();
         }
     }
 }

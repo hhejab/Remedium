@@ -1,24 +1,29 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Chest : MonoBehaviour, IInteractable
 {
-    [SerializeField] private GameObject chestUIPanel; // Drag your Chest UI Panel here in the Inspector
-    private bool isOpen = false;
+    public enum ChestType { FixedLoot, RandomizedLoot }
 
-    public void Interact()
+    [Header("Loot Configuration")]
+    public ChestType myChestType;
+    public List<ItemData> guaranteedItems;
+    public LootTable myLootTable;
+
+    public List<ItemData> currentInventory = new List<ItemData>();
+    private bool hasBeenGenerated = false;
+
+    public void Interact() { /* Handled by ChestUIController */ }
+
+    public void GenerateInventory()
     {
-        isOpen = !isOpen;
-        
-        if (chestUIPanel != null)
-        {
-            chestUIPanel.SetActive(isOpen);
-            
-            // Pause game and show mouse (matches your SkillBook logic)
-            Time.timeScale = isOpen ? 0f : 1f;
-            Cursor.visible = isOpen;
-            Cursor.lockState = isOpen ? CursorLockMode.None : CursorLockMode.Locked;
-        }
-        
-        Debug.Log(isOpen ? "Chest Opened" : "Chest Closed");
+        if (hasBeenGenerated) return;
+
+        if (myChestType == ChestType.FixedLoot)
+            currentInventory = new List<ItemData>(guaranteedItems);
+        else if (myChestType == ChestType.RandomizedLoot && myLootTable != null)
+            currentInventory = myLootTable.GenerateRandomLoot();
+
+        hasBeenGenerated = true;
     }
 }

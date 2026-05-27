@@ -6,7 +6,9 @@ public class LockedBossDoor : MonoBehaviour
     public Collider2D doorCollider;
     public SpriteRenderer doorRenderer;
 
-    public string requiredKeyID = "BossKey";
+    // TWEAK: Changed from string to ItemData
+    [Header("Configuration")]
+    public ItemData requiredKeyData;
 
     public string lockedMessage = "The door is locked. You need a key.";
     public string openMessage = "Use the boss key to open the door?";
@@ -15,15 +17,9 @@ public class LockedBossDoor : MonoBehaviour
 
     private void Awake()
     {
-        if (animator == null)
-            animator = GetComponent<Animator>();
-
-        if (doorCollider == null)
-            doorCollider = GetComponent<Collider2D>();
-
-        if (doorRenderer == null)
-            doorRenderer = GetComponent<SpriteRenderer>();
-
+        if (animator == null) animator = GetComponent<Animator>();
+        if (doorCollider == null) doorCollider = GetComponent<Collider2D>();
+        if (doorRenderer == null) doorRenderer = GetComponent<SpriteRenderer>();
         SetClosedSorting();
     }
 
@@ -31,15 +27,11 @@ public class LockedBossDoor : MonoBehaviour
     {
         if (opened) return;
 
-        InventoryPage inventory =
-            FindFirstObjectByType<InventoryPage>(FindObjectsInactive.Include);
+        InventoryPage inventory = FindFirstObjectByType<InventoryPage>(FindObjectsInactive.Include);
+        PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
 
-        PlayerInventory hotbar =
-            FindFirstObjectByType<PlayerInventory>();
-
-        bool hasKey =
-            HasKeyInInventory(inventory) ||
-            HasKeyInHotbar(hotbar);
+        // TWEAK: Pass the ItemData object instead of a string
+        bool hasKey = HasKeyInInventory(inventory) || HasKeyInHotbar(hotbar);
 
         if (!hasKey)
         {
@@ -50,80 +42,48 @@ public class LockedBossDoor : MonoBehaviour
         TriggerUIManager.Instance.Show(openMessage, () =>
         {
             RemoveKey(inventory, hotbar);
-
             opened = true;
             SetOpenSorting();
-
-            if (animator != null)
-                animator.SetTrigger("Open");
-
-            if (doorCollider != null)
-                doorCollider.enabled = false;
+            if (animator != null) animator.SetTrigger("Open");
+            if (doorCollider != null) doorCollider.enabled = false;
         });
     }
 
-    private void SetClosedSorting()
-    {
-        if (doorRenderer != null)
-            doorRenderer.sortingLayerName = "Base";
-    }
-
-    private void SetOpenSorting()
-    {
-        if (doorRenderer != null)
-            doorRenderer.sortingLayerName = "AbovePlayer";
-    }
+    private void SetClosedSorting() { if (doorRenderer != null) doorRenderer.sortingLayerName = "Base"; }
+    private void SetOpenSorting() { if (doorRenderer != null) doorRenderer.sortingLayerName = "AbovePlayer"; }
 
     private bool HasKeyInInventory(InventoryPage inventory)
     {
-        return inventory != null &&
-               inventory.HasItem(requiredKeyID);
+        // TWEAK: Ensure InventoryPage has the updated HasItem(ItemData data) method
+        return inventory != null && inventory.HasItem(requiredKeyData);
     }
 
     private bool HasKeyInHotbar(PlayerInventory hotbar)
     {
-        if (hotbar == null)
-            return false;
-
+        if (hotbar == null) return false;
         foreach (var slot in hotbar.hotbarSlots)
         {
-            if (slot != null &&
-                slot.itemID == requiredKeyID &&
-                slot.currentQuantity > 0)
-            {
+            // TWEAK: Compare against the data name
+            if (slot != null && slot.itemID == requiredKeyData.itemName && slot.currentQuantity > 0)
                 return true;
-            }
         }
-
         return false;
     }
 
-    private void RemoveKey(
-        InventoryPage inventory,
-        PlayerInventory hotbar)
+    private void RemoveKey(InventoryPage inventory, PlayerInventory hotbar)
     {
-        if (inventory != null &&
-            inventory.RemoveItem(requiredKeyID, 1))
-        {
-            return;
-        }
+        // TWEAK: Use the data name for removal
+        if (inventory != null && inventory.RemoveItem(requiredKeyData.itemName, 1)) return;
 
-        if (hotbar == null)
-            return;
+        if (hotbar == null) return;
 
         foreach (var slot in hotbar.hotbarSlots)
         {
-            if (slot != null &&
-                slot.itemID == requiredKeyID &&
-                slot.currentQuantity > 0)
+            if (slot != null && slot.itemID == requiredKeyData.itemName && slot.currentQuantity > 0)
             {
                 slot.currentQuantity--;
-
-                if (slot.currentQuantity <= 0)
-                    slot.ResetData();
-                else
-                    slot.UpdateUI();
-
+                if (slot.currentQuantity <= 0) slot.ResetData();
+                else slot.UpdateUI();
                 return;
             }
         }

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Item : MonoBehaviour, IInteractable
 {
-    public string itemID;
-    public Sprite itemIcon;
+    [Header("Item Configuration")]
+    public ItemData myItemData; // <-- This replaces itemID and itemIcon!
 
     private bool pickedUp = false;
 
@@ -15,14 +15,13 @@ public class Item : MonoBehaviour, IInteractable
 
     public void PickUp()
     {
-        if (pickedUp) return;
-
-        if (string.IsNullOrEmpty(itemID))
-            itemID = gameObject.name;
+        // Safety check: Don't pick up if there's no data assigned
+        if (pickedUp || myItemData == null) return;
 
         PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
 
-        if (hotbar != null && hotbar.TryAddToHotbar(itemID, itemIcon))
+        // Note: We now pass the whole 'myItemData' instead of separate strings and sprites
+        if (hotbar != null && hotbar.TryAddToHotbar(myItemData))
         {
             pickedUp = true;
             Destroy(gameObject);
@@ -31,13 +30,13 @@ public class Item : MonoBehaviour, IInteractable
 
         InventoryPage inventory = FindFirstObjectByType<InventoryPage>(FindObjectsInactive.Include);
 
-        if (inventory != null && inventory.TryAddToInventory(itemID, itemIcon))
+        if (inventory != null && inventory.TryAddToInventory(myItemData))
         {
             pickedUp = true;
             Destroy(gameObject);
             return;
         }
 
-        Debug.LogWarning("Pickup failed: " + itemID);
+        Debug.LogWarning("Pickup failed. Inventory might be full! Item: " + myItemData.itemName);
     }
 }
