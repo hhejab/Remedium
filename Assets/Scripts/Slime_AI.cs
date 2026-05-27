@@ -4,7 +4,7 @@ using System.Collections;
 public class Slime_AI : Enemy_AI
 {
     [Header("Slime Settings")]
-    public GameObject hitbox; // single hitbox GameObject (enable/disable)
+    public GameObject hitbox; 
     public int attackDamage = 1;
     public float attackWindup = 0.5f;
     public float attackDuration = 0.25f;
@@ -33,7 +33,6 @@ public class Slime_AI : Enemy_AI
     {
         if (isDead) return;
 
-        // Prevent spamming attack while already in Attack animation/state
         var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
         if (stateInfo.IsName("Attack") || state == State.Attack) return;
 
@@ -58,10 +57,9 @@ public class Slime_AI : Enemy_AI
 
         if (hitbox != null) hitbox.SetActive(false);
 
-        // After attack, resume chase if player still in range
         if (isDead) yield break;
         float dist = Vector2.Distance(transform.position, player.position);
-        if (dist <= attackRange) state = State.Chase; // allow immediate re-evaluation by base Update
+        if (dist <= attackRange) state = State.Chase; 
         else if (dist <= aggroRange) state = State.Chase;
         else state = State.Patrol;
     }
@@ -79,7 +77,7 @@ public class Slime_AI : Enemy_AI
         if (health > 0)
         {
             animator.SetTrigger("Hurt");
-            state = State.Patrol; // pause attacks while hurt; base will handle movement next frame
+            state = State.Patrol;
             StopMoving();
         }
         else
@@ -116,13 +114,8 @@ public class Slime_AI : Enemy_AI
         }
         animator.SetBool("isDead", true);
 
-        // Force the animator to play the Death state immediately so the
-        // animation actually starts regardless of transition settings.
         animator.Play("Death", 0, 0f);
-        yield return null; // allow the animator to update to the Death state
-
-        // Wait a fixed amount of time (0.95s) before despawning so the
-        // death animation plays up to the penultimate frame.
+        yield return null;
         yield return new WaitForSeconds(0.85f);
 
         Destroy(gameObject);
