@@ -3,59 +3,56 @@ using UnityEngine.SceneManagement;
 
 public class SceneConfirmTrigger : MonoBehaviour
 {
-    [Header("Scene")]
     public string sceneToLoad;
-    public string spawnPointName = "DefaultSpawn";
+    public string spawnPointName;
+    public string message = "Enter?";
 
-    [Header("Lock Rule")]
-    public bool requireFirstBossDefeated = false;
-    public string lockedMessage = "You need to defeat the first boss before entering the Blacksmith.";
+    [Header("Boss Lock")]
+    public bool lockAfterFirstBossDefeated;
+    public string alreadyDefeatedMessage = "You already defeated this boss.";
+
+    [Header("Require First Boss Defeated")]
+    public bool requireFirstBossDefeated;
+    public string firstBossRequiredMessage = "Defeat the first boss first.";
 
     [Header("Level Lock")]
-    public bool requirePlayerLevel = false;
+    public bool requirePlayerLevel;
     public int requiredPlayerLevel = 2;
     public string levelLockedMessage = "You need to upgrade yourself first.";
-
-    [Header("UI")]
-    [TextArea]
-    public string message = "Do you want to enter?";
 
     private bool triggered;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player")) return;
         if (triggered) return;
+        if (!other.CompareTag("Player")) return;
 
-        triggered = true;
-
-        if (TriggerUIManager.Instance == null)
+        if (lockAfterFirstBossDefeated && BossProgress.Instance != null && BossProgress.Instance.firstBossDefeated)
         {
-            Debug.LogError("TriggerUIManager not found.");
+            TriggerUIManager.Instance.Show(alreadyDefeatedMessage, null);
             return;
         }
 
-        if (requireFirstBossDefeated)
+        if (requireFirstBossDefeated && (BossProgress.Instance == null || !BossProgress.Instance.firstBossDefeated))
         {
-            if (BossProgress.Instance == null || !BossProgress.Instance.firstBossDefeated)
-            {
-                TriggerUIManager.Instance.Show(lockedMessage, null);
-                return;
-            }
+            TriggerUIManager.Instance.Show(firstBossRequiredMessage, null);
+            return;
         }
 
-       if (requirePlayerLevel)
+        if (requirePlayerLevel)
         {
-            PlayerLevel playerLevel = other.GetComponent<PlayerLevel>();
+            PlayerLevel level = other.GetComponent<PlayerLevel>();
 
-            if (playerLevel == null || playerLevel.currentLevel < requiredPlayerLevel)
+            if (level != null && level.currentLevel < requiredPlayerLevel)
             {
                 TriggerUIManager.Instance.Show(levelLockedMessage, null);
                 return;
             }
         }
+
         TriggerUIManager.Instance.Show(message, () =>
         {
+            triggered = true;
             SceneSpawnManager.nextSpawnPointName = spawnPointName;
             SceneManager.LoadScene(sceneToLoad);
         });

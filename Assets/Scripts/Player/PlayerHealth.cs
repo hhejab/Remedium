@@ -11,10 +11,12 @@ public class PlayerHealth : MonoBehaviour
     private PlayerStats playerStats;
     private bool isDead;
     private Animator animator;
+    private Coroutine deathCoroutine;
 
     [Header("Hurt / Death Settings")]
-    [SerializeField] private float hurtCooldown = 2f; // seconds of invincibility after taking damage
-    [SerializeField] private float deathDespawnDelay = 0.6f; // seconds to wait for death animation before despawn/respawn
+    [SerializeField] private float hurtCooldown = 2f;
+    [SerializeField] private float deathDespawnDelay = 1.0f;
+
     private float lastHurtTime = -999f;
 
     void Awake()
@@ -49,13 +51,11 @@ public class PlayerHealth : MonoBehaviour
         if (isDead) return;
 
         int finalMaxHealth = GetFinalMaxHealth();
-
         int appliedAmount = amount;
 
-        // Damage handling with invincibility window and mitigation
         if (amount < 0)
         {
-            if (Time.time < lastHurtTime + hurtCooldown) return; // still invulnerable
+            if (Time.time < lastHurtTime + hurtCooldown) return;
 
             if (playerStats != null)
             {
@@ -70,17 +70,16 @@ public class PlayerHealth : MonoBehaviour
 
         UpdateUI();
 
-        // If died, start death sequence (plays animation then despawn/respawn)
         if (currentHealth <= 0)
         {
             Die();
             return;
         }
 
-        // If we actually took damage (and didn't die), trigger hurt animation and start invincibility
         if (appliedAmount < 0)
         {
             lastHurtTime = Time.time;
+
             if (animator != null)
             {
                 animator.ResetTrigger("Hurt");
@@ -92,6 +91,32 @@ public class PlayerHealth : MonoBehaviour
     public void FullHeal()
     {
         isDead = false;
+
+        if (deathCoroutine != null)
+        {
+            StopCoroutine(deathCoroutine);
+            deathCoroutine = null;
+        }
+
+        if (animator != null)
+        {
+            animator.SetBool("isDead", false);
+            animator.SetBool("isMoving", false);
+            animator.SetBool("isAttackin", false);
+            animator.SetBool("isWalkAttc", false);
+            animator.SetBool("isRunning", false);
+            animator.ResetTrigger("Hurt");
+            animator.Play("idle", 0, 0f);
+        }
+
+        Movement movement = GetComponent<Movement>();
+        if (movement != null)
+            movement.enabled = true;
+
+        PlayerCombat combat = GetComponent<PlayerCombat>();
+        if (combat != null)
+            combat.enabled = true;
+
         currentHealth = GetFinalMaxHealth();
         UpdateUI();
     }
@@ -99,6 +124,10 @@ public class PlayerHealth : MonoBehaviour
     public void AddMaxHealthAndHeal(int amount)
     {
         isDead = false;
+
+        if (animator != null)
+            animator.SetBool("isDead", false);
+
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, GetFinalMaxHealth());
         UpdateUI();
@@ -109,28 +138,41 @@ public class PlayerHealth : MonoBehaviour
         if (isDead) return;
         isDead = true;
 
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+            rb.linearVelocity = Vector2.zero;
+
+        Movement movement = GetComponent<Movement>();
+        if (movement != null)
+            movement.enabled = false;
+
+        PlayerCombat combat = GetComponent<PlayerCombat>();
+        if (combat != null)
+            combat.enabled = false;
+
         if (animator != null)
         {
-            animator.ResetTrigger("Death");
-            animator.SetTrigger("Death");
+            animator.ResetTrigger("Hurt");
+            animator.SetBool("isMoving", false);
+            animator.SetBool("isAttackin", false);
+            animator.SetBool("isWalkAttc", false);
+            animator.SetBool("isRunning", false);
+            animator.SetBool("isDead", true);
         }
 
-        StartCoroutine(DeathDelayCoroutine());
+        deathCoroutine = StartCoroutine(DeathDelayCoroutine());
     }
 
     private IEnumerator DeathDelayCoroutine()
     {
-        yield return new WaitForSeconds(deathDespawnDelay);
+        yield return new WaitForSecondsRealtime(deathDespawnDelay);
 
         PlayerRespawnManager respawn = GetComponent<PlayerRespawnManager>();
 
         if (respawn != null)
-        {
             respawn.RespawnFromDeath();
-            yield break;
-        }
-
-        gameObject.SetActive(false);
+        else
+            gameObject.SetActive(false);
     }
 
     void UpdateUI()

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class BossHealth : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class BossHealth : MonoBehaviour
 
     protected int currentHealth;
     protected Boss_AI bossAI;
+    private bool isDead;
 
     protected virtual void Awake()
     {
@@ -30,6 +32,8 @@ public class BossHealth : MonoBehaviour
 
     public virtual void TakeDamage(int damage)
     {
+        if (isDead) return;
+
         SlimeBoss_AI slimeBoss = GetComponent<SlimeBoss_AI>();
 
         if (slimeBoss != null && !slimeBoss.CanTakeDamage())
@@ -63,7 +67,7 @@ public class BossHealth : MonoBehaviour
 
     protected virtual bool CanTakeDamage()
     {
-        return currentHealth > 0;
+        return currentHealth > 0 && !isDead;
     }
 
     protected virtual void OnAfterDamage(int damage) { }
@@ -74,21 +78,35 @@ public class BossHealth : MonoBehaviour
             bossUI.SetHealth(currentHealth, maxHealth);
     }
 
-    protected virtual void Die()
-    {
-        if (bossUI != null)
-            bossUI.Hide();
+   protected virtual void Die()
+{
+    if (isDead) return;
+    isDead = true;
 
-        SlimeBoss_AI slimeBoss = GetComponent<SlimeBoss_AI>();
-        if (slimeBoss != null)
-        {
-            slimeBoss.Die();
-            return;
-        }
+    if (bossUI != null)
+        bossUI.Hide();
 
-        if (bossAI != null)
-            bossAI.Die();
-    }
+    SlimeBoss_AI slimeBoss = GetComponent<SlimeBoss_AI>();
+    if (slimeBoss != null)
+        slimeBoss.Die();
+    else if (bossAI != null)
+        bossAI.Die();
+
+    BossDefeatReward reward = GetComponent<BossDefeatReward>();
+    if (reward != null)
+        reward.GiveRewardAndReturn();
+}
+
+private System.Collections.IEnumerator GiveRewardAfterDeathAnimation()
+{
+    yield return new WaitForSeconds(3f);
+
+    BossDefeatReward reward = GetComponent<BossDefeatReward>();
+    if (reward != null)
+        reward.GiveRewardAndReturn();
+    else
+        Debug.LogWarning("BossDefeatReward missing on boss!");
+}
 
     public int GetCurrentHealth()
     {

@@ -7430,12 +7430,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Blacksmith
   spawnPointName: BlacksmithSpawn
+  message: Do you want to enter the Blacksmith ?
+  lockAfterFirstBossDefeated: 0
+  alreadyDefeatedMessage: You already defeated this boss.
   requireFirstBossDefeated: 1
-  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
+  firstBossRequiredMessage: Defeat the first boss first.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
-  message: Do you want to enter the Blacksmith ?
 --- !u!1001 &957285607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8655,12 +8657,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Forest
   spawnPointName: ForestSpawn
+  message: Enter the forest
+  lockAfterFirstBossDefeated: 0
+  alreadyDefeatedMessage: You already defeated this boss.
   requireFirstBossDefeated: 0
-  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
+  firstBossRequiredMessage: Defeat the first boss first.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
-  message: Enter the forest
 --- !u!1001 &1396012424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9704,6 +9708,8 @@ MonoBehaviour:
   currentHealth: 100
   MaxHealth: 100
   healthBarFill: {fileID: 309851948}
+  hurtCooldown: 2
+  deathDespawnDelay: 0.6
 --- !u!61 &1589003210
 BoxCollider2D:
   m_ObjectHideFlags: 0

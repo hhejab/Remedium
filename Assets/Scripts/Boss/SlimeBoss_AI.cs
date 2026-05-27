@@ -296,19 +296,33 @@ public class SlimeBoss_AI : Boss_AI
         return hit.collider != null;
     }
 
-    public override void Die()
+  public override void Die()
+{
+    if (isDead) return;
+
+    isVulnerable = false;
+    DisableAllAttackHitboxes();
+
+    for (int i = spawnedSlimes.Count - 1; i >= 0; i--)
     {
-        isVulnerable = false;
-        DisableAllAttackHitboxes();
-
-        for (int i = spawnedSlimes.Count - 1; i >= 0; i--)
-        {
-            if (spawnedSlimes[i] != null)
-                Destroy(spawnedSlimes[i]);
-        }
-
-        spawnedSlimes.Clear();
-
-        base.Die();
+        if (spawnedSlimes[i] != null)
+            Destroy(spawnedSlimes[i]);
     }
+
+    spawnedSlimes.Clear();
+
+    StartCoroutine(DieAfterAnimation());
+}
+
+private IEnumerator DieAfterAnimation()
+{
+    base.Die();
+
+    yield return new WaitForSeconds(deathAnimationTime);
+
+    BossDefeatReward reward = GetComponent<BossDefeatReward>();
+
+    if (reward != null)
+        reward.GiveRewardAndReturn();
+}
 }
