@@ -3,19 +3,19 @@ using UnityEngine.UI;
 
 public class ItemUI : MonoBehaviour
 {
-    public Image iconImage;
+    public Image iconImage; // Assign child 'Icon' here
+
+    private void Awake() { ClearSlot(); }
 
     public void SetupSlot(ItemData item)
     {
-        if (iconImage != null)
-        {
-            iconImage.sprite = item.icon;
-            iconImage.enabled = true;
-        }
+        iconImage.sprite = item.icon;
+        iconImage.enabled = true;
     }
 
     public void ClearSlot()
     {
-        if (iconImage != null) iconImage.enabled = false;
+        iconImage.sprite = null;
+        iconImage.enabled = false;
     }
 }

@@ -4,21 +4,38 @@ using UnityEngine.InputSystem;
 public class PlayerInteraction : MonoBehaviour
 {
     public InputActionReference interactAction;
+
     private IInteractable currentInteractable;
 
-    private void OnEnable() => interactAction?.action.Enable();
-    private void OnDisable() => interactAction?.action.Disable();
+    private void OnEnable()
+    {
+        if (interactAction != null)
+            interactAction.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        if (interactAction != null)
+            interactAction.action.Disable();
+    }
 
     private void Update()
     {
-        // WasPressedThisFrame guarantees it only fires exactly ONCE per button press
-        if (interactAction != null && interactAction.action.WasPressedThisFrame())
+        if (interactAction == null || interactAction.action == null)
+            return;
+
+        if (!interactAction.action.WasPressedThisFrame())
+            return;
+
+        Debug.Log("E pressed");
+
+        if (currentInteractable == null)
         {
-            if (currentInteractable != null)
-            {
-                currentInteractable.Interact();
-            }
+            Debug.Log("No item in range");
+            return;
         }
+
+        currentInteractable.Interact();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -26,14 +43,17 @@ public class PlayerInteraction : MonoBehaviour
         if (other.TryGetComponent<IInteractable>(out var interactable))
         {
             currentInteractable = interactable;
+            Debug.Log("Item in range: " + other.name);
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.TryGetComponent<IInteractable>(out var interactable) && interactable == currentInteractable)
+        if (other.TryGetComponent<IInteractable>(out var interactable) &&
+            interactable == currentInteractable)
         {
             currentInteractable = null;
+            Debug.Log("Item out of range: " + other.name);
         }
     }
 }
