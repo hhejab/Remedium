@@ -249,8 +249,6 @@ public virtual void Die()
         }
     }
 
-    // Schedule NPC spawn after delay using a small helper spawner so spawn occurs
-    // even if this boss GameObject is destroyed before the delay elapses.
     CreateDelayedNpcSpawner(npcSpawnDelay, x, y);
 
     if (animator == null)
@@ -271,7 +269,6 @@ public virtual void Die()
         animator.SetBool("isHurt", false);
         animator.SetBool("isDead", true);
 
-        // Force Death state immediately
         animator.Play("Death", 0, 0f);
         animator.Update(0f);
 
