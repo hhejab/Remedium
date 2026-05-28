@@ -19,6 +19,10 @@ public class SceneConfirmTrigger : MonoBehaviour
     public bool requirePlayerLevel;
     public int requiredPlayerLevel = 2;
     public string levelLockedMessage = "You need to upgrade yourself first.";
+    [Header("Item Lock")]
+    public bool requireItem;
+    public string requiredItemID = "99";
+    public string itemLockedMessage = "You need the Soul Amulet first.";
 
     private bool triggered;
 
@@ -46,6 +50,31 @@ public class SceneConfirmTrigger : MonoBehaviour
             if (level != null && level.currentLevel < requiredPlayerLevel)
             {
                 TriggerUIManager.Instance.Show(levelLockedMessage, null);
+                return;
+            }
+        }
+
+        if (requireItem)
+        {
+            bool hasRequiredItem = false;
+            PlayerInventory inventory = other.GetComponent<PlayerInventory>();
+
+            if (inventory != null && inventory.hotbarSlots != null)
+            {
+                foreach (var slot in inventory.hotbarSlots)
+                {
+                    if (slot == null) continue;
+                    if (slot.itemID == requiredItemID)
+                    {
+                        hasRequiredItem = true;
+                        break;
+                    }
+                }
+            }
+
+            if (!hasRequiredItem)
+            {
+                TriggerUIManager.Instance.Show(itemLockedMessage, null);
                 return;
             }
         }

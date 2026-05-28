@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Apple
   m_EditorClassIdentifier: 
   itemName: Apple
+  itemID: Apple
   icon: {fileID: -8012986840480898435, guid: 5dd82f698eadd314da1fc222e87a9be7, type: 3}
   description: An apple that grow on trees

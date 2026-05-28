@@ -151,39 +151,30 @@ public class Boss_NPC_Talk : MonoBehaviour
     }
 
     private DialogueSO GetDialogueForInventory()
-    {
-        bool has99 = false;
+{
+    bool has99 = false;
 
-        // Check hotbar via PlayerInventory if available
-        PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
-        if (hotbar != null && hotbar.hotbarSlots != null)
+    PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
+
+    if (hotbar != null && hotbar.hotbarSlots != null)
+    {
+        foreach (var slot in hotbar.hotbarSlots)
         {
-            foreach (var slot in hotbar.hotbarSlots)
+            if (slot == null) continue;
+
+            if (slot.itemID == "99")
             {
-                if (slot == null) continue;
-                if (!string.IsNullOrEmpty(slot.itemID))
-                {
-                    if (slot.itemID == "99") has99 = true;
-                }
+                has99 = true;
+                break;
             }
         }
-
-        InventoryItem[] items = FindObjectsOfType<InventoryItem>(true);
-        foreach (var it in items)
-        {
-            if (it == null) continue;
-            if (string.IsNullOrEmpty(it.itemID)) continue;
-            if (it.itemID == "99") has99 = true;
-            if (has99) break;
-        }
-
-        if (has99 && specialDialogueSO != null)
-            return specialDialogueSO;
-
-        // fallback to configured dialogueSO if special conditions aren't met
-        return dialogueSO;
     }
 
+    if (has99 && specialDialogueSO != null)
+        return specialDialogueSO;
+
+    return dialogueSO;
+}
     private void ConsumeSpecialItems()
     {
         RemoveOneFromInventoryOrHotbar("99");

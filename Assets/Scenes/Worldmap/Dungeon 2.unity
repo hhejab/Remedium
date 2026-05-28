@@ -129,11 +129,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.84637
+      value: -10.84
       objectReference: {fileID: 0}
     - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.064616
+      value: -0.27
       objectReference: {fileID: 0}
     - target: {fileID: 3994711607446089964, guid: 7bea29725439186408e4661c7234af26, type: 3}
       propertyPath: m_LocalPosition.z
@@ -268,11 +268,11 @@ MonoBehaviour:
   spawnPoints:
   - {fileID: 137775471}
   spawnAtStart: 1
-  perPoint: 3
+  perPoint: 1
   spawnOffsetRadius: 0.3
   enemiesParent: {fileID: 0}
   parentToEnemiesParent: 1
-  spawnerLimit: 6
+  spawnerLimit: 3
   respawnDelay: 5
   autoRespawn: 1
 --- !u!4 &137775471
@@ -284,13 +284,13 @@ Transform:
   m_GameObject: {fileID: 137775469}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.07, y: 4.93, z: 0}
+  m_LocalPosition: {x: -11.49, y: 4.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &601112099
+--- !u!1 &303006130
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -298,80 +298,98 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 601112100}
-  - component: {fileID: 601112103}
-  - component: {fileID: 601112102}
-  - component: {fileID: 601112101}
+  - component: {fileID: 303006131}
+  - component: {fileID: 303006134}
+  - component: {fileID: 303006133}
+  - component: {fileID: 303006132}
   m_Layer: 0
-  m_Name: doors_2
+  m_Name: Soul Amulet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &601112100
+--- !u!4 &303006131
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601112099}
+  m_GameObject: {fileID: 303006130}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5, y: -16.5, z: 0}
+  m_LocalPosition: {x: 25.63, y: -1.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1219886665}
-  m_Father: {fileID: 792028028}
+  m_Children: []
+  m_Father: {fileID: 1080544114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &601112101
+--- !u!114 &303006132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601112099}
+  m_GameObject: {fileID: 303006130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933a062e53f142945b90a1a2692af8ff, type: 3}
+  m_Script: {fileID: 11500000, guid: f6cdf3a2fd1ea40f0a906dd9da860233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 601112102}
-  doorCollider: {fileID: 792028027}
-  doorRenderer: {fileID: 0}
-  requiredKeyID: Key
-  lockedMessage: The door is locked. You need a key.
-  openMessage: Use the boss key to open the door?
---- !u!95 &601112102
-Animator:
-  serializedVersion: 7
+  myItemData: {fileID: 11400000, guid: b94a6243cf1001c428e8b0c7b55e9713, type: 2}
+--- !u!61 &303006133
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601112099}
+  m_GameObject: {fileID: 303006130}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fc6adfccf2dff1e45923a307963c5c75, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!212 &601112103
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 0.875}
+    newSize: {x: 0.8125, y: 0.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.8125, y: 0.875}
+  m_EdgeRadius: 0
+--- !u!212 &303006134
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601112099}
+  m_GameObject: {fileID: 303006130}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -406,15 +424,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -906731339
-  m_SortingLayer: 6
-  m_SortingOrder: 32
-  m_Sprite: {fileID: 1145097734, guid: 0e337b38bd036c84dbe1c08e59e52e1d, type: 3}
+  m_SortingLayerID: 1562863935
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 5186178909799805166, guid: 5dd82f698eadd314da1fc222e87a9be7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 3}
+  m_Size: {x: 0.8125, y: 0.875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -602,6 +620,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.28, y: -9.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &689985721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689985722}
+  m_Layer: 0
+  m_Name: Dungeon2_NearBossRoomSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &689985722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689985721}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.42, y: -2.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1247,6 +1296,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1246737249
       objectReference: {fileID: 0}
+    - target: {fileID: 1386549844423510842, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1459434770699410124, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
       propertyPath: m_Layer
       value: 15
@@ -1322,6 +1375,10 @@ PrefabInstance:
     - target: {fileID: 2901910372321233714, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
       propertyPath: m_Layer
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3235564509678088522, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3472105984398618036, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
       propertyPath: m_Layer
@@ -1668,7 +1725,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4695269822478242763, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
       insertIndex: 0
-      addedObject: {fileID: 601112100}
+      addedObject: {fileID: 902455511}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6141122142134291659, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
       insertIndex: -1
@@ -1704,7 +1761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1952cd2b56403d7409fb8b60d00c732a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 601112101}
+  door: {fileID: 902455512}
 --- !u!1 &792028031 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6141122142134291659, guid: 6c7d221f7be291b4f9a973906e18219c, type: 3}
@@ -1732,7 +1789,10 @@ MonoBehaviour:
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
---- !u!1 &1219886664
+  requireItem: 1
+  requiredItemID: 99
+  itemLockedMessage: You need the Soul Amulet first.
+--- !u!1 &902455510
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1740,28 +1800,158 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1219886665}
+  - component: {fileID: 902455511}
+  - component: {fileID: 902455514}
+  - component: {fileID: 902455513}
+  - component: {fileID: 902455512}
   m_Layer: 0
-  m_Name: sort
+  m_Name: doors_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1219886665
+--- !u!4 &902455511
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1219886664}
+  m_GameObject: {fileID: 902455510}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.023, y: -1.013, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: -16.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 601112100}
+  m_Father: {fileID: 792028028}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &902455512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902455510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933a062e53f142945b90a1a2692af8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 902455513}
+  doorCollider: {fileID: 792028027}
+  doorRenderer: {fileID: 0}
+  requiredKeyData: {fileID: 11400000, guid: fbfd90d4448e0b84685118c7bdf79b97, type: 2}
+  lockedMessage: The door is locked. You need a key.
+  openMessage: Use the boss key to open the door?
+--- !u!95 &902455513
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902455510}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc6adfccf2dff1e45923a307963c5c75, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &902455514
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902455510}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -906731339
+  m_SortingLayer: 6
+  m_SortingOrder: 32
+  m_Sprite: {fileID: 1145097734, guid: 0e337b38bd036c84dbe1c08e59e52e1d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 3}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1080544113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1080544114}
+  m_Layer: 0
+  m_Name: Items
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1080544114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080544113}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.04, y: -0.35274, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 303006131}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1344066849
 GameObject:
@@ -2025,3 +2215,5 @@ SceneRoots:
   - {fileID: 2033642177}
   - {fileID: 648126371}
   - {fileID: 11260531}
+  - {fileID: 1080544114}
+  - {fileID: 689985722}

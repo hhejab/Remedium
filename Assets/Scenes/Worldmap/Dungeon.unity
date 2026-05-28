@@ -1485,12 +1485,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: BossArena
   spawnPointName: BossArenaSpawn
+  message: Enter to Defeat the boss
+  lockAfterFirstBossDefeated: 0
+  alreadyDefeatedMessage: You already defeated this boss.
   requireFirstBossDefeated: 0
-  lockedMessage: You need to defeat the first boss before entering the Blacksmith.
+  firstBossRequiredMessage: Defeat the first boss first.
   requirePlayerLevel: 0
   requiredPlayerLevel: 2
   levelLockedMessage: You need to upgrade yourself first.
-  message: Enter to Defeat the boss
 --- !u!1 &1023450714
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,7 +2014,7 @@ MonoBehaviour:
   animator: {fileID: 1520405132}
   doorCollider: {fileID: 1023450715}
   doorRenderer: {fileID: 0}
-  requiredKeyID: Key
+  requiredKeyData: {fileID: 11400000, guid: fbfd90d4448e0b84685118c7bdf79b97, type: 2}
   lockedMessage: The door is locked. You need a key.
   openMessage: Use the boss key to open the door?
 --- !u!1 &1668429615

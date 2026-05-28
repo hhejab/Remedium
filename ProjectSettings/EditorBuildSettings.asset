@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Persistent.unity
     guid: 6dc606bade716cf44801347be7bd60ac
   - enabled: 1
+    path: Assets/Scenes/Worldmap/MainMenu_Final.unity
+    guid: bcc5f62fe2744ba4d8702fe15b25117f
+  - enabled: 1
     path: Assets/Scenes/Worldmap/Village.unity
     guid: eeed5220ebbb87042a7037c51b398923
   - enabled: 1
@@ -38,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Worldmap/BossArena - Beholder.unity
     guid: 75b4ee4f44a2d0b4c8ab89fe3a0fe503
+  - enabled: 1
+    path: Assets/Scenes/Worldmap/EndCutscene.unity
+    guid: b0cb3b4bcd2dc984c967fc81033b7c79
   - enabled: 0
     path: Assets/Scenes/MageTower.unity
     guid: 6d1a840e7a37eb242adf187b8bd6e9e6

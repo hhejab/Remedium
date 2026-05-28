@@ -6,32 +6,46 @@ public class PlayerRespawnManager : MonoBehaviour
     public static bool isRespawning;
 
     public void RespawnFromDeath()
+{
+    isRespawning = true;
+
+    HidePlayer();
+
+    Time.timeScale = 1f;
+
+    string currentScene = SceneManager.GetActiveScene().name;
+
+    if (currentScene == "Dungeon")
     {
-        isRespawning = true;
-
-        HidePlayer();
-
-        Time.timeScale = 1f;
-
-        string currentScene = SceneManager.GetActiveScene().name;
-
-        if (currentScene == "Dungeon")
-        {
-            SceneSpawnManager.nextSpawnPointName = "DungeonGateSpawn";
-            SceneManager.LoadScene("Forest");
-            return;
-        }
-
-        if (currentScene == "BossArena")
-        {
-            SceneSpawnManager.nextSpawnPointName = "NearBossRoomSpawn";
-            SceneManager.LoadScene("Dungeon");
-            return;
-        }
-
-        SceneSpawnManager.nextSpawnPointName = "DefaultSpawn";
-        SceneManager.LoadScene(currentScene);
+        SceneSpawnManager.nextSpawnPointName = "DungeonGateSpawn";
+        SceneManager.LoadScene("Forest");
+        return;
     }
+
+    if (currentScene == "BossArena")
+    {
+        SceneSpawnManager.nextSpawnPointName = "NearBossRoomSpawn";
+        SceneManager.LoadScene("Dungeon");
+        return;
+    }
+
+    if (currentScene == "Dungeon 2")
+    {
+        SceneSpawnManager.nextSpawnPointName = "Dungeon2_GateSpawn";
+        SceneManager.LoadScene("UnDeadLand");
+        return;
+    }
+
+    if (currentScene == "BossArena - Beholder")
+    {
+        SceneSpawnManager.nextSpawnPointName = "Dungeon2_NearBossRoomSpawn";
+        SceneManager.LoadScene("Dungeon 2");
+        return;
+    }
+
+    SceneSpawnManager.nextSpawnPointName = "DefaultSpawn";
+    SceneManager.LoadScene(currentScene);
+}
 
     private void HidePlayer()
     {

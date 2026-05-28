@@ -48,20 +48,36 @@ public class Boss_AI : MonoBehaviour
     protected Vector2 lastDirection = Vector2.down;
 
     protected virtual void Awake()
+{
+    if (animator == null)
     {
+        animator = GetComponent<Animator>();
         if (animator == null)
-        {
-            animator = GetComponent<Animator>();
-            if (animator == null)
-                animator = GetComponentInChildren<Animator>();
-        }
-
-        if (rb == null)
-            rb = GetComponent<Rigidbody2D>();
-
-        DisableAllAttackHitboxes();
-        SetAnimatorDirection(lastDirection);
+            animator = GetComponentInChildren<Animator>();
     }
+
+    if (rb == null)
+        rb = GetComponent<Rigidbody2D>();
+
+    
+    if (player == null)
+    {
+        GameObject p = GameObject.FindGameObjectWithTag("Player");
+
+        if (p != null)
+        {
+            player = p.transform;
+            Debug.Log("Boss found player: " + p.name);
+        }
+        else
+        {
+            Debug.LogError("Boss_AI: No player found! Make sure Player tag is set.");
+        }
+    }
+
+    DisableAllAttackHitboxes();
+    SetAnimatorDirection(lastDirection);
+}
 
     protected virtual void FixedUpdate()
     {
