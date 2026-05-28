@@ -2,38 +2,29 @@ using UnityEngine;
 
 public class ChestUIController : MonoBehaviour, IInteractable
 {
-    public GameObject chestPanel;
+    [Header("UI Reference")]
+    public GameObject chestPanel; // Drag the ChestPanel here in the Inspector
 
-    private bool isOpen = false;
-    private Chest chestData;
-    private ChestUI uiScript;
-
-    private void Awake()
+    private void Start()
     {
-        chestData = GetComponent<Chest>();
-        uiScript = chestPanel.GetComponent<ChestUI>();
-        if (chestPanel != null) chestPanel.SetActive(false);
+        // Safely hide the UI when the game starts
+        if (chestPanel != null)
+        {
+            chestPanel.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("ChestPanel is not assigned on " + gameObject.name);
+        }
     }
 
     public void Interact()
     {
-        isOpen = !isOpen;
-        chestPanel.SetActive(isOpen);
+        if (chestPanel == null) return;
 
-        if (isOpen)
-        {
-            chestData.GenerateInventory();
-            uiScript.RefreshUI(chestData.currentInventory);
+        // This line tells you IF it's in the scene or just a file
+        Debug.Log("I am trying to toggle an object named: " + chestPanel.name + ". Is it in the scene? " + chestPanel.scene.IsValid());
 
-            Time.timeScale = 0f;
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
-            if (CursorManager.Instance != null) CursorManager.Instance.OpenUI();
-        }
-        else
-        {
-            Time.timeScale = 1f;
-            if (CursorManager.Instance != null) CursorManager.Instance.CloseUI();
-        }
+        chestPanel.SetActive(!chestPanel.activeSelf);
     }
 }

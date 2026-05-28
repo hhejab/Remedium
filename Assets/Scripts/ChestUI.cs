@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class ChestUI : MonoBehaviour
 {
-    public ItemUI[] slots; // Assign these in the Inspector
+    public ItemUI[] slots;
 
     public void RefreshUI(List<ItemData> items)
     {

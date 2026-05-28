@@ -19,7 +19,6 @@ public class InventoryPage : MonoBehaviour
         }
     }
 
-    // UPDATED: Now accepts ItemData
     public bool TryAddToInventory(ItemData data)
     {
         foreach (var slot in uiItems)
@@ -35,31 +34,31 @@ public class InventoryPage : MonoBehaviour
         return false;
     }
 
-    public bool RemoveItem(string id, int amount = 1)
+    public void Show() => gameObject.SetActive(true);
+    public void Hide() => gameObject.SetActive(false);
+    public bool HasItem(ItemData itemData)
+    {
+        // Check your list of UI slots
+        foreach (var slot in uiItems)
+        {
+            // Compare the itemID of the slot to the name in the ScriptableObject
+            if (slot.itemID == itemData.itemName && slot.currentQuantity > 0)
+                return true;
+        }
+        return false;
+    }
+
+    public bool RemoveItem(string itemName, int amount)
     {
         foreach (var slot in uiItems)
         {
-            if (slot.itemID == id && slot.currentQuantity >= amount)
+            if (slot.itemID == itemName && slot.currentQuantity >= amount)
             {
                 slot.currentQuantity -= amount;
                 if (slot.currentQuantity <= 0) slot.ResetData();
                 else slot.UpdateUI();
                 return true;
             }
-        }
-        return false;
-    }
-
-    public void Show() => gameObject.SetActive(true);
-    public void Hide() => gameObject.SetActive(false);
-    // Add this to InventoryPage.cs
-    public bool HasItem(ItemData itemToCheck)
-    {
-        foreach (var slot in uiItems)
-        {
-            // If you store the name as a string, check against itemToCheck.itemName
-            if (slot.itemID == itemToCheck.itemName && slot.currentQuantity > 0)
-                return true;
         }
         return false;
     }

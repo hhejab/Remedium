@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 274741478176773904}
   - component: {fileID: 7249291320028056927}
   - component: {fileID: 1212677266312752337}
-  - component: {fileID: 8148794517617109134}
+  - component: {fileID: 1764105030694439991}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -244,10 +244,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myChestType: 0
   guaranteedItems: []
-  myLootTable: {fileID: 0}
-  chestUIPanel: {fileID: 0}
+  myLootTable: {fileID: 11400000, guid: b43757b662af329488f225e6f7cbaa66, type: 2}
   currentInventory: []
---- !u!114 &8148794517617109134
+--- !u!114 &1764105030694439991
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
