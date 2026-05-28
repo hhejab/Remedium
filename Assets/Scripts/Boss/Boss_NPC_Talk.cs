@@ -54,10 +54,12 @@ public class Boss_NPC_Talk : MonoBehaviour
 
     private void Update()
     {
+        // If dialogue finished and we were waiting to consume special items, do it now
         if (pendingConsumeSpecial && DialogueManager.Instance != null && !DialogueManager.Instance.isDialogueActive)
         {
             pendingConsumeSpecial = false;
             ConsumeSpecialItems();
+            // After consuming items for the special interaction, spawn the replacement NPC and remove this one
             SpawnReplacementAndDestroySelf();
         }
 
@@ -72,6 +74,7 @@ public class Boss_NPC_Talk : MonoBehaviour
                 if (DialogueManager.Instance != null)
                 {
                     DialogueSO toPlay = GetDialogueForInventory();
+                    // If we're about to play the special dialogue, mark items to be consumed after dialogue finishes
                     pendingConsumeSpecial = (toPlay == specialDialogueSO && specialDialogueSO != null);
                     DialogueManager.Instance.StartDialogue(toPlay);
                 }
@@ -148,37 +151,30 @@ public class Boss_NPC_Talk : MonoBehaviour
     }
 
     private DialogueSO GetDialogueForInventory()
-    {
-        bool has99 = false;
+{
+    bool has99 = false;
 
-        PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
-        if (hotbar != null && hotbar.hotbarSlots != null)
+    PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
+
+    if (hotbar != null && hotbar.hotbarSlots != null)
+    {
+        foreach (var slot in hotbar.hotbarSlots)
         {
-            foreach (var slot in hotbar.hotbarSlots)
+            if (slot == null) continue;
+
+            if (slot.itemID == "99")
             {
-                if (slot == null) continue;
-                if (!string.IsNullOrEmpty(slot.itemID))
-                {
-                    if (slot.itemID == "99") has99 = true;
-                }
+                has99 = true;
+                break;
             }
         }
-
-        InventoryItem[] items = FindObjectsOfType<InventoryItem>(true);
-        foreach (var it in items)
-        {
-            if (it == null) continue;
-            if (string.IsNullOrEmpty(it.itemID)) continue;
-            if (it.itemID == "99") has99 = true;
-            if (has99) break;
-        }
-
-        if (has99 && specialDialogueSO != null)
-            return specialDialogueSO;
-
-        return dialogueSO;
     }
 
+    if (has99 && specialDialogueSO != null)
+        return specialDialogueSO;
+
+    return dialogueSO;
+}
     private void ConsumeSpecialItems()
     {
         RemoveOneFromInventoryOrHotbar("99");
@@ -186,10 +182,12 @@ public class Boss_NPC_Talk : MonoBehaviour
 
     private void SpawnReplacementAndDestroySelf()
     {
+        // Determine current facing from this NPC's animator if available
         float facingX = 0f;
         float facingY = -1f;
         if (npcAnim != null)
         {
+            // Use animator parameters if present
             try
             {
                 facingX = npcAnim.GetFloat("moveX");
@@ -234,6 +232,7 @@ public class Boss_NPC_Talk : MonoBehaviour
 
     private void RemoveOneFromInventoryOrHotbar(string id)
     {
+        // Try hotbar first
         PlayerInventory hotbar = FindFirstObjectByType<PlayerInventory>();
         if (hotbar != null && hotbar.hotbarSlots != null)
         {
@@ -257,6 +256,7 @@ public class Boss_NPC_Talk : MonoBehaviour
             }
         }
 
+        // Then check inventory UI slots anywhere (include inactive)
         InventoryItem[] items = FindObjectsOfType<InventoryItem>(true);
         foreach (var it in items)
         {

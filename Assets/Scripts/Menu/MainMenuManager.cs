@@ -3,18 +3,18 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    [Header("واجهات القوائم")]
+    [Header("UI Panels")]
     public GameObject mainMenuPanel;
     public GameObject settingsPanel;
     public GameObject instructionsPanel;
     public GameObject creditsPanel;
 
-    [Header("أصوات الواجهة")]
-    public AudioSource uiAudioSource; // مصدر الصوت
-    public AudioClip hoverSound;      // ملف صوت التمرير (الهوفر)
-    public AudioClip clickSound;      // ملف صوت الضغطة
+    [Header("Audio")]
+    public AudioSource uiAudioSource; 
+    public AudioClip hoverSound;      
+    public AudioClip clickSound;     
 
-    // --- دوال تشغيل الأصوات الجديدة ---
+   
     public void PlayHoverSound()
     {
         if (uiAudioSource != null && hoverSound != null)
@@ -27,11 +27,13 @@ public class MainMenuManager : MonoBehaviour
             uiAudioSource.PlayOneShot(clickSound);
     }
 
-    // --- باقي دوالك القديمة (Play, OpenSettings, الخ...) ---
-    public void StartGame()
-    {
-        SceneManager.LoadScene("Village");
-    }
+
+ public void StartGame()
+{
+    Time.timeScale = 1f;
+    SceneSpawnManager.nextSpawnPointName = "VillageSpawn";
+    SceneManager.LoadScene("Village");
+}
 
     public void OpenSettings() { if (settingsPanel != null) settingsPanel.SetActive(true); }
     public void OpenInstructions() { if (instructionsPanel != null) instructionsPanel.SetActive(true); }
@@ -48,7 +50,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void ExitGame()
     {
-        Debug.Log("اللاعب خرج من اللعبة!");
+        
         Application.Quit();
     }
 }

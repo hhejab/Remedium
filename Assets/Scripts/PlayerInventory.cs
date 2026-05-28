@@ -50,28 +50,28 @@ public class PlayerInventory : MonoBehaviour
     }
 
     public bool TryAddToHotbar(ItemData data)
+{
+    foreach (var slot in hotbarSlots)
     {
-        // 1. Stackable logic
-        foreach (var slot in hotbarSlots)
+        if (slot != null && slot.itemID == data.itemID && slot.currentQuantity < slot.maxStackSize)
         {
-            if (slot != null && slot.itemID == data.itemName && slot.currentQuantity < slot.maxStackSize)
-            {
-                slot.currentQuantity++;
-                slot.UpdateUI();
-                return true;
-            }
+            slot.currentQuantity++;
+            slot.UpdateUI();
+            return true;
         }
-        // 2. New slot logic
-        foreach (var slot in hotbarSlots)
-        {
-            if (slot != null && string.IsNullOrEmpty(slot.itemID))
-            {
-                slot.SetData(data.itemName, data.icon, 1);
-                return true;
-            }
-        }
-        return false;
     }
+
+    foreach (var slot in hotbarSlots)
+    {
+        if (slot != null && string.IsNullOrEmpty(slot.itemID))
+        {
+            slot.SetData(data.itemID, data.icon, 1);
+            return true;
+        }
+    }
+
+    return false;
+}
 
     void DropSelectedItem()
     {
